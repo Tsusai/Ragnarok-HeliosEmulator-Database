@@ -1,7 +1,15 @@
-- Rev1-
+- Rev 4-
+[2008/3/13] Spre - Fixed Changelog.
+-
+
+- Rev 3-
+[2008/3/13] Spre - Readded the sql files.. lol.
+-
+
+- Rev 2-
 [2008/3/13] Spre - Fixed Directory structure. They shoul dnow be under a SQL/ Directory tree.
 -
 
-- Rev1-
+- Rev 1-
 [2008/3/13] Spre - Migrated SQLite, MySQL, and YML Databases over from The core repo.
 -
