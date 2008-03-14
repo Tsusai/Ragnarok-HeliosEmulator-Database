@@ -692,10 +692,11 @@ CREATE TABLE `itemdefinitions` (
 -- Table structure for table `itemdefinitionsequip`
 -- 
 
-CREATE TABLE `itemdefinitionsequip` (
+CREATE TABLE IF NOT EXISTS `itemdefinitionsequip` (
   `item_definition_id` int(11) NOT NULL,
   `slots` int(11) NOT NULL default '0',
   `refinement_level` int(11) NOT NULL default '0',
+  `element` int(11) NOT NULL default '0',
   `refineable` int(11) NOT NULL default '0',
   `on_equip_function` varchar(50) default NULL,
   `on_unequip_function` varchar(50) default NULL,
@@ -705,6 +706,12 @@ CREATE TABLE `itemdefinitionsequip` (
   `body_region` int(11) default NULL,
   `on_defend_function` varchar(50) default NULL,
   `attack_rating` int(11) default NULL,
+  `str` int(11) default NULL,
+  `agi` int(11) default NULL,
+  `dex` int(11) default NULL,
+  `luk` int(11) default NULL,
+  `int` int(11) default NULL,
+  `vit` int(11) default NULL,
   `range` int(11) default NULL,
   `on_attack_function` varchar(255) default NULL,
   `id` int(11) NOT NULL auto_increment,

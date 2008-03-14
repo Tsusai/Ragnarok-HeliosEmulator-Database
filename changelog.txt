@@ -1,5 +1,10 @@
-- Rev5
-[2008/3/13] Spre -Added Branch/tags/Trunk Directory Structure.
+- Rev 6-
+[2008/3/14] Spre - Updated game.sql, added missing stat fields to itemdefinitionsequip table
+[2008/3/14] Spre - Added New update directory under MySQL, added an update for the new sql.
+-
+
+- Rev 5-
+[2008/3/13] Spre - Added Branch/tags/Trunk Directory Structure.
 -
 
 - Rev 4-
