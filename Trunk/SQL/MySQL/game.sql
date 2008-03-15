@@ -669,7 +669,6 @@ CREATE TABLE `inventory` (
 --
 -- Table structure for table `itemdefinitions`
 --
-
 CREATE TABLE IF NOT EXISTS `itemdefinitions` (
   `id` int(11) NOT NULL auto_increment,
   `name` varchar(20) default NULL,
@@ -685,701 +684,521 @@ CREATE TABLE IF NOT EXISTS `itemdefinitions` (
 -- Dumping data for table `itemdefinitions`
 --
 
-INSERT INTO `itemdefinitions` (`id`, `name`, `price_buy`, `price_sell`, `weight`, `item_type`, `sprite_id`) VALUES
-(501, 'Red_Potion', 0, 0, 70, NULL, NULL),
-(502, 'Orange_Potion', 0, 0, 100, NULL, NULL),
-(503, 'Yellow_Potion', 0, 0, 130, NULL, NULL),
-(504, 'White_Potion', 0, 0, 150, NULL, NULL),
-(505, 'Blue_Potion', 0, 0, 150, NULL, NULL),
-(506, 'Green_Potion', 0, 0, 70, NULL, NULL),
-(507, 'Red_Herb', 0, 0, 30, NULL, NULL),
-(508, 'Yellow_Herb', 0, 0, 50, NULL, NULL),
-(509, 'White_Herb', 0, 0, 70, NULL, NULL),
-(510, 'Blue_Herb', 0, 0, 70, NULL, NULL),
-(511, 'Green_Herb', 0, 0, 30, NULL, NULL),
-(512, 'Apple', 0, 0, 20, NULL, NULL),
-(513, 'Banana', 0, 0, 20, NULL, NULL),
-(514, 'Grape', 0, 0, 20, NULL, NULL),
-(515, 'Carrot', 0, 0, 20, NULL, NULL),
-(516, 'Sweet_Potato', 0, 0, 20, NULL, NULL),
-(517, 'Meat', 0, 0, 150, NULL, NULL),
-(518, 'Honey', 0, 0, 100, NULL, NULL),
-(519, 'Milk', 0, 0, 30, NULL, NULL),
-(520, 'Leaflet_Of_Hinal', 0, 0, 10, NULL, NULL),
-(521, 'Leaflet_Of_Aloe', 0, 0, 20, NULL, NULL),
-(522, 'Fruit_Of_Mastela', 0, 0, 30, NULL, NULL),
-(523, 'Holy_Water', 0, 0, 30, NULL, NULL),
-(525, 'Panacea', 0, 0, 100, NULL, NULL),
-(526, 'Royal_Jelly', 0, 0, 150, NULL, NULL),
-(528, 'Monster''s_Feed', 0, 0, 150, NULL, NULL),
-(529, 'Candy', 0, 0, 30, NULL, NULL),
-(530, 'Candy_Striper', 0, 0, 40, NULL, NULL),
-(531, 'Apple_Juice', 0, 0, 40, NULL, NULL),
-(532, 'Banana_Juice', 0, 0, 40, NULL, NULL),
-(533, 'Grape_Juice', 0, 0, 40, NULL, NULL),
-(534, 'Carrot_Juice', 0, 0, 40, NULL, NULL),
-(535, 'Pumpkin', 0, 0, 20, NULL, NULL),
-(536, 'Ice_Cream', 0, 0, 80, NULL, NULL),
-(537, 'Pet_Food', 0, 0, 10, NULL, NULL),
-(538, 'Well_Baked_Cookie', 0, 0, 30, NULL, NULL),
-(539, 'Piece_Of_Cake', 0, 0, 100, NULL, NULL),
-(540, 'Falcon''s_Feed', 0, 0, 50, NULL, NULL),
-(541, 'Pecopeco''s_Feed', 0, 0, 50, NULL, NULL),
-(542, 'Festive_Cookie', 0, 0, 10, NULL, NULL),
-(543, 'Festive_Rainbow_Cake', 0, 0, 10, NULL, NULL),
-(544, 'Fish_Slice', 0, 0, 30, NULL, NULL),
-(545, 'Red_Slim_Potion', 0, 0, 20, NULL, NULL),
-(546, 'Yellow_Slim_Potion', 0, 0, 30, NULL, NULL),
-(547, 'White_Slim_Potion', 0, 0, 50, NULL, NULL),
-(548, 'Cheese', 0, 0, 50, NULL, NULL),
-(549, 'Nice_Sweet_Potato', 0, 0, 80, NULL, NULL),
-(550, 'Popped_Rice', 0, 0, 10, NULL, NULL),
-(551, 'Shusi', 0, 0, 50, NULL, NULL),
-(552, 'KETUPAT', 0, 0, 10, NULL, NULL),
-(553, 'Bun', 0, 0, 50, NULL, NULL),
-(554, 'Mojji', 0, 0, 80, NULL, NULL),
-(555, 'Rice_Cake', 0, 0, 20, NULL, NULL),
-(556, 'Long_Rice_Cake', 0, 0, 10, NULL, NULL),
-(557, 'Hash_Rice_Cake', 0, 0, 10, NULL, NULL),
-(558, 'Chocolate', 0, 0, 20, NULL, NULL),
-(559, 'HandMade_Chocolate', 0, 0, 80, NULL, NULL),
-(560, 'HandMade_Chocolate_', 0, 0, 80, NULL, NULL),
-(561, 'White_Chocolate', 0, 0, 80, NULL, NULL),
-(562, 'Pizza', 0, 0, 150, NULL, NULL),
-(563, 'Pizza_01', 0, 0, 150, NULL, NULL),
-(564, 'Rice_Ball', 0, 0, 30, NULL, NULL),
-(565, 'Vita500_Bottle', 0, 0, 100, NULL, NULL),
-(566, 'Tomyumkung', 0, 0, 150, NULL, NULL),
-(567, 'Prawn', 0, 0, 40, NULL, NULL),
-(568, 'Lemon', 0, 0, 40, NULL, NULL),
-(569, 'Novice_Potion', 0, 0, 10, NULL, NULL),
-(570, 'Lucky_Candy', 0, 0, 30, NULL, NULL),
-(571, 'Lucky_Candy_Cane', 0, 0, 40, NULL, NULL),
-(572, 'Lucky_Cookie', 0, 0, 30, NULL, NULL),
-(573, 'Chocolate_Drink', 0, 0, 150, NULL, NULL),
-(574, 'Egg', 0, 0, 30, NULL, NULL),
-(575, 'Piece_Of_Cake_', 0, 0, 100, NULL, NULL),
-(576, 'Prickly_Fruit', 0, 0, 60, NULL, NULL),
-(577, 'Grain', 0, 0, 20, NULL, NULL),
-(578, 'Strawberry', 0, 0, 20, NULL, NULL),
-(579, 'Delicious_Fish', 0, 0, 20, NULL, NULL),
-(580, 'Bread', 0, 0, 20, NULL, NULL),
-(581, 'Mushroom', 0, 0, 20, NULL, NULL),
-(582, 'Orange', 0, 0, 20, NULL, NULL),
-(583, 'KETUPAT_', 0, 0, 150, NULL, NULL),
-(584, 'Fish_Ball_Soup', 0, 0, 60, NULL, NULL),
-(585, 'Wurst', 0, 0, 40, NULL, NULL),
-(586, 'Mother''s_Cake', 0, 0, 100, NULL, NULL),
-(587, 'Prickly_Fruit_', 0, 0, 60, NULL, NULL),
-(588, 'Spaghetti', 0, 0, 100, NULL, NULL),
-(589, 'Pizza_02', 0, 0, 150, NULL, NULL),
-(590, 'Brezel_', 0, 0, 20, NULL, NULL),
-(591, 'Caviar_Pancake', 0, 0, 150, NULL, NULL),
-(592, 'Jam_Pancake', 0, 0, 150, NULL, NULL),
-(593, 'Honey_Pancake', 0, 0, 150, NULL, NULL),
-(594, 'Sour_Cream_Pancake', 0, 0, 150, NULL, NULL),
-(595, 'Mushroom_Pancake', 0, 0, 150, NULL, NULL),
-(596, 'Cute_Strawberry_Choc', 0, 0, 100, NULL, NULL),
-(597, 'Lovely_Choco_Tart', 0, 0, 100, NULL, NULL),
-(598, 'Light_Red_Pot', 0, 0, 10, NULL, NULL),
-(599, 'Light_Orange_Pot', 0, 0, 10, NULL, NULL),
-(11500, 'Light_Yellow_Pot', 0, 0, 10, NULL, NULL),
-(11501, 'Light_White_Pot', 0, 0, 10, NULL, NULL),
-(11701, 'Girl_Bunch_Of_Flower', 0, 0, 50, NULL, NULL),
-(11702, NULL, 0, 0, 0, NULL, NULL),
-(11703, NULL, 0, 0, 0, NULL, NULL),
-(11704, NULL, 0, 0, 0, NULL, NULL),
-(11705, NULL, 0, 0, 0, NULL, NULL),
-(11706, NULL, 0, 0, 0, NULL, NULL),
-(11707, NULL, 0, 0, 0, NULL, NULL),
-(11708, NULL, 0, 0, 0, NULL, NULL),
-(11709, NULL, 0, 0, 0, NULL, NULL),
-(11710, NULL, 0, 0, 0, NULL, NULL),
-(11711, NULL, 0, 0, 0, NULL, NULL),
-(11712, NULL, 0, 0, 0, NULL, NULL),
-(11713, NULL, 0, 0, 0, NULL, NULL),
-(11714, NULL, 0, 0, 0, NULL, NULL),
-(11715, NULL, 0, 0, 0, NULL, NULL),
-(11716, NULL, 0, 0, 0, NULL, NULL),
-(11717, NULL, 0, 0, 0, NULL, NULL),
-(11718, NULL, 0, 0, 0, NULL, NULL),
-(11719, NULL, 0, 0, 0, NULL, NULL),
-(11720, NULL, 0, 0, 0, NULL, NULL),
-(11721, NULL, 0, 0, 0, NULL, NULL),
-(11722, NULL, 0, 0, 0, NULL, NULL),
-(11723, NULL, 0, 0, 0, NULL, NULL),
-(11724, NULL, 0, 0, 0, NULL, NULL),
-(11725, NULL, 0, 0, 0, NULL, NULL),
-(601, 'Wing_Of_Fly', 0, 0, 50, NULL, NULL),
-(602, 'Wing_Of_Butterfly', 0, 0, 50, NULL, NULL),
-(603, 'Old_Blue_Box', 0, 0, 200, NULL, NULL),
-(604, 'Branch_Of_Dead_Tree', 0, 0, 50, NULL, NULL),
-(605, 'Anodyne', 0, 0, 100, NULL, NULL),
-(606, 'Aloebera', 0, 0, 100, NULL, NULL),
-(607, 'Yggdrasilberry', 0, 0, 300, NULL, NULL),
-(608, 'Seed_Of_Yggdrasil', 0, 0, 300, NULL, NULL),
-(609, 'Amulet', 0, 0, 100, NULL, NULL),
-(610, 'Leaf_Of_Yggdrasil', 0, 0, 100, NULL, NULL),
-(611, 'Spectacles', 0, 0, 50, NULL, NULL),
-(612, 'Portable_Furnace', 0, 0, 200, NULL, NULL),
-(613, 'Iron_Hammer', 0, 0, 200, NULL, NULL),
-(614, 'Golden_Hammer', 0, 0, 300, NULL, NULL),
-(615, 'Oridecon_Hammer', 0, 0, 400, NULL, NULL),
-(616, 'Old_Card_Album', 0, 0, 50, NULL, NULL),
-(617, 'Old_Violet_Box', 0, 0, 200, NULL, NULL),
-(618, 'Worn_Out_Scroll', 0, 0, 20, NULL, NULL),
-(619, 'Unripe_Apple', 0, 0, 50, NULL, NULL),
-(620, 'Orange_Juice', 0, 0, 50, NULL, NULL),
-(621, 'Bitter_Herb', 0, 0, 50, NULL, NULL),
-(622, 'Rainbow_Carrot', 0, 0, 50, NULL, NULL),
-(623, 'Earthworm_The_Dude', 0, 0, 50, NULL, NULL),
-(624, 'Rotten_Fish', 0, 0, 50, NULL, NULL),
-(625, 'Lusty_Iron', 0, 0, 50, NULL, NULL),
-(626, 'Monster_Juice', 0, 0, 50, NULL, NULL),
-(627, 'Sweet_Milk', 0, 0, 50, NULL, NULL),
-(628, 'Well_Dried_Bone', 0, 0, 50, NULL, NULL),
-(629, 'Singing_Flower', 0, 0, 50, NULL, NULL),
-(630, 'Dew_Laden_Moss', 0, 0, 50, NULL, NULL),
-(631, 'Deadly_Noxious_Herb', 0, 0, 50, NULL, NULL),
-(632, 'Fatty_Chubby_Earthwo', 0, 0, 50, NULL, NULL),
-(633, 'Baked_Yam', 0, 0, 50, NULL, NULL),
-(634, 'Tropical_Banana', 0, 0, 50, NULL, NULL),
-(635, 'Horror_Of_Tribe', 0, 0, 50, NULL, NULL),
-(636, 'No_Recipient', 0, 0, 50, NULL, NULL),
-(637, 'Old_Broom', 0, 0, 50, NULL, NULL),
-(638, 'Silver_Knife_Of_Chas', 0, 0, 50, NULL, NULL),
-(639, 'Armlet_Of_Obedience', 0, 0, 50, NULL, NULL),
-(640, 'Shining_Stone', 0, 0, 50, NULL, NULL),
-(641, 'Contracts_In_Shadow', 0, 0, 50, NULL, NULL),
-(642, 'Book_Of_Devil', 0, 0, 50, NULL, NULL),
-(643, 'Pet_Incubator', 0, 0, 30, NULL, NULL),
-(644, 'Gift_Box', 0, 0, 200, NULL, NULL),
-(645, 'Center_Potion', 0, 0, 100, NULL, NULL),
-(656, 'Awakening_Potion', 0, 0, 150, NULL, NULL),
-(657, 'Berserk_Potion', 0, 0, 200, NULL, NULL),
-(658, 'Union_Of_Tribe', 0, 0, 500, NULL, NULL),
-(659, 'Heart_Of_Her', 0, 0, 50, NULL, NULL),
-(660, 'Prohibition_Red_Cand', 0, 0, 50, NULL, NULL),
-(661, 'Sway_Apron', 0, 0, 50, NULL, NULL),
-(662, 'Inspector_Certificat', 0, 0, 30, NULL, NULL),
-(663, 'Korea_Rice_Cake', 0, 0, 10, NULL, NULL),
-(664, 'Gift_Box_1', 0, 0, 200, NULL, NULL),
-(665, 'Gift_Box_2', 0, 0, 200, NULL, NULL),
-(666, 'Gift_Box_3', 0, 0, 200, NULL, NULL),
-(667, 'Gift_Box_4', 0, 0, 200, NULL, NULL),
-(668, 'Handsei', 0, 0, 20, NULL, NULL),
-(669, 'Rice_Cake_Soup', 0, 0, 100, NULL, NULL),
-(670, 'Gold_Coin_Moneybag', 0, 0, 400, NULL, NULL),
-(671, 'Gold_Coin', 0, 0, 40, NULL, NULL),
-(672, 'Copper_Coin_Moneybag', 0, 0, 400, NULL, NULL),
-(673, 'Copper_Coin', 0, 0, 40, NULL, NULL),
-(674, 'Mithril_Coin', 0, 0, 40, NULL, NULL),
-(675, 'Silver_Coin', 0, 0, 40, NULL, NULL),
-(676, 'Silver_Coin_Moneybag', 0, 0, 400, NULL, NULL),
-(677, 'White_Gold_Coin', 0, 0, 40, NULL, NULL),
-(678, 'Poison_Bottle', 0, 0, 100, NULL, NULL),
-(679, 'Gold_Pill', 0, 0, 300, NULL, NULL),
-(680, 'Magical_Carnation', 0, 0, 1000, NULL, NULL),
-(681, 'Memory_Of_Wedding', 0, 0, 10, NULL, NULL),
-(682, 'Realgar_Wine', 0, 0, 100, NULL, NULL),
-(683, 'Exorcize_Herb', 0, 0, 50, NULL, NULL),
-(684, 'Durian', 0, 0, 300, NULL, NULL),
-(685, 'RAMADAN', 0, 0, 300, NULL, NULL),
-(686, 'Earth_Scroll_1_3', 0, 0, 10, NULL, NULL),
-(687, 'Earth_Scroll_1_5', 0, 0, 10, NULL, NULL),
-(688, 'Cold_Scroll_1_3', 0, 0, 10, NULL, NULL),
-(689, 'Cold_Scroll_1_5', 0, 0, 10, NULL, NULL),
-(690, 'Fire_Scroll_1_3', 0, 0, 10, NULL, NULL),
-(691, 'Fire_Scroll_1_5', 0, 0, 10, NULL, NULL),
-(692, 'Wind_Scroll_1_3', 0, 0, 10, NULL, NULL),
-(693, 'Wind_Scroll_1_5', 0, 0, 10, NULL, NULL),
-(694, 'Ghost_Scroll_1_3', 0, 0, 10, NULL, NULL),
-(695, 'Ghost_Scroll_1_5', 0, 0, 10, NULL, NULL),
-(696, 'Fire_Scroll_2_1', 0, 0, 10, NULL, NULL),
-(697, 'Fire_Scroll_2_5', 0, 0, 10, NULL, NULL),
-(698, 'Fire_Scroll_3_1', 0, 0, 10, NULL, NULL),
-(699, 'Fire_Scroll_3_5', 0, 0, 10, NULL, NULL),
-(700, 'Cold_Scroll_2_1', 0, 0, 10, NULL, NULL),
-(12000, 'Cold_Scroll_2_5', 0, 0, 10, NULL, NULL),
-(12001, 'Holy_Scroll_1_3', 0, 0, 10, NULL, NULL),
-(12002, 'Holy_Scroll_1_5', 0, 0, 10, NULL, NULL),
-(12003, 'Holy_Scroll_2_1', 0, 0, 10, NULL, NULL),
-(12004, 'Arrow_Container', 0, 0, 250, NULL, NULL),
-(12005, 'Iron_Arrow_Container', 0, 0, 250, NULL, NULL),
-(12006, 'Steel_Arrow_Containe', 0, 0, 250, NULL, NULL),
-(12007, 'Ori_Arrow_Container', 0, 0, 250, NULL, NULL),
-(12008, 'Fire_Arrow_Container', 0, 0, 250, NULL, NULL),
-(12009, 'Silver_Arrow_Contain', 0, 0, 250, NULL, NULL),
-(12010, 'Wind_Arrow_Container', 0, 0, 250, NULL, NULL),
-(12011, 'Stone_Arrow_Containe', 0, 0, 250, NULL, NULL),
-(12012, 'Crystal_Arrow_Contai', 0, 0, 250, NULL, NULL),
-(12013, 'Shadow_Arrow_Contain', 0, 0, 250, NULL, NULL),
-(12014, 'Imma_Arrow_Container', 0, 0, 250, NULL, NULL),
-(12015, 'Rusty_Arrow_Containe', 0, 0, 250, NULL, NULL),
-(12016, 'Speed_Up_Potion', 0, 0, 100, NULL, NULL),
-(12017, 'Slow_Down_Potion', 0, 0, 100, NULL, NULL),
-(12018, 'Fire_Cracker', 0, 0, 20, NULL, NULL),
-(12019, 'Holy_Egg', 0, 0, 150, NULL, NULL),
-(12020, 'Water_Of_Darkness', 0, 0, 30, NULL, NULL),
-(12021, 'Pork_Belly', 0, 0, 10, NULL, NULL),
-(12022, 'Spareribs', 0, 0, 10, NULL, NULL),
-(12023, 'Giftbox_China', 0, 0, 200, NULL, NULL),
-(12024, 'Red_Pouch_Of_Surpris', 0, 0, 50, NULL, NULL),
-(12025, 'Egg_Boy', 0, 0, 200, NULL, NULL),
-(12026, 'Egg_Girl', 0, 0, 200, NULL, NULL),
-(12027, 'Giggling_Box', 0, 0, 200, NULL, NULL),
-(12028, 'Box_Of_Thunder', 0, 0, 200, NULL, NULL),
-(12029, 'Gloomy_Box', 0, 0, 200, NULL, NULL),
-(12030, 'Box_Of_Grudge', 0, 0, 200, NULL, NULL),
-(12031, 'Sleepy_Box', 0, 0, 200, NULL, NULL),
-(12032, 'Box_Of_Storm', 0, 0, 200, NULL, NULL),
-(12033, 'Box_Of_Sunlight', 0, 0, 200, NULL, NULL),
-(12034, 'Painting_Box', 0, 0, 200, NULL, NULL),
-(12035, 'Lotto_Box01', 0, 0, 20, NULL, NULL),
-(12036, 'Lotto_Box02', 0, 0, 20, NULL, NULL),
-(12037, 'Lotto_Box03', 0, 0, 20, NULL, NULL),
-(12038, 'Lotto_Box04', 0, 0, 20, NULL, NULL),
-(12039, 'Lotto_Box05', 0, 0, 20, NULL, NULL),
-(12040, 'Stone_Of_Intelligenc', 0, 0, 300, NULL, NULL),
-(12041, 'Str_Dish01', 0, 0, 60, NULL, NULL),
-(12042, 'Str_Dish02', 0, 0, 500, NULL, NULL),
-(12043, 'Str_Dish03', 0, 0, 500, NULL, NULL),
-(12044, 'Str_Dish04', 0, 0, 500, NULL, NULL),
-(12045, 'Str_Dish05', 0, 0, 500, NULL, NULL),
-(12046, 'Int_Dish01', 0, 0, 100, NULL, NULL),
-(12047, 'Int_Dish02', 0, 0, 500, NULL, NULL),
-(12048, 'Int_Dish03', 0, 0, 500, NULL, NULL),
-(12049, 'Int_Dish04', 0, 0, 300, NULL, NULL),
-(12050, 'Int_Dish05', 0, 0, 400, NULL, NULL),
-(12051, 'Vit_Dish01', 0, 0, 100, NULL, NULL),
-(12052, 'Vit_Dish02', 0, 0, 200, NULL, NULL),
-(12053, 'Vit_Dish03', 0, 0, 300, NULL, NULL),
-(12054, 'Vit_Dish04', 0, 0, 500, NULL, NULL),
-(12055, 'Vit_Dish05', 0, 0, 800, NULL, NULL),
-(12056, 'Agi_Dish01', 0, 0, 100, NULL, NULL),
-(12057, 'Agi_Dish02', 0, 0, 100, NULL, NULL),
-(12058, 'Agi_Dish03', 0, 0, 500, NULL, NULL),
-(12059, 'Agi_Dish04', 0, 0, 400, NULL, NULL),
-(12060, 'Agi_Dish05', 0, 0, 500, NULL, NULL),
-(12061, 'Dex_Dish01', 0, 0, 100, NULL, NULL),
-(12062, 'Dex_Dish02', 0, 0, 200, NULL, NULL),
-(12063, 'Dex_Dish03', 0, 0, 200, NULL, NULL),
-(12064, 'Dex_Dish04', 0, 0, 500, NULL, NULL),
-(12065, 'Dex_Dish05', 0, 0, 200, NULL, NULL),
-(12066, 'Luk_Dish01', 0, 0, 60, NULL, NULL),
-(12067, 'Luk_Dish02', 0, 0, 200, NULL, NULL),
-(12068, 'Luk_Dish03', 0, 0, 500, NULL, NULL),
-(12069, 'Luk_Dish04', 0, 0, 500, NULL, NULL),
-(12070, 'Luk_Dish05', 0, 0, 400, NULL, NULL),
-(12071, 'Str_Dish06', 0, 0, 800, NULL, NULL),
-(12072, 'Str_Dish07', 0, 0, 1000, NULL, NULL),
-(12073, 'Str_Dish08', 0, 0, 500, NULL, NULL),
-(12074, 'Str_Dish09', 0, 0, 1000, NULL, NULL),
-(12075, 'Str_Dish10', 0, 0, 1000, NULL, NULL),
-(12076, 'Int_Dish06', 0, 0, 300, NULL, NULL),
-(12077, 'Int_Dish07', 0, 0, 800, NULL, NULL),
-(12078, 'Int_Dish08', 0, 0, 1000, NULL, NULL),
-(12079, 'Int_Dish09', 0, 0, 1000, NULL, NULL),
-(12080, 'Int_Dish10', 0, 0, 1000, NULL, NULL),
-(12081, 'Vit_Dish06', 0, 0, 500, NULL, NULL),
-(12082, 'Vit_Dish07', 0, 0, 400, NULL, NULL),
-(12083, 'Vit_Dish08', 0, 0, 1000, NULL, NULL),
-(12084, 'Vit_Dish09', 0, 0, 1000, NULL, NULL),
-(12085, 'Vit_Dish10', 0, 0, 1000, NULL, NULL),
-(12086, 'Agi_Dish06', 0, 0, 800, NULL, NULL),
-(12087, 'Agi_Dish07', 0, 0, 800, NULL, NULL),
-(12088, 'Agi_Dish08', 0, 0, 1000, NULL, NULL),
-(12089, 'Agi_Dish09', 0, 0, 1000, NULL, NULL),
-(12090, 'Agi_Dish10', 0, 0, 1000, NULL, NULL),
-(12091, 'Dex_Dish06', 0, 0, 800, NULL, NULL),
-(12092, 'Dex_Dish07', 0, 0, 800, NULL, NULL),
-(12093, 'Dex_Dish08', 0, 0, 1000, NULL, NULL),
-(12094, 'Dex_Dish09', 0, 0, 500, NULL, NULL),
-(12095, 'Dex_Dish10', 0, 0, 1000, NULL, NULL),
-(12096, 'Luk_Dish06', 0, 0, 300, NULL, NULL),
-(12097, 'Luk_Dish07', 0, 0, 800, NULL, NULL),
-(12098, 'Luk_Dish08', 0, 0, 400, NULL, NULL),
-(12099, 'Luk_Dish09', 0, 0, 1000, NULL, NULL),
-(12100, 'Luk_Dish10', 0, 0, 500, NULL, NULL),
-(12101, 'Citron', 0, 0, 300, NULL, NULL),
-(12102, 'Meat_Skewer', 0, 0, 300, NULL, NULL),
-(12103, 'Bloody_Dead_Branch', 0, 0, 200, NULL, NULL),
-(12104, 'Random_Quiver', 0, 0, 200, NULL, NULL),
-(12105, 'Set_Of_Taiming_Item', 0, 0, 200, NULL, NULL),
-(12106, 'Accessory_Box', 0, 0, 200, NULL, NULL),
-(12107, 'Wrapped_Mask', 0, 0, 200, NULL, NULL),
-(12108, 'Bundle_Of_Magic_Scro', 0, 0, 200, NULL, NULL),
-(12109, 'Poring_Box', 0, 0, 200, NULL, NULL),
-(12110, 'First_Aid_Kit', 0, 0, 200, NULL, NULL),
-(12111, 'Food_Package', 0, 0, 200, NULL, NULL),
-(12112, 'Tropical_Sograt', 0, 0, 100, NULL, NULL),
-(12113, 'Vermilion_The_Beach', 0, 0, 100, NULL, NULL),
-(12114, 'Elemental_Fire', 0, 0, 10, NULL, NULL),
-(12115, 'Elemental_Water', 0, 0, 10, NULL, NULL),
-(12116, 'Elemental_Earth', 0, 0, 10, NULL, NULL),
-(12117, 'Elemental_Wind', 0, 0, 10, NULL, NULL),
-(12118, 'Resist_Fire', 0, 0, 10, NULL, NULL),
-(12119, 'Resist_Water', 0, 0, 10, NULL, NULL),
-(12120, 'Resist_Earth', 0, 0, 10, NULL, NULL),
-(12121, 'Resist_Wind', 0, 0, 10, NULL, NULL),
-(12122, 'Sesame_Pastry', 0, 0, 70, NULL, NULL),
-(12123, 'Honey_Pastry', 0, 0, 70, NULL, NULL),
-(12124, 'Rainbow_Cake', 0, 0, 70, NULL, NULL),
-(12125, 'Outdoor_Cooking_Kits', 0, 0, 20, NULL, NULL),
-(12126, 'Indoor_Cooking_Kits', 0, 0, 30, NULL, NULL),
-(12127, 'High_end_Cooking_Kit', 0, 0, 50, NULL, NULL),
-(12128, 'Imperial_Cooking_Kit', 0, 0, 70, NULL, NULL),
-(12129, 'Fantastic_Cooking_Ki', 0, 0, 70, NULL, NULL),
-(12130, 'Cookie_Bag', 0, 0, 70, NULL, NULL),
-(12131, 'Lucky_Potion', 0, 0, 100, NULL, NULL),
-(12132, 'Red_Bag', 0, 0, 200, NULL, NULL),
-(12133, 'Ice_Cream_', 0, 0, 80, NULL, NULL),
-(12134, 'Red_Envelope', 0, 0, 10, NULL, NULL),
-(12135, 'Green_Ale', 0, 0, 30, NULL, NULL),
-(12136, 'Women''s_Bundl', 0, 0, 100, NULL, NULL),
-(12137, '1st_Stage_Prize', 0, 0, 0, NULL, NULL),
-(12138, '2nd_Stage_Prize', 0, 0, 0, NULL, NULL),
-(12139, '3rd_Stage_Prize', 0, 0, 0, NULL, NULL),
-(12140, '4th_Stage_Prize', 0, 0, 0, NULL, NULL),
-(12141, '5th_Stage_Prize', 0, 0, 0, NULL, NULL),
-(12142, 'Magic_Book', 0, 0, 100, NULL, NULL),
-(12143, 'Red_Can', 0, 0, 300, NULL, NULL),
-(12144, 'Sphere_Case_Wind', 0, 0, 350, NULL, NULL),
-(12145, 'Sphere_Case_Darkness', 0, 0, 350, NULL, NULL),
-(12146, 'Sphere_Case_Poison', 0, 0, 350, NULL, NULL),
-(12147, 'Sphere_Case_Water', 0, 0, 350, NULL, NULL),
-(12148, 'Sphere_Case_Fire', 0, 0, 350, NULL, NULL),
-(12149, 'Bullet_Case', 0, 0, 250, NULL, NULL),
-(12150, 'Bullet_Case_Blood', 0, 0, 250, NULL, NULL),
-(12151, 'Bullet_Case_Silver', 0, 0, 250, NULL, NULL),
-(12152, 'Special_Box', 0, 0, 100, NULL, NULL),
-(12153, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL),
-(12154, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL),
-(12155, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL),
-(12156, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL),
-(12157, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL),
-(12158, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL),
-(12159, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL),
-(12160, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL),
-(12161, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL),
-(12162, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL),
-(12163, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12164, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12165, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12166, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12167, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12168, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12169, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12170, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12171, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12172, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12173, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12174, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12175, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12176, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12177, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12178, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12179, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12180, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12181, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12182, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL),
-(12183, 'Holy_Arrow_Quiver', 0, 0, 250, NULL, NULL),
-(12184, 'Mercenary_Red_Potion', 0, 0, 100, NULL, NULL),
-(12185, 'Mercenary_Blue_Potio', 0, 0, 100, NULL, NULL),
-(12186, 'Red_Box', 0, 0, 200, NULL, NULL),
-(12187, 'Green_Box', 0, 0, 200, NULL, NULL),
-(12188, 'Magical_Moon_Cake', 0, 0, 300, NULL, NULL),
-(12189, 'Red_Box_', 0, 0, 200, NULL, NULL),
-(12190, 'Moon_Cake', 0, 0, 300, NULL, NULL),
-(12191, 'Special_Moon_Cake', 0, 0, 500, NULL, NULL),
-(12192, 'Pumpkin_Pie', 0, 0, 10, NULL, NULL),
-(12193, 'Brezel', 0, 0, 20, NULL, NULL),
-(12194, 'Hometown_Gift', 0, 0, 200, NULL, NULL),
-(12195, 'Plain_Rice_Cake', 0, 0, 100, NULL, NULL),
-(12196, 'Hearty_Rice_Cake', 0, 0, 100, NULL, NULL),
-(12197, 'Salty_Rice_Cake', 0, 0, 100, NULL, NULL),
-(12198, 'Lucky_Rice_Cake', 0, 0, 100, NULL, NULL),
-(12199, 'Rice_Scroll', 0, 0, 0, NULL, NULL),
-(12200, 'Event_Cake', 0, 0, 50, NULL, NULL),
-(12201, 'Red_Box_C', 0, 0, 200, NULL, NULL),
-(12202, 'Str_Dish10_', 0, 0, 10, NULL, NULL),
-(12203, 'Agi_Dish10_', 0, 0, 10, NULL, NULL),
-(12204, 'Int_Dish10_', 0, 0, 10, NULL, NULL),
-(12205, 'Dex_Dish10_', 0, 0, 10, NULL, NULL),
-(12206, 'Luk_Dish10_', 0, 0, 10, NULL, NULL),
-(12207, 'Vit_Dish10_', 0, 0, 10, NULL, NULL),
-(12208, 'Battle_Manual', 0, 0, 10, NULL, NULL),
-(12209, 'Insurance', 0, 0, 10, NULL, NULL),
-(12210, 'Bubble_Gum', 0, 0, 10, NULL, NULL),
-(12211, 'Kafra_Card', 0, 0, 10, NULL, NULL),
-(12212, 'Giant_Fly_Wing', 0, 0, 10, NULL, NULL),
-(12213, 'Neuralizer', 0, 0, 0, NULL, NULL),
-(12214, 'Convex_Mirror', 0, 0, 10, NULL, NULL),
-(12215, 'Blessing_10_Scroll', 0, 0, 10, NULL, NULL),
-(12216, 'Inc_Agi_10_Scroll', 0, 0, 10, NULL, NULL),
-(12217, 'Aspersio_5_Scroll', 0, 0, 10, NULL, NULL),
-(12218, 'Assumptio_5_Scroll', 0, 0, 10, NULL, NULL),
-(12219, 'Wind_Walk_10_Scroll', 0, 0, 10, NULL, NULL),
-(12220, 'Adrenaline_Scroll', 0, 0, 10, NULL, NULL),
-(12221, 'Megaphone_', 0, 0, 10, NULL, NULL),
-(12225, 'Sweet_Candy_Striper', 0, 0, 50, NULL, NULL),
-(12226, 'Examination1', 0, 0, 50, NULL, NULL),
-(12227, 'Examination2', 0, 0, 50, NULL, NULL),
-(12228, 'Examination3', 0, 0, 50, NULL, NULL),
-(12229, 'Examination4', 0, 0, 50, NULL, NULL),
-(12230, 'Examination5', 0, 0, 50, NULL, NULL),
-(12231, 'Examination6', 0, 0, 50, NULL, NULL),
-(12232, 'Gingerbread', 0, 0, 150, NULL, NULL),
-(12233, 'Kvass', 0, 0, 200, NULL, NULL),
-(12234, 'Cacao99', 0, 0, 100, NULL, NULL),
-(12235, 'Strawberry_Choco', 0, 0, 100, NULL, NULL),
-(12236, 'Choco_Tart', 0, 0, 100, NULL, NULL),
-(12237, 'Choco_Lump', 0, 0, 100, NULL, NULL),
-(12238, 'New_Year_Rice_Cake_1', 0, 0, 100, NULL, NULL),
-(12239, 'New_Year_Rice_Cake_2', 0, 0, 100, NULL, NULL),
-(12240, 'Old_Yellow_Box', 0, 0, 200, NULL, NULL),
-(12241, 'M_Center_Potion', 0, 0, 100, NULL, NULL),
-(12242, 'M_Awakening_Potion', 0, 0, 150, NULL, NULL),
-(12243, 'M_Berserk_Potion', 0, 0, 200, NULL, NULL),
-(12244, 'Old_Gift_Box', 0, 0, 200, NULL, NULL),
-(12245, 'Green_Ale_US', 0, 0, 500, NULL, NULL),
-(12246, 'Magic_Card_Album', 0, 0, 50, NULL, NULL),
-(12247, 'Halohalo', 0, 0, 100, NULL, NULL),
-(12701, 'Old_Blue_Box_F', 0, 0, 10, NULL, NULL),
-(12702, 'Old_Bleu_Box', 0, 0, 200, NULL, NULL),
-(12703, 'Holy_Egg_2', 0, 0, 50, NULL, NULL),
-(12928, 'J_Aspersio_5_Scroll', 0, 0, 10, NULL, NULL),
-(12968, 'Emergency_Scroll1', 0, 0, 10, NULL, NULL),
-(12969, 'Emergency_Scroll2', 0, 0, 10, NULL, NULL),
-(12970, 'Emergency_Scroll3', 0, 0, 10, NULL, NULL),
-(12977, 'Teleport_Scroll1', 0, 0, 10, NULL, NULL),
-(12978, 'Teleport_Scroll2', 0, 0, 10, NULL, NULL),
-(12979, 'Teleport_Scroll3', 0, 0, 10, NULL, NULL),
-(12980, 'Teleport_Scroll4', 0, 0, 10, NULL, NULL),
-(12981, 'Teleport_Scroll5', 0, 0, 10, NULL, NULL),
-(12982, 'Teleport_Scroll6', 0, 0, 10, NULL, NULL),
-(14500, 'Insurance60', 0, 0, 10, NULL, NULL),
-(14508, 'Zeny_Scroll', 0, 0, 10, NULL, NULL),
-(14509, 'Light_Center_Pot', 0, 0, 20, NULL, NULL),
-(14510, 'Light_Awakening_Pot', 0, 0, 20, NULL, NULL),
-(14511, 'Light_Berserk_Pot', 0, 0, 20, NULL, NULL),
-(14512, 'Meteor_10_Scroll', 0, 0, 10, NULL, NULL),
-(14513, 'Storm_10_Scroll', 0, 0, 10, NULL, NULL),
-(14514, 'Vermilion_10_Scroll', 0, 0, 10, NULL, NULL),
-(14515, 'Lex_Aeterna_Scroll', 0, 0, 10, NULL, NULL),
-(14516, 'Magnificat_5_Scroll', 0, 0, 10, NULL, NULL),
-(14517, 'CP_Helm_Scroll', 0, 0, 10, NULL, NULL),
-(14518, 'CP_Shield_Scroll', 0, 0, 10, NULL, NULL),
-(14519, 'CP_Armor_Scroll', 0, 0, 10, NULL, NULL),
-(14520, 'CP_Weapon_Scroll', 0, 0, 10, NULL, NULL),
-(14521, 'Repair_Scroll', 0, 0, 10, NULL, NULL),
-(14522, 'Big_Bun', 0, 0, 10, NULL, NULL),
-(14523, 'Pill_', 0, 0, 10, NULL, NULL),
-(14524, 'Superb_Fish_Slice', 0, 0, 10, NULL, NULL),
-(14525, 'Chewy_Ricecake', 0, 0, 10, NULL, NULL),
-(14526, 'Oriental_Pastry', 0, 0, 10, NULL, NULL),
-(14527, 'Dun_Tele_Scroll1', 0, 0, 10, NULL, NULL),
-(12900, 'Battle_Manual_Box', 0, 0, 10, NULL, NULL),
-(12901, 'Insurance_Package', 0, 0, 10, NULL, NULL),
-(12902, 'Bubble_Gum_Box', 0, 0, 10, NULL, NULL),
-(12903, 'Str_Dish_Box', 0, 0, 10, NULL, NULL),
-(12904, 'Agi_Dish_Box', 0, 0, 10, NULL, NULL),
-(12905, 'Int_Dish_Box', 0, 0, 10, NULL, NULL),
-(12906, 'Dex_Dish_Box', 0, 0, 10, NULL, NULL),
-(12907, 'Luk_Dish_Box', 0, 0, 10, NULL, NULL),
-(12908, 'Vit_Dish_Box', 0, 0, 10, NULL, NULL),
-(12909, 'Kafra_Card_Box', 0, 0, 10, NULL, NULL),
-(12910, 'Giant_Fly_Wing_Box', 0, 0, 10, NULL, NULL),
-(12911, 'Neuralizer_Box', 0, 0, 10, NULL, NULL),
-(12912, 'Convex_Mirror_Box', 0, 0, 10, NULL, NULL),
-(12913, 'Blessing_10_Scroll_B', 0, 0, 10, NULL, NULL),
-(12914, 'Inc_Agi_10_Scroll_Bo', 0, 0, 10, NULL, NULL),
-(12915, 'Aspersio_5_Scroll_Bo', 0, 0, 10, NULL, NULL),
-(12916, 'Assumptio_5_Scroll_B', 0, 0, 10, NULL, NULL),
-(12917, 'Wind_Walk_10_Scroll_', 0, 0, 10, NULL, NULL),
-(12918, 'Adrenaline_Scroll_Bo', 0, 0, 10, NULL, NULL),
-(12919, 'Megaphone_Box', 0, 0, 10, NULL, NULL),
-(12920, 'Enriched_Elunium_Box', 0, 0, 10, NULL, NULL),
-(12921, 'Enriched_Oridecon_Bo', 0, 0, 10, NULL, NULL),
-(12922, 'Token_Of_Siegfried_B', 0, 0, 10, NULL, NULL),
-(14529, NULL, 0, 0, 0, NULL, NULL),
-(14530, NULL, 0, 0, 0, NULL, NULL),
-(14531, NULL, 0, 0, 0, NULL, NULL),
-(14532, NULL, 0, 0, 0, NULL, NULL),
-(14533, NULL, 0, 0, 0, NULL, NULL),
-(14534, NULL, 0, 0, 0, NULL, NULL),
-(14535, NULL, 0, 0, 0, NULL, NULL),
-(14536, NULL, 0, 0, 0, NULL, NULL),
-(14537, NULL, 0, 0, 0, NULL, NULL),
-(14538, NULL, 0, 0, 0, NULL, NULL),
-(14539, NULL, 0, 0, 0, NULL, NULL),
-(14540, NULL, 0, 0, 0, NULL, NULL),
-(14541, NULL, 0, 0, 0, NULL, NULL),
-(14542, NULL, 0, 0, 0, NULL, NULL),
-(14543, NULL, 0, 0, 0, NULL, NULL),
-(14544, NULL, 0, 0, 0, NULL, NULL),
-(14545, NULL, 0, 0, 0, NULL, NULL),
-(14546, NULL, 0, 0, 0, NULL, NULL),
-(14547, NULL, 0, 0, 0, NULL, NULL),
-(14548, NULL, 0, 0, 0, NULL, NULL),
-(14549, NULL, 0, 0, 0, NULL, NULL),
-(14550, NULL, 0, 0, 0, NULL, NULL),
-(14551, NULL, 0, 0, 0, NULL, NULL),
-(14552, NULL, 0, 0, 0, NULL, NULL),
-(14553, NULL, 0, 0, 0, NULL, NULL),
-(14554, NULL, 0, 0, 0, NULL, NULL),
-(14555, NULL, 0, 0, 0, NULL, NULL),
-(14556, NULL, 0, 0, 0, NULL, NULL),
-(14557, NULL, 0, 0, 0, NULL, NULL),
-(14558, NULL, 0, 0, 0, NULL, NULL),
-(14559, NULL, 0, 0, 0, NULL, NULL),
-(14560, NULL, 0, 0, 0, NULL, NULL),
-(14561, NULL, 0, 0, 0, NULL, NULL),
-(14562, NULL, 0, 0, 0, NULL, NULL),
-(14563, NULL, 0, 0, 0, NULL, NULL),
-(14564, NULL, 0, 0, 0, NULL, NULL),
-(14565, NULL, 0, 0, 0, NULL, NULL),
-(14566, NULL, 0, 0, 0, NULL, NULL),
-(14567, NULL, 0, 0, 0, NULL, NULL),
-(14568, NULL, 0, 0, 0, NULL, NULL),
-(14569, NULL, 0, 0, 0, NULL, NULL),
-(14570, NULL, 0, 0, 0, NULL, NULL),
-(14571, NULL, 0, 0, 0, NULL, NULL),
-(14572, NULL, 0, 0, 0, NULL, NULL),
-(14573, NULL, 0, 0, 0, NULL, NULL),
-(14574, NULL, 0, 0, 0, NULL, NULL),
-(14575, NULL, 0, 0, 0, NULL, NULL),
-(14576, NULL, 0, 0, 0, NULL, NULL),
-(14577, NULL, 0, 0, 0, NULL, NULL),
-(14578, NULL, 0, 0, 0, NULL, NULL),
-(14579, NULL, 0, 0, 0, NULL, NULL),
-(14580, NULL, 0, 0, 0, NULL, NULL),
-(14581, NULL, 0, 0, 0, NULL, NULL),
-(14582, NULL, 0, 0, 0, NULL, NULL),
-(14583, NULL, 0, 0, 0, NULL, NULL),
-(14584, NULL, 0, 0, 0, NULL, NULL),
-(14585, NULL, 0, 0, 0, NULL, NULL),
-(14586, NULL, 0, 0, 0, NULL, NULL),
-(14587, NULL, 0, 0, 0, NULL, NULL),
-(14588, NULL, 0, 0, 0, NULL, NULL),
-(14589, NULL, 0, 0, 0, NULL, NULL),
-(14590, NULL, 0, 0, 0, NULL, NULL),
-(14591, NULL, 0, 0, 0, NULL, NULL),
-(14592, NULL, 0, 0, 0, NULL, NULL),
-(14593, NULL, 0, 0, 0, NULL, NULL),
-(14594, NULL, 0, 0, 0, NULL, NULL),
-(14595, NULL, 0, 0, 0, NULL, NULL),
-(14596, NULL, 0, 0, 0, NULL, NULL),
-(14597, NULL, 0, 0, 0, NULL, NULL),
-(14598, NULL, 0, 0, 0, NULL, NULL),
-(14599, NULL, 0, 0, 0, NULL, NULL),
-(14600, NULL, 0, 0, 0, NULL, NULL),
-(14601, NULL, 0, 0, 0, NULL, NULL),
-(14602, NULL, 0, 0, 0, NULL, NULL),
-(14603, NULL, 0, 0, 0, NULL, NULL),
-(14604, NULL, 0, 0, 0, NULL, NULL),
-(14605, NULL, 0, 0, 0, NULL, NULL),
-(14606, NULL, 0, 0, 0, NULL, NULL),
-(14607, NULL, 0, 0, 0, NULL, NULL),
-(14608, NULL, 0, 0, 0, NULL, NULL),
-(14609, NULL, 0, 0, 0, NULL, NULL),
-(14610, NULL, 0, 0, 0, NULL, NULL),
-(14611, NULL, 0, 0, 0, NULL, NULL),
-(14612, NULL, 0, 0, 0, NULL, NULL),
-(14613, NULL, 0, 0, 0, NULL, NULL),
-(14614, NULL, 0, 0, 0, NULL, NULL),
-(14615, NULL, 0, 0, 0, NULL, NULL),
-(14616, NULL, 0, 0, 0, NULL, NULL),
-(14617, NULL, 0, 0, 0, NULL, NULL),
-(14618, NULL, 0, 0, 0, NULL, NULL),
-(14619, NULL, 0, 0, 0, NULL, NULL),
-(14620, NULL, 0, 0, 0, NULL, NULL),
-(14621, NULL, 0, 0, 0, NULL, NULL),
-(14622, NULL, 0, 0, 0, NULL, NULL),
-(14623, NULL, 0, 0, 0, NULL, NULL),
-(14624, NULL, 0, 0, 0, NULL, NULL),
-(14625, NULL, 0, 0, 0, NULL, NULL),
-(14626, NULL, 0, 0, 0, NULL, NULL),
-(14627, NULL, 0, 0, 0, NULL, NULL),
-(14628, NULL, 0, 0, 0, NULL, NULL),
-(14629, NULL, 0, 0, 0, NULL, NULL),
-(14630, NULL, 0, 0, 0, NULL, NULL),
-(14631, NULL, 0, 0, 0, NULL, NULL),
-(14632, NULL, 0, 0, 0, NULL, NULL),
-(14633, NULL, 0, 0, 0, NULL, NULL),
-(14634, NULL, 0, 0, 0, NULL, NULL),
-(14635, NULL, 0, 0, 0, NULL, NULL),
-(14636, NULL, 0, 0, 0, NULL, NULL),
-(14637, NULL, 0, 0, 0, NULL, NULL),
-(14638, NULL, 0, 0, 0, NULL, NULL),
-(14639, NULL, 0, 0, 0, NULL, NULL),
-(14640, NULL, 0, 0, 0, NULL, NULL),
-(14641, NULL, 0, 0, 0, NULL, NULL),
-(14642, NULL, 0, 0, 0, NULL, NULL),
-(14643, NULL, 0, 0, 0, NULL, NULL),
-(14644, NULL, 0, 0, 0, NULL, NULL),
-(14645, NULL, 0, 0, 0, NULL, NULL),
-(14646, NULL, 0, 0, 0, NULL, NULL),
-(14647, NULL, 0, 0, 0, NULL, NULL),
-(14648, NULL, 0, 0, 0, NULL, NULL),
-(14649, NULL, 0, 0, 0, NULL, NULL),
-(14650, NULL, 0, 0, 0, NULL, NULL),
-(14651, NULL, 0, 0, 0, NULL, NULL),
-(14652, NULL, 0, 0, 0, NULL, NULL),
-(14653, NULL, 0, 0, 0, NULL, NULL),
-(14654, NULL, 0, 0, 0, NULL, NULL),
-(14655, NULL, 0, 0, 0, NULL, NULL),
-(14656, NULL, 0, 0, 0, NULL, NULL),
-(14657, NULL, 0, 0, 0, NULL, NULL),
-(14658, NULL, 0, 0, 0, NULL, NULL),
-(14659, NULL, 0, 0, 0, NULL, NULL),
-(14660, NULL, 0, 0, 0, NULL, NULL),
-(14661, NULL, 0, 0, 0, NULL, NULL),
-(14662, NULL, 0, 0, 0, NULL, NULL),
-(14663, NULL, 0, 0, 0, NULL, NULL),
-(14664, NULL, 0, 0, 0, NULL, NULL),
-(14665, NULL, 0, 0, 0, NULL, NULL),
-(14666, NULL, 0, 0, 0, NULL, NULL),
-(14667, NULL, 0, 0, 0, NULL, NULL),
-(14668, NULL, 0, 0, 0, NULL, NULL),
-(14669, NULL, 0, 0, 0, NULL, NULL),
-(14670, NULL, 0, 0, 0, NULL, NULL),
-(14671, NULL, 0, 0, 0, NULL, NULL),
-(14672, NULL, 0, 0, 0, NULL, NULL),
-(14673, NULL, 0, 0, 0, NULL, NULL),
-(14674, NULL, 0, 0, 0, NULL, NULL),
-(14675, NULL, 0, 0, 0, NULL, NULL),
-(14676, NULL, 0, 0, 0, NULL, NULL),
-(14677, NULL, 0, 0, 0, NULL, NULL),
-(14678, NULL, 0, 0, 0, NULL, NULL),
-(14679, NULL, 0, 0, 0, NULL, NULL),
-(14680, NULL, 0, 0, 0, NULL, NULL),
-(14681, NULL, 0, 0, 0, NULL, NULL),
-(14682, NULL, 0, 0, 0, NULL, NULL),
-(14683, NULL, 0, 0, 0, NULL, NULL),
-(14684, NULL, 0, 0, 0, NULL, NULL),
-(14685, NULL, 0, 0, 0, NULL, NULL),
-(14686, NULL, 0, 0, 0, NULL, NULL),
-(14687, NULL, 0, 0, 0, NULL, NULL),
-(14688, NULL, 0, 0, 0, NULL, NULL),
-(14689, NULL, 0, 0, 0, NULL, NULL),
-(14690, NULL, 0, 0, 0, NULL, NULL),
-(14691, NULL, 0, 0, 0, NULL, NULL),
-(14692, NULL, 0, 0, 0, NULL, NULL),
-(14693, NULL, 0, 0, 0, NULL, NULL),
-(14694, NULL, 0, 0, 0, NULL, NULL),
-(14695, NULL, 0, 0, 0, NULL, NULL),
-(14696, NULL, 0, 0, 0, NULL, NULL),
-(14697, NULL, 0, 0, 0, NULL, NULL),
-(14698, NULL, 0, 0, 0, NULL, NULL),
-(14699, NULL, 0, 0, 0, NULL, NULL),
-(14700, NULL, 0, 0, 0, NULL, NULL),
-(14701, NULL, 0, 0, 0, NULL, NULL),
-(14702, NULL, 0, 0, 0, NULL, NULL),
-(14703, NULL, 0, 0, 0, NULL, NULL),
-(14704, NULL, 0, 0, 0, NULL, NULL),
-(14705, NULL, 0, 0, 0, NULL, NULL),
-(14706, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(502, 'Orange_Potion', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(503, 'Yellow_Potion', 0, 0, 130, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(504, 'White_Potion', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(505, 'Blue_Potion', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(506, 'Green_Potion', 0, 0, 70, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(507, 'Red_Herb', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(508, 'Yellow_Herb', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(509, 'White_Herb', 0, 0, 70, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(510, 'Blue_Herb', 0, 0, 70, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(511, 'Green_Herb', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(512, 'Apple', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(513, 'Banana', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(514, 'Grape', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(515, 'Carrot', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(516, 'Sweet_Potato', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(517, 'Meat', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(518, 'Honey', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(519, 'Milk', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(520, 'Leaflet_Of_Hinal', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(521, 'Leaflet_Of_Aloe', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(522, 'Fruit_Of_Mastela', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(523, 'Holy_Water', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(525, 'Panacea', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(526, 'Royal_Jelly', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(528, 'Monster''s_Feed', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(529, 'Candy', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(530, 'Candy_Striper', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(531, 'Apple_Juice', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(532, 'Banana_Juice', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(533, 'Grape_Juice', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(534, 'Carrot_Juice', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(535, 'Pumpkin', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(536, 'Ice_Cream', 0, 0, 80, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(537, 'Pet_Food', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(538, 'Well_Baked_Cookie', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(539, 'Piece_Of_Cake', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(540, 'Falcon''s_Feed', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(541, 'Pecopeco''s_Feed', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(542, 'Festive_Cookie', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(543, 'Festive_Rainbow_Cake', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(544, 'Fish_Slice', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(545, 'Red_Slim_Potion', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(546, 'Yellow_Slim_Potion', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(547, 'White_Slim_Potion', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(548, 'Cheese', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(549, 'Nice_Sweet_Potato', 0, 0, 80, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(550, 'Popped_Rice', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(551, 'Shusi', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(552, 'KETUPAT', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(553, 'Bun', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(554, 'Mojji', 0, 0, 80, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(555, 'Rice_Cake', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(556, 'Long_Rice_Cake', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(557, 'Hash_Rice_Cake', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(558, 'Chocolate', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(559, 'HandMade_Chocolate', 0, 0, 80, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(560, 'HandMade_Chocolate_', 0, 0, 80, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(561, 'White_Chocolate', 0, 0, 80, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(562, 'Pizza', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(563, 'Pizza_01', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(564, 'Rice_Ball', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(565, 'Vita500_Bottle', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(566, 'Tomyumkung', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(567, 'Prawn', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(568, 'Lemon', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(569, 'Novice_Potion', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(570, 'Lucky_Candy', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(571, 'Lucky_Candy_Cane', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(572, 'Lucky_Cookie', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(573, 'Chocolate_Drink', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(574, 'Egg', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(575, 'Piece_Of_Cake_', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(576, 'Prickly_Fruit', 0, 0, 60, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(577, 'Grain', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(578, 'Strawberry', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(579, 'Delicious_Fish', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(580, 'Bread', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(581, 'Mushroom', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(582, 'Orange', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(583, 'KETUPAT_', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(584, 'Fish_Ball_Soup', 0, 0, 60, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(585, 'Wurst', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(586, 'Mother''s_Cake', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(587, 'Prickly_Fruit_', 0, 0, 60, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(588, 'Spaghetti', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(589, 'Pizza_02', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(590, 'Brezel_', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(591, 'Caviar_Pancake', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(592, 'Jam_Pancake', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(593, 'Honey_Pancake', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(594, 'Sour_Cream_Pancake', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(595, 'Mushroom_Pancake', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(596, 'Cute_Strawberry_Choc', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(597, 'Lovely_Choco_Tart', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(598, 'Light_Red_Pot', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(599, 'Light_Orange_Pot', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(601, 'Wing_Of_Fly', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(602, 'Wing_Of_Butterfly', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(603, 'Old_Blue_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(604, 'Branch_Of_Dead_Tree', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(605, 'Anodyne', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(606, 'Aloebera', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(607, 'Yggdrasilberry', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(608, 'Seed_Of_Yggdrasil', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(609, 'Amulet', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(610, 'Leaf_Of_Yggdrasil', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(611, 'Spectacles', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(612, 'Portable_Furnace', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(613, 'Iron_Hammer', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(614, 'Golden_Hammer', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(615, 'Oridecon_Hammer', 0, 0, 400, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(616, 'Old_Card_Album', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(617, 'Old_Violet_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(618, 'Worn_Out_Scroll', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(619, 'Unripe_Apple', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(620, 'Orange_Juice', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(621, 'Bitter_Herb', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(622, 'Rainbow_Carrot', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(623, 'Earthworm_The_Dude', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(624, 'Rotten_Fish', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(625, 'Lusty_Iron', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(626, 'Monster_Juice', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(627, 'Sweet_Milk', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(628, 'Well_Dried_Bone', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(629, 'Singing_Flower', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(630, 'Dew_Laden_Moss', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(631, 'Deadly_Noxious_Herb', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(632, 'Fatty_Chubby_Earthwo', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(633, 'Baked_Yam', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(634, 'Tropical_Banana', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(635, 'Horror_Of_Tribe', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(636, 'No_Recipient', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(637, 'Old_Broom', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(638, 'Silver_Knife_Of_Chas', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(639, 'Armlet_Of_Obedience', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(640, 'Shining_Stone', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(641, 'Contracts_In_Shadow', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(642, 'Book_Of_Devil', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(643, 'Pet_Incubator', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(644, 'Gift_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(645, 'Center_Potion', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(656, 'Awakening_Potion', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(657, 'Berserk_Potion', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(658, 'Union_Of_Tribe', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(659, 'Heart_Of_Her', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(660, 'Prohibition_Red_Cand', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(661, 'Sway_Apron', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(662, 'Inspector_Certificat', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(663, 'Korea_Rice_Cake', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(664, 'Gift_Box_1', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(665, 'Gift_Box_2', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(666, 'Gift_Box_3', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(667, 'Gift_Box_4', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(668, 'Handsei', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(669, 'Rice_Cake_Soup', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(670, 'Gold_Coin_Moneybag', 0, 0, 400, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(671, 'Gold_Coin', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(672, 'Copper_Coin_Moneybag', 0, 0, 400, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(673, 'Copper_Coin', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(674, 'Mithril_Coin', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(675, 'Silver_Coin', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(676, 'Silver_Coin_Moneybag', 0, 0, 400, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(677, 'White_Gold_Coin', 0, 0, 40, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(678, 'Poison_Bottle', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(679, 'Gold_Pill', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(680, 'Magical_Carnation', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(681, 'Memory_Of_Wedding', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(682, 'Realgar_Wine', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(683, 'Exorcize_Herb', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(684, 'Durian', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(685, 'RAMADAN', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(686, 'Earth_Scroll_1_3', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(687, 'Earth_Scroll_1_5', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(688, 'Cold_Scroll_1_3', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(689, 'Cold_Scroll_1_5', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(690, 'Fire_Scroll_1_3', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(691, 'Fire_Scroll_1_5', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(692, 'Wind_Scroll_1_3', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(693, 'Wind_Scroll_1_5', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(694, 'Ghost_Scroll_1_3', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(695, 'Ghost_Scroll_1_5', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(696, 'Fire_Scroll_2_1', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(697, 'Fire_Scroll_2_5', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(698, 'Fire_Scroll_3_1', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(699, 'Fire_Scroll_3_5', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(700, 'Cold_Scroll_2_1', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11500, 'Light_Yellow_Pot', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11501, 'Light_White_Pot', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11701, 'Girl_Bunch_Of_Flower', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11702, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11703, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11704, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11705, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11706, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11707, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11708, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11709, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11710, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11711, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11712, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11713, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11714, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11715, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11716, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11717, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11718, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11719, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11720, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11721, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11722, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11723, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11724, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(11725, NULL, 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12000, 'Cold_Scroll_2_5', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12001, 'Holy_Scroll_1_3', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12002, 'Holy_Scroll_1_5', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12003, 'Holy_Scroll_2_1', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12004, 'Arrow_Container', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12005, 'Iron_Arrow_Container', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12006, 'Steel_Arrow_Containe', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12007, 'Ori_Arrow_Container', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12008, 'Fire_Arrow_Container', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12009, 'Silver_Arrow_Contain', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12010, 'Wind_Arrow_Container', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12011, 'Stone_Arrow_Containe', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12012, 'Crystal_Arrow_Contai', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12013, 'Shadow_Arrow_Contain', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12014, 'Imma_Arrow_Container', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12015, 'Rusty_Arrow_Containe', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12016, 'Speed_Up_Potion', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12017, 'Slow_Down_Potion', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12018, 'Fire_Cracker', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12019, 'Holy_Egg', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12020, 'Water_Of_Darkness', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12021, 'Pork_Belly', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12022, 'Spareribs', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12023, 'Giftbox_China', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12024, 'Red_Pouch_Of_Surpris', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12025, 'Egg_Boy', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12026, 'Egg_Girl', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12027, 'Giggling_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12028, 'Box_Of_Thunder', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12029, 'Gloomy_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12030, 'Box_Of_Grudge', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12031, 'Sleepy_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12032, 'Box_Of_Storm', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12033, 'Box_Of_Sunlight', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12034, 'Painting_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12035, 'Lotto_Box01', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12036, 'Lotto_Box02', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12037, 'Lotto_Box03', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12038, 'Lotto_Box04', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12039, 'Lotto_Box05', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12040, 'Stone_Of_Intelligenc', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12041, 'Str_Dish01', 0, 0, 60, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12042, 'Str_Dish02', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12043, 'Str_Dish03', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12044, 'Str_Dish04', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12045, 'Str_Dish05', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12046, 'Int_Dish01', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12047, 'Int_Dish02', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12048, 'Int_Dish03', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12049, 'Int_Dish04', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12050, 'Int_Dish05', 0, 0, 400, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12051, 'Vit_Dish01', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12052, 'Vit_Dish02', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12053, 'Vit_Dish03', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12054, 'Vit_Dish04', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12055, 'Vit_Dish05', 0, 0, 800, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12056, 'Agi_Dish01', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12057, 'Agi_Dish02', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12058, 'Agi_Dish03', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12059, 'Agi_Dish04', 0, 0, 400, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12060, 'Agi_Dish05', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12061, 'Dex_Dish01', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12062, 'Dex_Dish02', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12063, 'Dex_Dish03', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12064, 'Dex_Dish04', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12065, 'Dex_Dish05', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12066, 'Luk_Dish01', 0, 0, 60, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12067, 'Luk_Dish02', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12068, 'Luk_Dish03', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12069, 'Luk_Dish04', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12070, 'Luk_Dish05', 0, 0, 400, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12071, 'Str_Dish06', 0, 0, 800, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12072, 'Str_Dish07', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12073, 'Str_Dish08', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12074, 'Str_Dish09', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12075, 'Str_Dish10', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12076, 'Int_Dish06', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12077, 'Int_Dish07', 0, 0, 800, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12078, 'Int_Dish08', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12079, 'Int_Dish09', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12080, 'Int_Dish10', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12081, 'Vit_Dish06', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12082, 'Vit_Dish07', 0, 0, 400, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12083, 'Vit_Dish08', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12084, 'Vit_Dish09', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12085, 'Vit_Dish10', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12086, 'Agi_Dish06', 0, 0, 800, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12087, 'Agi_Dish07', 0, 0, 800, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12088, 'Agi_Dish08', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12089, 'Agi_Dish09', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12090, 'Agi_Dish10', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12091, 'Dex_Dish06', 0, 0, 800, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12092, 'Dex_Dish07', 0, 0, 800, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12093, 'Dex_Dish08', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12094, 'Dex_Dish09', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12095, 'Dex_Dish10', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12096, 'Luk_Dish06', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12097, 'Luk_Dish07', 0, 0, 800, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12098, 'Luk_Dish08', 0, 0, 400, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12099, 'Luk_Dish09', 0, 0, 1000, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12100, 'Luk_Dish10', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12101, 'Citron', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12102, 'Meat_Skewer', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12103, 'Bloody_Dead_Branch', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12104, 'Random_Quiver', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12105, 'Set_Of_Taiming_Item', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12106, 'Accessory_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12107, 'Wrapped_Mask', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12108, 'Bundle_Of_Magic_Scro', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12109, 'Poring_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12110, 'First_Aid_Kit', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12111, 'Food_Package', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12112, 'Tropical_Sograt', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12113, 'Vermilion_The_Beach', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12114, 'Elemental_Fire', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12115, 'Elemental_Water', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12116, 'Elemental_Earth', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12117, 'Elemental_Wind', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12118, 'Resist_Fire', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12119, 'Resist_Water', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12120, 'Resist_Earth', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12121, 'Resist_Wind', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12122, 'Sesame_Pastry', 0, 0, 70, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12123, 'Honey_Pastry', 0, 0, 70, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12124, 'Rainbow_Cake', 0, 0, 70, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12125, 'Outdoor_Cooking_Kits', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12126, 'Indoor_Cooking_Kits', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12127, 'High_end_Cooking_Kit', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12128, 'Imperial_Cooking_Kit', 0, 0, 70, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12129, 'Fantastic_Cooking_Ki', 0, 0, 70, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12130, 'Cookie_Bag', 0, 0, 70, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12131, 'Lucky_Potion', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12132, 'Red_Bag', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12133, 'Ice_Cream_', 0, 0, 80, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12134, 'Red_Envelope', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12135, 'Green_Ale', 0, 0, 30, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12136, 'Women''s_Bundl', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12137, '1st_Stage_Prize', 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12138, '2nd_Stage_Prize', 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12139, '3rd_Stage_Prize', 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12140, '4th_Stage_Prize', 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12141, '5th_Stage_Prize', 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12142, 'Magic_Book', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12143, 'Red_Can', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12144, 'Sphere_Case_Wind', 0, 0, 350, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12145, 'Sphere_Case_Darkness', 0, 0, 350, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12146, 'Sphere_Case_Poison', 0, 0, 350, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12147, 'Sphere_Case_Water', 0, 0, 350, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12148, 'Sphere_Case_Fire', 0, 0, 350, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12149, 'Bullet_Case', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12150, 'Bullet_Case_Blood', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12151, 'Bullet_Case_Silver', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12152, 'Special_Box', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12153, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12154, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12155, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12156, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12157, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12158, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12159, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12160, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12161, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12162, 'Bow_Mercenary_Scroll', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12163, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12164, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12165, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12166, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12167, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12168, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12169, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12170, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12171, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12172, 'SwordMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12173, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12174, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12175, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12176, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12177, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12178, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12179, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12180, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12181, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12182, 'SpearMercenary_Scrol', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12183, 'Holy_Arrow_Quiver', 0, 0, 250, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12184, 'Mercenary_Red_Potion', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12185, 'Mercenary_Blue_Potio', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12186, 'Red_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12187, 'Green_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12188, 'Magical_Moon_Cake', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12189, 'Red_Box_', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12190, 'Moon_Cake', 0, 0, 300, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12191, 'Special_Moon_Cake', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12192, 'Pumpkin_Pie', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12193, 'Brezel', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12194, 'Hometown_Gift', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12195, 'Plain_Rice_Cake', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12196, 'Hearty_Rice_Cake', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12197, 'Salty_Rice_Cake', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12198, 'Lucky_Rice_Cake', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12199, 'Rice_Scroll', 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12200, 'Event_Cake', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12201, 'Red_Box_C', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12202, 'Str_Dish10_', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12203, 'Agi_Dish10_', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12204, 'Int_Dish10_', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12205, 'Dex_Dish10_', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12206, 'Luk_Dish10_', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12207, 'Vit_Dish10_', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12208, 'Battle_Manual', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12209, 'Insurance', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12210, 'Bubble_Gum', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12211, 'Kafra_Card', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12212, 'Giant_Fly_Wing', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12213, 'Neuralizer', 0, 0, 0, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12214, 'Convex_Mirror', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12215, 'Blessing_10_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12216, 'Inc_Agi_10_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12217, 'Aspersio_5_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12218, 'Assumptio_5_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12219, 'Wind_Walk_10_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12220, 'Adrenaline_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12221, 'Megaphone_', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12225, 'Sweet_Candy_Striper', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12226, 'Examination1', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12227, 'Examination2', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12228, 'Examination3', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12229, 'Examination4', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12230, 'Examination5', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12231, 'Examination6', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12232, 'Gingerbread', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12233, 'Kvass', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12234, 'Cacao99', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12235, 'Strawberry_Choco', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12236, 'Choco_Tart', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12237, 'Choco_Lump', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12238, 'New_Year_Rice_Cake_1', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12239, 'New_Year_Rice_Cake_2', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12240, 'Old_Yellow_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12241, 'M_Center_Potion', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12242, 'M_Awakening_Potion', 0, 0, 150, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12243, 'M_Berserk_Potion', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12244, 'Old_Gift_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12245, 'Green_Ale_US', 0, 0, 500, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12246, 'Magic_Card_Album', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12247, 'Halohalo', 0, 0, 100, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12701, 'Old_Blue_Box_F', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12702, 'Old_Bleu_Box', 0, 0, 200, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12703, 'Holy_Egg_2', 0, 0, 50, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12928, 'J_Aspersio_5_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12968, 'Emergency_Scroll1', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12969, 'Emergency_Scroll2', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12970, 'Emergency_Scroll3', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12977, 'Teleport_Scroll1', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12978, 'Teleport_Scroll2', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12979, 'Teleport_Scroll3', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12980, 'Teleport_Scroll4', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12981, 'Teleport_Scroll5', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12982, 'Teleport_Scroll6', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14500, 'Insurance60', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14508, 'Zeny_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14509, 'Light_Center_Pot', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14510, 'Light_Awakening_Pot', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14511, 'Light_Berserk_Pot', 0, 0, 20, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14512, 'Meteor_10_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14513, 'Storm_10_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14514, 'Vermilion_10_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14515, 'Lex_Aeterna_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14516, 'Magnificat_5_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14517, 'CP_Helm_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14518, 'CP_Shield_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14519, 'CP_Armor_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14520, 'CP_Weapon_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14521, 'Repair_Scroll', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14522, 'Big_Bun', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14523, 'Pill_', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14524, 'Superb_Fish_Slice', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14525, 'Chewy_Ricecake', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14526, 'Oriental_Pastry', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(14527, 'Dun_Tele_Scroll1', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12900, 'Battle_Manual_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12901, 'Insurance_Package', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12902, 'Bubble_Gum_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12903, 'Str_Dish_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12904, 'Agi_Dish_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12905, 'Int_Dish_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12906, 'Dex_Dish_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12907, 'Luk_Dish_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12908, 'Vit_Dish_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12909, 'Kafra_Card_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12910, 'Giant_Fly_Wing_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12911, 'Neuralizer_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12912, 'Convex_Mirror_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12913, 'Blessing_10_Scroll_B', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12914, 'Inc_Agi_10_Scroll_Bo', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12915, 'Aspersio_5_Scroll_Bo', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12916, 'Assumptio_5_Scroll_B', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12917, 'Wind_Walk_10_Scroll_', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12918, 'Adrenaline_Scroll_Bo', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12919, 'Megaphone_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12920, 'Enriched_Elunium_Box', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12921, 'Enriched_Oridecon_Bo', 0, 0, 10, NULL, NULL);
+REPLACE INTO `itemdefinitions` VALUES(12922, 'Token_Of_Siegfried_B', 0, 0, 10, NULL, NULL);
 
 
 -- --------------------------------------------------------
@@ -1444,10 +1263,9 @@ CREATE TABLE `itemdefinitionsmisc` (
 --
 -- Table structure for table `itemdefinitionsuseable`
 --
-
-finition_id` int(11) NOT NULL,
-  `on_use_funCREATE TABLE IF NOT EXISTS `itemdefinitionsuseable` (
-  `item_dection` varchar(255) default NULL,
+CREATE TABLE IF NOT EXISTS `itemdefinitionsuseable` (
+  `item_definition_id` int(11) NOT NULL,
+  `on_use_function` varchar(255) default NULL,
   `id` int(11) NOT NULL auto_increment,
   PRIMARY KEY  (`id`),
   KEY `ItemDefinitionsUseable_FI_1` (`item_definition_id`)
@@ -1457,485 +1275,482 @@ finition_id` int(11) NOT NULL,
 -- Dumping data for table `itemdefinitionsuseable`
 --
 
-INSERT INTO `itemdefinitionsuseable` (`item_definition_id`, `on_use_function`, `id`) VALUES
-(518, 'item_Honey_OnUse', 19),
-(519, 'item_Milk_OnUse', 20),
-(520, 'item_Leaflet_Of_Hinal_OnUse', 21),
-(521, 'item_Leaflet_Of_Aloe_OnUse', 22),
-(522, 'item_Fruit_Of_Mastela_OnUse', 23),
-(523, 'item_Holy_Water_OnUse', 24),
-(525, 'item_Panacea_OnUse', 25),
-(526, 'item_Royal_Jelly_OnUse', 26),
-(528, 'item_Monster''s_Feed_OnUse', 27),
-(529, 'item_Candy_OnUse', 28),
-(530, 'item_Candy_Striper_OnUse', 29),
-(531, 'item_Apple_Juice_OnUse', 30),
-(532, 'item_Banana_Juice_OnUse', 31),
-(533, 'item_Grape_Juice_OnUse', 32),
-(534, 'item_Carrot_Juice_OnUse', 33),
-(535, 'item_Pumpkin_OnUse', 34),
-(536, 'item_Ice_Cream_OnUse', 35),
-(537, 'item_Pet_Food_OnUse', 36),
-(0, 'on_use_function', 102),
-(517, 'item_Meat_OnUse', 18),
-(538, 'item_Well_Baked_Cookie_OnUse', 37),
-(539, 'item_Piece_Of_Cake_OnUse', 38),
-(540, 'item_Falcon''s_Feed_OnUse', 39),
-(541, 'item_Pecopeco''s_Feed_OnUse', 40),
-(542, 'item_Festive_Cookie_OnUse', 41),
-(543, 'item_Festive_Rainbow_Cake_OnUse', 42),
-(544, 'item_Fish_Slice_OnUse', 43),
-(545, 'item_Red_Slim_Potion_OnUse', 44),
-(546, 'item_Yellow_Slim_Potion_OnUse', 45),
-(547, 'item_White_Slim_Potion_OnUse', 46),
-(548, 'item_Cheese_OnUse', 47),
-(549, 'item_Nice_Sweet_Potato_OnUse', 48),
-(550, 'item_Popped_Rice_OnUse', 49),
-(551, 'item_Shusi_OnUse', 50),
-(552, 'item_KETUPAT_OnUse', 51),
-(553, 'item_Bun_OnUse', 52),
-(554, 'item_Mojji_OnUse', 53),
-(555, 'item_Rice_Cake_OnUse', 54),
-(556, 'item_Long_Rice_Cake_OnUse', 55),
-(557, 'item_Hash_Rice_Cake_OnUse', 56),
-(558, 'item_Chocolate_OnUse', 57),
-(559, 'item_HandMade_Chocolate_OnUse', 58),
-(560, 'item_HandMade_Chocolate__OnUse', 59),
-(561, 'item_White_Chocolate_OnUse', 60),
-(562, 'item_Pizza_OnUse', 61),
-(563, 'item_Pizza_01_OnUse', 62),
-(564, 'item_Rice_Ball_OnUse', 63),
-(565, 'item_Vita500_Bottle_OnUse', 64),
-(566, 'item_Tomyumkung_OnUse', 65),
-(567, 'item_Prawn_OnUse', 66),
-(568, 'item_Lemon_OnUse', 67),
-(569, 'item_Novice_Potion_OnUse', 68),
-(570, 'item_Lucky_Candy_OnUse', 69),
-(571, 'item_Lucky_Candy_Cane_OnUse', 70),
-(572, 'item_Lucky_Cookie_OnUse', 71),
-(573, 'item_Chocolate_Drink_OnUse', 72),
-(574, 'item_Egg_OnUse', 73),
-(575, 'item_Piece_Of_Cake__OnUse', 74),
-(576, 'item_Prickly_Fruit_OnUse', 75),
-(577, 'item_Grain_OnUse', 76),
-(578, 'item_Strawberry_OnUse', 77),
-(579, 'item_Delicious_Fish_OnUse', 78),
-(580, 'item_Bread_OnUse', 79),
-(581, 'item_Mushroom_OnUse', 80),
-(582, 'item_Orange_OnUse', 81),
-(583, 'item_KETUPAT__OnUse', 82),
-(584, 'item_Fish_Ball_Soup_OnUse', 83),
-(585, 'item_Wurst_OnUse', 84),
-(586, 'item_Mother''s_Cake_OnUse', 85),
-(587, 'item_Prickly_Fruit__OnUse', 86),
-(588, 'item_Spaghetti_OnUse', 87),
-(589, 'item_Pizza_02_OnUse', 88),
-(590, 'item_Brezel__OnUse', 89),
-(591, 'item_Caviar_Pancake_OnUse', 90),
-(592, 'item_Jam_Pancake_OnUse', 91),
-(593, 'item_Honey_Pancake_OnUse', 92),
-(594, 'item_Sour_Cream_Pancake_OnUse', 93),
-(595, 'item_Mushroom_Pancake_OnUse', 94),
-(596, 'item_Cute_Strawberry_Choc_OnUse', 95),
-(597, 'item_Lovely_Choco_Tart_OnUse', 96),
-(598, 'item_Light_Red_Pot_OnUse', 97),
-(599, 'item_Light_Orange_Pot_OnUse', 98),
-(11500, 'item_Light_Yellow_Pot_OnUse', 99),
-(11501, 'item_Light_White_Pot_OnUse', 100),
-(11701, 'item_Girl_Bunch_Of_Flower_OnUse', 101),
-(601, 'item_Wing_Of_Fly_OnUse', 103),
-(602, 'item_Wing_Of_Butterfly_OnUse', 104),
-(603, 'item_Old_Blue_Box_OnUse', 105),
-(604, 'item_Branch_Of_Dead_Tree_OnUse', 106),
-(605, 'item_Anodyne_OnUse', 107),
-(606, 'item_Aloebera_OnUse', 108),
-(607, 'item_Yggdrasilberry_OnUse', 109),
-(608, 'item_Seed_Of_Yggdrasil_OnUse', 110),
-(609, 'item_Amulet_OnUse', 111),
-(610, 'item_Leaf_Of_Yggdrasil_OnUse', 112),
-(611, 'item_Spectacles_OnUse', 113),
-(612, 'item_Portable_Furnace_OnUse', 114),
-(613, 'item_Iron_Hammer_OnUse', 115),
-(614, 'item_Golden_Hammer_OnUse', 116),
-(615, 'item_Oridecon_Hammer_OnUse', 117),
-(616, 'item_Old_Card_Album_OnUse', 118),
-(617, 'item_Old_Violet_Box_OnUse', 119),
-(618, 'item_Worn_Out_Scroll_OnUse', 120),
-(619, 'item_Unripe_Apple_OnUse', 121),
-(620, 'item_Orange_Juice_OnUse', 122),
-(621, 'item_Bitter_Herb_OnUse', 123),
-(622, 'item_Rainbow_Carrot_OnUse', 124),
-(623, 'item_Earthworm_The_Dude_OnUse', 125),
-(624, 'item_Rotten_Fish_OnUse', 126),
-(625, 'item_Lusty_Iron_OnUse', 127),
-(626, 'item_Monster_Juice_OnUse', 128),
-(627, 'item_Sweet_Milk_OnUse', 129),
-(628, 'item_Well_Dried_Bone_OnUse', 130),
-(629, 'item_Singing_Flower_OnUse', 131),
-(630, 'item_Dew_Laden_Moss_OnUse', 132),
-(631, 'item_Deadly_Noxious_Herb_OnUse', 133),
-(632, 'item_Fatty_Chubby_Earthwo_OnUse', 134),
-(633, 'item_Baked_Yam_OnUse', 135),
-(634, 'item_Tropical_Banana_OnUse', 136),
-(635, 'item_Horror_Of_Tribe_OnUse', 137),
-(636, 'item_No_Recipient_OnUse', 138),
-(637, 'item_Old_Broom_OnUse', 139),
-(638, 'item_Silver_Knife_Of_Chas_OnUse', 140),
-(639, 'item_Armlet_Of_Obedience_OnUse', 141),
-(640, 'item_Shining_Stone_OnUse', 142),
-(641, 'item_Contracts_In_Shadow_OnUse', 143),
-(642, 'item_Book_Of_Devil_OnUse', 144),
-(643, 'item_Pet_Incubator_OnUse', 145),
-(644, 'item_Gift_Box_OnUse', 146),
-(645, 'item_Center_Potion_OnUse', 147),
-(656, 'item_Awakening_Potion_OnUse', 148),
-(657, 'item_Berserk_Potion_OnUse', 149),
-(658, 'item_Union_Of_Tribe_OnUse', 150),
-(659, 'item_Heart_Of_Her_OnUse', 151),
-(660, 'item_Prohibition_Red_Cand_OnUse', 152),
-(661, 'item_Sway_Apron_OnUse', 153),
-(662, 'item_Inspector_Certificat_OnUse', 154),
-(663, 'item_Korea_Rice_Cake_OnUse', 155),
-(664, 'item_Gift_Box_1_OnUse', 156),
-(665, 'item_Gift_Box_2_OnUse', 157),
-(666, 'item_Gift_Box_3_OnUse', 158),
-(667, 'item_Gift_Box_4_OnUse', 159),
-(668, 'item_Handsei_OnUse', 160),
-(669, 'item_Rice_Cake_Soup_OnUse', 161),
-(670, 'item_Gold_Coin_Moneybag_OnUse', 162),
-(671, 'item_Gold_Coin_OnUse', 163),
-(672, 'item_Copper_Coin_Moneybag_OnUse', 164),
-(673, 'item_Copper_Coin_OnUse', 165),
-(674, 'item_Mithril_Coin_OnUse', 166),
-(675, 'item_Silver_Coin_OnUse', 167),
-(676, 'item_Silver_Coin_Moneybag_OnUse', 168),
-(677, 'item_White_Gold_Coin_OnUse', 169),
-(678, 'item_Poison_Bottle_OnUse', 170),
-(679, 'item_Gold_Pill_OnUse', 171),
-(680, 'item_Magical_Carnation_OnUse', 172),
-(681, 'item_Memory_Of_Wedding_OnUse', 173),
-(682, 'item_Realgar_Wine_OnUse', 174),
-(683, 'item_Exorcize_Herb_OnUse', 175),
-(684, 'item_Durian_OnUse', 176),
-(685, 'item_RAMADAN_OnUse', 177),
-(686, 'item_Earth_Scroll_1_3_OnUse', 178),
-(687, 'item_Earth_Scroll_1_5_OnUse', 179),
-(688, 'item_Cold_Scroll_1_3_OnUse', 180),
-(689, 'item_Cold_Scroll_1_5_OnUse', 181),
-(690, 'item_Fire_Scroll_1_3_OnUse', 182),
-(691, 'item_Fire_Scroll_1_5_OnUse', 183),
-(692, 'item_Wind_Scroll_1_3_OnUse', 184),
-(693, 'item_Wind_Scroll_1_5_OnUse', 185),
-(694, 'item_Ghost_Scroll_1_3_OnUse', 186),
-(695, 'item_Ghost_Scroll_1_5_OnUse', 187),
-(696, 'item_Fire_Scroll_2_1_OnUse', 188),
-(697, 'item_Fire_Scroll_2_5_OnUse', 189),
-(698, 'item_Fire_Scroll_3_1_OnUse', 190),
-(699, 'item_Fire_Scroll_3_5_OnUse', 191),
-(700, 'item_Cold_Scroll_2_1_OnUse', 192),
-(12000, 'item_Cold_Scroll_2_5_OnUse', 193),
-(12001, 'item_Holy_Scroll_1_3_OnUse', 194),
-(12002, 'item_Holy_Scroll_1_5_OnUse', 195),
-(12003, 'item_Holy_Scroll_2_1_OnUse', 196),
-(12004, 'item_Arrow_Container_OnUse', 197),
-(12005, 'item_Iron_Arrow_Container_OnUse', 198),
-(12006, 'item_Steel_Arrow_Containe_OnUse', 199),
-(12007, 'item_Ori_Arrow_Container_OnUse', 200),
-(12008, 'item_Fire_Arrow_Container_OnUse', 201),
-(12009, 'item_Silver_Arrow_Contain_OnUse', 202),
-(12010, 'item_Wind_Arrow_Container_OnUse', 203),
-(12011, 'item_Stone_Arrow_Containe_OnUse', 204),
-(12012, 'item_Crystal_Arrow_Contai_OnUse', 205),
-(12013, 'item_Shadow_Arrow_Contain_OnUse', 206),
-(12014, 'item_Imma_Arrow_Container_OnUse', 207),
-(12015, 'item_Rusty_Arrow_Containe_OnUse', 208),
-(12016, 'item_Speed_Up_Potion_OnUse', 209),
-(12017, 'item_Slow_Down_Potion_OnUse', 210),
-(12018, 'item_Fire_Cracker_OnUse', 211),
-(12019, 'item_Holy_Egg_OnUse', 212),
-(12020, 'item_Water_Of_Darkness_OnUse', 213),
-(12021, 'item_Pork_Belly_OnUse', 214),
-(12022, 'item_Spareribs_OnUse', 215),
-(12023, 'item_Giftbox_China_OnUse', 216),
-(12024, 'item_Red_Pouch_Of_Surpris_OnUse', 217),
-(12025, 'item_Egg_Boy_OnUse', 218),
-(12026, 'item_Egg_Girl_OnUse', 219),
-(12027, 'item_Giggling_Box_OnUse', 220),
-(12028, 'item_Box_Of_Thunder_OnUse', 221),
-(12029, 'item_Gloomy_Box_OnUse', 222),
-(12030, 'item_Box_Of_Grudge_OnUse', 223),
-(12031, 'item_Sleepy_Box_OnUse', 224),
-(12032, 'item_Box_Of_Storm_OnUse', 225),
-(12033, 'item_Box_Of_Sunlight_OnUse', 226),
-(12034, 'item_Painting_Box_OnUse', 227),
-(12035, 'item_Lotto_Box01_OnUse', 228),
-(12036, 'item_Lotto_Box02_OnUse', 229),
-(12037, 'item_Lotto_Box03_OnUse', 230),
-(12038, 'item_Lotto_Box04_OnUse', 231),
-(12039, 'item_Lotto_Box05_OnUse', 232),
-(12040, 'item_Stone_Of_Intelligenc_OnUse', 233),
-(12041, 'item_Str_Dish01_OnUse', 234),
-(12042, 'item_Str_Dish02_OnUse', 235),
-(12043, 'item_Str_Dish03_OnUse', 236),
-(12044, 'item_Str_Dish04_OnUse', 237),
-(12045, 'item_Str_Dish05_OnUse', 238),
-(12046, 'item_Int_Dish01_OnUse', 239),
-(12047, 'item_Int_Dish02_OnUse', 240),
-(12048, 'item_Int_Dish03_OnUse', 241),
-(12049, 'item_Int_Dish04_OnUse', 242),
-(12050, 'item_Int_Dish05_OnUse', 243),
-(12051, 'item_Vit_Dish01_OnUse', 244),
-(12052, 'item_Vit_Dish02_OnUse', 245),
-(12053, 'item_Vit_Dish03_OnUse', 246),
-(12054, 'item_Vit_Dish04_OnUse', 247),
-(12055, 'item_Vit_Dish05_OnUse', 248),
-(12056, 'item_Agi_Dish01_OnUse', 249),
-(12057, 'item_Agi_Dish02_OnUse', 250),
-(12058, 'item_Agi_Dish03_OnUse', 251),
-(12059, 'item_Agi_Dish04_OnUse', 252),
-(12060, 'item_Agi_Dish05_OnUse', 253),
-(12061, 'item_Dex_Dish01_OnUse', 254),
-(12062, 'item_Dex_Dish02_OnUse', 255),
-(12063, 'item_Dex_Dish03_OnUse', 256),
-(12064, 'item_Dex_Dish04_OnUse', 257),
-(12065, 'item_Dex_Dish05_OnUse', 258),
-(12066, 'item_Luk_Dish01_OnUse', 259),
-(12067, 'item_Luk_Dish02_OnUse', 260),
-(12068, 'item_Luk_Dish03_OnUse', 261),
-(12069, 'item_Luk_Dish04_OnUse', 262),
-(12070, 'item_Luk_Dish05_OnUse', 263),
-(12071, 'item_Str_Dish06_OnUse', 264),
-(12072, 'item_Str_Dish07_OnUse', 265),
-(12073, 'item_Str_Dish08_OnUse', 266),
-(12074, 'item_Str_Dish09_OnUse', 267),
-(12075, 'item_Str_Dish10_OnUse', 268),
-(12076, 'item_Int_Dish06_OnUse', 269),
-(12077, 'item_Int_Dish07_OnUse', 270),
-(12078, 'item_Int_Dish08_OnUse', 271),
-(12079, 'item_Int_Dish09_OnUse', 272),
-(12080, 'item_Int_Dish10_OnUse', 273),
-(12081, 'item_Vit_Dish06_OnUse', 274),
-(12082, 'item_Vit_Dish07_OnUse', 275),
-(12083, 'item_Vit_Dish08_OnUse', 276),
-(12084, 'item_Vit_Dish09_OnUse', 277),
-(12085, 'item_Vit_Dish10_OnUse', 278),
-(12086, 'item_Agi_Dish06_OnUse', 279),
-(12087, 'item_Agi_Dish07_OnUse', 280),
-(12088, 'item_Agi_Dish08_OnUse', 281),
-(12089, 'item_Agi_Dish09_OnUse', 282),
-(12090, 'item_Agi_Dish10_OnUse', 283),
-(12091, 'item_Dex_Dish06_OnUse', 284),
-(12092, 'item_Dex_Dish07_OnUse', 285),
-(12093, 'item_Dex_Dish08_OnUse', 286),
-(12094, 'item_Dex_Dish09_OnUse', 287),
-(12095, 'item_Dex_Dish10_OnUse', 288),
-(12096, 'item_Luk_Dish06_OnUse', 289),
-(12097, 'item_Luk_Dish07_OnUse', 290),
-(12098, 'item_Luk_Dish08_OnUse', 291),
-(12099, 'item_Luk_Dish09_OnUse', 292),
-(12100, 'item_Luk_Dish10_OnUse', 293),
-(12101, 'item_Citron_OnUse', 294),
-(12102, 'item_Meat_Skewer_OnUse', 295),
-(12103, 'item_Bloody_Dead_Branch_OnUse', 296),
-(12104, 'item_Random_Quiver_OnUse', 297),
-(12105, 'item_Set_Of_Taiming_Item_OnUse', 298),
-(12106, 'item_Accessory_Box_OnUse', 299),
-(12107, 'item_Wrapped_Mask_OnUse', 300),
-(12108, 'item_Bundle_Of_Magic_Scro_OnUse', 301),
-(12109, 'item_Poring_Box_OnUse', 302),
-(12110, 'item_First_Aid_Kit_OnUse', 303),
-(12111, 'item_Food_Package_OnUse', 304),
-(12112, 'item_Tropical_Sograt_OnUse', 305),
-(12113, 'item_Vermilion_The_Beach_OnUse', 306),
-(12114, 'item_Elemental_Fire_OnUse', 307),
-(12115, 'item_Elemental_Water_OnUse', 308),
-(12116, 'item_Elemental_Earth_OnUse', 309),
-(12117, 'item_Elemental_Wind_OnUse', 310),
-(12118, 'item_Resist_Fire_OnUse', 311),
-(12119, 'item_Resist_Water_OnUse', 312),
-(12120, 'item_Resist_Earth_OnUse', 313),
-(12121, 'item_Resist_Wind_OnUse', 314),
-(12122, 'item_Sesame_Pastry_OnUse', 315),
-(12123, 'item_Honey_Pastry_OnUse', 316),
-(12124, 'item_Rainbow_Cake_OnUse', 317),
-(12125, 'item_Outdoor_Cooking_Kits_OnUse', 318),
-(12126, 'item_Indoor_Cooking_Kits_OnUse', 319),
-(12127, 'item_High_end_Cooking_Kit_OnUse', 320),
-(12128, 'item_Imperial_Cooking_Kit_OnUse', 321),
-(12129, 'item_Fantastic_Cooking_Ki_OnUse', 322),
-(12130, 'item_Cookie_Bag_OnUse', 323),
-(12131, 'item_Lucky_Potion_OnUse', 324),
-(12132, 'item_Red_Bag_OnUse', 325),
-(12133, 'item_Ice_Cream__OnUse', 326),
-(12134, 'item_Red_Envelope_OnUse', 327),
-(12135, 'item_Green_Ale_OnUse', 328),
-(12136, 'item_Women''s_Bundl_OnUse', 329),
-(12137, 'item_1st_Stage_Prize_OnUse', 330),
-(12138, 'item_2nd_Stage_Prize_OnUse', 331),
-(12139, 'item_3rd_Stage_Prize_OnUse', 332),
-(12140, 'item_4th_Stage_Prize_OnUse', 333),
-(12141, 'item_5th_Stage_Prize_OnUse', 334),
-(12142, 'item_Magic_Book_OnUse', 335),
-(12143, 'item_Red_Can_OnUse', 336),
-(12144, 'item_Sphere_Case_Wind_OnUse', 337),
-(12145, 'item_Sphere_Case_Darkness_OnUse', 338),
-(12146, 'item_Sphere_Case_Poison_OnUse', 339),
-(12147, 'item_Sphere_Case_Water_OnUse', 340),
-(12148, 'item_Sphere_Case_Fire_OnUse', 341),
-(12149, 'item_Bullet_Case_OnUse', 342),
-(12150, 'item_Bullet_Case_Blood_OnUse', 343),
-(12151, 'item_Bullet_Case_Silver_OnUse', 344),
-(12152, 'item_Special_Box_OnUse', 345),
-(12153, 'item_Bow_Mercenary_Scroll_OnUse', 346),
-(12154, 'item_Bow_Mercenary_Scroll_OnUse', 347),
-(12155, 'item_Bow_Mercenary_Scroll_OnUse', 348),
-(12156, 'item_Bow_Mercenary_Scroll_OnUse', 349),
-(12157, 'item_Bow_Mercenary_Scroll_OnUse', 350),
-(12158, 'item_Bow_Mercenary_Scroll_OnUse', 351),
-(12159, 'item_Bow_Mercenary_Scroll_OnUse', 352),
-(12160, 'item_Bow_Mercenary_Scroll_OnUse', 353),
-(12161, 'item_Bow_Mercenary_Scroll_OnUse', 354),
-(12162, 'item_Bow_Mercenary_Scroll_OnUse', 355),
-(12163, 'item_SwordMercenary_Scrol_OnUse', 356),
-(12164, 'item_SwordMercenary_Scrol_OnUse', 357),
-(12165, 'item_SwordMercenary_Scrol_OnUse', 358),
-(12166, 'item_SwordMercenary_Scrol_OnUse', 359),
-(12167, 'item_SwordMercenary_Scrol_OnUse', 360),
-(12168, 'item_SwordMercenary_Scrol_OnUse', 361),
-(12169, 'item_SwordMercenary_Scrol_OnUse', 362),
-(12170, 'item_SwordMercenary_Scrol_OnUse', 363),
-(12171, 'item_SwordMercenary_Scrol_OnUse', 364),
-(12172, 'item_SwordMercenary_Scrol_OnUse', 365),
-(12173, 'item_SpearMercenary_Scrol_OnUse', 366),
-(12174, 'item_SpearMercenary_Scrol_OnUse', 367),
-(12175, 'item_SpearMercenary_Scrol_OnUse', 368),
-(12176, 'item_SpearMercenary_Scrol_OnUse', 369),
-(12177, 'item_SpearMercenary_Scrol_OnUse', 370),
-(12178, 'item_SpearMercenary_Scrol_OnUse', 371),
-(12179, 'item_SpearMercenary_Scrol_OnUse', 372),
-(12180, 'item_SpearMercenary_Scrol_OnUse', 373),
-(12181, 'item_SpearMercenary_Scrol_OnUse', 374),
-(12182, 'item_SpearMercenary_Scrol_OnUse', 375),
-(12183, 'item_Holy_Arrow_Quiver_OnUse', 376),
-(12184, 'item_Mercenary_Red_Potion_OnUse', 377),
-(12185, 'item_Mercenary_Blue_Potio_OnUse', 378),
-(12186, 'item_Red_Box_OnUse', 379),
-(12187, 'item_Green_Box_OnUse', 380),
-(12188, 'item_Magical_Moon_Cake_OnUse', 381),
-(12189, 'item_Red_Box__OnUse', 382),
-(12190, 'item_Moon_Cake_OnUse', 383),
-(12191, 'item_Special_Moon_Cake_OnUse', 384),
-(12192, 'item_Pumpkin_Pie_OnUse', 385),
-(12193, 'item_Brezel_OnUse', 386),
-(12194, 'item_Hometown_Gift_OnUse', 387),
-(12195, 'item_Plain_Rice_Cake_OnUse', 388),
-(12196, 'item_Hearty_Rice_Cake_OnUse', 389),
-(12197, 'item_Salty_Rice_Cake_OnUse', 390),
-(12198, 'item_Lucky_Rice_Cake_OnUse', 391),
-(12199, 'item_Rice_Scroll_OnUse', 392),
-(12200, 'item_Event_Cake_OnUse', 393),
-(12201, 'item_Red_Box_C_OnUse', 394),
-(12202, 'item_Str_Dish10__OnUse', 395),
-(12203, 'item_Agi_Dish10__OnUse', 396),
-(12204, 'item_Int_Dish10__OnUse', 397),
-(12205, 'item_Dex_Dish10__OnUse', 398),
-(12206, 'item_Luk_Dish10__OnUse', 399),
-(12207, 'item_Vit_Dish10__OnUse', 400),
-(12208, 'item_Battle_Manual_OnUse', 401),
-(12209, 'item_Insurance_OnUse', 402),
-(12210, 'item_Bubble_Gum_OnUse', 403),
-(12211, 'item_Kafra_Card_OnUse', 404),
-(12212, 'item_Giant_Fly_Wing_OnUse', 405),
-(12213, 'item_Neuralizer_OnUse', 406),
-(12214, 'item_Convex_Mirror_OnUse', 407),
-(12215, 'item_Blessing_10_Scroll_OnUse', 408),
-(12216, 'item_Inc_Agi_10_Scroll_OnUse', 409),
-(12217, 'item_Aspersio_5_Scroll_OnUse', 410),
-(12218, 'item_Assumptio_5_Scroll_OnUse', 411),
-(12219, 'item_Wind_Walk_10_Scroll_OnUse', 412),
-(12220, 'item_Adrenaline_Scroll_OnUse', 413),
-(12221, 'item_Megaphone__OnUse', 414),
-(12225, 'item_Sweet_Candy_Striper_OnUse', 415),
-(12226, 'item_Examination1_OnUse', 416),
-(12227, 'item_Examination2_OnUse', 417),
-(12228, 'item_Examination3_OnUse', 418),
-(12229, 'item_Examination4_OnUse', 419),
-(12230, 'item_Examination5_OnUse', 420),
-(12231, 'item_Examination6_OnUse', 421),
-(12232, 'item_Gingerbread_OnUse', 422),
-(12233, 'item_Kvass_OnUse', 423),
-(12234, 'item_Cacao99_OnUse', 424),
-(12235, 'item_Strawberry_Choco_OnUse', 425),
-(12236, 'item_Choco_Tart_OnUse', 426),
-(12237, 'item_Choco_Lump_OnUse', 427),
-(12238, 'item_New_Year_Rice_Cake_1_OnUse', 428),
-(12239, 'item_New_Year_Rice_Cake_2_OnUse', 429),
-(12240, 'item_Old_Yellow_Box_OnUse', 430),
-(12241, 'item_M_Center_Potion_OnUse', 431),
-(12242, 'item_M_Awakening_Potion_OnUse', 432),
-(12243, 'item_M_Berserk_Potion_OnUse', 433),
-(12244, 'item_Old_Gift_Box_OnUse', 434),
-(12245, 'item_Green_Ale_US_OnUse', 435),
-(12246, 'item_Magic_Card_Album_OnUse', 436),
-(12247, 'item_Halohalo_OnUse', 437),
-(12701, 'item_Old_Blue_Box_F_OnUse', 438),
-(12702, 'item_Old_Bleu_Box_OnUse', 439),
-(12703, 'item_Holy_Egg_2_OnUse', 440),
-(12928, 'item_J_Aspersio_5_Scroll_OnUse', 441),
-(12968, 'item_Emergency_Scroll1_OnUse', 442),
-(12969, 'item_Emergency_Scroll2_OnUse', 443),
-(12970, 'item_Emergency_Scroll3_OnUse', 444),
-(12977, 'item_Teleport_Scroll1_OnUse', 445),
-(12978, 'item_Teleport_Scroll2_OnUse', 446),
-(12979, 'item_Teleport_Scroll3_OnUse', 447),
-(12980, 'item_Teleport_Scroll4_OnUse', 448),
-(12981, 'item_Teleport_Scroll5_OnUse', 449),
-(12982, 'item_Teleport_Scroll6_OnUse', 450),
-(14500, 'item_Insurance60_OnUse', 451),
-(14508, 'item_Zeny_Scroll_OnUse', 452),
-(14509, 'item_Light_Center_Pot_OnUse', 453),
-(14510, 'item_Light_Awakening_Pot_OnUse', 454),
-(14511, 'item_Light_Berserk_Pot_OnUse', 455),
-(14512, 'item_Meteor_10_Scroll_OnUse', 456),
-(14513, 'item_Storm_10_Scroll_OnUse', 457),
-(14514, 'item_Vermilion_10_Scroll_OnUse', 458),
-(14515, 'item_Lex_Aeterna_Scroll_OnUse', 459),
-(14516, 'item_Magnificat_5_Scroll_OnUse', 460),
-(14517, 'item_CP_Helm_Scroll_OnUse', 461),
-(14518, 'item_CP_Shield_Scroll_OnUse', 462),
-(14519, 'item_CP_Armor_Scroll_OnUse', 463),
-(14520, 'item_CP_Weapon_Scroll_OnUse', 464),
-(14521, 'item_Repair_Scroll_OnUse', 465),
-(14522, 'item_Big_Bun_OnUse', 466),
-(14523, 'item_Pill__OnUse', 467),
-(14524, 'item_Superb_Fish_Slice_OnUse', 468),
-(14525, 'item_Chewy_Ricecake_OnUse', 469),
-(14526, 'item_Oriental_Pastry_OnUse', 470),
-(14527, 'item_Dun_Tele_Scroll1_OnUse', 471),
-(0, 'on_use_function', 472),
-(12900, 'item_Battle_Manual_Box_OnUse', 473),
-(12901, 'item_Insurance_Package_OnUse', 474),
-(12902, 'item_Bubble_Gum_Box_OnUse', 475),
-(12903, 'item_Str_Dish_Box_OnUse', 476),
-(12904, 'item_Agi_Dish_Box_OnUse', 477),
-(12905, 'item_Int_Dish_Box_OnUse', 478),
-(12906, 'item_Dex_Dish_Box_OnUse', 479),
-(12907, 'item_Luk_Dish_Box_OnUse', 480),
-(12908, 'item_Vit_Dish_Box_OnUse', 481),
-(12909, 'item_Kafra_Card_Box_OnUse', 482),
-(12910, 'item_Giant_Fly_Wing_Box_OnUse', 483),
-(12911, 'item_Neuralizer_Box_OnUse', 484),
-(12912, 'item_Convex_Mirror_Box_OnUse', 485),
-(12913, 'item_Blessing_10_Scroll_B_OnUse', 486),
-(12914, 'item_Inc_Agi_10_Scroll_Bo_OnUse', 487),
-(12915, 'item_Aspersio_5_Scroll_Bo_OnUse', 488),
-(12916, 'item_Assumptio_5_Scroll_B_OnUse', 489),
-(12917, 'item_Wind_Walk_10_Scroll__OnUse', 490),
-(12918, 'item_Adrenaline_Scroll_Bo_OnUse', 491),
-(12919, 'item_Megaphone_Box_OnUse', 492),
-(12920, 'item_Enriched_Elunium_Box_OnUse', 493),
-(12921, 'item_Enriched_Oridecon_Bo_OnUse', 494),
-(12922, 'item_Token_Of_Siegfried_B_OnUse', 495);
+REPLACE INTO `itemdefinitionsuseable` VALUES(517, 'item_Meat_OnUse', 18);
+REPLACE INTO `itemdefinitionsuseable` VALUES(518, 'item_Honey_OnUse', 19);
+REPLACE INTO `itemdefinitionsuseable` VALUES(519, 'item_Milk_OnUse', 20);
+REPLACE INTO `itemdefinitionsuseable` VALUES(520, 'item_Leaflet_Of_Hinal_OnUse', 21);
+REPLACE INTO `itemdefinitionsuseable` VALUES(521, 'item_Leaflet_Of_Aloe_OnUse', 22);
+REPLACE INTO `itemdefinitionsuseable` VALUES(522, 'item_Fruit_Of_Mastela_OnUse', 23);
+REPLACE INTO `itemdefinitionsuseable` VALUES(523, 'item_Holy_Water_OnUse', 24);
+REPLACE INTO `itemdefinitionsuseable` VALUES(525, 'item_Panacea_OnUse', 25);
+REPLACE INTO `itemdefinitionsuseable` VALUES(526, 'item_Royal_Jelly_OnUse', 26);
+REPLACE INTO `itemdefinitionsuseable` VALUES(528, 'item_Monster''s_Feed_OnUse', 27);
+REPLACE INTO `itemdefinitionsuseable` VALUES(529, 'item_Candy_OnUse', 28);
+REPLACE INTO `itemdefinitionsuseable` VALUES(530, 'item_Candy_Striper_OnUse', 29);
+REPLACE INTO `itemdefinitionsuseable` VALUES(531, 'item_Apple_Juice_OnUse', 30);
+REPLACE INTO `itemdefinitionsuseable` VALUES(532, 'item_Banana_Juice_OnUse', 31);
+REPLACE INTO `itemdefinitionsuseable` VALUES(533, 'item_Grape_Juice_OnUse', 32);
+REPLACE INTO `itemdefinitionsuseable` VALUES(534, 'item_Carrot_Juice_OnUse', 33);
+REPLACE INTO `itemdefinitionsuseable` VALUES(535, 'item_Pumpkin_OnUse', 34);
+REPLACE INTO `itemdefinitionsuseable` VALUES(536, 'item_Ice_Cream_OnUse', 35);
+REPLACE INTO `itemdefinitionsuseable` VALUES(537, 'item_Pet_Food_OnUse', 36);
+REPLACE INTO `itemdefinitionsuseable` VALUES(538, 'item_Well_Baked_Cookie_OnUse', 37);
+REPLACE INTO `itemdefinitionsuseable` VALUES(539, 'item_Piece_Of_Cake_OnUse', 38);
+REPLACE INTO `itemdefinitionsuseable` VALUES(540, 'item_Falcon''s_Feed_OnUse', 39);
+REPLACE INTO `itemdefinitionsuseable` VALUES(541, 'item_Pecopeco''s_Feed_OnUse', 40);
+REPLACE INTO `itemdefinitionsuseable` VALUES(542, 'item_Festive_Cookie_OnUse', 41);
+REPLACE INTO `itemdefinitionsuseable` VALUES(543, 'item_Festive_Rainbow_Cake_OnUse', 42);
+REPLACE INTO `itemdefinitionsuseable` VALUES(544, 'item_Fish_Slice_OnUse', 43);
+REPLACE INTO `itemdefinitionsuseable` VALUES(545, 'item_Red_Slim_Potion_OnUse', 44);
+REPLACE INTO `itemdefinitionsuseable` VALUES(546, 'item_Yellow_Slim_Potion_OnUse', 45);
+REPLACE INTO `itemdefinitionsuseable` VALUES(547, 'item_White_Slim_Potion_OnUse', 46);
+REPLACE INTO `itemdefinitionsuseable` VALUES(548, 'item_Cheese_OnUse', 47);
+REPLACE INTO `itemdefinitionsuseable` VALUES(549, 'item_Nice_Sweet_Potato_OnUse', 48);
+REPLACE INTO `itemdefinitionsuseable` VALUES(550, 'item_Popped_Rice_OnUse', 49);
+REPLACE INTO `itemdefinitionsuseable` VALUES(551, 'item_Shusi_OnUse', 50);
+REPLACE INTO `itemdefinitionsuseable` VALUES(552, 'item_KETUPAT_OnUse', 51);
+REPLACE INTO `itemdefinitionsuseable` VALUES(553, 'item_Bun_OnUse', 52);
+REPLACE INTO `itemdefinitionsuseable` VALUES(554, 'item_Mojji_OnUse', 53);
+REPLACE INTO `itemdefinitionsuseable` VALUES(555, 'item_Rice_Cake_OnUse', 54);
+REPLACE INTO `itemdefinitionsuseable` VALUES(556, 'item_Long_Rice_Cake_OnUse', 55);
+REPLACE INTO `itemdefinitionsuseable` VALUES(557, 'item_Hash_Rice_Cake_OnUse', 56);
+REPLACE INTO `itemdefinitionsuseable` VALUES(558, 'item_Chocolate_OnUse', 57);
+REPLACE INTO `itemdefinitionsuseable` VALUES(559, 'item_HandMade_Chocolate_OnUse', 58);
+REPLACE INTO `itemdefinitionsuseable` VALUES(560, 'item_HandMade_Chocolate__OnUse', 59);
+REPLACE INTO `itemdefinitionsuseable` VALUES(561, 'item_White_Chocolate_OnUse', 60);
+REPLACE INTO `itemdefinitionsuseable` VALUES(562, 'item_Pizza_OnUse', 61);
+REPLACE INTO `itemdefinitionsuseable` VALUES(563, 'item_Pizza_01_OnUse', 62);
+REPLACE INTO `itemdefinitionsuseable` VALUES(564, 'item_Rice_Ball_OnUse', 63);
+REPLACE INTO `itemdefinitionsuseable` VALUES(565, 'item_Vita500_Bottle_OnUse', 64);
+REPLACE INTO `itemdefinitionsuseable` VALUES(566, 'item_Tomyumkung_OnUse', 65);
+REPLACE INTO `itemdefinitionsuseable` VALUES(567, 'item_Prawn_OnUse', 66);
+REPLACE INTO `itemdefinitionsuseable` VALUES(568, 'item_Lemon_OnUse', 67);
+REPLACE INTO `itemdefinitionsuseable` VALUES(569, 'item_Novice_Potion_OnUse', 68);
+REPLACE INTO `itemdefinitionsuseable` VALUES(570, 'item_Lucky_Candy_OnUse', 69);
+REPLACE INTO `itemdefinitionsuseable` VALUES(571, 'item_Lucky_Candy_Cane_OnUse', 70);
+REPLACE INTO `itemdefinitionsuseable` VALUES(572, 'item_Lucky_Cookie_OnUse', 71);
+REPLACE INTO `itemdefinitionsuseable` VALUES(573, 'item_Chocolate_Drink_OnUse', 72);
+REPLACE INTO `itemdefinitionsuseable` VALUES(574, 'item_Egg_OnUse', 73);
+REPLACE INTO `itemdefinitionsuseable` VALUES(575, 'item_Piece_Of_Cake__OnUse', 74);
+REPLACE INTO `itemdefinitionsuseable` VALUES(576, 'item_Prickly_Fruit_OnUse', 75);
+REPLACE INTO `itemdefinitionsuseable` VALUES(577, 'item_Grain_OnUse', 76);
+REPLACE INTO `itemdefinitionsuseable` VALUES(578, 'item_Strawberry_OnUse', 77);
+REPLACE INTO `itemdefinitionsuseable` VALUES(579, 'item_Delicious_Fish_OnUse', 78);
+REPLACE INTO `itemdefinitionsuseable` VALUES(580, 'item_Bread_OnUse', 79);
+REPLACE INTO `itemdefinitionsuseable` VALUES(581, 'item_Mushroom_OnUse', 80);
+REPLACE INTO `itemdefinitionsuseable` VALUES(582, 'item_Orange_OnUse', 81);
+REPLACE INTO `itemdefinitionsuseable` VALUES(583, 'item_KETUPAT__OnUse', 82);
+REPLACE INTO `itemdefinitionsuseable` VALUES(584, 'item_Fish_Ball_Soup_OnUse', 83);
+REPLACE INTO `itemdefinitionsuseable` VALUES(585, 'item_Wurst_OnUse', 84);
+REPLACE INTO `itemdefinitionsuseable` VALUES(586, 'item_Mother''s_Cake_OnUse', 85);
+REPLACE INTO `itemdefinitionsuseable` VALUES(587, 'item_Prickly_Fruit__OnUse', 86);
+REPLACE INTO `itemdefinitionsuseable` VALUES(588, 'item_Spaghetti_OnUse', 87);
+REPLACE INTO `itemdefinitionsuseable` VALUES(589, 'item_Pizza_02_OnUse', 88);
+REPLACE INTO `itemdefinitionsuseable` VALUES(590, 'item_Brezel__OnUse', 89);
+REPLACE INTO `itemdefinitionsuseable` VALUES(591, 'item_Caviar_Pancake_OnUse', 90);
+REPLACE INTO `itemdefinitionsuseable` VALUES(592, 'item_Jam_Pancake_OnUse', 91);
+REPLACE INTO `itemdefinitionsuseable` VALUES(593, 'item_Honey_Pancake_OnUse', 92);
+REPLACE INTO `itemdefinitionsuseable` VALUES(594, 'item_Sour_Cream_Pancake_OnUse', 93);
+REPLACE INTO `itemdefinitionsuseable` VALUES(595, 'item_Mushroom_Pancake_OnUse', 94);
+REPLACE INTO `itemdefinitionsuseable` VALUES(596, 'item_Cute_Strawberry_Choc_OnUse', 95);
+REPLACE INTO `itemdefinitionsuseable` VALUES(597, 'item_Lovely_Choco_Tart_OnUse', 96);
+REPLACE INTO `itemdefinitionsuseable` VALUES(598, 'item_Light_Red_Pot_OnUse', 97);
+REPLACE INTO `itemdefinitionsuseable` VALUES(599, 'item_Light_Orange_Pot_OnUse', 98);
+REPLACE INTO `itemdefinitionsuseable` VALUES(601, 'item_Wing_Of_Fly_OnUse', 103);
+REPLACE INTO `itemdefinitionsuseable` VALUES(602, 'item_Wing_Of_Butterfly_OnUse', 104);
+REPLACE INTO `itemdefinitionsuseable` VALUES(603, 'item_Old_Blue_Box_OnUse', 105);
+REPLACE INTO `itemdefinitionsuseable` VALUES(604, 'item_Branch_Of_Dead_Tree_OnUse', 106);
+REPLACE INTO `itemdefinitionsuseable` VALUES(605, 'item_Anodyne_OnUse', 107);
+REPLACE INTO `itemdefinitionsuseable` VALUES(606, 'item_Aloebera_OnUse', 108);
+REPLACE INTO `itemdefinitionsuseable` VALUES(607, 'item_Yggdrasilberry_OnUse', 109);
+REPLACE INTO `itemdefinitionsuseable` VALUES(608, 'item_Seed_Of_Yggdrasil_OnUse', 110);
+REPLACE INTO `itemdefinitionsuseable` VALUES(609, 'item_Amulet_OnUse', 111);
+REPLACE INTO `itemdefinitionsuseable` VALUES(610, 'item_Leaf_Of_Yggdrasil_OnUse', 112);
+REPLACE INTO `itemdefinitionsuseable` VALUES(611, 'item_Spectacles_OnUse', 113);
+REPLACE INTO `itemdefinitionsuseable` VALUES(612, 'item_Portable_Furnace_OnUse', 114);
+REPLACE INTO `itemdefinitionsuseable` VALUES(613, 'item_Iron_Hammer_OnUse', 115);
+REPLACE INTO `itemdefinitionsuseable` VALUES(614, 'item_Golden_Hammer_OnUse', 116);
+REPLACE INTO `itemdefinitionsuseable` VALUES(615, 'item_Oridecon_Hammer_OnUse', 117);
+REPLACE INTO `itemdefinitionsuseable` VALUES(616, 'item_Old_Card_Album_OnUse', 118);
+REPLACE INTO `itemdefinitionsuseable` VALUES(617, 'item_Old_Violet_Box_OnUse', 119);
+REPLACE INTO `itemdefinitionsuseable` VALUES(618, 'item_Worn_Out_Scroll_OnUse', 120);
+REPLACE INTO `itemdefinitionsuseable` VALUES(619, 'item_Unripe_Apple_OnUse', 121);
+REPLACE INTO `itemdefinitionsuseable` VALUES(620, 'item_Orange_Juice_OnUse', 122);
+REPLACE INTO `itemdefinitionsuseable` VALUES(621, 'item_Bitter_Herb_OnUse', 123);
+REPLACE INTO `itemdefinitionsuseable` VALUES(622, 'item_Rainbow_Carrot_OnUse', 124);
+REPLACE INTO `itemdefinitionsuseable` VALUES(623, 'item_Earthworm_The_Dude_OnUse', 125);
+REPLACE INTO `itemdefinitionsuseable` VALUES(624, 'item_Rotten_Fish_OnUse', 126);
+REPLACE INTO `itemdefinitionsuseable` VALUES(625, 'item_Lusty_Iron_OnUse', 127);
+REPLACE INTO `itemdefinitionsuseable` VALUES(626, 'item_Monster_Juice_OnUse', 128);
+REPLACE INTO `itemdefinitionsuseable` VALUES(627, 'item_Sweet_Milk_OnUse', 129);
+REPLACE INTO `itemdefinitionsuseable` VALUES(628, 'item_Well_Dried_Bone_OnUse', 130);
+REPLACE INTO `itemdefinitionsuseable` VALUES(629, 'item_Singing_Flower_OnUse', 131);
+REPLACE INTO `itemdefinitionsuseable` VALUES(630, 'item_Dew_Laden_Moss_OnUse', 132);
+REPLACE INTO `itemdefinitionsuseable` VALUES(631, 'item_Deadly_Noxious_Herb_OnUse', 133);
+REPLACE INTO `itemdefinitionsuseable` VALUES(632, 'item_Fatty_Chubby_Earthwo_OnUse', 134);
+REPLACE INTO `itemdefinitionsuseable` VALUES(633, 'item_Baked_Yam_OnUse', 135);
+REPLACE INTO `itemdefinitionsuseable` VALUES(634, 'item_Tropical_Banana_OnUse', 136);
+REPLACE INTO `itemdefinitionsuseable` VALUES(635, 'item_Horror_Of_Tribe_OnUse', 137);
+REPLACE INTO `itemdefinitionsuseable` VALUES(636, 'item_No_Recipient_OnUse', 138);
+REPLACE INTO `itemdefinitionsuseable` VALUES(637, 'item_Old_Broom_OnUse', 139);
+REPLACE INTO `itemdefinitionsuseable` VALUES(638, 'item_Silver_Knife_Of_Chas_OnUse', 140);
+REPLACE INTO `itemdefinitionsuseable` VALUES(639, 'item_Armlet_Of_Obedience_OnUse', 141);
+REPLACE INTO `itemdefinitionsuseable` VALUES(640, 'item_Shining_Stone_OnUse', 142);
+REPLACE INTO `itemdefinitionsuseable` VALUES(641, 'item_Contracts_In_Shadow_OnUse', 143);
+REPLACE INTO `itemdefinitionsuseable` VALUES(642, 'item_Book_Of_Devil_OnUse', 144);
+REPLACE INTO `itemdefinitionsuseable` VALUES(643, 'item_Pet_Incubator_OnUse', 145);
+REPLACE INTO `itemdefinitionsuseable` VALUES(644, 'item_Gift_Box_OnUse', 146);
+REPLACE INTO `itemdefinitionsuseable` VALUES(645, 'item_Center_Potion_OnUse', 147);
+REPLACE INTO `itemdefinitionsuseable` VALUES(656, 'item_Awakening_Potion_OnUse', 148);
+REPLACE INTO `itemdefinitionsuseable` VALUES(657, 'item_Berserk_Potion_OnUse', 149);
+REPLACE INTO `itemdefinitionsuseable` VALUES(658, 'item_Union_Of_Tribe_OnUse', 150);
+REPLACE INTO `itemdefinitionsuseable` VALUES(659, 'item_Heart_Of_Her_OnUse', 151);
+REPLACE INTO `itemdefinitionsuseable` VALUES(660, 'item_Prohibition_Red_Cand_OnUse', 152);
+REPLACE INTO `itemdefinitionsuseable` VALUES(661, 'item_Sway_Apron_OnUse', 153);
+REPLACE INTO `itemdefinitionsuseable` VALUES(662, 'item_Inspector_Certificat_OnUse', 154);
+REPLACE INTO `itemdefinitionsuseable` VALUES(663, 'item_Korea_Rice_Cake_OnUse', 155);
+REPLACE INTO `itemdefinitionsuseable` VALUES(664, 'item_Gift_Box_1_OnUse', 156);
+REPLACE INTO `itemdefinitionsuseable` VALUES(665, 'item_Gift_Box_2_OnUse', 157);
+REPLACE INTO `itemdefinitionsuseable` VALUES(666, 'item_Gift_Box_3_OnUse', 158);
+REPLACE INTO `itemdefinitionsuseable` VALUES(667, 'item_Gift_Box_4_OnUse', 159);
+REPLACE INTO `itemdefinitionsuseable` VALUES(668, 'item_Handsei_OnUse', 160);
+REPLACE INTO `itemdefinitionsuseable` VALUES(669, 'item_Rice_Cake_Soup_OnUse', 161);
+REPLACE INTO `itemdefinitionsuseable` VALUES(670, 'item_Gold_Coin_Moneybag_OnUse', 162);
+REPLACE INTO `itemdefinitionsuseable` VALUES(671, 'item_Gold_Coin_OnUse', 163);
+REPLACE INTO `itemdefinitionsuseable` VALUES(672, 'item_Copper_Coin_Moneybag_OnUse', 164);
+REPLACE INTO `itemdefinitionsuseable` VALUES(673, 'item_Copper_Coin_OnUse', 165);
+REPLACE INTO `itemdefinitionsuseable` VALUES(674, 'item_Mithril_Coin_OnUse', 166);
+REPLACE INTO `itemdefinitionsuseable` VALUES(675, 'item_Silver_Coin_OnUse', 167);
+REPLACE INTO `itemdefinitionsuseable` VALUES(676, 'item_Silver_Coin_Moneybag_OnUse', 168);
+REPLACE INTO `itemdefinitionsuseable` VALUES(677, 'item_White_Gold_Coin_OnUse', 169);
+REPLACE INTO `itemdefinitionsuseable` VALUES(678, 'item_Poison_Bottle_OnUse', 170);
+REPLACE INTO `itemdefinitionsuseable` VALUES(679, 'item_Gold_Pill_OnUse', 171);
+REPLACE INTO `itemdefinitionsuseable` VALUES(680, 'item_Magical_Carnation_OnUse', 172);
+REPLACE INTO `itemdefinitionsuseable` VALUES(681, 'item_Memory_Of_Wedding_OnUse', 173);
+REPLACE INTO `itemdefinitionsuseable` VALUES(682, 'item_Realgar_Wine_OnUse', 174);
+REPLACE INTO `itemdefinitionsuseable` VALUES(683, 'item_Exorcize_Herb_OnUse', 175);
+REPLACE INTO `itemdefinitionsuseable` VALUES(684, 'item_Durian_OnUse', 176);
+REPLACE INTO `itemdefinitionsuseable` VALUES(685, 'item_RAMADAN_OnUse', 177);
+REPLACE INTO `itemdefinitionsuseable` VALUES(686, 'item_Earth_Scroll_1_3_OnUse', 178);
+REPLACE INTO `itemdefinitionsuseable` VALUES(687, 'item_Earth_Scroll_1_5_OnUse', 179);
+REPLACE INTO `itemdefinitionsuseable` VALUES(688, 'item_Cold_Scroll_1_3_OnUse', 180);
+REPLACE INTO `itemdefinitionsuseable` VALUES(689, 'item_Cold_Scroll_1_5_OnUse', 181);
+REPLACE INTO `itemdefinitionsuseable` VALUES(690, 'item_Fire_Scroll_1_3_OnUse', 182);
+REPLACE INTO `itemdefinitionsuseable` VALUES(691, 'item_Fire_Scroll_1_5_OnUse', 183);
+REPLACE INTO `itemdefinitionsuseable` VALUES(692, 'item_Wind_Scroll_1_3_OnUse', 184);
+REPLACE INTO `itemdefinitionsuseable` VALUES(693, 'item_Wind_Scroll_1_5_OnUse', 185);
+REPLACE INTO `itemdefinitionsuseable` VALUES(694, 'item_Ghost_Scroll_1_3_OnUse', 186);
+REPLACE INTO `itemdefinitionsuseable` VALUES(695, 'item_Ghost_Scroll_1_5_OnUse', 187);
+REPLACE INTO `itemdefinitionsuseable` VALUES(696, 'item_Fire_Scroll_2_1_OnUse', 188);
+REPLACE INTO `itemdefinitionsuseable` VALUES(697, 'item_Fire_Scroll_2_5_OnUse', 189);
+REPLACE INTO `itemdefinitionsuseable` VALUES(698, 'item_Fire_Scroll_3_1_OnUse', 190);
+REPLACE INTO `itemdefinitionsuseable` VALUES(699, 'item_Fire_Scroll_3_5_OnUse', 191);
+REPLACE INTO `itemdefinitionsuseable` VALUES(700, 'item_Cold_Scroll_2_1_OnUse', 192);
+REPLACE INTO `itemdefinitionsuseable` VALUES(11500, 'item_Light_Yellow_Pot_OnUse', 99);
+REPLACE INTO `itemdefinitionsuseable` VALUES(11501, 'item_Light_White_Pot_OnUse', 100);
+REPLACE INTO `itemdefinitionsuseable` VALUES(11701, 'item_Girl_Bunch_Of_Flower_OnUse', 101);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12000, 'item_Cold_Scroll_2_5_OnUse', 193);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12001, 'item_Holy_Scroll_1_3_OnUse', 194);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12002, 'item_Holy_Scroll_1_5_OnUse', 195);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12003, 'item_Holy_Scroll_2_1_OnUse', 196);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12004, 'item_Arrow_Container_OnUse', 197);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12005, 'item_Iron_Arrow_Container_OnUse', 198);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12006, 'item_Steel_Arrow_Containe_OnUse', 199);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12007, 'item_Ori_Arrow_Container_OnUse', 200);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12008, 'item_Fire_Arrow_Container_OnUse', 201);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12009, 'item_Silver_Arrow_Contain_OnUse', 202);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12010, 'item_Wind_Arrow_Container_OnUse', 203);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12011, 'item_Stone_Arrow_Containe_OnUse', 204);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12012, 'item_Crystal_Arrow_Contai_OnUse', 205);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12013, 'item_Shadow_Arrow_Contain_OnUse', 206);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12014, 'item_Imma_Arrow_Container_OnUse', 207);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12015, 'item_Rusty_Arrow_Containe_OnUse', 208);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12016, 'item_Speed_Up_Potion_OnUse', 209);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12017, 'item_Slow_Down_Potion_OnUse', 210);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12018, 'item_Fire_Cracker_OnUse', 211);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12019, 'item_Holy_Egg_OnUse', 212);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12020, 'item_Water_Of_Darkness_OnUse', 213);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12021, 'item_Pork_Belly_OnUse', 214);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12022, 'item_Spareribs_OnUse', 215);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12023, 'item_Giftbox_China_OnUse', 216);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12024, 'item_Red_Pouch_Of_Surpris_OnUse', 217);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12025, 'item_Egg_Boy_OnUse', 218);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12026, 'item_Egg_Girl_OnUse', 219);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12027, 'item_Giggling_Box_OnUse', 220);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12028, 'item_Box_Of_Thunder_OnUse', 221);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12029, 'item_Gloomy_Box_OnUse', 222);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12030, 'item_Box_Of_Grudge_OnUse', 223);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12031, 'item_Sleepy_Box_OnUse', 224);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12032, 'item_Box_Of_Storm_OnUse', 225);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12033, 'item_Box_Of_Sunlight_OnUse', 226);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12034, 'item_Painting_Box_OnUse', 227);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12035, 'item_Lotto_Box01_OnUse', 228);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12036, 'item_Lotto_Box02_OnUse', 229);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12037, 'item_Lotto_Box03_OnUse', 230);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12038, 'item_Lotto_Box04_OnUse', 231);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12039, 'item_Lotto_Box05_OnUse', 232);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12040, 'item_Stone_Of_Intelligenc_OnUse', 233);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12041, 'item_Str_Dish01_OnUse', 234);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12042, 'item_Str_Dish02_OnUse', 235);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12043, 'item_Str_Dish03_OnUse', 236);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12044, 'item_Str_Dish04_OnUse', 237);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12045, 'item_Str_Dish05_OnUse', 238);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12046, 'item_Int_Dish01_OnUse', 239);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12047, 'item_Int_Dish02_OnUse', 240);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12048, 'item_Int_Dish03_OnUse', 241);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12049, 'item_Int_Dish04_OnUse', 242);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12050, 'item_Int_Dish05_OnUse', 243);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12051, 'item_Vit_Dish01_OnUse', 244);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12052, 'item_Vit_Dish02_OnUse', 245);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12053, 'item_Vit_Dish03_OnUse', 246);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12054, 'item_Vit_Dish04_OnUse', 247);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12055, 'item_Vit_Dish05_OnUse', 248);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12056, 'item_Agi_Dish01_OnUse', 249);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12057, 'item_Agi_Dish02_OnUse', 250);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12058, 'item_Agi_Dish03_OnUse', 251);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12059, 'item_Agi_Dish04_OnUse', 252);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12060, 'item_Agi_Dish05_OnUse', 253);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12061, 'item_Dex_Dish01_OnUse', 254);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12062, 'item_Dex_Dish02_OnUse', 255);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12063, 'item_Dex_Dish03_OnUse', 256);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12064, 'item_Dex_Dish04_OnUse', 257);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12065, 'item_Dex_Dish05_OnUse', 258);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12066, 'item_Luk_Dish01_OnUse', 259);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12067, 'item_Luk_Dish02_OnUse', 260);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12068, 'item_Luk_Dish03_OnUse', 261);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12069, 'item_Luk_Dish04_OnUse', 262);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12070, 'item_Luk_Dish05_OnUse', 263);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12071, 'item_Str_Dish06_OnUse', 264);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12072, 'item_Str_Dish07_OnUse', 265);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12073, 'item_Str_Dish08_OnUse', 266);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12074, 'item_Str_Dish09_OnUse', 267);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12075, 'item_Str_Dish10_OnUse', 268);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12076, 'item_Int_Dish06_OnUse', 269);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12077, 'item_Int_Dish07_OnUse', 270);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12078, 'item_Int_Dish08_OnUse', 271);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12079, 'item_Int_Dish09_OnUse', 272);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12080, 'item_Int_Dish10_OnUse', 273);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12081, 'item_Vit_Dish06_OnUse', 274);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12082, 'item_Vit_Dish07_OnUse', 275);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12083, 'item_Vit_Dish08_OnUse', 276);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12084, 'item_Vit_Dish09_OnUse', 277);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12085, 'item_Vit_Dish10_OnUse', 278);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12086, 'item_Agi_Dish06_OnUse', 279);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12087, 'item_Agi_Dish07_OnUse', 280);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12088, 'item_Agi_Dish08_OnUse', 281);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12089, 'item_Agi_Dish09_OnUse', 282);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12090, 'item_Agi_Dish10_OnUse', 283);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12091, 'item_Dex_Dish06_OnUse', 284);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12092, 'item_Dex_Dish07_OnUse', 285);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12093, 'item_Dex_Dish08_OnUse', 286);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12094, 'item_Dex_Dish09_OnUse', 287);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12095, 'item_Dex_Dish10_OnUse', 288);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12096, 'item_Luk_Dish06_OnUse', 289);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12097, 'item_Luk_Dish07_OnUse', 290);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12098, 'item_Luk_Dish08_OnUse', 291);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12099, 'item_Luk_Dish09_OnUse', 292);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12100, 'item_Luk_Dish10_OnUse', 293);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12101, 'item_Citron_OnUse', 294);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12102, 'item_Meat_Skewer_OnUse', 295);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12103, 'item_Bloody_Dead_Branch_OnUse', 296);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12104, 'item_Random_Quiver_OnUse', 297);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12105, 'item_Set_Of_Taiming_Item_OnUse', 298);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12106, 'item_Accessory_Box_OnUse', 299);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12107, 'item_Wrapped_Mask_OnUse', 300);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12108, 'item_Bundle_Of_Magic_Scro_OnUse', 301);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12109, 'item_Poring_Box_OnUse', 302);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12110, 'item_First_Aid_Kit_OnUse', 303);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12111, 'item_Food_Package_OnUse', 304);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12112, 'item_Tropical_Sograt_OnUse', 305);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12113, 'item_Vermilion_The_Beach_OnUse', 306);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12114, 'item_Elemental_Fire_OnUse', 307);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12115, 'item_Elemental_Water_OnUse', 308);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12116, 'item_Elemental_Earth_OnUse', 309);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12117, 'item_Elemental_Wind_OnUse', 310);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12118, 'item_Resist_Fire_OnUse', 311);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12119, 'item_Resist_Water_OnUse', 312);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12120, 'item_Resist_Earth_OnUse', 313);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12121, 'item_Resist_Wind_OnUse', 314);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12122, 'item_Sesame_Pastry_OnUse', 315);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12123, 'item_Honey_Pastry_OnUse', 316);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12124, 'item_Rainbow_Cake_OnUse', 317);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12125, 'item_Outdoor_Cooking_Kits_OnUse', 318);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12126, 'item_Indoor_Cooking_Kits_OnUse', 319);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12127, 'item_High_end_Cooking_Kit_OnUse', 320);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12128, 'item_Imperial_Cooking_Kit_OnUse', 321);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12129, 'item_Fantastic_Cooking_Ki_OnUse', 322);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12130, 'item_Cookie_Bag_OnUse', 323);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12131, 'item_Lucky_Potion_OnUse', 324);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12132, 'item_Red_Bag_OnUse', 325);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12133, 'item_Ice_Cream__OnUse', 326);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12134, 'item_Red_Envelope_OnUse', 327);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12135, 'item_Green_Ale_OnUse', 328);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12136, 'item_Women''s_Bundl_OnUse', 329);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12137, 'item_1st_Stage_Prize_OnUse', 330);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12138, 'item_2nd_Stage_Prize_OnUse', 331);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12139, 'item_3rd_Stage_Prize_OnUse', 332);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12140, 'item_4th_Stage_Prize_OnUse', 333);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12141, 'item_5th_Stage_Prize_OnUse', 334);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12142, 'item_Magic_Book_OnUse', 335);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12143, 'item_Red_Can_OnUse', 336);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12144, 'item_Sphere_Case_Wind_OnUse', 337);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12145, 'item_Sphere_Case_Darkness_OnUse', 338);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12146, 'item_Sphere_Case_Poison_OnUse', 339);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12147, 'item_Sphere_Case_Water_OnUse', 340);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12148, 'item_Sphere_Case_Fire_OnUse', 341);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12149, 'item_Bullet_Case_OnUse', 342);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12150, 'item_Bullet_Case_Blood_OnUse', 343);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12151, 'item_Bullet_Case_Silver_OnUse', 344);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12152, 'item_Special_Box_OnUse', 345);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12153, 'item_Bow_Mercenary_Scroll_OnUse', 346);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12154, 'item_Bow_Mercenary_Scroll_OnUse', 347);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12155, 'item_Bow_Mercenary_Scroll_OnUse', 348);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12156, 'item_Bow_Mercenary_Scroll_OnUse', 349);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12157, 'item_Bow_Mercenary_Scroll_OnUse', 350);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12158, 'item_Bow_Mercenary_Scroll_OnUse', 351);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12159, 'item_Bow_Mercenary_Scroll_OnUse', 352);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12160, 'item_Bow_Mercenary_Scroll_OnUse', 353);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12161, 'item_Bow_Mercenary_Scroll_OnUse', 354);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12162, 'item_Bow_Mercenary_Scroll_OnUse', 355);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12163, 'item_SwordMercenary_Scrol_OnUse', 356);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12164, 'item_SwordMercenary_Scrol_OnUse', 357);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12165, 'item_SwordMercenary_Scrol_OnUse', 358);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12166, 'item_SwordMercenary_Scrol_OnUse', 359);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12167, 'item_SwordMercenary_Scrol_OnUse', 360);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12168, 'item_SwordMercenary_Scrol_OnUse', 361);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12169, 'item_SwordMercenary_Scrol_OnUse', 362);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12170, 'item_SwordMercenary_Scrol_OnUse', 363);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12171, 'item_SwordMercenary_Scrol_OnUse', 364);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12172, 'item_SwordMercenary_Scrol_OnUse', 365);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12173, 'item_SpearMercenary_Scrol_OnUse', 366);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12174, 'item_SpearMercenary_Scrol_OnUse', 367);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12175, 'item_SpearMercenary_Scrol_OnUse', 368);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12176, 'item_SpearMercenary_Scrol_OnUse', 369);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12177, 'item_SpearMercenary_Scrol_OnUse', 370);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12178, 'item_SpearMercenary_Scrol_OnUse', 371);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12179, 'item_SpearMercenary_Scrol_OnUse', 372);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12180, 'item_SpearMercenary_Scrol_OnUse', 373);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12181, 'item_SpearMercenary_Scrol_OnUse', 374);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12182, 'item_SpearMercenary_Scrol_OnUse', 375);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12183, 'item_Holy_Arrow_Quiver_OnUse', 376);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12184, 'item_Mercenary_Red_Potion_OnUse', 377);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12185, 'item_Mercenary_Blue_Potio_OnUse', 378);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12186, 'item_Red_Box_OnUse', 379);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12187, 'item_Green_Box_OnUse', 380);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12188, 'item_Magical_Moon_Cake_OnUse', 381);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12189, 'item_Red_Box__OnUse', 382);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12190, 'item_Moon_Cake_OnUse', 383);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12191, 'item_Special_Moon_Cake_OnUse', 384);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12192, 'item_Pumpkin_Pie_OnUse', 385);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12193, 'item_Brezel_OnUse', 386);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12194, 'item_Hometown_Gift_OnUse', 387);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12195, 'item_Plain_Rice_Cake_OnUse', 388);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12196, 'item_Hearty_Rice_Cake_OnUse', 389);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12197, 'item_Salty_Rice_Cake_OnUse', 390);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12198, 'item_Lucky_Rice_Cake_OnUse', 391);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12199, 'item_Rice_Scroll_OnUse', 392);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12200, 'item_Event_Cake_OnUse', 393);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12201, 'item_Red_Box_C_OnUse', 394);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12202, 'item_Str_Dish10__OnUse', 395);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12203, 'item_Agi_Dish10__OnUse', 396);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12204, 'item_Int_Dish10__OnUse', 397);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12205, 'item_Dex_Dish10__OnUse', 398);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12206, 'item_Luk_Dish10__OnUse', 399);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12207, 'item_Vit_Dish10__OnUse', 400);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12208, 'item_Battle_Manual_OnUse', 401);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12209, 'item_Insurance_OnUse', 402);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12210, 'item_Bubble_Gum_OnUse', 403);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12211, 'item_Kafra_Card_OnUse', 404);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12212, 'item_Giant_Fly_Wing_OnUse', 405);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12213, 'item_Neuralizer_OnUse', 406);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12214, 'item_Convex_Mirror_OnUse', 407);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12215, 'item_Blessing_10_Scroll_OnUse', 408);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12216, 'item_Inc_Agi_10_Scroll_OnUse', 409);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12217, 'item_Aspersio_5_Scroll_OnUse', 410);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12218, 'item_Assumptio_5_Scroll_OnUse', 411);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12219, 'item_Wind_Walk_10_Scroll_OnUse', 412);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12220, 'item_Adrenaline_Scroll_OnUse', 413);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12221, 'item_Megaphone__OnUse', 414);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12225, 'item_Sweet_Candy_Striper_OnUse', 415);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12226, 'item_Examination1_OnUse', 416);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12227, 'item_Examination2_OnUse', 417);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12228, 'item_Examination3_OnUse', 418);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12229, 'item_Examination4_OnUse', 419);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12230, 'item_Examination5_OnUse', 420);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12231, 'item_Examination6_OnUse', 421);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12232, 'item_Gingerbread_OnUse', 422);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12233, 'item_Kvass_OnUse', 423);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12234, 'item_Cacao99_OnUse', 424);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12235, 'item_Strawberry_Choco_OnUse', 425);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12236, 'item_Choco_Tart_OnUse', 426);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12237, 'item_Choco_Lump_OnUse', 427);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12238, 'item_New_Year_Rice_Cake_1_OnUse', 428);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12239, 'item_New_Year_Rice_Cake_2_OnUse', 429);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12240, 'item_Old_Yellow_Box_OnUse', 430);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12241, 'item_M_Center_Potion_OnUse', 431);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12242, 'item_M_Awakening_Potion_OnUse', 432);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12243, 'item_M_Berserk_Potion_OnUse', 433);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12244, 'item_Old_Gift_Box_OnUse', 434);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12245, 'item_Green_Ale_US_OnUse', 435);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12246, 'item_Magic_Card_Album_OnUse', 436);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12247, 'item_Halohalo_OnUse', 437);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12701, 'item_Old_Blue_Box_F_OnUse', 438);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12702, 'item_Old_Bleu_Box_OnUse', 439);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12703, 'item_Holy_Egg_2_OnUse', 440);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12928, 'item_J_Aspersio_5_Scroll_OnUse', 441);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12968, 'item_Emergency_Scroll1_OnUse', 442);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12969, 'item_Emergency_Scroll2_OnUse', 443);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12970, 'item_Emergency_Scroll3_OnUse', 444);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12977, 'item_Teleport_Scroll1_OnUse', 445);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12978, 'item_Teleport_Scroll2_OnUse', 446);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12979, 'item_Teleport_Scroll3_OnUse', 447);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12980, 'item_Teleport_Scroll4_OnUse', 448);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12981, 'item_Teleport_Scroll5_OnUse', 449);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12982, 'item_Teleport_Scroll6_OnUse', 450);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14500, 'item_Insurance60_OnUse', 451);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14508, 'item_Zeny_Scroll_OnUse', 452);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14509, 'item_Light_Center_Pot_OnUse', 453);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14510, 'item_Light_Awakening_Pot_OnUse', 454);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14511, 'item_Light_Berserk_Pot_OnUse', 455);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14512, 'item_Meteor_10_Scroll_OnUse', 456);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14513, 'item_Storm_10_Scroll_OnUse', 457);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14514, 'item_Vermilion_10_Scroll_OnUse', 458);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14515, 'item_Lex_Aeterna_Scroll_OnUse', 459);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14516, 'item_Magnificat_5_Scroll_OnUse', 460);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14517, 'item_CP_Helm_Scroll_OnUse', 461);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14518, 'item_CP_Shield_Scroll_OnUse', 462);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14519, 'item_CP_Armor_Scroll_OnUse', 463);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14520, 'item_CP_Weapon_Scroll_OnUse', 464);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14521, 'item_Repair_Scroll_OnUse', 465);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14522, 'item_Big_Bun_OnUse', 466);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14523, 'item_Pill__OnUse', 467);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14524, 'item_Superb_Fish_Slice_OnUse', 468);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14525, 'item_Chewy_Ricecake_OnUse', 469);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14526, 'item_Oriental_Pastry_OnUse', 470);
+REPLACE INTO `itemdefinitionsuseable` VALUES(14527, 'item_Dun_Tele_Scroll1_OnUse', 471);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12900, 'item_Battle_Manual_Box_OnUse', 473);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12901, 'item_Insurance_Package_OnUse', 474);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12902, 'item_Bubble_Gum_Box_OnUse', 475);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12903, 'item_Str_Dish_Box_OnUse', 476);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12904, 'item_Agi_Dish_Box_OnUse', 477);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12905, 'item_Int_Dish_Box_OnUse', 478);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12906, 'item_Dex_Dish_Box_OnUse', 479);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12907, 'item_Luk_Dish_Box_OnUse', 480);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12908, 'item_Vit_Dish_Box_OnUse', 481);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12909, 'item_Kafra_Card_Box_OnUse', 482);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12910, 'item_Giant_Fly_Wing_Box_OnUse', 483);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12911, 'item_Neuralizer_Box_OnUse', 484);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12912, 'item_Convex_Mirror_Box_OnUse', 485);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12913, 'item_Blessing_10_Scroll_B_OnUse', 486);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12914, 'item_Inc_Agi_10_Scroll_Bo_OnUse', 487);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12915, 'item_Aspersio_5_Scroll_Bo_OnUse', 488);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12916, 'item_Assumptio_5_Scroll_B_OnUse', 489);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12917, 'item_Wind_Walk_10_Scroll__OnUse', 490);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12918, 'item_Adrenaline_Scroll_Bo_OnUse', 491);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12919, 'item_Megaphone_Box_OnUse', 492);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12920, 'item_Enriched_Elunium_Box_OnUse', 493);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12921, 'item_Enriched_Oridecon_Bo_OnUse', 494);
+REPLACE INTO `itemdefinitionsuseable` VALUES(12922, 'item_Token_Of_Siegfried_B_OnUse', 495);
 
 
 -- --------------------------------------------------------

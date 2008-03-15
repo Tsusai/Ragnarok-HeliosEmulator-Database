@@ -1,3 +1,7 @@
+-Rev 8-
+[2008/3/15] Spre - SQL Code Cleanup, Removed a bunch Of Unneeded NULL Rows.
+-
+
 -Rev 7-
 [2008/3/15] Spre - Updated Both itemDefinitions and ItenDefinitionsUsable Tables, Added all usable items.
 -
