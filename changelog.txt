@@ -1,3 +1,7 @@
+-Rev 10-
+[2008/3/15] Spre - Committed Extremely Alpha Version of mob database, This is located in Branches/SQL/MySQL and should NOT be used for anything live.
+-
+
 -Rev 9-
 [2008/3/15] Spre - Added SQLite Update and Modified Game.sql Adding the new items.
 -
