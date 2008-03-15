@@ -1,24 +1,28 @@
-- Rev 6-
+-Rev 7-
+[2008/3/15] Spre - Updated Both itemDefinitions and ItenDefinitionsUsable Tables, Added all usable items.
+-
+
+-Rev 6-
 [2008/3/14] Spre - Updated game.sql, added missing stat fields to itemdefinitionsequip table
 [2008/3/14] Spre - Added New update directory under MySQL, added an update for the new sql.
 -
 
-- Rev 5-
+-Rev 5-
 [2008/3/13] Spre - Added Branch/tags/Trunk Directory Structure.
 -
 
-- Rev 4-
+-Rev 4-
 [2008/3/13] Spre - Fixed Changelog.
 -
 
-- Rev 3-
+-Rev 3-
 [2008/3/13] Spre - Readded the sql files.. lol.
 -
 
-- Rev 2-
+-Rev 2-
 [2008/3/13] Spre - Fixed Directory structure. They shoul dnow be under a SQL/ Directory tree.
 -
 
-- Rev 1-
+-Rev 1-
 [2008/3/13] Spre - Migrated SQLite, MySQL, and YML Databases over from The core repo.
 -
