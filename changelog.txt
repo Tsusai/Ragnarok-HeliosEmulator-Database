@@ -1,3 +1,7 @@
+-Rev 9-
+[2008/3/15] Spre - Added SQLite Update and Modified Game.sql Adding the new items.
+-
+
 -Rev 8-
 [2008/3/15] Spre - SQL Code Cleanup, Removed a bunch Of Unneeded NULL Rows.
 -
