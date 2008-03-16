@@ -1,3 +1,7 @@
+-Rev 13-
+[2008/3/15] Spre - Added Magic_defnese_rating for mdef stat in equip table, Also fixed field error with element.
+-
+
 -Rev 12-
 [2008/3/15] Spre - Forgot to readd The element field In ItemDefinitionsequip.
 -
