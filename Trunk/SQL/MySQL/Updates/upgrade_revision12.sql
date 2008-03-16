@@ -1,0 +1,1 @@
+ALTER TABLE `itemdefinitionsequip` ADD `element` TINYINT( 4 ) NOT NULL AFTER `defense_rating` ;

@@ -1495,6 +1495,7 @@ CREATE TABLE IF NOT EXISTS `itemdefinitionsequip` (
   `allowed_jobs` int(11) default NULL,
   `allowed_gender` tinyint(4) default NULL,
   `defense_rating` int(11) default NULL,
+  `element` tinyint(4) NOT NULL,
   `body_region` int(11) default NULL,
   `on_defend_function` varchar(50) default NULL,
   `attack_rating` int(11) default NULL,
