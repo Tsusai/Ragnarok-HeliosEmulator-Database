@@ -1,3 +1,7 @@
+-Rev 11-
+[2008/3/15] Spre - Updated ItemDefinitions Table adding weapons, also Added these to the ItemDefinitionEquip table. No Script functions yet.
+-
+
 -Rev 10-
 [2008/3/15] Spre - Committed Extremely Alpha Version of mob database, This is located in Branches/SQL/MySQL and should NOT be used for anything live.
 -
