@@ -1,3 +1,7 @@
+-Rev 14-
+[2008/3/16] Spre - Modified Alpha Mob DB Code, removed some possible unneeded Rows. Changes atk1&2 around.
+-
+
 -Rev 13-
 [2008/3/15] Spre - Added Magic_defnese_rating for mdef stat in equip table, Also fixed field error with element.
 -
