@@ -1,3 +1,7 @@
+-Rev 15-
+[2008/3/16] Spre - Added known Mobs from aegis/yaros into the new mobs database. Please Note helios does not currently use this.
+-
+
 -Rev 14-
 [2008/3/16] Spre - Modified Alpha Mob DB Code, removed some possible unneeded Rows. Changes atk1&2 around.
 -
