@@ -1,3 +1,24 @@
+  _    _          _   _
+ | |  | |        | | (_)              
+ | |__| |   ___  | |  _    ___    ___
+ |  __  |  / _ \ | | | |  / _ \  / __|
+ | |  | | |  __/ | | | | | (_) | \__ \
+ |_|  |_|  \___| |_| |_|  \___/  |___/
+
+
+Ragnarok Emulator
+Developers & Contributers
+- RaX
+- Aeomin
+- Spre
+- RabidCh
+
+--------------------------------------------------------------------------------
+
+-Rev 18-
+[2008/3/17] Spre - Added header to changelog.
+-
+
 -Rev 17-
 [2008/3/17] RabidCh - Removed stat, price_sell, and defense_rating(s) from item.sql.
 -
