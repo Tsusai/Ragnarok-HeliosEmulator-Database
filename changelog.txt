@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 19-
+[2008/3/21] Spre - Updated maps table.
+-
+
 -Rev 18-
 [2008/3/17] Spre - Added header to changelog.
 -
