@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 21-
+[2008/4/6] RabidCh - Added "compound_eq_location" to itemdefinitions fields.
+-
+
 -Rev 20-
 [2008/4/6] RabidCh - Erased Spre's item database entries. :)
 [2008/4/6] RabidCh - Renamed for clarification, many fields of itemdefinitionsequip.

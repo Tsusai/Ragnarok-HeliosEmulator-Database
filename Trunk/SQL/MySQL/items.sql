@@ -2333,6 +2333,7 @@ INSERT INTO `itemdefinitionsequip` (`item_definition_id`, `slots`, `weapon_level
 CREATE TABLE `itemdefinitionsmisc` (
   `item_definition_id` int(11) NOT NULL,
   `on_compound_function` varchar(255) default NULL,
+  `compound_eq_location` int(11) NOT NULL,
   `id` int(11) NOT NULL auto_increment,
   PRIMARY KEY  (`id`),
   KEY `ItemDefinitionsMisc_FI_1` (`item_definition_id`)
