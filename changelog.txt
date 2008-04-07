@@ -15,6 +15,12 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 20-
+[2008/4/6] RabidCh - Erased Spre's item database entries. :)
+[2008/4/6] RabidCh - Renamed for clarification, many fields of itemdefinitionsequip.
+[2008/4/6] RabidCh - Added in all equipable item records.  Some items are entered in strangely... Muad_Dib needed.
+-
+
 -Rev 19-
 [2008/3/21] Spre - Updated maps table.
 -
