@@ -14,6 +14,11 @@ Developers & Contributers
 - RabidCh
 
 --------------------------------------------------------------------------------
+
+-Rev 24-
+[2008/6/28] Spre - Went ahead and added the mob sql that I never committed to branches/
+-
+
 -Rev 23-
 [2008/4/10] RabidCh - Most items are completely defined without function names.  Database is missing eggs and ammo items.
 -
