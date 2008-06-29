@@ -15,8 +15,12 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 27-
+[2008/6/28] Spre - Fixed a changelog typo :D. Also one small adjustment to the new sqlite update.
+-
+
 -Rev 26-
-[2008/6/28] Spre - Same as revision 25 but for SQLITE, any issues leet me know or revert.
+[2008/6/28] Spre - Same as revision 25 but for SQLITE, any issues let me know or revert.
 -
 
 -Rev 25-
