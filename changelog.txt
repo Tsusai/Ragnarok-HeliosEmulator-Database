@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 26-
+[2008/6/28] Spre - Same as revision 25 but for SQLITE, any issues leet me know or revert.
+-
+
 -Rev 25-
 [2008/6/28] Spre - Went ahead and added some more sql, this will be tweaked as the features get written, this is just a *layout*
 -
