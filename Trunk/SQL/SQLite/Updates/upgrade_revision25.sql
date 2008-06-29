@@ -1,6 +1,22 @@
 --Update adding quests, auction etc. Used eAthena as the source.
 
 -----------------------------------------------------------------------------
+-- Mail
+-----------------------------------------------------------------------------
+
+ CREATE TABLE [mail]
+ (
+   [sender_id] INTEGER NOT NULL PRIMARY KEY,
+   [sender_name] VARCHAR(24),
+   [reciever_id] INTEGER NOT NULL,
+   [reciever_name] VARCHAR(24),
+   [mail_title] VARCHAR(40),
+   [mail_message] TINYTEXT
+   [mail_time] INTEGER NOT NULL,
+   [mail_read] TINYINT NOT NULL,
+   ) ENGINE=MyISAM;
+   
+-----------------------------------------------------------------------------
 -- Quests
 -----------------------------------------------------------------------------
 
@@ -12,11 +28,11 @@ CREATE TABLE [quests]
  
 CREATE TABLE [quest_reqs]
 (
-  `id` INTEGER NOT NULL PRIMARY KEY,
-  `quest_count` INTEGER NOT NULL,
-  `quest_name` VARCHAR(255),
-  `quest_num` INTEGER NOT NULL PRIMARY KEY,
-  `char_id` INTEGER NOT NULL PRIMARY KEY,
+  [id] INTEGER NOT NULL PRIMARY KEY,
+  [quest_count] INTEGER NOT NULL,
+  [quest_name] VARCHAR(255),
+  [quest_num] INTEGER NOT NULL PRIMARY KEY,
+  [char_id] INTEGER NOT NULL PRIMARY KEY,
 );
 
 -----------------------------------------------------------------------------

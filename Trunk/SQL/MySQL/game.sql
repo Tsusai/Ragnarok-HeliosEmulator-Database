@@ -16,6 +16,21 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- --------------------------------------------------------
 
 --
+-- Table Structure for table `mail`
+--
+
+ CREATE TABLE `mail` (
+   `sender_id` bigint(20) unsigned NOT NULL default '0',
+   `sender_name` VARCHAR(24) unsigned NOT NULL default '0',
+   `reciever_id` bigint(20) unsigned NOT NULL default '0',
+   `reciever_name` VARCHAR(24) unsigned NOT NULL default '0',
+   `mail_title` VARCHAR(40) unsigned NOT NULL default '0',
+   `mail_message` VARCHAR(255) unsigned NOT NULL default '0',
+   `mail_time` int(11) unsigned NOT NULL default '0',
+   `mail_read` tinyint(1) NOT NULL default '0',
+   ) ENGINE=MyISAM;
+
+--
 -- Table structure for table `quests`
 --
 

@@ -15,6 +15,12 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 28-
+[2008/6/29] Spre - READDED the mail sql, this time using Aeomins version of it, which works much better.
+[2008/6/29] Spre -  Fixed some small issues in SQLITE.
+-
+
+
 -Rev 27-
 [2008/6/28] Spre - Fixed a changelog typo :D. Also one small adjustment to the new sqlite update.
 -
