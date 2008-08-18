@@ -15,6 +15,12 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 29-
+[2008/8/17] RabidCh - Changed item_type in itemdefinions to ENUM.
+[2008/8/17] RabidCh - Fixed misspelling of usable in itemdefinitions.
+-
+
+
 -Rev 28-
 [2008/6/29] Spre - READDED the mail sql, this time using Aeomins version of it, which works much better.
 [2008/6/29] Spre -  Fixed some small issues in SQLITE.
