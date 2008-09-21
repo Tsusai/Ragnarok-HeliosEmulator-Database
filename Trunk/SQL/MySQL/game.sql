@@ -14,23 +14,20 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- 
 
 -- --------------------------------------------------------
-
---
--- Table Structure for table `mail`
---
-
- CREATE TABLE `mail` (
-   `sender_id` bigint(20) unsigned NOT NULL default '0',
-   `sender_name` VARCHAR(24) unsigned NOT NULL default '0',
-   `reciever_id` bigint(20) unsigned NOT NULL default '0',
-   `reciever_name` VARCHAR(24) unsigned NOT NULL default '0',
-   `mail_title` VARCHAR(40) unsigned NOT NULL default '0',
-   `mail_message` VARCHAR(255) unsigned NOT NULL default '0',
-   `mail_time` int(11) unsigned NOT NULL default '0',
-   `mail_read` tinyint(1) NOT NULL default '0',
-   ) ENGINE=MyISAM;
-
---
+CREATE TABLE `mailbox` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `sender_id` int(11) unsigned NOT NULL DEFAULT '0',
+  `sender_name` varchar(30) NOT NULL DEFAULT '',
+  `receiver_id` int(11) unsigned NOT NULL DEFAULT '0',
+  `receiver_name` varchar(30) NOT NULL DEFAULT '',
+  `title` varchar(45) NOT NULL DEFAULT '',
+  `message` tinytext NOT NULL,
+  `time` int(11) unsigned NOT NULL DEFAULT '0',
+  `read` tinyint(1) unsigned DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `sender` (`sender_id`),
+  KEY `receiver` (`receiver_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 -- Table structure for table `quests`
 --
 

@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 30 -
+[2008/09/21] Aeomin - Updated mailbox.
+-
+
 -Rev 29-
 [2008/8/17] RabidCh - Changed item_type in itemdefinions to ENUM.
 [2008/8/17] RabidCh - Fixed misspelling of usable in itemdefinitions.
