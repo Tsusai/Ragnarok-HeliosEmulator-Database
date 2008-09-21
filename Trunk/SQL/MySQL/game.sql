@@ -33,8 +33,8 @@ CREATE TABLE `mailbox` (
 
 CREATE TABLE `quests` (
   `id` bigint(20) unsigned NOT NULL auto_increment,
-  `char_id` int(11) unisgned NOT NULL default '0'
-  PRIMARY KEY (`id`,1char_id`)
+  `char_id` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id`,`char_id`)
  ) ENGINE=MyISAM;
  
 CREATE TABLE `quest_reqs` (

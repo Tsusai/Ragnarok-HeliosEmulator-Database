@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 31-
+[2008/9/21] RaX - Fixed more typos in game.sql.
+-
+
 - Rev 30 -
 [2008/09/21] Aeomin - Updated mailbox.
 -
