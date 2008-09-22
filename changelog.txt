@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 36-
+[2008/09/21] Spre - Removed The .baks i left.
+-
+
 -Rev 35-
 [2008/09/22] Spre - Updated SQLITE according to rax, specifications.
 [2008/09/22] Spre - Fixed some changelog entries.
