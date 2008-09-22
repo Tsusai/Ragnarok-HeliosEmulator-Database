@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 34 -
+[2008/09/21] Spre - Removed my Mob sql in branches as it is nolonger needed.
+-
+
 - Rev 33 -
 [2008/09/21] Aeomin - Added my devlopment copy of itemdefinition
 -
