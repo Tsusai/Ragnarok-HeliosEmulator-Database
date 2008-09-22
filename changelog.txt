@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 33 -
+[2008/09/21] Aeomin - Added my devlopment copy of itemdefinition
+-
+
 -Rev 32-
 [2008/9/21] Spre - Fixed mobs.sql issues. apparently tinyint is the cool thing!(not really, sorry rax... has to be my fault =/)
 -
