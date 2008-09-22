@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 32-
+[2008/9/21] Spre - Fixed mobs.sql issues. apparently tinyint is the cool thing!(not really, sorry rax... has to be my fault =/)
+-
+
 -Rev 31-
 [2008/9/21] RaX - Fixed more typos in game.sql.
 -
