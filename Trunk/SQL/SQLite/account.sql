@@ -1,45 +1,48 @@
+CREATE TABLE `accountmemos` (
+  `account_id` int(11) default NULL,
+  `memo` varchar(200) default NULL,
+  `created_at` datetime default NULL,
+  `updated_at` datetime default NULL,
+  `id` int(11) NOT NULL autoincrement,
+  PRIMARY KEY  (`id`),
+  KEY `AccountMemos_FI_1` (`account_id`)
+) ENGINE=MyISAM
 
------------------------------------------------------------------------------
--- Accounts
------------------------------------------------------------------------------
-
-
-CREATE TABLE [Accounts]
-(
-	[id] INTEGER  NOT NULL PRIMARY KEY,
-	[name] CHAR(24)  NOT NULL,
-	[password] CHAR(24)  NOT NULL,
-	[last_login] TIMESTAMP,
-	[login_count] INTEGER default 0 NOT NULL,
-	[gender] CHAR(1) default 'M' NOT NULL,
-	[email_address] VARCHAR(200) default '-@-' NOT NULL,
-	[login_key_1] INTEGER(11),
-	[login_key_2] INTEGER(11),
-	[level] INTEGER(3) default 0 NOT NULL,
-	[connect_until] TIMESTAMP default '9999-12-31 23:59:59',
-	[banned_until] TIMESTAMP default '1899-12-30 00:00:00',
-	[last_ip] CHAR(12),
-	[state] INTEGER default 0 NOT NULL,
-	[created_at] TIMESTAMP,
-	[updated_at] TIMESTAMP
-);
-
-INSERT INTO `accounts` (`id`, `name`, `password`, `last_login`, `login_count`, `gender`, `email_address`, `login_key_1`, `login_key_2`, `level`, `connect_until`, `banned_until`, `last_ip`, `state`, `created_at`, `updated_at`) VALUES 
-(100100, 'test', 'test', '2008-02-17 00:00:00', 0, 'F', '-@-', 0, 0, 255, '9999-12-31 23:59:59', '1900-01-01 00:00:00', '127.0.0.1', 0, NULL, NULL);
-
------------------------------------------------------------------------------
--- AccountMemos
------------------------------------------------------------------------------
+-- 
+-- Dumping data for table `accountmemos`
+-- 
 
 
-CREATE TABLE [AccountMemos]
-(
-	[account_id] INTEGER,
-	[memo] VARCHAR(200),
-	[created_at] TIMESTAMP,
-	[updated_at] TIMESTAMP,
-	[id] INTEGER  NOT NULL PRIMARY KEY
-);
+-- --------------------------------------------------------
 
--- SQLite does not support foreign keys; this is just for reference
--- FOREIGN KEY ([account_id]) REFERENCES Accounts ([id])
+-- 
+-- Table structure for table `accounts`
+-- 
+
+CREATE TABLE `accounts` (
+  `id` int(11) NOT NULL autoincrement,
+  `name` char(24) NOT NULL,
+  `password` char(24) NOT NULL,
+  `last_login` datetime default NULL,
+  `login_count` int(11) default NULL,
+  `gender` char(1) NOT NULL default 'M',
+  `email_address` varchar(200) default NULL,
+  `login_key_1` int(11) default NULL,
+  `login_key_2` int(11) default NULL,
+  `level` int(11) default NULL,
+  `connect_until` datetime default '9999-12-31 23:59:59',
+  `banned_until` datetime default NULL,
+  `last_ip` char(12) default NULL,
+  `state` int(11) default NULL,
+  `created_at` datetime default NULL,
+  `updated_at` datetime default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM autoincrement=1000003 DEFAULT CHARSET=latin1 autoincrement=1000003 ;
+
+-- 
+-- Dumping data for table `accounts`
+-- 
+
+INSERT INTO `accounts` VALUES (100100, 'test', 'test', '2008-02-17 00:00:00', 0, 'F', '-@-', 0, 0, 255, '9999-12-31 23:59:59', '1900-01-01 00:00:00', '127.0.0.1', 0, NULL, NULL);
+
+-- --------------------------------------------------------

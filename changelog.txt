@@ -15,11 +15,16 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
-- Rev 34 -
+-Rev 35-
+[2008/09/22] Spre - Updated SQLITE according to rax, specifications.
+[2008/09/22] Spre - Fixed some changelog entries.
+-
+
+-Rev 34-
 [2008/09/21] Spre - Removed my Mob sql in branches as it is nolonger needed.
 -
 
-- Rev 33 -
+-Rev 33-
 [2008/09/21] Aeomin - Added my devlopment copy of itemdefinition
 -
 
