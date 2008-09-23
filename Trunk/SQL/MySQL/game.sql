@@ -708,10 +708,10 @@ INSERT INTO `hp` (`level`, `novice`, `swordman`, `magician`, `archer`, `acolyte`
 
 CREATE TABLE `hotkey` (
 `char_id` int(11) NOT NULL,
-`hotkey` tinyint(2) NOT NULL,
-`type` tinyint(1) NOT NULL,
+`hotkey` tinyint NOT NULL,
+`type` tinyint NOT NULL,
 `id` int(11) NOT NULL,
-`skill_lv` tinyint(2) NOT NULL,
+`skill_lv` tinyint NOT NULL,
 PRIMARY KEY (`char_id`,`hotkey`)
 ) ENGINE=MyISAM;
 

@@ -15,6 +15,11 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 38-
+[2008/09/21] Spre - Fixed a tinyint booboo.
+[2008/09/21] Spre - Moved someones development itemdef sql file to branches/SQL/MySQL. IT goes there :D
+-
+
 -Rev 37-
 [2008/09/21] Spre - Added hotkey Table to mysql database.
 -
