@@ -7,7 +7,7 @@ CREATE TABLE `itemdefinitions` (
   `name` varchar(30) default NULL,
   `price_buy` int(11) NOT NULL default '0',
   `weight` int(11) NOT NULL default '0',
-  `item_type` enum('ammo','equip','misc','usable') default NULL,
+  `item_type` tinyint(1) default NULL,
   `sprite_id` int(11) default NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14710 ;
