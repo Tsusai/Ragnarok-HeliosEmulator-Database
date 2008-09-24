@@ -1,5 +1,7 @@
 
 CREATE TABLE IF NOT EXISTS `mobs` (
+  `ID` int(11) NOT NULL,
+  `sprite_name` text NOT NULL,
   `Name` text NOT NULL,
   `aRan` text NOT NULL,
   `LV` text NOT NULL,
