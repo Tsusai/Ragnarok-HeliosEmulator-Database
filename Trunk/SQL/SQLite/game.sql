@@ -667,6 +667,16 @@ INSERT INTO `hp` VALUES (99, 530, 3999, 2020, 3029, 2510, 2510, 3029, 7978, 4254
 
 -- --------------------------------------------------------
 
+CREATE TABLE `hotkey` (
+`char_id` int(11) NOT NULL,
+`hotkey` tinyint NOT NULL,
+`type` tinyint NOT NULL,
+`id` int(11) NOT NULL,
+`skill_lv` tinyint NOT NULL,
+PRIMARY KEY (`char_id`,`hotkey`)
+) 
+
+
 -- 
 -- Table structure for table `inventory`
 -- 

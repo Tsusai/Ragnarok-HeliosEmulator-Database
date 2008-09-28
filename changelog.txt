@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+-Rev 41-
+[2008/09/28] Spre - Modified sqlite game sql, added hotkey, where did it go?
+-
+
 -Rev 40-
 [2008/09/23] Spre - Modified mobs.sql to conform with mobquery in the source
 -
