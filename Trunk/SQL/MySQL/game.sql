@@ -744,12 +744,14 @@ CREATE TABLE `inventory` (
 -- 
 
 CREATE TABLE `items` (
-  `id` int(11) NOT NULL auto_increment,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `item_definition_id` int(11) NOT NULL,
   `item_storage_id` int(11) NOT NULL,
-  `amount` int(11) NOT NULL default '1',
-  `last_x` int(11) NOT NULL default '0',
-  `last_y` int(11) NOT NULL default '0',
+  `amount` int(5) NOT NULL DEFAULT '1',
+  `identified` tinyint(1) unsigned NOT NULL,
+  `refined` tinyint(3) unsigned NOT NULL,
+  `last_x` int(3) NOT NULL DEFAULT '0',
+  `last_y` int(3) NOT NULL DEFAULT '0',
   `last_map_id` int(11) NOT NULL,
   PRIMARY KEY  (`id`),
   KEY `Items_FI_1` (`item_definition_id`),
