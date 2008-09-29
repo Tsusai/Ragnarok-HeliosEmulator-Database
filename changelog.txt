@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 43 -
+[2008/09/28] Aeomin - Updated itemsdefinition table
+-
+
 - Rev 42 -
 [2008/09/28] Aeomin - Update `items` table.
 -

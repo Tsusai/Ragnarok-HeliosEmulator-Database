@@ -16,2992 +16,2988 @@ CREATE TABLE `itemdefinitions` (
 -- Dumping data for table `itemdefinitions`
 --
 
-INSERT INTO `itemdefinitions` (`id`, `name`, `price_buy`, `weight`, `item_type`, `sprite_id`) VALUES
-(2101, 'Guard', 500, 300, 'equip', 1),
-(2102, 'Guard_', 500, 300, 'equip', 1),
-(2103, 'Buckler', 14000, 600, 'equip', 2),
-(2104, 'Buckler_', 14000, 600, 'equip', 2),
-(2105, 'Shield', 56000, 1300, 'equip', 3),
-(2106, 'Shield_', 56000, 1300, 'equip', 3),
-(2107, 'Mirror_Shield', 60000, 1000, 'equip', 4),
-(2108, 'Mirror_Shield_', 60000, 1000, 'equip', 4),
-(2109, 'Memorize_Book', 20, 1000, 'equip', 5),
-(2110, 'Holy_Guard', 85000, 1400, 'equip', 4),
-(2111, 'Herald_Of_GOD', 128000, 1600, 'equip', 4),
-(2112, 'Novice_Guard', 1, 1, 'equip', 1),
-(2113, 'Novice_Shield', 5000, 1000, 'equip', 3),
-(2114, 'Stone_Buckler', 30000, 1500, 'equip', 2),
-(2115, 'Valkyrja''s_Shield', 30000, 500, 'equip', 4),
-(2116, 'Angel''s_Safeguard', 10000, 400, 'equip', 1),
-(2117, 'Arm_Guard', 10000, 150, 'equip', 1),
-(2118, 'Arm_Guard_', 10000, 150, 'equip', 1),
-(2119, 'Improved_Arm_Guard', 40000, 150, 'equip', 1),
-(2120, 'Improved_Arm_Guard_', 40000, 150, 'equip', 1),
-(2121, 'Memorize_Book_', 20, 1000, 'equip', 5),
-(2122, 'Platinum_Shield', 10000, 1200, 'equip', 4),
-(2123, 'Orleans_Server', 10000, 1000, 'equip', 4),
-(2124, 'Thorny_Buckler', 10000, 1000, 'equip', 2),
-(2125, 'Strong_Shield', 10000, 2500, 'equip', 4),
-(2199, 'Ahura_Mazda', 1, 10, 'equip', 2),
-(2201, 'Sunglasses', 5000, 100, 'equip', 12),
-(2202, 'Sunglasses_', 5000, 100, 'equip', 12),
-(2203, 'Glasses', 4000, 100, 'equip', 3),
-(2204, 'Glasses_', 4000, 100, 'equip', 3),
-(2205, 'Diver''s_Goggles', 3500, 100, 'equip', 10),
-(2206, 'Wedding_Veil', 23000, 100, 'equip', 44),
-(2207, 'Fancy_Flower', 20, 100, 'equip', 4),
-(2208, 'Ribbon', 800, 100, 'equip', 17),
-(2209, 'Ribbon_', 800, 100, 'equip', 17),
-(2210, 'Hair_Band', 500, 100, 'equip', 9),
-(2211, 'Bandana', 400, 100, 'equip', 6),
-(2212, 'Eye_Bandage', 1000, 100, 'equip', 13),
-(2213, 'Cat_Hairband', 20, 100, 'equip', 2),
-(2214, 'Bunny_Band', 20, 100, 'equip', 15),
-(2215, 'Flower_Hairband', 20, 100, 'equip', 5),
-(2216, 'Biretta', 9000, 100, 'equip', 11),
-(2217, 'Biretta_', 9000, 100, 'equip', 11),
-(2218, 'Flu_Mask', 300, 100, 'equip', 8),
-(2219, 'Flu_Mask_', 300, 100, 'equip', 8),
-(2220, 'Hat', 1000, 200, 'equip', 16),
-(2221, 'Hat_', 1000, 200, 'equip', 16),
-(2222, 'Turban', 4500, 300, 'equip', 7),
-(2223, 'Turban_', 4500, 300, 'equip', 7),
-(2226, 'Cap', 12000, 400, 'equip', 14),
-(2227, 'Cap_', 12000, 400, 'equip', 14),
-(2228, 'Helm', 44000, 600, 'equip', 40),
-(2229, 'Helm_', 44000, 600, 'equip', 40),
-(2230, 'Gemmed_Sallet', 50000, 500, 'equip', 0),
-(2231, 'Gemmed_Sallet_', 50000, 500, 'equip', 0),
-(2232, 'Circlet', 7500, 300, 'equip', 18),
-(2233, 'Circlet_', 7500, 300, 'equip', 18),
-(2234, 'Tiara', 20, 400, 'equip', 19),
-(2235, 'Crown', 20, 400, 'equip', 45),
-(2236, 'Santa''s_Hat', 20, 100, 'equip', 20),
-(2237, 'Weird_Goatee', 2, 100, 'equip', 21),
-(2238, 'Weird_Moustache', 2, 100, 'equip', 22),
-(2239, 'One_Eyed_Glass', 10000, 100, 'equip', 23),
-(2240, 'Beard', 2, 100, 'equip', 24),
-(2241, 'Granpa_Beard', 5000, 100, 'equip', 25),
-(2242, 'Luxury_Sunglasses', 24000, 100, 'equip', 26),
-(2243, 'Spinning_Eyes', 20000, 100, 'equip', 27),
-(2244, 'Big_Sis''_Ribbon', 15000, 200, 'equip', 28),
-(2245, 'Sweet_Gents', 15000, 400, 'equip', 29),
-(2246, 'Golden_Gear', 20, 900, 'equip', 30),
-(2247, 'Oldman''s_Romance', 15000, 400, 'equip', 31),
-(2248, 'Western_Grace', 15000, 400, 'equip', 32),
-(2249, 'Coronet', 20, 300, 'equip', 33),
-(2250, 'Fillet', 500, 100, 'equip', 34),
-(2251, 'Holy_Bonnet', 30000, 100, 'equip', 35),
-(2252, 'Star_Sparkling', 20, 300, 'equip', 36),
-(2253, 'Sunflower', 20, 100, 'equip', 37),
-(2254, 'Angelic_Chain', 20, 100, 'equip', 38),
-(2255, 'Satanic_Chain', 20, 100, 'equip', 39),
-(2256, 'Magestic_Goat', 20, 800, 'equip', 41),
-(2257, 'Snowy_Horn', 20, 100, 'equip', 42),
-(2258, 'Sharp_Gear', 20, 1000, 'equip', 43),
-(2259, 'Mini_Propeller', 20, 100, 'equip', 46),
-(2260, 'Mini_Glasses', 28000, 100, 'equip', 47),
-(2261, 'Prontera_Army_Cap', 20, 400, 'equip', 48),
-(2262, 'Pierrot_Nose', 20, 100, 'equip', 49),
-(2263, 'Gangster_Patch', 20, 100, 'equip', 50),
-(2265, 'Ganster_Mask', 20, 100, 'equip', 52),
-(2266, 'Iron_Cane', 20, 300, 'equip', 53),
-(2267, 'Cigar', 20, 100, 'equip', 54),
-(2268, 'Smoking_Pipe', 20, 100, 'equip', 55),
-(2269, 'Centimental_Flower', 20, 100, 'equip', 56),
-(2270, 'Centimental_Leaf', 20, 100, 'equip', 57),
-(2271, 'Jack_A_Dandy', 45000, 100, 'equip', 58),
-(2272, 'Stop_Post', 20, 400, 'equip', 59),
-(2273, 'Doctor_Cap', 20, 100, 'equip', 60),
-(2274, 'Ghost_Bandana', 20, 100, 'equip', 61),
-(2275, 'Red_Bandana', 20, 100, 'equip', 62),
-(2276, 'Eagle_Eyes', 20, 100, 'equip', 63),
-(2277, 'Nurse_Cap', 20, 100, 'equip', 64),
-(2279, 'Bomb_Wick', 20, 100, 'equip', 66),
-(2280, 'Sahkkat', 20, 300, 'equip', 67),
-(2282, 'Spirit_Chain', 20, 100, 'equip', 69),
-(2283, 'Ear_Mufs', 20, 200, 'equip', 70),
-(2284, 'Antler', 20, 500, 'equip', 71),
-(2285, 'Apple_Of_Archer', 20, 200, 'equip', 72),
-(2286, 'Elven_Ears', 20, 100, 'equip', 73),
-(2287, 'Pirate_Bandana', 20, 100, 'equip', 74),
-(2289, 'Poo_Poo_Hat', 20, 700, 'equip', 76),
-(2290, 'Funeral_Costume', 3000, 100, 'equip', 77),
-(2291, 'Masquerade', 20, 100, 'equip', 78),
-(2293, 'Pretend_Murdered', 20, 100, 'equip', 80),
-(2294, 'Star_Dust', 20, 100, 'equip', 81),
-(2295, 'Blinker', 1500, 100, 'equip', 82),
-(2296, 'Binoculars', 20, 100, 'equip', 83),
-(2298, 'Green_Feeler', 20, 100, 'equip', 85),
-(2299, 'Viking_Helm', 20, 500, 'equip', 86),
-(2301, 'Cotton_Shirt', 10, 100, 'equip', 0),
-(2302, 'Cotton_Shirt_', 10, 100, 'equip', 0),
-(2303, 'Leather_Jacket', 200, 200, 'equip', 0),
-(2304, 'Leather_Jacket_', 200, 200, 'equip', 0),
-(2305, 'Adventure_Suit', 1000, 300, 'equip', 0),
-(2306, 'Adventurere''s_Suit_', 1000, 300, 'equip', 0),
-(2307, 'Mantle', 10000, 600, 'equip', 0),
-(2308, 'Mantle_', 10000, 600, 'equip', 0),
-(2309, 'Coat', 22000, 1200, 'equip', 0),
-(2310, 'Coat_', 22000, 1200, 'equip', 0),
-(2311, 'Mink_Coat', 20, 2300, 'equip', 0),
-(2312, 'Padded_Armor', 48000, 2800, 'equip', 0),
-(2313, 'Padded_Armor_', 48000, 2800, 'equip', 0),
-(2314, 'Chain_Mail', 65000, 3300, 'equip', 0),
-(2315, 'Chain_Mail_', 65000, 3300, 'equip', 0),
-(2316, 'Plate_Armor', 80000, 4500, 'equip', 0),
-(2317, 'Plate_Armor_', 80000, 4500, 'equip', 0),
-(2318, 'Clothes_Of_The_Lord', 20, 2500, 'equip', 0),
-(2319, 'Glittering_Clothes', 20, 2500, 'equip', 0),
-(2320, 'Formal_Suit', 20, 300, 'equip', 0),
-(2321, 'Silk_Robe', 8000, 400, 'equip', 0),
-(2322, 'Silk_Robe_', 8000, 400, 'equip', 0),
-(2323, 'Scapulare', 6500, 400, 'equip', 0),
-(2324, 'Scapulare_', 6500, 400, 'equip', 0),
-(2325, 'Saint_Robe', 54000, 600, 'equip', 0),
-(2326, 'Saint_Robe_', 54000, 600, 'equip', 0),
-(2327, 'Holy_Robe', 20, 1700, 'equip', 0),
-(2328, 'Wooden_Mail', 5500, 1000, 'equip', 0),
-(2329, 'Wooden_Mail_', 5500, 1000, 'equip', 0),
-(2330, 'Tights', 71000, 500, 'equip', 0),
-(2331, 'Tights_', 71000, 500, 'equip', 0),
-(2332, 'Silver_Robe', 7000, 700, 'equip', 0),
-(2333, 'Silver_Robe_', 7000, 700, 'equip', 0),
-(2334, 'Mage_Coat', 20, 600, 'equip', 0),
-(2335, 'Thief_Clothes', 74000, 100, 'equip', 0),
-(2336, 'Thief_Clothes_', 74000, 100, 'equip', 0),
-(2337, 'Ninja_Suit', 20, 1500, 'equip', 0),
-(2338, 'Wedding_Dress', 43000, 500, 'equip', 0),
-(2339, 'G_Strings', 1000, 100, 'equip', 0),
-(2340, 'Novice_Breast', 89000, 500, 'equip', 0),
-(2341, 'Full_Plate_Armor', 94000, 5500, 'equip', 0),
-(2342, 'Full_Plate_Armor_', 102500, 5500, 'equip', 0),
-(2343, 'Robe_Of_Casting', 124800, 1100, 'equip', 0),
-(2344, 'Flame_Sprits_Armor', 136000, 2200, 'equip', 0),
-(2345, 'Flame_Sprits_Armor_', 136000, 2200, 'equip', 0),
-(2346, 'Water_Sprits_Armor', 136000, 2200, 'equip', 0),
-(2347, 'Water_Sprits_Armor_', 136000, 2200, 'equip', 0),
-(2348, 'Wind_Sprits_Armor', 136000, 2200, 'equip', 0),
-(2349, 'Wind_Sprits_Armor_', 136000, 2200, 'equip', 0),
-(2350, 'Earth_Sprits_Armor', 136000, 2200, 'equip', 0),
-(2351, 'Earth_Sprits_Armor_', 136000, 2200, 'equip', 0),
-(2352, 'Novice_Plate', 1, 1, 'equip', 0),
-(2353, 'Odin''s_Blessing', 30000, 2500, 'equip', 0),
-(2354, 'Goibne''s_Armor', 50000, 3500, 'equip', 0),
-(2355, 'Angel''s_Protection', 10000, 600, 'equip', 0),
-(2356, 'Vestment_Of_Grace', 20, 2500, 'equip', 0),
-(2357, 'Valkyrie_Armor', 0, 2800, 'equip', 0),
-(2358, 'Dress_Of_Angel', 20, 1000, 'equip', 0),
-(2359, 'Ninja_Suit_', 20, 1500, 'equip', 0),
-(2360, 'Robe_Of_Casting_', 124800, 1100, 'equip', 0),
-(2361, 'Blue_Aodai', 20, 500, 'equip', 0),
-(2362, 'Red_Aodai', 20, 500, 'equip', 0),
-(2363, 'White_Aodai', 20, 500, 'equip', 0),
-(2364, 'Meteo_Plate_Armor', 10000, 3000, 'equip', 0),
-(2365, 'Orleans_Gown', 10000, 300, 'equip', 0),
-(2366, 'Divine_Cloth', 10000, 1500, 'equip', 0),
-(2367, 'Sniping_Suit', 10000, 750, 'equip', 0),
-(2401, 'Sandals', 400, 200, 'equip', 0),
-(2402, 'Sandals_', 400, 200, 'equip', 0),
-(2403, 'Shoes', 3500, 400, 'equip', 0),
-(2404, 'Shoes_', 3500, 400, 'equip', 0),
-(2405, 'Boots', 18000, 600, 'equip', 0),
-(2406, 'Boots_', 18000, 600, 'equip', 0),
-(2407, 'Chrystal_Pumps', 20, 100, 'equip', 0),
-(2408, 'Cuffs', 5000, 3000, 'equip', 0),
-(2409, 'Spiky_Heel', 8500, 600, 'equip', 0),
-(2410, 'Sleipnir', 20, 3500, 'equip', 0),
-(2411, 'Grave', 48000, 750, 'equip', 0),
-(2412, 'Grave_', 54000, 750, 'equip', 0),
-(2413, 'Safty_Boots', 34000, 350, 'equip', 0),
-(2414, 'Novice_Boots', 1, 1, 'equip', 0),
-(2415, 'Slipper', 34000, 300, 'equip', 0),
-(2416, 'Novice_Shoes', 35000, 500, 'equip', 0),
-(2417, 'Fricco_Shoes', 30000, 500, 'equip', 0),
-(2418, 'Vidar''s_Boots', 30000, 650, 'equip', 0),
-(2419, 'Goibne''s_Combat_Boots', 30000, 700, 'equip', 0),
-(2420, 'Angel''s_Arrival', 10000, 300, 'equip', 0),
-(2421, 'Valkyrie_Shoes', 0, 500, 'equip', 0),
-(2422, 'High_Fashion_Sandals', 24000, 200, 'equip', 0),
-(2423, 'Variant_Shoes', 10000, 500, 'equip', 0),
-(2424, 'Tidal_Shoes', 10000, 300, 'equip', 0),
-(2425, 'Black_Leather_Boots', 10000, 500, 'equip', 0),
-(2426, 'Shadow_Walk', 10000, 2000, 'equip', 0),
-(2501, 'Hood', 1000, 200, 'equip', 0),
-(2502, 'Hood_', 1000, 200, 'equip', 0),
-(2503, 'Muffler', 5000, 400, 'equip', 0),
-(2504, 'Muffler_', 5000, 400, 'equip', 0),
-(2505, 'Manteau', 32000, 600, 'equip', 0),
-(2506, 'Manteau_', 32000, 600, 'equip', 0),
-(2507, 'Cape_Of_Ancient_Lord', 82000, 600, 'equip', 0),
-(2508, 'Ragamuffin_Cape', 56000, 500, 'equip', 0),
-(2509, 'Clack_Of_Servival', 20000, 550, 'equip', 0),
-(2510, 'Novice_Hood', 1, 1, 'equip', 0),
-(2511, '', 5000, 700, 'equip', 0),
-(2512, 'Novice_Manteau', 50000, 500, 'equip', 0),
-(2513, 'Celestial_Robe', 20, 500, 'equip', 0),
-(2514, 'Pauldron', 20, 800, 'equip', 0),
-(2515, 'Wing_Of_Eagle', 20000, 300, 'equip', 0),
-(2516, 'Falcon_Robe', 30000, 400, 'equip', 0),
-(2517, 'Vali''s_Manteau', 30000, 600, 'equip', 0),
-(2518, 'Morpheus''s_Shawl', 30000, 600, 'equip', 0),
-(2519, 'Morrigane''s_Manteau', 30000, 600, 'equip', 0),
-(2520, 'Goibne''s_Shoulder_Arms', 30000, 700, 'equip', 0),
-(2521, 'Angel''s_Warmth', 10000, 400, 'equip', 0),
-(2522, 'Undershirt', 20000, 150, 'equip', 0),
-(2523, 'Undershirt_', 20000, 150, 'equip', 0),
-(2524, 'Valkyrie_Manteau', 0, 500, 'equip', 0),
-(2525, 'Cape_Of_Ancient_Lord_', 82000, 600, 'equip', 0),
-(2526, 'Dragon_Scale_Coat', 20, 10, 'equip', 0),
-(2527, 'Dragon_Breath', 10000, 600, 'equip', 0),
-(2528, 'Wool_Scarf', 10000, 500, 'equip', 0),
-(2529, 'Rider_Insignia', 10000, 500, 'equip', 0),
-(2530, 'Rider_Insignia_', 10000, 500, 'equip', 0),
-(2531, 'Ulfhedinn', 10000, 700, 'equip', 0),
-(2532, 'Mithril_Magic_Cape', 10000, 400, 'equip', 0),
-(2601, 'Ring', 30000, 100, 'equip', 0),
-(2602, 'Earring', 30000, 100, 'equip', 0),
-(2603, 'Necklace', 30000, 100, 'equip', 0),
-(2604, 'Glove', 30000, 100, 'equip', 0),
-(2605, 'Brooch', 30000, 100, 'equip', 0),
-(2607, 'Clip', 30000, 100, 'equip', 0),
-(2608, 'Rosary', 15000, 100, 'equip', 0),
-(2609, 'Skul_Ring', 10000, 100, 'equip', 0),
-(2610, 'Gold_Ring', 30000, 100, 'equip', 0),
-(2611, 'Silver_Ring', 20000, 100, 'equip', 0),
-(2612, 'Flower_Ring', 1500, 100, 'equip', 0),
-(2613, 'Diamond_Ring', 45000, 100, 'equip', 0),
-(2614, 'An_Eye_Of_Dullahan', 90000, 100, 'equip', 0),
-(2615, 'Safety_Ring', 75000, 100, 'equip', 0),
-(2616, 'Critical_Ring', 75000, 100, 'equip', 0),
-(2617, 'Mitten_Of_Presbyter', 2, 100, 'equip', 0),
-(2618, 'Matyr''s_Flea_Guard', 2, 100, 'equip', 0),
-(2619, 'Thimble_Of_Archer', 10000, 100, 'equip', 0),
-(2620, 'Ring_Of_Rogue', 10000, 100, 'equip', 0),
-(2621, 'Ring_', 30000, 100, 'equip', 0),
-(2622, 'Earring_', 30000, 100, 'equip', 0),
-(2623, 'Necklace_', 30000, 100, 'equip', 0),
-(2624, 'Glove_', 30000, 100, 'equip', 0),
-(2625, 'Brooch_', 30000, 100, 'equip', 0),
-(2626, 'Rosary_', 15000, 100, 'equip', 0),
-(2627, 'Belt', 20000, 1200, 'equip', 0),
-(2628, 'Novice_Armlet', 400, 200, 'equip', 0),
-(2629, 'Magingiorde', 20, 8000, 'equip', 0),
-(2630, 'Brysinggamen', 20, 1500, 'equip', 0),
-(2631, 'First_Age_Ring', 1, 10, 'equip', 0),
-(2632, 'Korean_Trinket', 125000, 100, 'equip', 0),
-(2633, 'Jade_Ring', 204000, 100, 'equip', 0),
-(2634, 'Bridegroom_Ring', 0, 0, 'equip', 0),
-(2635, 'Bride_Ring', 0, 0, 'equip', 0),
-(2636, 'Gold_Ring_', 30000, 100, 'equip', 0),
-(2637, 'Silver_Ring_', 20000, 100, 'equip', 0),
-(2638, 'Exorcize_Sachet', 20000, 100, 'equip', 0),
-(2639, 'Purification_Sachet', 20000, 100, 'equip', 0),
-(2640, 'Kafra_Ring', 40000, 200, 'equip', 0),
-(2641, 'Fashionable_Sack', 20, 700, 'equip', 0),
-(2642, 'Serin''s_Gold_Ring', 20, 0, 'equip', 0),
-(2643, 'Serin''s_Gold_Ring_', 45000, 100, 'equip', 0),
-(2644, 'The_Sign_', 2, 0, 'equip', 0),
-(2645, 'Moonlight_Ring', 40000, 200, 'equip', 0),
-(2646, 'Bunch_Of_Carnation', 2, 100, 'equip', 0),
-(2647, 'Nile_Rose', 2, 100, 'equip', 0),
-(2648, 'Morpheus''s_Ring', 30000, 100, 'equip', 0),
-(2649, 'Morpheus''s_Armlet', 30000, 100, 'equip', 0),
-(2650, 'Morrigane''s_Belt', 30000, 200, 'equip', 0),
-(2651, 'Morrigane''s_Pendant', 30000, 200, 'equip', 0),
-(2652, 'Cursed_Lucky_Brooch', 20, 100, 'equip', 0),
-(2653, 'Sacrifice_Ring', 20, 100, 'equip', 0),
-(2654, 'Shinobi''s_Sash', 20000, 300, 'equip', 0),
-(2655, 'Bloody_Iron_Ball', 50000, 4000, 'equip', 0),
-(2656, 'Hyper_Changer', 20000, 1000, 'equip', 0),
-(2657, 'Lab_Passport', 20, 100, 'equip', 0),
-(2658, 'Nile_Rose_', 2, 100, 'equip', 0),
-(2659, 'Vesper_Core01', 20, 100, 'equip', 0),
-(2660, 'Vesper_Core02', 20, 100, 'equip', 0),
-(2661, 'Vesper_Core03', 20, 100, 'equip', 0),
-(2662, 'Vesper_Core04', 20, 100, 'equip', 0),
-(2663, 'Gauntlet_Of_Accuracy', 20, 900, 'equip', 0),
-(2664, 'Scarf_Belt', 20, 200, 'equip', 0),
-(2665, 'Ring_Of_Exorcism', 20, 500, 'equip', 0),
-(2666, 'Lamp_Of_Hope', 20, 100, 'equip', 0),
-(2667, 'Glove_Of_Archer', 20, 300, 'equip', 0),
-(2668, '', 0, 500, 'equip', 0),
-(2669, 'Golden_Necklace_', 30000, 100, 'equip', 0),
-(2670, 'Ring_Of_Longing', 20, 100, 'equip', 0),
-(2671, 'Thimble_Of_Archer_', 10000, 100, 'equip', 0),
-(2672, 'Anniversary_Ring', 20, 100, 'equip', 0),
-(2673, 'Shining_Ring', 0, 100, 'equip', 0),
-(2674, 'Honor_Ring', 20, 0, 'equip', 0),
-(2675, 'Lord_Ring', 0, 10, 'equip', 0),
-(2676, 'Hunter_Earring', 20, 300, 'equip', 0),
-(2677, 'Spiritual_Ring', 20, 100, 'equip', 0),
-(2678, 'Ring_Of_Flame_Lord', 20, 100, 'equip', 0),
-(2679, 'Ring_Of_Resonance', 20, 100, 'equip', 0),
-(2680, 'Lesser_Elemental_Ring', 20, 100, 'equip', 0),
-(2681, 'Republic_Ring', 20, 1000, 'equip', 0),
-(2682, 'Ring_Of_Water', 20, 100, 'equip', 0),
-(2683, 'Ring_Of_Fire', 20, 100, 'equip', 0),
-(2684, 'Ring_Of_Wind', 20, 100, 'equip', 0),
-(2685, 'Ring_Of_Earth', 20, 100, 'equip', 0),
-(2686, 'Elven_Ears_C', 1, 100, 'equip', 73),
-(2687, 'Steel_Flower_C', 1, 100, 'equip', 56),
-(2688, 'Critical_Ring_C', 1, 100, 'equip', 0),
-(2689, 'Earring_C', 1, 100, 'equip', 0),
-(2690, 'Ring_C', 1, 100, 'equip', 0),
-(2691, 'Necklace_C', 1, 100, 'equip', 0),
-(2692, 'Glove_C', 1, 100, 'equip', 0),
-(2693, 'Brooch_C', 1, 100, 'equip', 0),
-(2694, 'Rosary_C', 1, 100, 'equip', 0),
-(2695, 'Safety_Ring_C', 1, 100, 'equip', 0),
-(2696, 'Vesper_Core01_C', 1, 500, 'equip', 0),
-(2697, 'Vesper_Core02_C', 1, 500, 'equip', 0),
-(2698, 'Vesper_Core03_C', 1, 500, 'equip', 0),
-(2699, 'Vesper_Core04_C', 1, 500, 'equip', 0),
-(2700, 'Red_Silk_Seal', 10000, 100, 'equip', 0),
-(2701, 'Orleans_Glove', 10000, 100, 'equip', 0),
-(2702, 'Bison_Horn', 10000, 100, 'equip', 0),
-(2703, 'Expert_Ring', 10000, 150, 'equip', 0),
-(5001, 'Headset', 20, 200, 'equip', 87),
-(5002, 'Gemmed_Crown', 20, 600, 'equip', 88),
-(5003, 'Joker_Jester', 20, 100, 'equip', 89),
-(5004, 'Oxygen_Mask', 20, 200, 'equip', 90),
-(5006, 'Machoman_Glasses', 36000, 100, 'equip', 92),
-(5007, 'Loard_Circlet', 20, 200, 'equip', 93),
-(5008, 'Puppy_Love', 20, 100, 'equip', 94),
-(5009, 'Safety_Helmet', 20, 500, 'equip', 95),
-(5010, 'Indian_Hair_Piece', 20, 100, 'equip', 96),
-(5011, 'Antenna', 20, 100, 'equip', 97),
-(5012, 'Ph.D_Hat', 20, 200, 'equip', 98),
-(5013, 'Horn_Of_Lord_Kaho', 20, 100, 'equip', 99),
-(5014, 'Fin_Helm', 20, 300, 'equip', 100),
-(5015, 'Egg_Shell', 20, 200, 'equip', 101),
-(5016, 'Boy''s_Cap', 20, 100, 'equip', 102),
-(5017, 'Bone_Helm', 20, 800, 'equip', 103),
-(5018, 'Feather_Bonnet', 20, 300, 'equip', 104),
-(5019, 'Corsair', 20, 500, 'equip', 105),
-(5020, 'Kafra_Band', 20, 500, 'equip', 106),
-(5021, 'Bankruptcy_Of_Heart', 20, 1200, 'equip', 107),
-(5023, 'Hat_Of_Bundle', 20, 1000, 'equip', 108),
-(5024, 'Hat_Of_Cake', 20, 1000, 'equip', 109),
-(5025, 'Helm_Of_Angel', 20, 1600, 'equip', 110),
-(5026, 'Hat_Of_Cook', 20, 300, 'equip', 111),
-(5027, 'Wizardry_Hat', 20, 300, 'equip', 112),
-(5028, 'Candle', 20, 150, 'equip', 113),
-(5029, 'Spore_Hat', 20, 900, 'equip', 114),
-(5030, 'Panda_Cap', 20, 800, 'equip', 115),
-(5031, 'Mine_Helm', 20, 1500, 'equip', 116),
-(5032, 'Picnic_Hat', 20, 800, 'equip', 117),
-(5033, 'Smokie_Hat', 20, 900, 'equip', 118),
-(5034, 'Light_Bulb_Band', 20, 500, 'equip', 119),
-(5035, 'Poring_Hat', 20, 700, 'equip', 120),
-(5036, 'Cross_Band', 20, 250, 'equip', 121),
-(5037, 'Fruit_Shell', 20, 150, 'equip', 122),
-(5038, 'Deviruchi_Cap', 20, 800, 'equip', 123),
-(5039, 'Mottled_Egg_Shell', 20, 400, 'equip', 124),
-(5040, 'Blush', 20, 100, 'equip', 125),
-(5041, 'Heart_Hair_Pin', 20, 100, 'equip', 126),
-(5042, 'Hair_Protector', 20, 150, 'equip', 127),
-(5043, 'Opera_Ghost_Mask', 20, 200, 'equip', 128),
-(5044, 'Devil''s_Wing', 20, 350, 'equip', 129),
-(5045, 'Magician_Hat', 20, 500, 'equip', 130),
-(5047, 'Fashion_Sunglass', 20, 100, 'equip', 131),
-(5048, 'First_Moon_Hair_Pin', 20, 100, 'equip', 132),
-(5049, 'Stripe_Band', 20, 150, 'equip', 133),
-(5050, 'Mystery_Fruit_Shell', 20, 300, 'equip', 134),
-(5051, 'Kitty_Bell', 20, 100, 'equip', 135),
-(5052, 'Blue_Hair_Band', 20, 150, 'equip', 136),
-(5055, 'Novice_Egg_Cap', 1, 1, 'equip', 101),
-(5056, 'Love_Berry', 1, 100, 'equip', 140),
-(5057, 'Ear_Of_Black_Cat', 16000, 200, 'equip', 141),
-(5058, 'Drooping_Kitty', 250000, 500, 'equip', 142),
-(5059, 'Brown_Bear_Cap', 20, 800, 'equip', 143),
-(5060, 'Party_Hat', 20, 300, 'equip', 144),
-(5061, 'Flower_Hairpin', 20, 100, 'equip', 145),
-(5062, 'Straw_Hat', 20, 200, 'equip', 146),
-(5063, 'Plaster', 20, 100, 'equip', 147),
-(5064, 'Leaf_Headgear', 20, 100, 'equip', 148),
-(5065, 'Fish_On_Head', 20, 500, 'equip', 149),
-(5066, 'Horn_Of_Succubus', 20, 800, 'equip', 150),
-(5067, 'Sombrero', 20, 350, 'equip', 151),
-(5068, 'Ear_Of_Devil''s_Wing', 20, 100, 'equip', 152),
-(5069, 'Mask_Of_Fox', 20, 300, 'equip', 153),
-(5070, 'Headband_Of_Power', 20, 100, 'equip', 154),
-(5071, 'Indian_Headband', 20, 200, 'equip', 155),
-(5072, 'Inccubus_Horn', 20, 800, 'equip', 156),
-(5073, 'Cap_Of_Concentration', 20, 700, 'equip', 157),
-(5074, 'Ear_Of_Angel''s_Wing', 20, 100, 'equip', 158),
-(5075, 'Cowboy_Hat', 20, 500, 'equip', 159),
-(5076, 'Fur_Hat', 20, 350, 'equip', 160),
-(5077, 'Tulip_Hairpin', 20, 100, 'equip', 161),
-(5078, 'Sea_Otter_Cap', 20, 800, 'equip', 162),
-(5079, 'Crossed_Hair_Band', 20, 100, 'equip', 163),
-(5080, 'Headgear_Of_Queen', 20, 400, 'equip', 164),
-(5081, 'Mistress_Crown', 20, 100, 'equip', 165),
-(5082, 'Mushroom_Band', 20, 100, 'equip', 166),
-(5083, 'Red_Tailed_Ribbon', 20, 200, 'equip', 167),
-(5084, 'Lazy_Raccoon', 20, 500, 'equip', 168),
-(5085, 'Pair_Of_Red_Ribbon', 20, 100, 'equip', 169),
-(5096, 'Assassin_Mask_', 20, 100, 'equip', 180),
-(5097, 'Cone_Hat_', 0, 400, 'equip', 144),
-(5099, 'Cat_Hat', 20, 300, 'equip', 182),
-(5100, 'Sales_Signboard', 20, 800, 'equip', 183),
-(5101, 'Takius_Blindfold', 20, 100, 'equip', 184),
-(5102, 'Round_Eyes', 20, 100, 'equip', 185),
-(5103, 'Sunflower_Hairpin', 20, 600, 'equip', 186),
-(5104, 'Dark_Blindfold', 20, 100, 'equip', 187),
-(5105, 'Hat_Of_Cake_', 20, 1000, 'equip', 109),
-(5106, 'Cone_Hat_INA', 20, 300, 'equip', 144),
-(5107, 'Well_Baked_Toast', 20, 50, 'equip', 188),
-(5108, 'Detective_Hat', 20, 350, 'equip', 189),
-(5109, 'Red_Bonnet', 20, 400, 'equip', 190),
-(5110, 'Baby_Pacifier', 20, 50, 'equip', 191),
-(5111, 'Galapago_Cap', 20, 500, 'equip', 192),
-(5112, 'Super_Novice_Hat', 8500, 400, 'equip', 193),
-(5113, 'Angry_Mouth', 20, 50, 'equip', 194),
-(5114, 'Fedora', 6000, 300, 'equip', 195),
-(5115, 'Winter_Hat', 20, 500, 'equip', 196),
-(5116, 'Banana_Hat', 20, 200, 'equip', 197),
-(5117, 'Mistic_Rose', 20, 100, 'equip', 198),
-(5118, 'Ear_Of_Puppy', 20, 100, 'equip', 199),
-(5119, 'Super_Novice_Hat_', 8500, 400, 'equip', 193),
-(5120, 'Fedora_', 6000, 300, 'equip', 195),
-(5122, 'Magni_Cap', 30000, 1000, 'equip', 250),
-(5123, 'Ulle_Cap', 30000, 500, 'equip', 254),
-(5124, 'Fricca_Circlet', 30000, 300, 'equip', 251),
-(5125, 'Kiss_Of_Angel', 10000, 300, 'equip', 255),
-(5126, 'Morpheus''s_Hood', 30000, 200, 'equip', 256),
-(5127, 'Morrigane''s_Helm', 30000, 500, 'equip', 257),
-(5128, 'Goibne''s_Helmet', 30000, 500, 'equip', 258),
-(5129, 'Bird_Nest', 20, 400, 'equip', 201),
-(5132, 'Angeling_Hat', 20, 700, 'equip', 204),
-(5133, 'Sheep_Hat', 20, 150, 'equip', 205),
-(5134, 'Pumpkin_Hat', 20, 200, 'equip', 206),
-(5135, 'Cyclops_Visor', 0, 200, 'equip', 207),
-(5136, 'Santa''s_Hat_', 20, 100, 'equip', 20),
-(5137, 'Alice_Doll', 20, 500, 'equip', 208),
-(5138, 'Magic_Eyes', 20, 300, 'equip', 209),
-(5139, 'Hibiscus', 20, 200, 'equip', 210),
-(5140, 'Charming_Ribbon', 20, 400, 'equip', 211),
-(5141, 'Marionette_Doll', 20, 400, 'equip', 212),
-(5144, 'Gambler_Hat', 20, 200, 'equip', 16),
-(5145, 'Carnival_Joker_Jester', 10, 100, 'equip', 89),
-(5146, 'Elephant_Hat', 0, 500, 'equip', 215),
-(5147, 'Baseball_Cap', 0, 0, 'equip', 216),
-(5148, 'Phrygian_Cap', 0, 500, 'equip', 217),
-(5149, 'Silver_Tiara', 0, 100, 'equip', 218),
-(5150, 'Joker_Jester_', 20, 100, 'equip', 219),
-(5153, 'Angeling_Hairpin', 20, 700, 'equip', 222),
-(5154, 'Sunglasses_F', 20, 100, 'equip', 12),
-(5155, 'Granpa_Beard_F', 20, 100, 'equip', 25),
-(5156, 'Flu_Mask_F', 20, 100, 'equip', 8),
-(5157, 'Viking_Helm_', 20, 500, 'equip', 86),
-(5158, 'Holy_Bonnet_', 30000, 100, 'equip', 35),
-(5159, 'Golden_Gear_', 20, 900, 'equip', 30),
-(5160, 'Magestic_Goat_', 20, 800, 'equip', 41),
-(5161, 'Sharp_Gear_', 20, 1000, 'equip', 43),
-(5162, 'Bone_Helm_', 20, 800, 'equip', 103),
-(5163, 'Corsair_', 20, 500, 'equip', 105),
-(5164, 'Tiara_', 20, 400, 'equip', 19),
-(5165, 'Crown_', 20, 400, 'equip', 45),
-(5170, 'Feather_Beret', 30000, 600, 'equip', 224),
-(5171, 'Valkyrie_Helm', 100000, 1000, 'equip', 225),
-(5172, 'Beret', 30000, 700, 'equip', 226),
-(5173, 'Satto_Hat', 30000, 400, 'equip', 227),
-(5174, 'Ayam', 30000, 400, 'equip', 228),
-(5175, 'Censor_Bar', 30000, 100, 'equip', 229),
-(5178, 'Candle_', 20, 150, 'equip', 113),
-(5179, 'Gold_Tiara', 0, 100, 'equip', 232),
-(5180, 'Phrygian_Cap_', 20, 100, 'equip', 217),
-(5182, 'Puppy_Hat', 20, 500, 'equip', 234),
-(5183, 'Bird_Nest_Hat', 20, 500, 'equip', 235),
-(5184, 'Captain_Hat', 20, 500, 'equip', 236),
-(5185, 'Laurel_Wreath', 20, 100, 'equip', 237),
-(5186, 'Geographer_Band', 20, 500, 'equip', 238),
-(5187, 'Twin_Ribbon', 20, 200, 'equip', 239),
-(5188, 'Minstrel_Hat', 20, 500, 'equip', 240),
-(5189, 'Fallen_Leaves', 20, 100, 'equip', 241),
-(5190, 'Baseball_Cap_', 20, 20, 'equip', 216),
-(5191, 'Ribbon_Black', 800, 100, 'equip', 242),
-(5192, 'Ribbon_Yellow', 800, 100, 'equip', 243),
-(5193, 'Ribbon_Green', 800, 100, 'equip', 244),
-(5194, 'Ribbon_Pink', 800, 100, 'equip', 245),
-(5195, 'Ribbon_Red', 800, 100, 'equip', 246),
-(5196, 'Ribbon_Orange', 800, 100, 'equip', 247),
-(5197, 'Ribbon_White', 800, 100, 'equip', 248),
-(5198, 'Drooping_Bunny', 10, 100, 'equip', 249),
-(5199, 'Baseball_Cap_I', 0, 200, 'equip', 216),
-(5200, 'Coppola', 10, 300, 'equip', 252),
-(5201, 'Party_Hat_B', 20, 300, 'equip', 144),
-(5202, 'Pumpkin_Hat_', 20, 200, 'equip', 206),
-(5204, 'Event_Pierrot_Nose', 20, 100, 'equip', 49),
-(5206, 'Romantic_White_Flower', 20, 100, 'equip', 259),
-(5207, 'Gold_Spirit_Chain', 20, 100, 'equip', 260),
-(5208, 'Rideword_Hat', 20, 300, 'equip', 262),
-(5209, 'Yellow_Baseball_Cap', 20, 300, 'equip', 263),
-(5210, 'Flying_Angel', 20, 300, 'equip', 264),
-(5211, 'Dress_Hat', 0, 200, 'equip', 265),
-(5212, 'Satellite_Hairband', 0, 1000, 'equip', 266),
-(5213, 'Black_Bunny_Band', 0, 200, 'equip', 267),
-(5215, 'Angelic_Chain_', 20, 100, 'equip', 38),
-(5216, 'Satanic_Chain_', 20, 100, 'equip', 39),
-(5217, 'Magestic_Goat_TW', 20, 800, 'equip', 41),
-(5218, 'Bunny_Band_', 20, 100, 'equip', 15),
-(5219, 'Drooping_Kitty_', 250000, 500, 'equip', 142),
-(5220, 'Smoking_Pipe_', 20, 100, 'equip', 55),
-(5221, 'Pair_Of_Red_Ribbon_', 20, 100, 'equip', 169),
-(5222, 'Fish_On_Head_', 20, 500, 'equip', 149),
-(5225, 'Marcher_Hat', 20, 200, 'equip', 269),
-(5226, 'Mini_Propeller_', 20, 200, 'equip', 270),
-(5227, 'Red_Deviruchi_Cap', 20, 800, 'equip', 271),
-(5228, 'White_Deviruchi_Cap', 20, 800, 'equip', 272),
-(5229, 'Gray_Deviruchi_Cap', 20, 800, 'equip', 273),
-(5230, 'White_Drooping_Kitty', 250000, 500, 'equip', 274),
-(5231, 'Gray_Drooping_Kitty', 250000, 500, 'equip', 275),
-(5232, 'Pink_Drooping_Kitty', 250000, 500, 'equip', 276),
-(5233, 'Blue_Drooping_Kitty', 250000, 500, 'equip', 277),
-(5234, 'Yellow_Drooping_Kitty', 250000, 500, 'equip', 278),
-(5235, 'Gray_Fur_Hat', 20, 350, 'equip', 279),
-(5236, 'Blue_Fur_Hat', 20, 350, 'equip', 280),
-(5237, 'Pink_Fur_Hat', 20, 350, 'equip', 281),
-(5238, 'Red_Wizardry_Hat', 20, 300, 'equip', 282),
-(5239, 'White_Wizardry_Hat', 20, 300, 'equip', 283),
-(5240, 'Gray_Wizardry_Hat', 20, 300, 'equip', 284),
-(5241, 'Blue_Wizardry_Hat', 20, 300, 'equip', 285),
-(5242, 'Yellow_Wizardry_Hat', 20, 300, 'equip', 286),
-(5244, 'Elven_Blindfold', 20, 200, 'equip', 288),
-(5245, 'Elven_Sunglasses', 20, 200, 'equip', 289),
-(5246, 'Angelic_Helm', 20, 700, 'equip', 290),
-(5247, 'Satanic_Helm', 20, 700, 'equip', 291),
-(5248, 'Robotic_Blindfold', 20, 200, 'equip', 292),
-(5249, 'Human_Blindfold', 20, 200, 'equip', 293),
-(5250, 'Robotic_Ears', 20, 100, 'equip', 294),
-(5251, 'Round_Ears', 20, 100, 'equip', 295),
-(5252, 'Drooping_Nine_Tail', 20, 300, 'equip', 296),
-(5253, 'Lif_Doll_Hat', 20, 200, 'equip', 297),
-(5254, 'Deviling_Hat', 20, 350, 'equip', 298),
-(5255, 'Triple_Poring_Hat', 20, 600, 'equip', 299),
-(5256, 'Valkyrie_Feather_Band', 20, 100, 'equip', 300),
-(5257, 'Soulless_Wing', 20, 300, 'equip', 301),
-(5259, 'Elephant_Hat_', 20, 500, 'equip', 215),
-(5260, 'Cookie_Hat', 20, 500, 'equip', 217),
-(5261, 'Silver_Tiara_', 20, 500, 'equip', 218),
-(5262, 'Gold_Tiara_', 20, 500, 'equip', 232),
-(5264, 'Aussie_Flag_Hat', 20, 500, 'equip', 304),
-(5265, 'Apple_Of_Archer_C', 1, 200, 'equip', 72),
-(5266, 'Bunny_Band_C', 1, 100, 'equip', 15),
-(5267, 'Sahkkat_C', 1, 300, 'equip', 67),
-(5268, 'Lord_Circlet_C', 1, 200, 'equip', 93),
-(5269, 'Flying_Angel_', 20, 300, 'equip', 264),
-(5270, 'Fallen_Leaves_', 20, 100, 'equip', 241),
-(5277, 'Yellow_Bandana', 20, 100, 'equip', 309),
-(5278, 'Yellow_Ribbon', 20, 100, 'equip', 310),
-(5279, 'Drooping_Kitty_C', 2, 500, 'equip', 142),
-(5280, 'Magestic_Goat_C', 2, 800, 'equip', 41),
-(5281, 'Deviruchi_Cap_C', 2, 800, 'equip', 123),
-(5800, 'Blush_Of_Groom', 20, 50, 'equip', 125),
-(5801, 'Ribbon_Of_Bride', 20, 100, 'equip', 167),
-(5802, 'Upgrade_Elephant_Hat', 0, 500, 'equip', 215),
-(10001, 'Skull_Helm', 20, 0, 'equip', 0),
-(10002, 'Monster_Oxygen_Mask', 20, 0, 'equip', 0),
-(10003, 'Transparent_Headgear', 20, 0, 'equip', 0),
-(10004, 'Pacifier', 20, 0, 'equip', 0),
-(10005, 'Wig', 20, 0, 'equip', 0),
-(10006, 'Queen''s_Hair_Ornament', 20, 0, 'equip', 0),
-(10007, 'Silk_Ribbon', 20, 0, 'equip', 0),
-(10008, 'Punisher', 20, 0, 'equip', 0),
-(10009, 'Wild_Flower', 20, 0, 'equip', 0),
-(10010, 'Battered_Pot', 20, 0, 'equip', 0),
-(10011, 'Stellar_Hairpin', 20, 0, 'equip', 0),
-(10012, 'Tiny_Egg_Shell', 20, 0, 'equip', 0),
-(10013, 'Backpack', 1500, 0, 'equip', 0),
-(10014, 'Rocker_Glasses', 2000, 0, 'equip', 0),
-(10015, 'Green_Lace', 20, 0, 'equip', 0),
-(10016, 'Golden_Bell', 20, 0, 'equip', 0),
-(10017, 'Bark_Shorts', 20, 0, 'equip', 0),
-(10018, 'Monkey_Circlet', 20, 0, 'equip', 0),
-(10019, 'Red_Muffler', 20, 0, 'equip', 0),
-(10020, 'Sword_Of_Grave_Keeper', 20, 0, 'equip', 0),
-(2278, 'Mr_Smile', 60, 100, 'equip', 65),
-(2281, 'Phantom_Of_Opera', 20, 200, 'equip', 68),
-(2288, 'Mr_Scream', 20, 100, 'equip', 75),
-(2292, 'Welding_Mask', 20, 300, 'equip', 79),
-(2297, 'Goblini_Mask', 20, 100, 'equip', 84),
-(5005, 'Gas_Mask', 20, 100, 'equip', 91),
-(5086, 'Alarm_Mask', 20, 100, 'equip', 170),
-(5087, 'Goblin_Mask_01', 20, 100, 'equip', 171),
-(5088, 'Goblin_Mask_02', 20, 100, 'equip', 172),
-(5089, 'Goblin_Mask_03', 20, 100, 'equip', 173),
-(5090, 'Goblin_Mask_04', 20, 100, 'equip', 174),
-(5176, 'Hahoe_Mask', 30000, 100, 'equip', 230),
-(5203, 'Tongue_Mask', 20, 200, 'equip', 253),
-(5272, 'Tongue_Mask_', 20, 100, 'equip', 253),
-(5053, 'Sphinx_Helm', 20, 3000, 'equip', 137),
-(5166, 'Sphinx_Helm_', 20, 3000, 'equip', 137),
-(2224, 'Goggle', 10000, 300, 'equip', 1),
-(2225, 'Goggle_', 10000, 300, 'equip', 1),
-(5022, 'Helm_Of_Sun', 20, 2400, 'equip', 138),
-(5091, 'Big_Golden_Bell', 20, 200, 'equip', 175),
-(5092, 'Blue_Coif', 150000, 300, 'equip', 176),
-(5093, 'Blue_Coif_', 150000, 300, 'equip', 177),
-(5094, 'Orc_Hero_Helm', 500000, 900, 'equip', 178),
-(5095, 'Orc_Hero_Helm_', 800000, 1000, 'equip', 179),
-(5098, 'Tiger_Mask', 20, 400, 'equip', 181),
-(5121, 'Zherlthsh_Mask', 20, 400, 'equip', 200),
-(5130, 'Lion_Mask', 20, 700, 'equip', 202),
-(5142, 'Crescent_Helm', 20, 3000, 'equip', 213),
-(5151, 'Headset_OST', 20, 200, 'equip', 220),
-(5152, 'Chinese_Crown', 20, 2000, 'equip', 221),
-(5169, 'Bride_Mask', 30000, 500, 'equip', 223),
-(5177, 'Guardian_Lion_Mask', 30000, 500, 'equip', 231),
-(5181, 'Helm_Of_Darkness', 20, 2000, 'equip', 233),
-(5205, 'Wreath', 20, 1000, 'equip', 261),
-(5214, 'Moonlight_Flower_Hat', 0, 200, 'equip', 268),
-(5223, 'Big_Golden_Bell_', 20, 200, 'equip', 175),
-(5224, 'Orc_Hero_Helm_TW', 500000, 900, 'equip', 178),
-(5243, 'Chullos', 20, 800, 'equip', 287),
-(5258, 'Afro_Wig', 20, 100, 'equip', 302),
-(5271, 'Chinese_Crown_', 20, 500, 'equip', 221),
-(5273, 'Happy_Wig', 20, 100, 'equip', 305),
-(5274, 'Shiny_Wig', 20, 100, 'equip', 306),
-(5275, 'Marvelous_Wig', 20, 100, 'equip', 307),
-(5276, 'Fantastic_Wig', 20, 100, 'equip', 308),
-(2264, 'Munak_Turban', 20, 300, 'equip', 51),
-(5046, 'Bongun_Hat', 20, 300, 'equip', 139),
-(5131, 'Close_Helmet', 20, 1200, 'equip', 203),
-(5143, 'Kabuki_Mask', 20, 1000, 'equip', 214),
-(5167, 'Munak_Turban_', 20, 300, 'equip', 51),
-(5168, 'Bongun_Hat_', 20, 300, 'equip', 139),
-(5263, 'Ati_Atihan_Hat', 20, 100, 'equip', 303),
-(1116, 'Katana', 2000, 1000, 'equip', 3),
-(1117, 'Katana_', 2000, 1000, 'equip', 3),
-(1118, 'Katana__', 2000, 1000, 'equip', 3),
-(1151, 'Slayer', 15000, 1300, 'equip', 3),
-(1152, 'Slayer_', 15000, 1300, 'equip', 3),
-(1153, 'Slayer__', 15000, 1300, 'equip', 3),
-(1154, 'Bastard_Sword', 22500, 1600, 'equip', 3),
-(1155, 'Bastard_Sword_', 22500, 1600, 'equip', 3),
-(1156, 'Bastard_Sword__', 22500, 1600, 'equip', 3),
-(1157, 'Two_Hand_Sword', 60000, 2200, 'equip', 3),
-(1158, 'Two_Hand_Sword_', 60000, 2200, 'equip', 3),
-(1159, 'Two_Hand_Sword__', 60000, 2200, 'equip', 3),
-(1160, 'Broad_Sword', 65000, 2000, 'equip', 3),
-(1161, 'Balmung', 20, 1000, 'equip', 3),
-(1162, 'Broad_Sword_', 65000, 2000, 'equip', 3),
-(1163, 'Claymore', 74000, 2500, 'equip', 3),
-(1164, 'Muramasa', 20, 1000, 'equip', 3),
-(1165, 'Masamune', 20, 1000, 'equip', 3),
-(1166, 'Dragon_Slayer', 20, 1300, 'equip', 3),
-(1167, 'Schweizersabel', 20, 1600, 'equip', 3),
-(1168, 'Zweihander', 20, 2200, 'equip', 3),
-(1169, 'Executioner_', 20, 2200, 'equip', 3),
-(1170, 'Katzbalger', 20, 2000, 'equip', 3),
-(1171, 'Zweihander_', 20, 2200, 'equip', 3),
-(1172, 'Claymore_', 74000, 2500, 'equip', 3),
-(1173, 'Muramasa_C', 1, 1000, 'equip', 3),
-(1174, 'Executioner_C', 2, 2200, 'equip', 3),
-(1175, 'Altas_Weapon', 10000, 3500, 'equip', 3),
-(1176, 'Muscle_Cutter', 10000, 2200, 'equip', 3),
-(1250, 'Jur', 19500, 800, 'equip', 16),
-(1251, 'Jur_', 19500, 800, 'equip', 16),
-(1252, 'Katar', 41000, 1200, 'equip', 16),
-(1253, 'Katar_', 41000, 1200, 'equip', 16),
-(1254, 'Jamadhar', 37200, 1500, 'equip', 16),
-(1255, 'Jamadhar_', 37200, 1500, 'equip', 16),
-(1256, 'Katar_Of_Cold_Icicle', 45000, 1200, 'equip', 16),
-(1257, 'Katar_Of_Thornbush', 45000, 1200, 'equip', 16),
-(1258, 'Katar_Of_Raging_Blaze', 45000, 1200, 'equip', 16),
-(1259, 'Katar_Of_Piercing_Wind', 45000, 1200, 'equip', 16),
-(1260, 'Ghoul_Leg', 52500, 1700, 'equip', 16),
-(1261, 'Infiltrator', 57000, 1500, 'equip', 16),
-(1262, 'Nail_Of_Loki', 20, 1200, 'equip', 16),
-(1263, 'Unholy_Touch', 20, 1250, 'equip', 16),
-(1264, 'Various_Jur', 20, 800, 'equip', 16),
-(1265, 'Bloody_Roar', 20, 1000, 'equip', 16),
-(1266, 'Infiltrator_', 57000, 1500, 'equip', 16),
-(1267, 'Infiltrator_C', 1, 1500, 'equip', 16),
-(1268, 'Wild_Beast_Claw', 10000, 1450, 'equip', 16),
-(1269, 'Inverse_Scale', 10000, 1500, 'equip', 16),
-(1270, 'Drill_Katar', 10000, 1400, 'equip', 16),
-(1271, 'Blood_Tears', 10000, 1700, 'equip', 16),
-(1351, 'Battle_Axe', 5400, 1500, 'equip', 7),
-(1352, 'Battle_Axe_', 5400, 1500, 'equip', 7),
-(1353, 'Battle_Axe__', 5400, 1500, 'equip', 7),
-(1354, 'Hammer', 15500, 2000, 'equip', 7),
-(1355, 'Hammer_', 15500, 2000, 'equip', 7),
-(1356, 'Hammer__', 15500, 2000, 'equip', 7),
-(1357, 'Buster', 34000, 2200, 'equip', 7),
-(1358, 'Buster_', 34000, 2200, 'equip', 7),
-(1359, 'Buster__', 34000, 2200, 'equip', 7),
-(1360, 'Two_Handed_Axe', 55000, 2500, 'equip', 7),
-(1361, 'Two_Handed_Axe_', 55000, 2500, 'equip', 7),
-(1362, 'Two_Handed_Axe__', 55000, 2500, 'equip', 7),
-(1363, 'Brood_Axe', 20, 4000, 'equip', 7),
-(1364, 'Great_Axe', 20, 1800, 'equip', 7),
-(1365, 'Sabbath', 20, 2300, 'equip', 7),
-(1366, 'Right_Epsilon', 20, 2300, 'equip', 7),
-(1367, 'Slaughter', 20, 2500, 'equip', 7),
-(1368, 'Tomahawk', 20, 2500, 'equip', 7),
-(1369, 'Guillotine', 20, 3000, 'equip', 7),
-(1370, 'Doom_Slayer', 20, 6000, 'equip', 7),
-(1371, 'Doom_Slayer_', 20, 6000, 'equip', 7),
-(1372, 'Right_Epsilon_C', 1, 2300, 'equip', 7),
-(1373, 'Brood_Axe_C', 2, 4000, 'equip', 7),
-(1374, 'Tomahawk_C', 2, 2500, 'equip', 7),
-(1375, 'Berdysz', 10000, 2500, 'equip', 7),
-(1376, 'Heart_Breaker', 10000, 2000, 'equip', 7),
-(1377, 'Hurricane_Fury', 10000, 3500, 'equip', 7),
-(1410, 'Lance', 60000, 2500, 'equip', 5),
-(1411, 'Lance_', 60000, 2500, 'equip', 5),
-(1412, 'Lance__', 60000, 2500, 'equip', 5),
-(1451, 'Guisarme', 13000, 1000, 'equip', 5),
-(1452, 'Guisarme_', 13000, 1000, 'equip', 5),
-(1453, 'Guisarme__', 13000, 1000, 'equip', 5),
-(1454, 'Glaive', 20000, 1200, 'equip', 5),
-(1455, 'Glaive_', 20000, 1200, 'equip', 5),
-(1456, 'Glaive__', 20000, 1200, 'equip', 5),
-(1457, 'Partizan', 27000, 2000, 'equip', 5),
-(1458, 'Partizan_', 27000, 2000, 'equip', 5),
-(1459, 'Partizan__', 27000, 2000, 'equip', 5),
-(1460, 'Trident', 51000, 1200, 'equip', 5),
-(1461, 'Trident_', 51000, 1200, 'equip', 5),
-(1462, 'Trident__', 51000, 1200, 'equip', 5),
-(1463, 'Halberd', 54000, 2500, 'equip', 5),
-(1464, 'Halberd_', 54000, 2500, 'equip', 5),
-(1465, 'Halberd__', 54000, 2500, 'equip', 5),
-(1466, 'Crescent_Scythe', 20, 2500, 'equip', 5),
-(1467, 'Bill_Guisarme', 20, 1000, 'equip', 5),
-(1468, 'Zephyrus', 20, 2000, 'equip', 5),
-(1469, 'Longinus''s_Spear', 20, 2500, 'equip', 5),
-(1470, 'Brionac', 20, 3000, 'equip', 5),
-(1471, 'Hell_Fire', 20, 3500, 'equip', 5),
-(1472, 'Staff_Of_Soul', 20, 1400, 'equip', 10),
-(1473, 'Wizardy_Staff', 20, 2400, 'equip', 10),
-(1474, 'Gae_Bolg', 20, 2000, 'equip', 5),
-(1475, 'Horseback_Lance', 20, 3700, 'equip', 5),
-(1476, 'Crescent_Scythe_', 20, 2500, 'equip', 5),
-(1477, 'Spectral_Spear', 10000, 2000, 'equip', 5),
-(1478, 'Ahlspiess', 10000, 1000, 'equip', 5),
-(2000, 'Destruction_Rod', 10000, 2500, 'equip', 23),
-(2001, 'Divine_Cross', 10000, 1500, 'equip', 23),
-(13300, 'Huuma_Bird_Wing', 90000, 3000, 'equip', 22),
-(13301, 'Huuma_Giant_Wheel', 40000, 2500, 'equip', 22),
-(13302, 'Huuma_Giant_Wheel_', 40000, 2500, 'equip', 22),
-(13303, 'Huuma_Blaze', 78000, 1500, 'equip', 22),
-(13304, 'Huuma_Calm_Mind', 10000, 1550, 'equip', 22),
-(1701, 'Bow', 1000, 500, 'equip', 11),
-(1702, 'Bow_', 1000, 500, 'equip', 11),
-(1703, 'Bow__', 1000, 500, 'equip', 11),
-(1704, 'Composite_Bow', 2500, 600, 'equip', 11),
-(1705, 'Composite_Bow_', 2500, 600, 'equip', 11),
-(1706, 'Composite_Bow__', 2500, 600, 'equip', 11),
-(1707, 'Great_Bow', 10000, 1000, 'equip', 11),
-(1708, 'Great_Bow_', 10000, 1000, 'equip', 11),
-(1709, 'Great_Bow__', 10000, 1000, 'equip', 11),
-(1710, 'CrossBow', 17000, 900, 'equip', 11),
-(1711, 'CrossBow_', 17000, 900, 'equip', 11),
-(1712, 'CrossBow__', 17000, 900, 'equip', 11),
-(1713, 'Arbalest', 48000, 1000, 'equip', 11),
-(1714, 'Kakkung', 42000, 1100, 'equip', 11),
-(1715, 'Arbalest_', 48000, 1000, 'equip', 11),
-(1716, 'Kakkung_', 42000, 1100, 'equip', 11),
-(1718, 'Hunter_Bow', 64000, 1500, 'equip', 11),
-(1719, 'Bow_Of_Roguemaster', 20, 500, 'equip', 11),
-(1720, 'Bow_Of_Rudra', 20, 1200, 'equip', 11),
-(1721, 'Repeting_CrossBow', 89000, 2000, 'equip', 11),
-(1722, 'Balistar', 124000, 3500, 'equip', 11),
-(1723, 'Luna_Bow', 20, 2000, 'equip', 11),
-(1724, 'Dragon_Wing', 20, 1200, 'equip', 11),
-(1725, 'Bow_Of_Minstrel', 20, 1700, 'equip', 11),
-(1726, 'Hunter_Bow_', 64000, 1500, 'equip', 11),
-(1727, 'Balistar_', 124000, 3500, 'equip', 11),
-(1728, 'Balistar_C', 1, 100, 'equip', 11),
-(1729, 'Bow_Of_Rudra_C', 2, 1200, 'equip', 11),
-(1730, 'Burning_Bow', 10000, 1400, 'equip', 11),
-(1731, 'Frozen_Bow', 10000, 1400, 'equip', 11),
-(1732, 'Earth_Bow', 10000, 1400, 'equip', 11),
-(1733, 'Gust_Bow', 10000, 1400, 'equip', 11),
-(1734, 'Orc_Archer_Bow', 10000, 1600, 'equip', 11),
-(13100, 'Six_Shooter', 4500, 400, 'equip', 17),
-(13101, 'Six_Shooter_', 4500, 400, 'equip', 17),
-(13102, 'Crimson_Bolt', 20000, 450, 'equip', 17),
-(13103, 'Crimson_Bolt_', 20000, 450, 'equip', 17),
-(13104, 'The_Garrison', 48000, 500, 'equip', 17),
-(13105, 'The_Garrison_', 48000, 500, 'equip', 17),
-(13106, 'Gold_Lux', 100000, 500, 'equip', 17),
-(13107, 'Wasteland_Outlaw', 10000, 580, 'equip', 17),
-(13150, 'Branch', 3000, 500, 'equip', 18),
-(13151, 'The_Cyclone', 17500, 700, 'equip', 18),
-(13152, 'The_Cyclone_', 17500, 700, 'equip', 18),
-(13153, 'Dusk', 23500, 750, 'equip', 18),
-(13154, 'Rolling_Stone', 12000, 900, 'equip', 20),
-(13155, 'Black_Rose', 32000, 900, 'equip', 20),
-(13156, 'Gate_Keeper', 56000, 1000, 'equip', 20),
-(13157, 'Drifter', 80000, 2300, 'equip', 19),
-(13158, 'Butcher', 130000, 2500, 'equip', 19),
-(13159, 'Butcher_', 130000, 2500, 'equip', 19),
-(13160, 'Destroyer', 110000, 1200, 'equip', 21),
-(13161, 'Destroyer_', 110000, 1200, 'equip', 21),
-(13162, 'Inferno', 230000, 1250, 'equip', 21),
-(13163, 'Long_Barrel', 40000, 1000, 'equip', 18),
-(13164, 'Long_Barrel_', 40000, 1000, 'equip', 18),
-(13165, 'Jungle_Carbine', 56000, 700, 'equip', 18),
-(13166, 'Jungle_Carbine_', 56000, 700, 'equip', 18),
-(13167, 'Gate_KeeperDD', 72000, 1300, 'equip', 20),
-(13168, 'Thunder_P', 76000, 700, 'equip', 20),
-(13169, 'Thunder_P_', 76000, 700, 'equip', 20),
-(13170, 'Lever_Action_Rifle', 10000, 770, 'equip', 18),
-(1101, 'Sword', 100, 500, 'equip', 2),
-(1102, 'Sword_', 100, 500, 'equip', 2),
-(1103, 'Sword__', 100, 500, 'equip', 2),
-(1104, 'Falchion', 1500, 600, 'equip', 2),
-(1105, 'Falchion_', 1500, 600, 'equip', 2),
-(1106, 'Falchion__', 1500, 600, 'equip', 2),
-(1107, 'Blade', 2900, 700, 'equip', 2),
-(1108, 'Blade_', 2900, 700, 'equip', 2),
-(1109, 'Blade__', 2900, 700, 'equip', 2),
-(1110, 'Lapier', 10000, 500, 'equip', 2),
-(1111, 'Lapier_', 10000, 500, 'equip', 2),
-(1112, 'Lapier__', 10000, 500, 'equip', 2),
-(1113, 'Scimiter', 17000, 700, 'equip', 2),
-(1114, 'Scimiter_', 17000, 700, 'equip', 2),
-(1115, 'Scimiter__', 17000, 700, 'equip', 2),
-(1119, 'Tsurugi', 51000, 1200, 'equip', 2),
-(1120, 'Tsurugi_', 51000, 1200, 'equip', 2),
-(1121, 'Tsurugi__', 51000, 1200, 'equip', 2),
-(1122, 'Ring_Pommel_Saber', 24000, 900, 'equip', 2),
-(1123, 'Haedonggum', 50000, 900, 'equip', 2),
-(1124, 'Orcish_Sword', 20, 800, 'equip', 2),
-(1125, 'Ring_Pommel_Saber_', 24000, 900, 'equip', 2),
-(1126, 'Saber', 49000, 1000, 'equip', 2),
-(1127, 'Saber_', 49000, 1000, 'equip', 2),
-(1128, 'Hae_Dong_Gum_', 50000, 900, 'equip', 2),
-(1129, 'Flamberge', 60000, 1500, 'equip', 2),
-(1130, 'Nagan', 20, 500, 'equip', 2),
-(1131, 'Ice_Falchon', 20, 600, 'equip', 2),
-(1132, 'Edge', 20, 700, 'equip', 2),
-(1133, 'Fire_Brand', 20, 500, 'equip', 2),
-(1134, 'Scissores_Sword', 20, 700, 'equip', 2),
-(1135, 'Cutlas', 20, 900, 'equip', 2),
-(1136, 'Solar_Sword', 20, 1200, 'equip', 2),
-(1137, 'Excalibur', 20, 1200, 'equip', 2),
-(1138, 'Mysteltainn_', 20, 1000, 'equip', 2),
-(1139, 'Tale_Fing_', 20, 1000, 'equip', 2),
-(1140, 'Byeorrun_Gum', 20, 900, 'equip', 2),
-(1141, 'Immaterial_Sword', 20, 900, 'equip', 2),
-(1142, 'Jewel_Sword', 20, 2200, 'equip', 2),
-(1143, 'Gaia_Sword', 20, 2500, 'equip', 2),
-(1144, 'Sasimi', 20, 1400, 'equip', 2),
-(1145, 'Holy_Avenger', 450000, 1350, 'equip', 2),
-(1146, 'Town_Sword', 42000, 800, 'equip', 2),
-(1147, 'Town_Sword_', 42000, 800, 'equip', 2),
-(1148, 'Star_Dust_Blade', 20, 1000, 'equip', 2),
-(1149, 'Flamberge_', 60000, 1500, 'equip', 2),
-(1201, 'Knife', 50, 400, 'equip', 1),
-(1202, 'Knife_', 50, 400, 'equip', 1),
-(1203, 'Knife__', 50, 400, 'equip', 1),
-(1204, 'Cutter', 1250, 500, 'equip', 1),
-(1205, 'Cutter_', 1250, 500, 'equip', 1),
-(1206, 'Cutter__', 1250, 500, 'equip', 1),
-(1207, 'Main_Gauche', 2400, 600, 'equip', 1),
-(1208, 'Main_Gauche_', 2400, 600, 'equip', 1),
-(1209, 'Main_Gauche__', 2400, 600, 'equip', 1),
-(1210, 'Dirk', 8500, 500, 'equip', 1),
-(1211, 'Dirk_', 8500, 500, 'equip', 1),
-(1212, 'Dirk__', 8500, 500, 'equip', 1),
-(1213, 'Dagger', 14000, 600, 'equip', 1),
-(1214, 'Dagger_', 14000, 600, 'equip', 1),
-(1215, 'Dagger__', 14000, 600, 'equip', 1),
-(1216, 'Stiletto', 19500, 700, 'equip', 1),
-(1217, 'Stiletto_', 19500, 700, 'equip', 1),
-(1218, 'Stiletto__', 19500, 700, 'equip', 1),
-(1219, 'Gladius', 43000, 700, 'equip', 1),
-(1220, 'Gladius_', 43000, 700, 'equip', 1),
-(1221, 'Gladius__', 43000, 700, 'equip', 1),
-(1222, 'Damascus', 49000, 800, 'equip', 1),
-(1223, 'Forturn_Sword', 20, 500, 'equip', 1),
-(1224, 'Sword_Breaker', 20, 1000, 'equip', 1),
-(1225, 'Mail_Breaker', 20, 1000, 'equip', 1),
-(1226, 'Damascus_', 49000, 800, 'equip', 1),
-(1227, 'Weeder_Knife', 20, 400, 'equip', 1),
-(1228, 'Combat_Knife', 20, 400, 'equip', 1),
-(1229, 'Mama''s_Knife', 20, 500, 'equip', 1),
-(1230, 'House_Auger', 20, 600, 'equip', 1),
-(1231, 'Bazerald', 20, 500, 'equip', 1),
-(1232, 'Assasin_Dagger', 20, 600, 'equip', 1),
-(1233, 'Exercise', 20, 700, 'equip', 1),
-(1234, 'Moonlight_Sword', 20, 700, 'equip', 1),
-(1235, 'Azoth', 20, 700, 'equip', 1),
-(1236, 'Sucsamad', 20, 800, 'equip', 1),
-(1237, 'Grimtooth_', 20, 800, 'equip', 1),
-(1238, 'Zeny_Knife', 20, 1200, 'equip', 1),
-(1239, 'Poison_Knife', 20, 800, 'equip', 1),
-(1240, 'Princess_Knife', 20, 400, 'equip', 1),
-(1241, 'Cursed_Dagger', 80000, 400, 'equip', 1),
-(1242, 'Counter_Dagger', 120000, 550, 'equip', 1),
-(1243, 'Novice_Knife', 1, 1, 'equip', 1),
-(1244, 'Holy_Dagger', 20, 800, 'equip', 1),
-(1245, 'Cinquedea', 40000, 700, 'equip', 1),
-(1246, 'Cinquedea_', 40000, 700, 'equip', 1),
-(1247, 'Kindling_Dagger', 10000, 600, 'equip', 1),
-(1248, 'Obsidian_Dagger', 10000, 600, 'equip', 1),
-(1249, 'Fisherman''s_Dagger', 10000, 600, 'equip', 1),
-(1301, 'Axe', 500, 800, 'equip', 6),
-(1302, 'Axe_', 500, 800, 'equip', 6),
-(1303, 'Axe__', 500, 800, 'equip', 6),
-(1304, 'Orcish_Axe', 20, 1500, 'equip', 6),
-(1305, 'Cleaver', 20, 120, 'equip', 6),
-(1306, 'War_Axe', 20, 4200, 'equip', 6),
-(1307, 'Windhawk', 18000, 1500, 'equip', 6),
-(1308, 'Golden_Axe', 20, 3000, 'equip', 6),
-(1401, 'Javelin', 150, 700, 'equip', 4),
-(1402, 'Javelin_', 150, 700, 'equip', 4),
-(1403, 'Javelin__', 150, 700, 'equip', 4),
-(1404, 'Spear', 1700, 850, 'equip', 4),
-(1405, 'Spear_', 1700, 850, 'equip', 4),
-(1406, 'Spear__', 1700, 850, 'equip', 4),
-(1407, 'Pike', 3450, 1000, 'equip', 4),
-(1408, 'Pike_', 3450, 1000, 'equip', 4),
-(1409, 'Pike__', 3450, 1000, 'equip', 4),
-(1413, 'Gungnir', 20, 500, 'equip', 4),
-(1414, 'Gelerdria', 20, 700, 'equip', 4),
-(1415, 'Skewer', 20, 850, 'equip', 4),
-(1416, 'Tjungkuletti', 20, 1000, 'equip', 4),
-(1417, 'Pole_Axe', 20, 3800, 'equip', 4),
-(1418, 'Gungnir_', 20, 500, 'equip', 4),
-(1419, 'Pole_Axe_C', 1, 4800, 'equip', 4),
-(1420, 'Long_Horn', 10000, 1000, 'equip', 4),
-(1421, 'Battle_Hook', 10000, 900, 'equip', 4),
-(1422, 'Hunting_Spear', 10000, 4200, 'equip', 4),
-(1501, 'Club', 120, 700, 'equip', 8),
-(1502, 'Club_', 120, 700, 'equip', 8),
-(1503, 'Club__', 120, 700, 'equip', 8),
-(1504, 'Mace', 1600, 800, 'equip', 8),
-(1505, 'Mace_', 1600, 800, 'equip', 8),
-(1506, 'Mace__', 1600, 800, 'equip', 8),
-(1507, 'Smasher', 9000, 1000, 'equip', 8),
-(1508, 'Smasher_', 9000, 1000, 'equip', 8),
-(1509, 'Smasher__', 9000, 1000, 'equip', 8),
-(1510, 'Flail', 16000, 900, 'equip', 8),
-(1511, 'Flail_', 16000, 900, 'equip', 8),
-(1512, 'Flail__', 16000, 900, 'equip', 8),
-(1513, 'Morning_Star', 41000, 1500, 'equip', 8),
-(1514, 'Morning_Star_', 41000, 1500, 'equip', 8),
-(1515, 'Morning_Star__', 41000, 1500, 'equip', 8),
-(1516, 'Sword_Mace', 50000, 1200, 'equip', 8),
-(1517, 'Sword_Mace_', 50000, 1200, 'equip', 8),
-(1518, 'Sword_Mace__', 50000, 1200, 'equip', 8),
-(1519, 'Chain', 23000, 800, 'equip', 8),
-(1520, 'Chain_', 23000, 800, 'equip', 8),
-(1521, 'Chain__', 23000, 800, 'equip', 8),
-(1522, 'Stunner', 60000, 2000, 'equip', 8),
-(1523, 'Spike', 20, 700, 'equip', 8),
-(1524, 'Golden_Mace', 20, 800, 'equip', 8),
-(1525, 'Long_Mace', 20, 800, 'equip', 8),
-(1526, 'Slash', 20, 1000, 'equip', 8),
-(1527, 'Quadrille', 20, 900, 'equip', 8),
-(1528, 'Grand_Cross', 20, 1500, 'equip', 8),
-(1529, 'Iron_Driver', 20, 3000, 'equip', 8),
-(1530, 'Mjolnir', 20, 6000, 'equip', 8),
-(1531, 'Spanner', 20, 2500, 'equip', 8),
-(1532, 'Stunner_', 60000, 2000, 'equip', 8),
-(1533, 'Warrior_Balmung', 20, 1000, 'equip', 8),
-(1534, 'Spanner_C', 2, 2500, 'equip', 8),
-(1535, 'Hollgrehenn_Hammer', 4444, 44, 'equip', 8),
-(1550, 'Book', 30000, 600, 'equip', 15),
-(1551, 'Bible', 60000, 1000, 'equip', 15),
-(1552, 'Tablet', 51000, 800, 'equip', 15),
-(1553, 'Book_Of_Billows', 35000, 750, 'equip', 15),
-(1554, 'Book_Of_Mother_Earth', 35000, 750, 'equip', 15),
-(1555, 'Book_Of_Blazing_Sun', 35000, 750, 'equip', 15),
-(1556, 'Book_Of_Gust_Of_Wind', 35000, 750, 'equip', 15),
-(1557, 'Book_Of_The_Apocalypse', 60000, 800, 'equip', 15),
-(1558, 'Girl''s_Diary', 1500, 300, 'equip', 15),
-(1559, 'Legacy_Of_Dragon', 20, 700, 'equip', 15),
-(1560, 'Diary_Of_Great_Sage', 20, 1100, 'equip', 15),
-(1561, 'Hardback', 20, 1500, 'equip', 15),
-(1562, 'Bible_Of_Battlefield', 20, 700, 'equip', 15),
-(1563, 'Diary_Of_Great_Sage_C', 1, 1100, 'equip', 15),
-(1564, 'Encyclopedia', 10000, 2000, 'equip', 15),
-(1565, 'Death_Note', 10000, 1000, 'equip', 15),
-(1599, 'Angra_Manyu', 1, 10, 'equip', 8),
-(1601, 'Rod', 50, 400, 'equip', 10),
-(1602, 'Rod_', 50, 400, 'equip', 10),
-(1603, 'Rod__', 50, 400, 'equip', 10),
-(1604, 'Wand', 2500, 400, 'equip', 10),
-(1605, 'Wand_', 2500, 400, 'equip', 10),
-(1606, 'Wand__', 2500, 400, 'equip', 10),
-(1607, 'Staff', 9500, 400, 'equip', 10),
-(1608, 'Staff_', 9500, 400, 'equip', 10),
-(1609, 'Staff__', 9500, 400, 'equip', 10),
-(1610, 'Arc_Wand', 45000, 400, 'equip', 10),
-(1611, 'Arc_Wand_', 45000, 400, 'equip', 10),
-(1612, 'Arc_Wand__', 45000, 400, 'equip', 10),
-(1613, 'Mighty_Staff', 20, 700, 'equip', 10),
-(1614, 'Blessed_Wand', 20, 700, 'equip', 10),
-(1615, 'Bone_Wand', 20, 700, 'equip', 10),
-(1616, 'Staff_Of_Wing', 20, 500, 'equip', 10),
-(1617, 'Survival_Rod', 85000, 1000, 'equip', 10),
-(1618, 'Survival_Rod_', 85000, 1000, 'equip', 10),
-(1619, 'Survival_Rod2', 85000, 1000, 'equip', 10),
-(1620, 'Survival_Rod2_', 85000, 1000, 'equip', 10),
-(1621, 'Hypnotist''s_Staff', 43000, 500, 'equip', 10),
-(1622, 'Hypnotist''s_Staff_', 20, 500, 'equip', 10),
-(1623, 'Mighty_Staff_C', 1, 700, 'equip', 10),
-(1624, 'Lich_Bone_Wand', 10000, 800, 'equip', 10),
-(1625, 'Healing_Staff', 10000, 400, 'equip', 10),
-(1626, 'Piercing_Staff', 10000, 500, 'equip', 10),
-(1801, 'Waghnakh', 8000, 400, 'equip', 12),
-(1802, 'Waghnakh_', 8000, 400, 'equip', 12),
-(1803, 'Knuckle_Duster', 25000, 450, 'equip', 12),
-(1804, 'Knuckle_Duster_', 25000, 450, 'equip', 12),
-(1805, 'Hora', 32000, 450, 'equip', 12),
-(1806, 'Hora_', 32000, 450, 'equip', 12),
-(1807, 'Fist', 53000, 650, 'equip', 12),
-(1808, 'Fist_', 53000, 650, 'equip', 12),
-(1809, 'Claw', 67000, 500, 'equip', 12),
-(1810, 'Claw_', 67000, 500, 'equip', 12),
-(1811, 'Finger', 58000, 500, 'equip', 12),
-(1812, 'Finger_', 58000, 500, 'equip', 12),
-(1813, 'Kaiser_Knuckle', 20, 450, 'equip', 12),
-(1814, 'Berserk', 20, 500, 'equip', 12),
-(1815, 'Claw_Of_Garm', 20, 550, 'equip', 12),
-(1816, 'Berserk_', 20, 500, 'equip', 12),
-(1817, 'Kaiser_Knuckle_C', 1, 450, 'equip', 12),
-(1818, 'Magma_Fist', 10000, 650, 'equip', 12),
-(1819, 'Icicle_Fist', 10000, 650, 'equip', 12),
-(1820, 'Electric_Fist', 10000, 650, 'equip', 12),
-(1821, 'Seismic_Fist', 10000, 650, 'equip', 12),
-(1822, 'Combo_Battle_Glove', 10000, 500, 'equip', 12),
-(1901, 'Violin', 4000, 700, 'equip', 13),
-(1902, 'Violin_', 4000, 700, 'equip', 13),
-(1903, 'Mandolin', 18000, 400, 'equip', 13),
-(1904, 'Mandolin_', 18000, 400, 'equip', 13),
-(1905, 'Lute', 24500, 500, 'equip', 13),
-(1906, 'Lute_', 24500, 500, 'equip', 13),
-(1907, 'Guitar', 47000, 900, 'equip', 13),
-(1908, 'Guitar_', 47000, 900, 'equip', 13),
-(1909, 'Harp', 62000, 900, 'equip', 13),
-(1910, 'Harp_', 62000, 900, 'equip', 13),
-(1911, 'Guh_Moon_Goh', 54000, 1300, 'equip', 13),
-(1912, 'Guh_Moon_Goh_', 54000, 1300, 'equip', 13),
-(1913, 'Electronic_Guitar', 20, 1800, 'equip', 13),
-(1914, 'Guitar_Of_Passion', 20, 900, 'equip', 13),
-(1915, 'Guitar_Of_Blue_Solo', 20, 900, 'equip', 13),
-(1916, 'Guitar_Of_Vast_Land', 20, 900, 'equip', 13),
-(1917, 'Guitar_Of_Gentle_Breeze', 20, 900, 'equip', 13),
-(1918, 'Oriental_Lute', 20, 1200, 'equip', 13),
-(1919, 'Base_Guitar', 10000, 1500, 'equip', 13),
-(1920, 'Berserk_Guitar', 10000, 1800, 'equip', 13),
-(1950, 'Rope', 2500, 400, 'equip', 14),
-(1951, 'Rope_', 2500, 400, 'equip', 14),
-(1952, 'Line', 12000, 300, 'equip', 14),
-(1953, 'Line_', 12000, 300, 'equip', 14),
-(1954, 'Wire', 17500, 1000, 'equip', 14),
-(1955, 'Wire_', 17500, 1000, 'equip', 14),
-(1956, 'Rante', 32000, 900, 'equip', 14),
-(1957, 'Rante_', 32000, 900, 'equip', 14),
-(1958, 'Tail', 41000, 700, 'equip', 14),
-(1959, 'Tail_', 41000, 700, 'equip', 14),
-(1960, 'Whip', 38000, 700, 'equip', 14),
-(1961, 'Whip_', 38000, 700, 'equip', 14),
-(1962, 'Lariat', 20, 400, 'equip', 14),
-(1963, 'Rapture_Rose', 20, 300, 'equip', 14),
-(1964, 'Chemeti', 20, 700, 'equip', 14),
-(1965, 'Whip_Of_Red_Flame', 20, 700, 'equip', 14),
-(1966, 'Whip_Of_Ice_Piece', 20, 700, 'equip', 14),
-(1967, 'Whip_Of_Earth', 20, 700, 'equip', 14),
-(1968, 'Jump_Rope', 20, 400, 'equip', 14),
-(1969, 'Bladed_Whip', 20, 1200, 'equip', 14),
-(1970, 'Queen''s_Whip', 20, 1100, 'equip', 14),
-(1971, 'Electric_Wire', 20, 700, 'equip', 14),
-(1972, 'Electric_Eel', 10000, 2000, 'equip', 14),
-(1973, 'Sea_Witch_Foot', 10000, 1500, 'equip', 14),
-(1974, 'Carrot_Whip', 10000, 1300, 'equip', 14),
-(13000, 'Jujube_Dagger', 10000, 600, 'equip', 1),
-(13001, 'Dragon_Killer', 20, 900, 'equip', 1),
-(13002, 'Ginnungagap', 20, 700, 'equip', 1),
-(13003, 'Coward', 52000, 700, 'equip', 1),
-(13004, 'Coward_', 52000, 700, 'equip', 1),
-(13005, 'Angelwing_Short_Sword', 20, 600, 'equip', 1),
-(13006, 'Khukri', 240000, 600, 'equip', 1),
-(13007, 'Jitte', 20000, 400, 'equip', 1),
-(13008, 'Jitte_', 20000, 400, 'equip', 1),
-(13009, 'Kamaitachi', 48000, 900, 'equip', 1),
-(13010, 'Asura', 3000, 600, 'equip', 1),
-(13011, 'Asura_', 3000, 600, 'equip', 1),
-(13012, 'Murasame', 20, 700, 'equip', 1),
-(13013, 'Murasame_', 20, 700, 'equip', 1),
-(13014, 'Hakujin', 20, 800, 'equip', 1),
-(13015, 'Hakujin_', 20, 800, 'equip', 1),
-(13016, 'Poison_Knife_', 20, 800, 'equip', 1),
-(13017, 'House_Auger_', 20, 600, 'equip', 1);
-INSERT INTO `itemdefinitions` (`id`, `name`, `price_buy`, `weight`, `item_type`, `sprite_id`) VALUES
-(13018, 'Sucsamad_', 20, 800, 'equip', 1),
-(13019, 'Ginnungagap_', 20, 700, 'equip', 1),
-(13020, 'Warrior_Balmung_', 20, 1000, 'equip', 1),
-(13021, 'Combat_Knife_C', 1, 400, 'equip', 1),
-(13022, 'Counter_Dagger_C', 1, 550, 'equip', 1),
-(13023, 'Asura_C', 1, 600, 'equip', 1),
-(13024, 'Sword_Breaker_C', 2, 1000, 'equip', 1),
-(13025, 'Mail_Breaker_C', 2, 1000, 'equip', 1),
-(13026, 'Moonlight_Sword_C', 2, 700, 'equip', 1),
-(13027, 'Scalpel', 10000, 500, 'equip', 1),
-(13028, 'Tooth_Blade', 10000, 700, 'equip', 1),
-(13400, 'Cutlas_', 20, 900, 'equip', 2),
-(13401, 'Excalibur_C', 1, 1200, 'equip', 2),
-(13402, 'Cutlas_C', 2, 900, 'equip', 2),
-(13403, 'Solar_Sword_C', 2, 1200, 'equip', 2),
-(13404, 'Platinum_Shotel', 10000, 1500, 'equip', 2),
-(13405, 'Curved_Sword', 10000, 800, 'equip', 2),
-(12900, 'Battle_Manual_Box', 20, 10, 'usable', NULL),
-(12901, 'Insurance_Package', 20, 10, 'usable', NULL),
-(12902, 'Bubble_Gum_Box', 20, 10, 'usable', NULL),
-(12903, 'Str_Dish_Box', 20, 10, 'usable', NULL),
-(12904, 'Agi_Dish_Box', 20, 10, 'usable', NULL),
-(12905, 'Int_Dish_Box', 20, 10, 'usable', NULL),
-(12906, 'Dex_Dish_Box', 20, 10, 'usable', NULL),
-(12907, 'Luk_Dish_Box', 20, 10, 'usable', NULL),
-(12908, 'Vit_Dish_Box', 20, 10, 'usable', NULL),
-(12909, 'Kafra_Card_Box', 20, 10, 'usable', NULL),
-(12910, 'Giant_Fly_Wing_Box', 20, 10, 'usable', NULL),
-(12911, 'Neuralizer_Box', 20, 10, 'usable', NULL),
-(12912, 'Convex_Mirror_Box', 20, 10, 'usable', NULL),
-(12913, 'Blessing_10_Scroll_Box', 20, 10, 'usable', NULL),
-(12914, 'Inc_Agi_10_Scroll_Box', 20, 10, 'usable', NULL),
-(12915, 'Aspersio_5_Scroll_Box', 20, 10, 'usable', NULL),
-(12916, 'Assumptio_5_Scroll_Box', 20, 10, 'usable', NULL),
-(12917, 'Wind_Walk_10_Scroll_Box', 20, 10, 'usable', NULL),
-(12918, 'Adrenaline_Scroll_Box', 20, 10, 'usable', NULL),
-(12919, 'Megaphone_Box', 20, 10, 'usable', NULL),
-(12920, 'Enriched_Elunium_Box', 20, 10, 'usable', NULL),
-(12921, 'Enriched_Oridecon_Box', 20, 10, 'usable', NULL),
-(12922, 'Token_Of_Siegfried_Box', 20, 10, 'usable', NULL),
-(501, 'Red_Potion', 50, 70, 'usable', NULL),
-(502, 'Orange_Potion', 200, 100, 'usable', NULL),
-(503, 'Yellow_Potion', 550, 130, 'usable', NULL),
-(504, 'White_Potion', 1200, 150, 'usable', NULL),
-(505, 'Blue_Potion', 5000, 150, 'usable', NULL),
-(506, 'Green_Potion', 40, 70, 'usable', NULL),
-(507, 'Red_Herb', 18, 30, 'usable', NULL),
-(508, 'Yellow_Herb', 40, 50, 'usable', NULL),
-(509, 'White_Herb', 120, 70, 'usable', NULL),
-(510, 'Blue_Herb', 60, 70, 'usable', NULL),
-(511, 'Green_Herb', 10, 30, 'usable', NULL),
-(512, 'Apple', 15, 20, 'usable', NULL),
-(513, 'Banana', 15, 20, 'usable', NULL),
-(514, 'Grape', 200, 20, 'usable', NULL),
-(515, 'Carrot', 15, 20, 'usable', NULL),
-(516, 'Sweet_Potato', 15, 20, 'usable', NULL),
-(517, 'Meat', 50, 150, 'usable', NULL),
-(518, 'Honey', 500, 100, 'usable', NULL),
-(519, 'Milk', 25, 30, 'usable', NULL),
-(520, 'Leaflet_Of_Hinal', 150, 10, 'usable', NULL),
-(521, 'Leaflet_Of_Aloe', 360, 20, 'usable', NULL),
-(522, 'Fruit_Of_Mastela', 8500, 30, 'usable', NULL),
-(523, 'Holy_Water', 20, 30, 'usable', NULL),
-(525, 'Panacea', 500, 100, 'usable', NULL),
-(526, 'Royal_Jelly', 7000, 150, 'usable', NULL),
-(528, 'Monster''s_Feed', 60, 150, 'usable', NULL),
-(529, 'Candy', 10, 30, 'usable', NULL),
-(530, 'Candy_Striper', 20, 40, 'usable', NULL),
-(531, 'Apple_Juice', 20, 40, 'usable', NULL),
-(532, 'Banana_Juice', 20, 40, 'usable', NULL),
-(533, 'Grape_Juice', 250, 40, 'usable', NULL),
-(534, 'Carrot_Juice', 20, 40, 'usable', NULL),
-(535, 'Pumpkin', 15, 20, 'usable', NULL),
-(536, 'Ice_Cream', 150, 80, 'usable', NULL),
-(537, 'Pet_Food', 1000, 10, 'usable', NULL),
-(538, 'Well_Baked_Cookie', 1000, 30, 'usable', NULL),
-(539, 'Piece_Of_Cake', 3000, 100, 'usable', NULL),
-(540, 'Falcon''s_Feed', 2000, 50, 'usable', NULL),
-(541, 'Pecopeco''s_Feed', 3000, 50, 'usable', NULL),
-(542, 'Festive_Cookie', 10, 10, 'usable', NULL),
-(543, 'Festive_Rainbow_Cake', 10, 10, 'usable', NULL),
-(544, 'Fish_Slice', 20, 30, 'usable', NULL),
-(545, 'Red_Slim_Potion', 150, 20, 'usable', NULL),
-(546, 'Yellow_Slim_Potion', 600, 30, 'usable', NULL),
-(547, 'White_Slim_Potion', 1650, 50, 'usable', NULL),
-(548, 'Cheese', 2800, 50, 'usable', NULL),
-(549, 'Nice_Sweet_Potato', 180, 80, 'usable', NULL),
-(550, 'Popped_Rice', 10, 10, 'usable', NULL),
-(551, 'Shusi', 1, 50, 'usable', NULL),
-(552, 'KETUPAT', 1, 10, 'usable', NULL),
-(553, 'Bun', 1, 50, 'usable', NULL),
-(554, 'Mojji', 100, 80, 'usable', NULL),
-(555, 'Rice_Cake', 100, 20, 'usable', NULL),
-(556, 'Long_Rice_Cake', 10, 10, 'usable', NULL),
-(557, 'Hash_Rice_Cake', 10, 10, 'usable', NULL),
-(558, 'Chocolate', 1, 20, 'usable', NULL),
-(559, 'HandMade_Chocolate', 1, 80, 'usable', NULL),
-(560, 'HandMade_Chocolate_', 5000, 80, 'usable', NULL),
-(561, 'White_Chocolate', 5000, 80, 'usable', NULL),
-(562, 'Pizza', 100, 150, 'usable', NULL),
-(563, 'Pizza_01', 1200, 150, 'usable', NULL),
-(564, 'Rice_Ball', 1, 30, 'usable', NULL),
-(565, 'Vita500_Bottle', 580, 100, 'usable', NULL),
-(566, 'Tomyumkung', 10000, 150, 'usable', NULL),
-(567, 'Prawn', 500, 40, 'usable', NULL),
-(568, 'Lemon', 60, 40, 'usable', NULL),
-(569, 'Novice_Potion', 0, 10, 'usable', NULL),
-(570, 'Lucky_Candy', 10, 30, 'usable', NULL),
-(571, 'Lucky_Candy_Cane', 20, 40, 'usable', NULL),
-(572, 'Lucky_Cookie', 1000, 30, 'usable', NULL),
-(573, 'Chocolate_Drink', 7000, 150, 'usable', NULL),
-(574, 'Egg', 20, 30, 'usable', NULL),
-(575, 'Piece_Of_Cake_', 10, 100, 'usable', NULL),
-(576, 'Prickly_Fruit', 540, 60, 'usable', NULL),
-(577, 'Grain', 200, 20, 'usable', NULL),
-(578, 'Strawberry', 200, 20, 'usable', NULL),
-(579, 'Delicious_Fish', 250, 20, 'usable', NULL),
-(580, 'Bread', 150, 20, 'usable', NULL),
-(581, 'Mushroom', 40, 20, 'usable', NULL),
-(582, 'Orange', 300, 20, 'usable', NULL),
-(583, 'KETUPAT_', 7000, 150, 'usable', NULL),
-(584, 'Fish_Ball_Soup', 100, 60, 'usable', NULL),
-(585, 'Wurst', 2, 40, 'usable', NULL),
-(586, 'Mother''s_Cake', 20, 100, 'usable', NULL),
-(587, 'Prickly_Fruit_', 880, 60, 'usable', NULL),
-(588, 'Spaghetti', 100, 100, 'usable', NULL),
-(589, 'Pizza_02', 1200, 150, 'usable', NULL),
-(590, 'Brezel_', 2, 20, 'usable', NULL),
-(591, 'Caviar_Pancake', 0, 150, 'usable', NULL),
-(592, 'Jam_Pancake', 0, 150, 'usable', NULL),
-(593, 'Honey_Pancake', 0, 150, 'usable', NULL),
-(594, 'Sour_Cream_Pancake', 0, 150, 'usable', NULL),
-(595, 'Mushroom_Pancake', 0, 150, 'usable', NULL),
-(596, 'Cute_Strawberry_Choco', 20, 100, 'usable', NULL),
-(597, 'Lovely_Choco_Tart', 20, 100, 'usable', NULL),
-(598, 'Light_Red_Pot', 50, 10, 'usable', NULL),
-(599, 'Light_Orange_Pot', 200, 10, 'usable', NULL),
-(11500, 'Light_Yellow_Pot', 550, 10, 'usable', NULL),
-(11501, 'Light_White_Pot', 1200, 10, 'usable', NULL),
-(11701, 'Girl_Bunch_Of_Flower', 20, 50, 'usable', NULL),
-(601, 'Wing_Of_Fly', 60, 50, 'usable', NULL),
-(602, 'Wing_Of_Butterfly', 300, 50, 'usable', NULL),
-(603, 'Old_Blue_Box', 10000, 200, 'usable', NULL),
-(604, 'Branch_Of_Dead_Tree', 50, 50, 'usable', NULL),
-(605, 'Anodyne', 2000, 100, 'usable', NULL),
-(606, 'Aloebera', 1500, 100, 'usable', NULL),
-(607, 'Yggdrasilberry', 5000, 300, 'usable', NULL),
-(608, 'Seed_Of_Yggdrasil', 5000, 300, 'usable', NULL),
-(609, 'Amulet', 100, 100, 'usable', NULL),
-(610, 'Leaf_Of_Yggdrasil', 4000, 100, 'usable', NULL),
-(611, 'Spectacles', 40, 50, 'usable', NULL),
-(612, 'Portable_Furnace', 150, 200, 'usable', NULL),
-(613, 'Iron_Hammer', 1000, 200, 'usable', NULL),
-(614, 'Golden_Hammer', 3000, 300, 'usable', NULL),
-(615, 'Oridecon_Hammer', 5000, 400, 'usable', NULL),
-(616, 'Old_Card_Album', 10000, 50, 'usable', NULL),
-(617, 'Old_Violet_Box', 10000, 200, 'usable', NULL),
-(618, 'Worn_Out_Scroll', 50, 20, 'usable', NULL),
-(619, 'Unripe_Apple', 1000, 50, 'usable', NULL),
-(620, 'Orange_Juice', 1500, 50, 'usable', NULL),
-(621, 'Bitter_Herb', 20, 50, 'usable', NULL),
-(622, 'Rainbow_Carrot', 2500, 50, 'usable', NULL),
-(623, 'Earthworm_The_Dude', 4000, 50, 'usable', NULL),
-(624, 'Rotten_Fish', 2500, 50, 'usable', NULL),
-(625, 'Lusty_Iron', 100, 50, 'usable', NULL),
-(626, 'Monster_Juice', 1500, 50, 'usable', NULL),
-(627, 'Sweet_Milk', 7000, 50, 'usable', NULL),
-(628, 'Well_Dried_Bone', 10000, 50, 'usable', NULL),
-(629, 'Singing_Flower', 300, 50, 'usable', NULL),
-(630, 'Dew_Laden_Moss', 10, 50, 'usable', NULL),
-(631, 'Deadly_Noxious_Herb', 20, 50, 'usable', NULL),
-(632, 'Fatty_Chubby_Earthworm', 5000, 50, 'usable', NULL),
-(633, 'Baked_Yam', 20, 50, 'usable', NULL),
-(634, 'Tropical_Banana', 20, 50, 'usable', NULL),
-(635, 'Horror_Of_Tribe', 300, 50, 'usable', NULL),
-(636, 'No_Recipient', 100, 50, 'usable', NULL),
-(637, 'Old_Broom', 350, 50, 'usable', NULL),
-(638, 'Silver_Knife_Of_Chaste', 12000, 50, 'usable', NULL),
-(639, 'Armlet_Of_Obedience', 18000, 50, 'usable', NULL),
-(640, 'Shining_Stone', 3000, 50, 'usable', NULL),
-(641, 'Contracts_In_Shadow', 100, 50, 'usable', NULL),
-(642, 'Book_Of_Devil', 1800, 50, 'usable', NULL),
-(643, 'Pet_Incubator', 3000, 30, 'usable', NULL),
-(644, 'Gift_Box', 1000, 200, 'usable', NULL),
-(645, 'Center_Potion', 800, 100, 'usable', NULL),
-(656, 'Awakening_Potion', 1500, 150, 'usable', NULL),
-(657, 'Berserk_Potion', 3000, 200, 'usable', NULL),
-(658, 'Union_Of_Tribe', 2, 500, 'usable', NULL),
-(659, 'Heart_Of_Her', 500, 50, 'usable', NULL),
-(660, 'Prohibition_Red_Candle', 20000, 50, 'usable', NULL),
-(661, 'Sway_Apron', 20000, 50, 'usable', NULL),
-(662, 'Inspector_Certificate', 1450, 30, 'usable', NULL),
-(663, 'Korea_Rice_Cake', 1, 10, 'usable', NULL),
-(664, 'Gift_Box_1', 1000, 200, 'usable', NULL),
-(665, 'Gift_Box_2', 1000, 200, 'usable', NULL),
-(666, 'Gift_Box_3', 1000, 200, 'usable', NULL),
-(667, 'Gift_Box_4', 1000, 200, 'usable', NULL),
-(668, 'Handsei', 0, 20, 'usable', NULL),
-(669, 'Rice_Cake_Soup', 500, 100, 'usable', NULL),
-(670, 'Gold_Coin_Moneybag', 100000, 400, 'usable', NULL),
-(671, 'Gold_Coin', 10000, 40, 'usable', NULL),
-(672, 'Copper_Coin_Moneybag', 1000, 400, 'usable', NULL),
-(673, 'Copper_Coin', 100, 40, 'usable', NULL),
-(674, 'Mithril_Coin', 5000, 40, 'usable', NULL),
-(675, 'Silver_Coin', 5000, 40, 'usable', NULL),
-(676, 'Silver_Coin_Moneybag', 50000, 400, 'usable', NULL),
-(677, 'White_Gold_Coin', 2000, 40, 'usable', NULL),
-(678, 'Poison_Bottle', 5000, 100, 'usable', NULL),
-(679, 'Gold_Pill', 5000, 300, 'usable', NULL),
-(680, 'Magical_Carnation', 0, 1000, 'usable', NULL),
-(681, 'Memory_Of_Wedding', 50000, 10, 'usable', NULL),
-(682, 'Realgar_Wine', 0, 100, 'usable', NULL),
-(683, 'Exorcize_Herb', 0, 50, 'usable', NULL),
-(684, 'Durian', 15000, 300, 'usable', NULL),
-(685, 'RAMADAN', 5000, 300, 'usable', NULL),
-(686, 'Earth_Scroll_1_3', 1000, 10, 'usable', NULL),
-(687, 'Earth_Scroll_1_5', 2000, 10, 'usable', NULL),
-(688, 'Cold_Scroll_1_3', 1000, 10, 'usable', NULL),
-(689, 'Cold_Scroll_1_5', 2000, 10, 'usable', NULL),
-(690, 'Fire_Scroll_1_3', 1000, 10, 'usable', NULL),
-(691, 'Fire_Scroll_1_5', 2000, 10, 'usable', NULL),
-(692, 'Wind_Scroll_1_3', 1000, 10, 'usable', NULL),
-(693, 'Wind_Scroll_1_5', 2000, 10, 'usable', NULL),
-(694, 'Ghost_Scroll_1_3', 1000, 10, 'usable', NULL),
-(695, 'Ghost_Scroll_1_5', 2000, 10, 'usable', NULL),
-(696, 'Fire_Scroll_2_1', 1000, 10, 'usable', NULL),
-(697, 'Fire_Scroll_2_5', 2000, 10, 'usable', NULL),
-(698, 'Fire_Scroll_3_1', 1000, 10, 'usable', NULL),
-(699, 'Fire_Scroll_3_5', 2000, 10, 'usable', NULL),
-(700, 'Cold_Scroll_2_1', 1000, 10, 'usable', NULL),
-(12000, 'Cold_Scroll_2_5', 2000, 10, 'usable', NULL),
-(12001, 'Holy_Scroll_1_3', 1000, 10, 'usable', NULL),
-(12002, 'Holy_Scroll_1_5', 2000, 10, 'usable', NULL),
-(12003, 'Holy_Scroll_2_1', 1000, 10, 'usable', NULL),
-(12004, 'Arrow_Container', 2, 250, 'usable', NULL),
-(12005, 'Iron_Arrow_Container', 2, 250, 'usable', NULL),
-(12006, 'Steel_Arrow_Container', 2, 250, 'usable', NULL),
-(12007, 'Ori_Arrow_Container', 2, 250, 'usable', NULL),
-(12008, 'Fire_Arrow_Container', 2, 250, 'usable', NULL),
-(12009, 'Silver_Arrow_Container', 2, 250, 'usable', NULL),
-(12010, 'Wind_Arrow_Container', 2, 250, 'usable', NULL),
-(12011, 'Stone_Arrow_Container', 2, 250, 'usable', NULL),
-(12012, 'Crystal_Arrow_Container', 2, 250, 'usable', NULL),
-(12013, 'Shadow_Arrow_Container', 2, 250, 'usable', NULL),
-(12014, 'Imma_Arrow_Container', 2, 250, 'usable', NULL),
-(12015, 'Rusty_Arrow_Container', 2, 250, 'usable', NULL),
-(12016, 'Speed_Up_Potion', 2, 100, 'usable', NULL),
-(12017, 'Slow_Down_Potion', 2, 100, 'usable', NULL),
-(12018, 'Fire_Cracker', 2, 20, 'usable', NULL),
-(12019, 'Holy_Egg', 2, 150, 'usable', NULL),
-(12020, 'Water_Of_Darkness', 2, 30, 'usable', NULL),
-(12021, 'Pork_Belly', 0, 10, 'usable', NULL),
-(12022, 'Spareribs', 0, 10, 'usable', NULL),
-(12023, 'Giftbox_China', 1000, 200, 'usable', NULL),
-(12024, 'Red_Pouch_Of_Surprise', 50, 50, 'usable', NULL),
-(12025, 'Egg_Boy', 1000, 200, 'usable', NULL),
-(12026, 'Egg_Girl', 1000, 200, 'usable', NULL),
-(12027, 'Giggling_Box', 1000, 200, 'usable', NULL),
-(12028, 'Box_Of_Thunder', 1000, 200, 'usable', NULL),
-(12029, 'Gloomy_Box', 1000, 200, 'usable', NULL),
-(12030, 'Box_Of_Grudge', 1000, 200, 'usable', NULL),
-(12031, 'Sleepy_Box', 1000, 200, 'usable', NULL),
-(12032, 'Box_Of_Storm', 1000, 200, 'usable', NULL),
-(12033, 'Box_Of_Sunlight', 1000, 200, 'usable', NULL),
-(12034, 'Painting_Box', 1000, 200, 'usable', NULL),
-(12035, 'Lotto_Box01', 0, 20, 'usable', NULL),
-(12036, 'Lotto_Box02', 0, 20, 'usable', NULL),
-(12037, 'Lotto_Box03', 0, 20, 'usable', NULL),
-(12038, 'Lotto_Box04', 0, 20, 'usable', NULL),
-(12039, 'Lotto_Box05', 0, 20, 'usable', NULL),
-(12040, 'Stone_Of_Intelligence_', 100000, 300, 'usable', NULL),
-(12041, 'Str_Dish01', 2000, 60, 'usable', NULL),
-(12042, 'Str_Dish02', 4000, 500, 'usable', NULL),
-(12043, 'Str_Dish03', 6000, 500, 'usable', NULL),
-(12044, 'Str_Dish04', 8000, 500, 'usable', NULL),
-(12045, 'Str_Dish05', 10000, 500, 'usable', NULL),
-(12046, 'Int_Dish01', 2000, 100, 'usable', NULL),
-(12047, 'Int_Dish02', 4000, 500, 'usable', NULL),
-(12048, 'Int_Dish03', 6000, 500, 'usable', NULL),
-(12049, 'Int_Dish04', 8000, 300, 'usable', NULL),
-(12050, 'Int_Dish05', 10000, 400, 'usable', NULL),
-(12051, 'Vit_Dish01', 2000, 100, 'usable', NULL),
-(12052, 'Vit_Dish02', 4000, 200, 'usable', NULL),
-(12053, 'Vit_Dish03', 6000, 300, 'usable', NULL),
-(12054, 'Vit_Dish04', 8000, 500, 'usable', NULL),
-(12055, 'Vit_Dish05', 10000, 800, 'usable', NULL),
-(12056, 'Agi_Dish01', 2000, 100, 'usable', NULL),
-(12057, 'Agi_Dish02', 4000, 100, 'usable', NULL),
-(12058, 'Agi_Dish03', 6000, 500, 'usable', NULL),
-(12059, 'Agi_Dish04', 8000, 400, 'usable', NULL),
-(12060, 'Agi_Dish05', 10000, 500, 'usable', NULL),
-(12061, 'Dex_Dish01', 2000, 100, 'usable', NULL),
-(12062, 'Dex_Dish02', 4000, 200, 'usable', NULL),
-(12063, 'Dex_Dish03', 6000, 200, 'usable', NULL),
-(12064, 'Dex_Dish04', 8000, 500, 'usable', NULL),
-(12065, 'Dex_Dish05', 10000, 200, 'usable', NULL),
-(12066, 'Luk_Dish01', 2000, 60, 'usable', NULL),
-(12067, 'Luk_Dish02', 4000, 200, 'usable', NULL),
-(12068, 'Luk_Dish03', 6000, 500, 'usable', NULL),
-(12069, 'Luk_Dish04', 8000, 500, 'usable', NULL),
-(12070, 'Luk_Dish05', 10000, 400, 'usable', NULL),
-(12071, 'Str_Dish06', 20000, 800, 'usable', NULL),
-(12072, 'Str_Dish07', 40000, 1000, 'usable', NULL),
-(12073, 'Str_Dish08', 60000, 500, 'usable', NULL),
-(12074, 'Str_Dish09', 80000, 1000, 'usable', NULL),
-(12075, 'Str_Dish10', 100000, 1000, 'usable', NULL),
-(12076, 'Int_Dish06', 20000, 300, 'usable', NULL),
-(12077, 'Int_Dish07', 40000, 800, 'usable', NULL),
-(12078, 'Int_Dish08', 60000, 1000, 'usable', NULL),
-(12079, 'Int_Dish09', 80000, 1000, 'usable', NULL),
-(12080, 'Int_Dish10', 100000, 1000, 'usable', NULL),
-(12081, 'Vit_Dish06', 20000, 500, 'usable', NULL),
-(12082, 'Vit_Dish07', 40000, 400, 'usable', NULL),
-(12083, 'Vit_Dish08', 60000, 1000, 'usable', NULL),
-(12084, 'Vit_Dish09', 80000, 1000, 'usable', NULL),
-(12085, 'Vit_Dish10', 100000, 1000, 'usable', NULL),
-(12086, 'Agi_Dish06', 20000, 800, 'usable', NULL),
-(12087, 'Agi_Dish07', 40000, 800, 'usable', NULL),
-(12088, 'Agi_Dish08', 60000, 1000, 'usable', NULL),
-(12089, 'Agi_Dish09', 80000, 1000, 'usable', NULL),
-(12090, 'Agi_Dish10', 100000, 1000, 'usable', NULL),
-(12091, 'Dex_Dish06', 20000, 800, 'usable', NULL),
-(12092, 'Dex_Dish07', 40000, 800, 'usable', NULL),
-(12093, 'Dex_Dish08', 60000, 1000, 'usable', NULL),
-(12094, 'Dex_Dish09', 80000, 500, 'usable', NULL),
-(12095, 'Dex_Dish10', 100000, 1000, 'usable', NULL),
-(12096, 'Luk_Dish06', 20000, 300, 'usable', NULL),
-(12097, 'Luk_Dish07', 40000, 800, 'usable', NULL),
-(12098, 'Luk_Dish08', 60000, 400, 'usable', NULL),
-(12099, 'Luk_Dish09', 80000, 1000, 'usable', NULL),
-(12100, 'Luk_Dish10', 100000, 500, 'usable', NULL),
-(12101, 'Citron', 20, 300, 'usable', NULL),
-(12102, 'Meat_Skewer', 20, 300, 'usable', NULL),
-(12103, 'Bloody_Dead_Branch', 10000, 200, 'usable', NULL),
-(12104, 'Random_Quiver', 10000, 200, 'usable', NULL),
-(12105, 'Set_Of_Taiming_Item', 10000, 200, 'usable', NULL),
-(12106, 'Accessory_Box', 10000, 200, 'usable', NULL),
-(12107, 'Wrapped_Mask', 10000, 200, 'usable', NULL),
-(12108, 'Bundle_Of_Magic_Scroll', 10000, 200, 'usable', NULL),
-(12109, 'Poring_Box', 10000, 200, 'usable', NULL),
-(12110, 'First_Aid_Kit', 10000, 200, 'usable', NULL),
-(12111, 'Food_Package', 10000, 200, 'usable', NULL),
-(12112, 'Tropical_Sograt', 1000, 100, 'usable', NULL),
-(12113, 'Vermilion_The_Beach', 1000, 100, 'usable', NULL),
-(12114, 'Elemental_Fire', 2, 10, 'usable', NULL),
-(12115, 'Elemental_Water', 2, 10, 'usable', NULL),
-(12116, 'Elemental_Earth', 2, 10, 'usable', NULL),
-(12117, 'Elemental_Wind', 2, 10, 'usable', NULL),
-(12118, 'Resist_Fire', 2, 10, 'usable', NULL),
-(12119, 'Resist_Water', 2, 10, 'usable', NULL),
-(12120, 'Resist_Earth', 2, 10, 'usable', NULL),
-(12121, 'Resist_Wind', 2, 10, 'usable', NULL),
-(12122, 'Sesame_Pastry', 2, 70, 'usable', NULL),
-(12123, 'Honey_Pastry', 2, 70, 'usable', NULL),
-(12124, 'Rainbow_Cake', 2, 70, 'usable', NULL),
-(12125, 'Outdoor_Cooking_Kits', 500, 20, 'usable', NULL),
-(12126, 'Indoor_Cooking_Kits', 1000, 30, 'usable', NULL),
-(12127, 'High_end_Cooking_Kits', 2000, 50, 'usable', NULL),
-(12128, 'Imperial_Cooking_Kits', 5000, 70, 'usable', NULL),
-(12129, 'Fantastic_Cooking_Kits', 10000, 70, 'usable', NULL),
-(12130, 'Cookie_Bag', 2, 70, 'usable', NULL),
-(12131, 'Lucky_Potion', 2, 100, 'usable', NULL),
-(12132, 'Red_Bag', 0, 200, 'usable', NULL),
-(12133, 'Ice_Cream_', 0, 80, 'usable', NULL),
-(12134, 'Red_Envelope', 1, 10, 'usable', NULL),
-(12135, 'Green_Ale', 20, 30, 'usable', NULL),
-(12136, 'Women''s_Bundl', 0, 100, 'usable', NULL),
-(12137, '1st_Stage_Prize', 0, 0, 'usable', NULL),
-(12138, '2nd_Stage_Prize', 0, 0, 'usable', NULL),
-(12139, '3rd_Stage_Prize', 0, 0, 'usable', NULL),
-(12140, '4th_Stage_Prize', 0, 0, 'usable', NULL),
-(12141, '5th_Stage_Prize', 0, 0, 'usable', NULL),
-(12142, 'Magic_Book', 0, 100, 'usable', NULL),
-(12143, 'Red_Can', 50000, 300, 'usable', NULL),
-(12144, 'Sphere_Case_Wind', 2, 350, 'usable', NULL),
-(12145, 'Sphere_Case_Darkness', 2, 350, 'usable', NULL),
-(12146, 'Sphere_Case_Poison', 2, 350, 'usable', NULL),
-(12147, 'Sphere_Case_Water', 2, 350, 'usable', NULL),
-(12148, 'Sphere_Case_Fire', 2, 350, 'usable', NULL),
-(12149, 'Bullet_Case', 2, 250, 'usable', NULL),
-(12150, 'Bullet_Case_Blood', 2, 250, 'usable', NULL),
-(12151, 'Bullet_Case_Silver', 2, 250, 'usable', NULL),
-(12152, 'Special_Box', 0, 100, 'usable', NULL),
-(12153, 'Bow_Mercenary_Scroll1', 2, 100, 'usable', NULL),
-(12154, 'Bow_Mercenary_Scroll2', 2, 100, 'usable', NULL),
-(12155, 'Bow_Mercenary_Scroll3', 2, 100, 'usable', NULL),
-(12156, 'Bow_Mercenary_Scroll4', 2, 100, 'usable', NULL),
-(12157, 'Bow_Mercenary_Scroll5', 2, 100, 'usable', NULL),
-(12158, 'Bow_Mercenary_Scroll6', 2, 100, 'usable', NULL),
-(12159, 'Bow_Mercenary_Scroll7', 2, 100, 'usable', NULL),
-(12160, 'Bow_Mercenary_Scroll8', 2, 100, 'usable', NULL),
-(12161, 'Bow_Mercenary_Scroll9', 2, 100, 'usable', NULL),
-(12162, 'Bow_Mercenary_Scroll10', 2, 100, 'usable', NULL),
-(12163, 'SwordMercenary_Scroll1', 2, 100, 'usable', NULL),
-(12164, 'SwordMercenary_Scroll2', 2, 100, 'usable', NULL),
-(12165, 'SwordMercenary_Scroll3', 2, 100, 'usable', NULL),
-(12166, 'SwordMercenary_Scroll4', 2, 100, 'usable', NULL),
-(12167, 'SwordMercenary_Scroll5', 2, 100, 'usable', NULL),
-(12168, 'SwordMercenary_Scroll6', 2, 100, 'usable', NULL),
-(12169, 'SwordMercenary_Scroll7', 2, 100, 'usable', NULL),
-(12170, 'SwordMercenary_Scroll8', 2, 100, 'usable', NULL),
-(12171, 'SwordMercenary_Scroll9', 2, 100, 'usable', NULL),
-(12172, 'SwordMercenary_Scroll10', 2, 100, 'usable', NULL),
-(12173, 'SpearMercenary_Scroll1', 2, 100, 'usable', NULL),
-(12174, 'SpearMercenary_Scroll2', 2, 100, 'usable', NULL),
-(12175, 'SpearMercenary_Scroll3', 2, 100, 'usable', NULL),
-(12176, 'SpearMercenary_Scroll4', 2, 100, 'usable', NULL),
-(12177, 'SpearMercenary_Scroll5', 2, 100, 'usable', NULL),
-(12178, 'SpearMercenary_Scroll6', 2, 100, 'usable', NULL),
-(12179, 'SpearMercenary_Scroll7', 2, 100, 'usable', NULL),
-(12180, 'SpearMercenary_Scroll8', 2, 100, 'usable', NULL),
-(12181, 'SpearMercenary_Scroll9', 2, 100, 'usable', NULL),
-(12182, 'SpearMercenary_Scroll10', 2, 100, 'usable', NULL),
-(12183, 'Holy_Arrow_Quiver', 2, 250, 'usable', NULL),
-(12184, 'Mercenary_Red_Potion', 500, 100, 'usable', NULL),
-(12185, 'Mercenary_Blue_Potion', 1000, 100, 'usable', NULL),
-(12186, 'Red_Box', 50000, 200, 'usable', NULL),
-(12187, 'Green_Box', 50000, 200, 'usable', NULL),
-(12188, 'Magical_Moon_Cake', 20, 300, 'usable', NULL),
-(12189, 'Red_Box_', 50000, 200, 'usable', NULL),
-(12190, 'Moon_Cake', 2, 300, 'usable', NULL),
-(12191, 'Special_Moon_Cake', 2, 500, 'usable', NULL),
-(12192, 'Pumpkin_Pie', 20, 10, 'usable', NULL),
-(12193, 'Brezel', 20, 20, 'usable', NULL),
-(12194, 'Hometown_Gift', 20, 200, 'usable', NULL),
-(12195, 'Plain_Rice_Cake', 20, 100, 'usable', NULL),
-(12196, 'Hearty_Rice_Cake', 20, 100, 'usable', NULL),
-(12197, 'Salty_Rice_Cake', 20, 100, 'usable', NULL),
-(12198, 'Lucky_Rice_Cake', 20, 100, 'usable', NULL),
-(12199, 'Rice_Scroll', 0, 0, 'usable', NULL),
-(12200, 'Event_Cake', 20, 50, 'usable', NULL),
-(12201, 'Red_Box_C', 20, 200, 'usable', NULL),
-(12202, 'Str_Dish10_', 2, 10, 'usable', NULL),
-(12203, 'Agi_Dish10_', 2, 10, 'usable', NULL),
-(12204, 'Int_Dish10_', 2, 10, 'usable', NULL),
-(12205, 'Dex_Dish10_', 2, 10, 'usable', NULL),
-(12206, 'Luk_Dish10_', 2, 10, 'usable', NULL),
-(12207, 'Vit_Dish10_', 2, 10, 'usable', NULL),
-(12208, 'Battle_Manual', 2, 10, 'usable', NULL),
-(12209, 'Insurance', 2, 10, 'usable', NULL),
-(12210, 'Bubble_Gum', 2, 10, 'usable', NULL),
-(12211, 'Kafra_Card', 2, 10, 'usable', NULL),
-(12212, 'Giant_Fly_Wing', 2, 10, 'usable', NULL),
-(12213, 'Neuralizer', 2, 0, 'usable', NULL),
-(12214, 'Convex_Mirror', 2, 10, 'usable', NULL),
-(12215, 'Blessing_10_Scroll', 2, 10, 'usable', NULL),
-(12216, 'Inc_Agi_10_Scroll', 2, 10, 'usable', NULL),
-(12217, 'Aspersio_5_Scroll', 2, 10, 'usable', NULL),
-(12218, 'Assumptio_5_Scroll', 2, 10, 'usable', NULL),
-(12219, 'Wind_Walk_10_Scroll', 2, 10, 'usable', NULL),
-(12220, 'Adrenaline_Scroll', 2, 10, 'usable', NULL),
-(12221, 'Megaphone_', 2, 10, 'usable', NULL),
-(12225, 'Sweet_Candy_Striper', 20, 50, 'usable', NULL),
-(12226, 'Examination1', 20, 50, 'usable', NULL),
-(12227, 'Examination2', 20, 50, 'usable', NULL),
-(12228, 'Examination3', 20, 50, 'usable', NULL),
-(12229, 'Examination4', 20, 50, 'usable', NULL),
-(12230, 'Examination5', 20, 50, 'usable', NULL),
-(12231, 'Examination6', 20, 50, 'usable', NULL),
-(12232, 'Gingerbread', 20, 150, 'usable', NULL),
-(12233, 'Kvass', 20, 200, 'usable', NULL),
-(12234, 'Cacao99', 20, 100, 'usable', NULL),
-(12235, 'Strawberry_Choco', 20, 100, 'usable', NULL),
-(12236, 'Choco_Tart', 20, 100, 'usable', NULL),
-(12237, 'Choco_Lump', 0, 100, 'usable', NULL),
-(12238, 'New_Year_Rice_Cake_1', 20, 100, 'usable', NULL),
-(12239, 'New_Year_Rice_Cake_2', 20, 100, 'usable', NULL),
-(12240, 'Old_Yellow_Box', 20, 200, 'usable', NULL),
-(12241, 'M_Center_Potion', 800, 100, 'usable', NULL),
-(12242, 'M_Awakening_Potion', 1500, 150, 'usable', NULL),
-(12243, 'M_Berserk_Potion', 3000, 200, 'usable', NULL),
-(12244, 'Old_Gift_Box', 20, 200, 'usable', NULL),
-(12245, 'Green_Ale_US', 5000, 500, 'usable', NULL),
-(12246, 'Magic_Card_Album', 10000, 50, 'usable', NULL),
-(12247, 'Halohalo', 2, 100, 'usable', NULL),
-(12701, 'Old_Blue_Box_F', 0, 10, 'usable', NULL),
-(12702, 'Old_Bleu_Box', 0, 200, 'usable', NULL),
-(12703, 'Holy_Egg_2', 0, 50, 'usable', NULL),
-(12928, 'J_Aspersio_5_Scroll', 2, 10, 'usable', NULL),
-(12968, 'Emergency_Scroll1', 2, 10, 'usable', NULL),
-(12969, 'Emergency_Scroll2', 2, 10, 'usable', NULL),
-(12970, 'Emergency_Scroll3', 2, 10, 'usable', NULL),
-(12977, 'Teleport_Scroll1', 2, 10, 'usable', NULL),
-(12978, 'Teleport_Scroll2', 2, 10, 'usable', NULL),
-(12979, 'Teleport_Scroll3', 2, 10, 'usable', NULL),
-(12980, 'Teleport_Scroll4', 2, 10, 'usable', NULL),
-(12981, 'Teleport_Scroll5', 2, 10, 'usable', NULL),
-(12982, 'Teleport_Scroll6', 2, 10, 'usable', NULL),
-(14500, 'Insurance60', 2, 10, 'usable', NULL),
-(14508, 'Zeny_Scroll', 0, 10, 'usable', NULL),
-(14509, 'Light_Center_Pot', 800, 20, 'usable', NULL),
-(14510, 'Light_Awakening_Pot', 1500, 20, 'usable', NULL),
-(14511, 'Light_Berserk_Pot', 3000, 20, 'usable', NULL),
-(14512, 'Meteor_10_Scroll', 0, 10, 'usable', NULL),
-(14513, 'Storm_10_Scroll', 0, 10, 'usable', NULL),
-(14514, 'Vermilion_10_Scroll', 0, 10, 'usable', NULL),
-(14515, 'Lex_Aeterna_Scroll', 0, 10, 'usable', NULL),
-(14516, 'Magnificat_5_Scroll', 0, 10, 'usable', NULL),
-(14517, 'CP_Helm_Scroll', 0, 10, 'usable', NULL),
-(14518, 'CP_Shield_Scroll', 0, 10, 'usable', NULL),
-(14519, 'CP_Armor_Scroll', 0, 10, 'usable', NULL),
-(14520, 'CP_Weapon_Scroll', 0, 10, 'usable', NULL),
-(14521, 'Repair_Scroll', 0, 10, 'usable', NULL),
-(14522, 'Big_Bun', 0, 10, 'usable', NULL),
-(14523, 'Pill_', 0, 10, 'usable', NULL),
-(14524, 'Superb_Fish_Slice', 0, 10, 'usable', NULL),
-(14525, 'Chewy_Ricecake', 0, 10, 'usable', NULL),
-(14526, 'Oriental_Pastry', 0, 10, 'usable', NULL),
-(14527, 'Dun_Tele_Scroll1', 0, 10, 'usable', NULL),
-(4001, 'Poring_Card', 20, 10, 'misc', NULL),
-(4002, 'Fabre_Card', 20, 10, 'misc', NULL),
-(4003, 'Pupa_Card', 20, 10, 'misc', NULL),
-(4004, 'Drops_Card', 20, 10, 'misc', NULL),
-(4005, 'Poring__Card', 20, 10, 'misc', NULL),
-(4006, 'Lunatic_Card', 20, 10, 'misc', NULL),
-(4007, 'Pecopeco_Egg_Card', 20, 10, 'misc', NULL),
-(4008, 'Picky_Card', 20, 10, 'misc', NULL),
-(4009, 'Chonchon_Card', 20, 10, 'misc', NULL),
-(4010, 'Wilow_Card', 20, 10, 'misc', NULL),
-(4011, 'Picky__Card', 20, 10, 'misc', NULL),
-(4012, 'Thief_Bug_Egg_Card', 20, 10, 'misc', NULL),
-(4013, 'Andre_Egg_Card', 20, 10, 'misc', NULL),
-(4014, 'Roda_Frog_Card', 20, 10, 'misc', NULL),
-(4015, 'Condor_Card', 20, 10, 'misc', NULL),
-(4016, 'Thief_Bug_Card', 20, 10, 'misc', NULL),
-(4017, 'Savage_Babe_Card', 20, 10, 'misc', NULL),
-(4018, 'Andre_Larva_Card', 20, 10, 'misc', NULL),
-(4019, 'Hornet_Card', 20, 10, 'misc', NULL),
-(4020, 'Farmiliar_Card', 20, 10, 'misc', NULL),
-(4021, 'Rocker_Card', 20, 10, 'misc', NULL),
-(4022, 'Spore_Card', 20, 10, 'misc', NULL),
-(4023, 'Desert_Wolf_Babe_Card', 20, 10, 'misc', NULL),
-(4024, 'Plankton_Card', 20, 10, 'misc', NULL),
-(4025, 'Skeleton_Card', 20, 10, 'misc', NULL),
-(4026, 'Thief_Bug_Female_Card', 20, 10, 'misc', NULL),
-(4027, 'Kukre_Card', 20, 10, 'misc', NULL),
-(4028, 'Tarou_Card', 20, 10, 'misc', NULL),
-(4029, 'Wolf_Card', 20, 10, 'misc', NULL),
-(4030, 'Mandragora_Card', 20, 10, 'misc', NULL),
-(4031, 'Pecopeco_Card', 20, 10, 'misc', NULL),
-(4032, 'Ambernite_Card', 20, 10, 'misc', NULL),
-(4033, 'Poporing_Card', 20, 10, 'misc', NULL),
-(4034, 'Worm_Tail_Card', 20, 10, 'misc', NULL),
-(4035, 'Hydra_Card', 20, 10, 'misc', NULL),
-(4036, 'Muka_Card', 20, 10, 'misc', NULL),
-(4037, 'Snake_Card', 20, 10, 'misc', NULL),
-(4038, 'Zombie_Card', 20, 10, 'misc', NULL),
-(4039, 'Stainer_Card', 20, 10, 'misc', NULL),
-(4040, 'Creamy_Card', 20, 10, 'misc', NULL),
-(4041, 'Coco_Card', 20, 10, 'misc', NULL),
-(4042, 'Steel_Chonchon_Card', 20, 10, 'misc', NULL),
-(4043, 'Andre_Card', 20, 10, 'misc', NULL),
-(4044, 'Smokie_Card', 20, 10, 'misc', NULL),
-(4045, 'Horn_Card', 20, 10, 'misc', NULL),
-(4046, 'Martin_Card', 20, 10, 'misc', NULL),
-(4047, 'Ghostring_Card', 20, 10, 'misc', NULL),
-(4048, 'Poison_Spore_Card', 20, 10, 'misc', NULL),
-(4049, 'Vadon_Card', 20, 10, 'misc', NULL),
-(4050, 'Thief_Bug_Male_Card', 20, 10, 'misc', NULL),
-(4051, 'Yoyo_Card', 20, 10, 'misc', NULL),
-(4052, 'Elder_Wilow_Card', 20, 10, 'misc', NULL),
-(4053, 'Vitata_Card', 20, 10, 'misc', NULL),
-(4054, 'Angeling_Card', 20, 10, 'misc', NULL),
-(4055, 'Marina_Card', 20, 10, 'misc', NULL),
-(4056, 'Dustiness_Card', 20, 10, 'misc', NULL),
-(4057, 'Metaller_Card', 20, 10, 'misc', NULL),
-(4058, 'Thara_Frog_Card', 20, 10, 'misc', NULL),
-(4059, 'Soldier_Andre_Card', 20, 10, 'misc', NULL),
-(4060, 'Goblin_Card', 20, 10, 'misc', NULL),
-(4061, 'Cornutus_Card', 20, 10, 'misc', NULL),
-(4062, 'Anacondaq_Card', 20, 10, 'misc', NULL),
-(4063, 'Caramel_Card', 20, 10, 'misc', NULL),
-(4064, 'Zerom_Card', 20, 10, 'misc', NULL),
-(4065, 'Kaho_Card', 20, 10, 'misc', NULL),
-(4066, 'Orc_Warrior_Card', 20, 10, 'misc', NULL),
-(4067, 'Megalodon_Card', 20, 10, 'misc', NULL),
-(4068, 'Scorpion_Card', 20, 10, 'misc', NULL),
-(4069, 'Drainliar_Card', 20, 10, 'misc', NULL),
-(4070, 'Eggyra_Card', 20, 10, 'misc', NULL),
-(4071, 'Orc_Zombie_Card', 20, 10, 'misc', NULL),
-(4072, 'Golem_Card', 20, 10, 'misc', NULL),
-(4073, 'Pirate_Skel_Card', 20, 10, 'misc', NULL),
-(4074, 'BigFoot_Card', 20, 10, 'misc', NULL),
-(4075, 'Argos_Card', 20, 10, 'misc', NULL),
-(4076, 'Magnolia_Card', 20, 10, 'misc', NULL),
-(4077, 'Phen_Card', 20, 10, 'misc', NULL),
-(4078, 'Savage_Card', 20, 10, 'misc', NULL),
-(4079, 'Mantis_Card', 20, 10, 'misc', NULL),
-(4080, 'Flora_Card', 20, 10, 'misc', NULL),
-(4081, 'Hode_Card', 20, 10, 'misc', NULL),
-(4082, 'Desert_Wolf_Card', 20, 10, 'misc', NULL),
-(4083, 'Rafflesia_Card', 20, 10, 'misc', NULL),
-(4084, 'Marine_Sphere_Card', 20, 10, 'misc', NULL),
-(4085, 'Orc_Skeleton_Card', 20, 10, 'misc', NULL),
-(4086, 'Soldier_Skeleton_Card', 20, 10, 'misc', NULL),
-(4087, 'Giearth_Card', 20, 10, 'misc', NULL),
-(4088, 'Frilldora_Card', 20, 10, 'misc', NULL),
-(4089, 'Sword_Fish_Card', 20, 10, 'misc', NULL),
-(4090, 'Munak_Card', 20, 10, 'misc', NULL),
-(4091, 'Kobold_Card', 20, 10, 'misc', NULL),
-(4092, 'Skel_Worker_Card', 20, 10, 'misc', NULL),
-(4093, 'Obeaune_Card', 20, 10, 'misc', NULL),
-(4094, 'Archer_Skeleton_Card', 20, 10, 'misc', NULL),
-(4095, 'Marse_Card', 20, 10, 'misc', NULL),
-(4096, 'Zenorc_Card', 20, 10, 'misc', NULL),
-(4097, 'Matyr_Card', 20, 10, 'misc', NULL),
-(4098, 'Dokebi_Card', 20, 10, 'misc', NULL),
-(4099, 'Pasana_Card', 20, 10, 'misc', NULL),
-(4100, 'Sohee_Card', 20, 10, 'misc', NULL),
-(4101, 'Sand_Man_Card', 20, 10, 'misc', NULL),
-(4102, 'Whisper_Card', 20, 10, 'misc', NULL),
-(4103, 'Horong_Card', 20, 10, 'misc', NULL),
-(4104, 'Requiem_Card', 20, 10, 'misc', NULL),
-(4105, 'Marc_Card', 20, 10, 'misc', NULL),
-(4106, 'Mummy_Card', 20, 10, 'misc', NULL),
-(4107, 'Verit_Card', 20, 10, 'misc', NULL),
-(4108, 'Myst_Card', 20, 10, 'misc', NULL),
-(4109, 'Jakk_Card', 20, 10, 'misc', NULL),
-(4110, 'Ghoul_Card', 20, 10, 'misc', NULL),
-(4111, 'Strouf_Card', 20, 10, 'misc', NULL),
-(4112, 'Marduk_Card', 20, 10, 'misc', NULL),
-(4113, 'Marionette_Card', 20, 10, 'misc', NULL),
-(4114, 'Argiope_Card', 20, 10, 'misc', NULL),
-(4115, 'Hunter_Fly_Card', 20, 10, 'misc', NULL),
-(4116, 'Isis_Card', 20, 10, 'misc', NULL),
-(4117, 'Side_Winder_Card', 20, 10, 'misc', NULL),
-(4118, 'Petit_Card', 20, 10, 'misc', NULL),
-(4119, 'Bathory_Card', 20, 10, 'misc', NULL),
-(4120, 'Petit__Card', 20, 10, 'misc', NULL),
-(4121, 'Phreeoni_Card', 20, 10, 'misc', NULL),
-(4122, 'Deviruchi_Card', 20, 10, 'misc', NULL),
-(4123, 'Eddga_Card', 20, 10, 'misc', NULL),
-(4124, 'Medusa_Card', 20, 10, 'misc', NULL),
-(4125, 'Deviace_Card', 20, 10, 'misc', NULL),
-(4126, 'Minorous_Card', 20, 10, 'misc', NULL),
-(4127, 'Nightmare_Card', 20, 10, 'misc', NULL),
-(4128, 'Golden_Bug_Card', 20, 10, 'misc', NULL),
-(4129, 'Baphomet__Card', 20, 10, 'misc', NULL),
-(4130, 'Scorpion_King_Card', 20, 10, 'misc', NULL),
-(4131, 'Moonlight_Flower_Card', 20, 10, 'misc', NULL),
-(4132, 'Mistress_Card', 20, 10, 'misc', NULL),
-(4133, 'Daydric_Card', 20, 10, 'misc', NULL),
-(4134, 'Dracula_Card', 20, 10, 'misc', NULL),
-(4135, 'Orc_Load_Card', 20, 10, 'misc', NULL),
-(4136, 'Khalitzburg_Card', 20, 10, 'misc', NULL),
-(4137, 'Drake_Card', 20, 10, 'misc', NULL),
-(4138, 'Anubis_Card', 20, 10, 'misc', NULL),
-(4139, 'Joker_Card', 20, 10, 'misc', NULL),
-(4140, 'Knight_Of_Abyss_Card', 20, 10, 'misc', NULL),
-(4141, 'Evil_Druid_Card', 20, 10, 'misc', NULL),
-(4142, 'Doppelganger_Card', 20, 10, 'misc', NULL),
-(4143, 'Orc_Hero_Card', 20, 10, 'misc', NULL),
-(4144, 'Osiris_Card', 20, 10, 'misc', NULL),
-(4145, 'Berzebub_Card', 20, 10, 'misc', NULL),
-(4146, 'Maya_Card', 20, 10, 'misc', NULL),
-(4147, 'Baphomet_Card', 20, 10, 'misc', NULL),
-(4148, 'Pharaoh_Card', 20, 10, 'misc', NULL),
-(4149, 'Gargoyle_Card', 20, 10, 'misc', NULL),
-(4150, 'Goat_Card', 20, 10, 'misc', NULL),
-(4151, 'Gajomart_Card', 20, 10, 'misc', NULL),
-(4152, 'Galapago_Card', 20, 10, 'misc', NULL),
-(4153, 'Crab_Card', 20, 10, 'misc', NULL),
-(4154, 'Rice_Cake_Boy_Card', 20, 10, 'misc', NULL),
-(4155, 'Goblin_Leader_Card', 20, 10, 'misc', NULL),
-(4156, 'Steam_Goblin_Card', 20, 10, 'misc', NULL),
-(4157, 'Goblin_Archer_Card', 20, 10, 'misc', NULL),
-(4158, 'Flying_Deleter_Card', 20, 10, 'misc', NULL),
-(4159, 'Nine_Tail_Card', 20, 10, 'misc', NULL),
-(4160, 'Antique_Firelock_Card', 20, 10, 'misc', NULL),
-(4161, 'Grand_Peco_Card', 20, 10, 'misc', NULL),
-(4162, 'Grizzly_Card', 20, 10, 'misc', NULL),
-(4163, 'Gryphon_Card', 20, 10, 'misc', NULL),
-(4164, 'Gullinbursti_Card', 20, 10, 'misc', NULL),
-(4165, 'Gig_Card', 20, 10, 'misc', NULL),
-(4166, 'Nightmare_Terror_Card', 20, 10, 'misc', NULL),
-(4167, 'Neraid_Card', 20, 10, 'misc', NULL),
-(4168, 'Dark_Lord_Card', 20, 10, 'misc', NULL),
-(4169, 'Dark_Illusion_Card', 20, 10, 'misc', NULL),
-(4170, 'Dark_Frame_Card', 20, 10, 'misc', NULL),
-(4171, 'Dark_Priest_Card', 20, 10, 'misc', NULL),
-(4172, 'The_Paper_Card', 20, 10, 'misc', NULL),
-(4173, 'Demon_Pungus_Card', 20, 10, 'misc', NULL),
-(4174, 'Deviling_Card', 20, 10, 'misc', NULL),
-(4175, 'Poison_Toad_Card', 20, 10, 'misc', NULL),
-(4176, 'Dullahan_Card', 20, 10, 'misc', NULL),
-(4177, 'Dryad_Card', 20, 10, 'misc', NULL),
-(4178, 'Dragon_Tail_Card', 20, 10, 'misc', NULL),
-(4179, 'Dragon_Fly_Card', 20, 10, 'misc', NULL),
-(4180, 'Driller_Card', 20, 10, 'misc', NULL),
-(4181, 'Disguise_Card', 20, 10, 'misc', NULL),
-(4182, 'Diabolic_Card', 20, 10, 'misc', NULL),
-(4183, 'Vagabond_Wolf_Card', 20, 10, 'misc', NULL),
-(4184, 'Lava_Golem_Card', 20, 10, 'misc', NULL),
-(4185, 'Rideword_Card', 20, 10, 'misc', NULL),
-(4186, 'Raggler_Card', 20, 10, 'misc', NULL),
-(4187, 'Raydric_Archer_Card', 20, 10, 'misc', NULL),
-(4188, 'Leib_Olmai_Card', 20, 10, 'misc', NULL),
-(4189, 'Wraith_Dead_Card', 20, 10, 'misc', NULL),
-(4190, 'Wraith_Card', 20, 10, 'misc', NULL),
-(4191, 'Loli_Ruri_Card', 20, 10, 'misc', NULL),
-(4192, 'Rotar_Zairo_Card', 20, 10, 'misc', NULL),
-(4193, 'Lude_Card', 20, 10, 'misc', NULL),
-(4194, 'Rybio_Card', 20, 10, 'misc', NULL),
-(4195, 'Leaf_Cat_Card', 20, 10, 'misc', NULL),
-(4196, 'Marin_Card', 20, 10, 'misc', NULL),
-(4197, 'Mastering_Card', 20, 10, 'misc', NULL),
-(4198, 'Maya_Puple_Card', 20, 10, 'misc', NULL),
-(4199, 'Merman_Card', 20, 10, 'misc', NULL),
-(4200, 'Megalith_Card', 20, 10, 'misc', NULL),
-(4201, 'Majoruros_Card', 20, 10, 'misc', NULL),
-(4202, 'Civil_Servant_Card', 20, 10, 'misc', NULL),
-(4203, 'Mutant_Dragon_Card', 20, 10, 'misc', NULL),
-(4204, 'Mini_Demon_Card', 20, 10, 'misc', NULL),
-(4205, 'Mimic_Card', 20, 10, 'misc', NULL),
-(4206, 'Mystcase_Card', 20, 10, 'misc', NULL),
-(4207, 'Mysteltainn_Card', 20, 10, 'misc', NULL),
-(4208, 'Miyabi_Ningyo_Card', 20, 10, 'misc', NULL),
-(4209, 'Violy_Card', 20, 10, 'misc', NULL),
-(4210, 'Wander_Man_Card', 20, 10, 'misc', NULL),
-(4211, 'Vocal_Card', 20, 10, 'misc', NULL),
-(4212, 'Bon_Gun_Card', 20, 10, 'misc', NULL),
-(4213, 'Brilight_Card', 20, 10, 'misc', NULL),
-(4214, 'Bloody_Murderer_Card', 20, 10, 'misc', NULL),
-(4215, 'Blazzer_Card', 20, 10, 'misc', NULL),
-(4216, 'Sasquatch_Card', 20, 10, 'misc', NULL),
-(4217, 'Live_Peach_Tree_Card', 20, 10, 'misc', NULL),
-(4218, 'Succubus_Card', 20, 10, 'misc', NULL),
-(4219, 'Sageworm_Card', 20, 10, 'misc', NULL),
-(4220, 'Solider_Card', 20, 10, 'misc', NULL),
-(4221, 'Skeleton_General_Card', 20, 10, 'misc', NULL),
-(4222, 'Skel_Prisoner_Card', 20, 10, 'misc', NULL),
-(4223, 'Stalactic_Golem_Card', 20, 10, 'misc', NULL),
-(4224, 'Stem_Worm_Card', 20, 10, 'misc', NULL),
-(4225, 'Stone_Shooter_Card', 20, 10, 'misc', NULL),
-(4226, 'Sting_Card', 20, 10, 'misc', NULL),
-(4227, 'Spring_Rabbit_Card', 20, 10, 'misc', NULL),
-(4228, 'Sleeper_Card', 20, 10, 'misc', NULL),
-(4229, 'C_Tower_Manager_Card', 20, 10, 'misc', NULL),
-(4230, 'Shinobi_Card', 20, 10, 'misc', NULL),
-(4231, 'Increase_Soil_Card', 20, 10, 'misc', NULL),
-(4232, 'Wild_Ginseng_Card', 20, 10, 'misc', NULL),
-(4233, 'Baby_Leopard_Card', 20, 10, 'misc', NULL),
-(4234, 'Anolian_Card', 20, 10, 'misc', NULL),
-(4235, 'Cookie_XMAS_Card', 20, 10, 'misc', NULL),
-(4236, 'Amon_Ra_Card', 20, 10, 'misc', NULL),
-(4237, 'Owl_Duke_Card', 20, 10, 'misc', NULL),
-(4238, 'Owl_Baron_Card', 20, 10, 'misc', NULL),
-(4239, 'Iron_Fist_Card', 20, 10, 'misc', NULL),
-(4240, 'Arclouse_Card', 20, 10, 'misc', NULL),
-(4241, 'Archangeling_Card', 20, 10, 'misc', NULL),
-(4242, 'Apocalips_Card', 20, 10, 'misc', NULL),
-(4243, 'Antonio_Card', 20, 10, 'misc', NULL),
-(4244, 'Alarm_Card', 20, 10, 'misc', NULL),
-(4245, 'Am_Mut_Card', 20, 10, 'misc', NULL),
-(4246, 'Assulter_Card', 20, 10, 'misc', NULL),
-(4247, 'Aster_Card', 20, 10, 'misc', NULL),
-(4248, 'Ancient_Mummy_Card', 20, 10, 'misc', NULL),
-(4249, 'Ancient_Worm_Card', 20, 10, 'misc', NULL),
-(4250, 'Executioner_Card', 20, 10, 'misc', NULL),
-(4251, 'Elder_Card', 20, 10, 'misc', NULL),
-(4252, 'Alligator_Card', 20, 10, 'misc', NULL),
-(4253, 'Alice_Card', 20, 10, 'misc', NULL),
-(4254, 'Tirfing_Card', 20, 10, 'misc', NULL),
-(4255, 'Orc_Lady_Card', 20, 10, 'misc', NULL),
-(4256, 'Orc_Archer_Card', 20, 10, 'misc', NULL),
-(4257, 'Wild_Rose_Card', 20, 10, 'misc', NULL),
-(4258, 'Wicked_Nymph_Card', 20, 10, 'misc', NULL),
-(4259, 'Wooden_Golem_Card', 20, 10, 'misc', NULL),
-(4260, 'Wootan_Shooter_Card', 20, 10, 'misc', NULL),
-(4261, 'Wootan_Fighter_Card', 20, 10, 'misc', NULL),
-(4262, 'Evil_Cloud_Hermit_Card', 20, 10, 'misc', NULL),
-(4263, 'Incant_Samurai_Card', 20, 10, 'misc', NULL),
-(4264, 'Wind_Ghost_Card', 20, 10, 'misc', NULL),
-(4265, 'Li_Me_Mang_Ryang_Card', 20, 10, 'misc', NULL),
-(4266, 'Eclipse_Card', 20, 10, 'misc', NULL),
-(4267, 'Explosion_Card', 20, 10, 'misc', NULL),
-(4268, 'Injustice_Card', 20, 10, 'misc', NULL),
-(4269, 'Incubus_Card', 20, 10, 'misc', NULL),
-(4270, 'Giant_Spider_Card', 20, 10, 'misc', NULL),
-(4271, 'Giant_Honet_Card', 20, 10, 'misc', NULL),
-(4272, 'Dancing_Dragon_Card', 20, 10, 'misc', NULL),
-(4273, 'Shellfish_Card', 20, 10, 'misc', NULL),
-(4274, 'Zombie_Master_Card', 20, 10, 'misc', NULL),
-(4275, 'Zombie_Prisoner_Card', 20, 10, 'misc', NULL),
-(4276, 'Lord_Of_Death_Card', 20, 10, 'misc', NULL),
-(4277, 'Zherlthsh_Card', 20, 10, 'misc', NULL),
-(4278, 'Gibbet_Card', 20, 10, 'misc', NULL),
-(4279, 'Deleter_Card', 20, 10, 'misc', NULL),
-(4280, 'Geographer_Card', 20, 10, 'misc', NULL),
-(4281, 'Zipper_Bear_Card', 20, 10, 'misc', NULL),
-(4282, 'Tengu_Card', 20, 10, 'misc', NULL),
-(4283, 'Greatest_General_Card', 20, 10, 'misc', NULL),
-(4284, 'Chepet_Card', 20, 10, 'misc', NULL),
-(4285, 'Choco_Card', 20, 10, 'misc', NULL),
-(4286, 'Karakasa_Card', 20, 10, 'misc', NULL),
-(4287, 'Kapha_Card', 20, 10, 'misc', NULL),
-(4288, 'Carat_Card', 20, 10, 'misc', NULL),
-(4289, 'Caterpillar_Card', 20, 10, 'misc', NULL),
-(4290, 'Cat_O_Nine_Tail_Card', 20, 10, 'misc', NULL),
-(4291, 'Kobold_Leader_Card', 20, 10, 'misc', NULL),
-(4292, 'Kobold_Archer_Card', 20, 10, 'misc', NULL),
-(4293, 'Cookie_Card', 20, 10, 'misc', NULL),
-(4294, 'Quve_Card', 20, 10, 'misc', NULL),
-(4295, 'Kraben_Card', 20, 10, 'misc', NULL),
-(4296, 'Cramp_Card', 20, 10, 'misc', NULL),
-(4297, 'Cruiser_Card', 20, 10, 'misc', NULL),
-(4298, 'Cremy_Fear_Card', 20, 10, 'misc', NULL),
-(4299, 'Clock_Card', 20, 10, 'misc', NULL),
-(4300, 'Chimera_Card', 20, 10, 'misc', NULL),
-(4301, 'Killer_Mantis_Card', 20, 10, 'misc', NULL),
-(4302, 'Tao_Gunka_Card', 20, 10, 'misc', NULL),
-(4303, 'Whisper_Boss_Card', 20, 10, 'misc', NULL),
-(4304, 'Tamruan_Card', 20, 10, 'misc', NULL),
-(4305, 'Turtle_General_Card', 20, 10, 'misc', NULL),
-(4306, 'Toad_Card', 20, 10, 'misc', NULL),
-(4307, 'Kind_Of_Beetle_Card', 20, 10, 'misc', NULL),
-(4308, 'Tri_Joint_Card', 20, 10, 'misc', NULL),
-(4309, 'Parasite_Card', 20, 10, 'misc', NULL),
-(4310, 'Panzer_Goblin_Card', 20, 10, 'misc', NULL),
-(4311, 'Permeter_Card', 20, 10, 'misc', NULL),
-(4312, 'Fur_Seal_Card', 20, 10, 'misc', NULL),
-(4313, 'Punk_Card', 20, 10, 'misc', NULL),
-(4314, 'Penomena_Card', 20, 10, 'misc', NULL),
-(4315, 'Pest_Card', 20, 10, 'misc', NULL),
-(4316, 'Fake_Angel_Card', 20, 10, 'misc', NULL),
-(4317, 'Mobster_Card', 20, 10, 'misc', NULL),
-(4318, 'Knight_Windstorm_Card', 20, 10, 'misc', NULL),
-(4319, 'Freezer_Card', 20, 10, 'misc', NULL),
-(4320, 'Bloody_Knight_Card', 20, 10, 'misc', NULL),
-(4321, 'Hylozoist_Card', 20, 10, 'misc', NULL),
-(4322, 'High_Orc_Card', 20, 10, 'misc', NULL),
-(4323, 'Garm_Baby_Card', 20, 10, 'misc', NULL),
-(4324, 'Garm_Card', 20, 10, 'misc', NULL),
-(4325, 'Harpy_Card', 20, 10, 'misc', NULL),
-(4326, 'See_Otter_Card', 20, 10, 'misc', NULL),
-(4327, 'Blood_Butterfly_Card', 20, 10, 'misc', NULL),
-(4328, 'Hyegun_Card', 20, 10, 'misc', NULL),
-(4329, 'Phendark_Card', 20, 10, 'misc', NULL),
-(4330, 'Dark_Snake_Lord_Card', 20, 10, 'misc', NULL),
-(4331, 'Heater_Card', 20, 10, 'misc', NULL),
-(4332, 'Waste_Stove_Card', 20, 10, 'misc', NULL),
-(4333, 'Venomous_Card', 20, 10, 'misc', NULL),
-(4334, 'Noxious_Card', 20, 10, 'misc', NULL),
-(4335, 'Pitman_Card', 20, 10, 'misc', NULL),
-(4336, 'Ungoliant_Card', 20, 10, 'misc', NULL),
-(4337, 'Porcellio_Card', 20, 10, 'misc', NULL),
-(4338, 'Obsidian_Card', 20, 10, 'misc', NULL),
-(4339, 'Mineral_Card', 20, 10, 'misc', NULL),
-(4340, 'Teddy_Bear_Card', 20, 10, 'misc', NULL),
-(4341, 'Metaling_Card', 20, 10, 'misc', NULL),
-(4342, 'Rsx_0806_Card', 20, 10, 'misc', NULL),
-(4343, 'Mole_Card', 20, 10, 'misc', NULL),
-(4344, 'Anopheles_Card', 20, 10, 'misc', NULL),
-(4345, 'Hill_Wind_Card', 20, 10, 'misc', NULL),
-(4346, 'Ygnizem_Card', 20, 10, 'misc', NULL),
-(4347, 'Armaia_Card', 20, 10, 'misc', NULL),
-(4348, 'Whikebain_Card', 20, 10, 'misc', NULL),
-(4349, 'Erend_Card', 20, 10, 'misc', NULL),
-(4350, 'Rawrel_Card', 20, 10, 'misc', NULL),
-(4351, 'Kavac_Card', 20, 10, 'misc', NULL),
-(4352, 'B_Ygnizem_Card', 20, 10, 'misc', NULL),
-(4353, 'Removal_Card', 20, 10, 'misc', NULL),
-(4354, 'Gemini_Card', 20, 10, 'misc', NULL),
-(4355, 'Gremlin_Card', 20, 10, 'misc', NULL),
-(4356, 'Beholder_Card', 20, 10, 'misc', NULL),
-(4357, 'B_Seyren_Card', 20, 10, 'misc', NULL),
-(4358, 'Seyren_Card', 20, 10, 'misc', NULL),
-(4359, 'B_Eremes_Card', 20, 10, 'misc', NULL),
-(4360, 'Eremes_Card', 20, 10, 'misc', NULL),
-(4361, 'B_Harword_Card', 20, 10, 'misc', NULL),
-(4362, 'Harword_Card', 20, 10, 'misc', NULL),
-(4363, 'B_Magaleta_Card', 20, 10, 'misc', NULL),
-(4364, 'Magaleta_Card', 20, 10, 'misc', NULL),
-(4365, 'B_Katrinn_Card', 20, 10, 'misc', NULL),
-(4366, 'Katrinn_Card', 20, 10, 'misc', NULL),
-(4367, 'B_Shecil_Card', 20, 10, 'misc', NULL),
-(4368, 'Shecil_Card', 20, 10, 'misc', NULL),
-(4369, 'Venatu_Card', 20, 10, 'misc', NULL),
-(4370, 'Dimik_Card', 20, 10, 'misc', NULL),
-(4371, 'Archdam_Card', 20, 10, 'misc', NULL),
-(4372, 'Bacsojin_Card', 20, 10, 'misc', NULL),
-(4373, 'Chung_E_Card', 20, 10, 'misc', NULL),
-(4374, 'Apocalips_H_Card', 20, 10, 'misc', NULL),
-(4375, 'Orc_Baby_Card_Card', 20, 10, 'misc', NULL),
-(4376, 'Lady_Tanee_Card', 20, 10, 'misc', NULL),
-(4377, 'Green_Iguana_Card', 20, 10, 'misc', NULL),
-(4378, 'Acidus_Card', 20, 10, 'misc', NULL),
-(4379, 'Acidus__Card', 20, 10, 'misc', NULL),
-(4380, 'Ferus_Card', 20, 10, 'misc', NULL),
-(4381, 'Ferus__Card', 20, 10, 'misc', NULL),
-(4382, 'Novus__Card', 20, 10, 'misc', NULL),
-(4383, 'Novus_Card', 20, 10, 'misc', NULL),
-(4384, 'Hydro_Card', 20, 10, 'misc', NULL),
-(4385, 'Dragon_Egg_Card', 20, 10, 'misc', NULL),
-(4386, 'Detale_Card', 20, 10, 'misc', NULL),
-(4387, 'Ancient_Mimic_Card', 20, 10, 'misc', NULL),
-(4388, 'Deathword_Card', 20, 10, 'misc', NULL),
-(4389, 'Plasma_Card', 20, 10, 'misc', NULL),
-(4390, 'Breeze_Card', 20, 10, 'misc', NULL),
-(4391, 'Retribution_Card', 20, 10, 'misc', NULL),
-(4392, 'Observation_Card', 20, 10, 'misc', NULL),
-(4393, 'Shelter_Card', 20, 10, 'misc', NULL),
-(4394, 'Solace_Card', 20, 10, 'misc', NULL),
-(4395, 'Tha_Maero_Card', 20, 10, 'misc', NULL),
-(4396, 'Tha_Odium_Card', 20, 10, 'misc', NULL),
-(4397, 'Tha_Despero_Card', 20, 10, 'misc', NULL),
-(4398, 'Tha_Dolor_Card', 20, 10, 'misc', NULL),
-(4399, 'Thanatos_Card', 20, 10, 'misc', NULL),
-(4400, 'Aliza_Card', 20, 10, 'misc', NULL),
-(4401, 'Alicel_Card', 20, 10, 'misc', NULL),
-(4402, 'Aliot_Card', 20, 10, 'misc', NULL),
-(4403, 'Kiel_Card', 20, 10, 'misc', NULL),
-(4404, 'Skogul_Card', 20, 10, 'misc', NULL),
-(4405, 'Frus_Card', 20, 10, 'misc', NULL),
-(4406, 'Skeggiold_Card', 20, 10, 'misc', NULL),
-(4407, 'Randgris_Card', 20, 10, 'misc', NULL),
-(701, 'Ora_Ora', 55000, 200, 'misc', NULL),
-(702, 'Animal_Blood', 450, 100, 'misc', NULL),
-(703, 'Hinalle', 500, 10, 'misc', NULL),
-(704, 'Aloe', 500, 10, 'misc', NULL),
-(705, 'Clover', 10, 10, 'misc', NULL),
-(706, 'Four_Leaf_Clover', 80000, 10, 'misc', NULL),
-(707, 'Singing_Plant', 500, 10, 'misc', NULL),
-(708, 'Ment', 500, 10, 'misc', NULL),
-(709, 'Izidor', 500, 10, 'misc', NULL),
-(710, 'Illusion_Flower', 1000, 10, 'misc', NULL),
-(711, 'Shoot', 16, 10, 'misc', NULL),
-(712, 'Flower', 2, 10, 'misc', NULL),
-(713, 'Empty_Bottle', 6, 20, 'misc', NULL),
-(714, 'Emperium', 2, 1000, 'misc', NULL),
-(715, 'Yellow_Gemstone', 600, 30, 'misc', NULL),
-(716, 'Red_Gemstone', 600, 30, 'misc', NULL),
-(717, 'Blue_Gemstone', 600, 30, 'misc', NULL),
-(718, 'Dark_Red_Jewel', 6000, 100, 'misc', NULL),
-(719, 'Violet_Jewel', 6000, 100, 'misc', NULL),
-(720, 'Skyblue_Jewel', 6000, 100, 'misc', NULL),
-(721, 'Azure_Jewel', 6000, 100, 'misc', NULL),
-(722, 'Scarlet_Jewel', 6000, 100, 'misc', NULL),
-(723, 'Cardinal_Jewel', 6000, 100, 'misc', NULL),
-(724, 'Cardinal_Jewel_', 600, 100, 'misc', NULL),
-(725, 'Red_Jewel', 6000, 100, 'misc', NULL),
-(726, 'Blue_Jewel', 6000, 100, 'misc', NULL),
-(727, 'White_Jewel', 6000, 100, 'misc', NULL),
-(728, 'Golden_Jewel', 6000, 100, 'misc', NULL),
-(729, 'Bluish_Green_Jewel', 6000, 100, 'misc', NULL),
-(730, 'Crystal_Jewel', 10000, 100, 'misc', NULL),
-(731, 'Crystal_Jewel_', 25000, 100, 'misc', NULL),
-(732, 'Crystal_Jewel__', 55000, 100, 'misc', NULL),
-(733, 'Crystal_Jewel___', 10, 100, 'misc', NULL),
-(734, 'Red_Frame', 3000, 200, 'misc', NULL),
-(735, 'Blue_Porcelain', 5000, 500, 'misc', NULL),
-(736, 'White_Platter', 1000, 300, 'misc', NULL),
-(737, 'Black_Ladle', 400, 50, 'misc', NULL),
-(738, 'Pencil_Case', 400, 100, 'misc', NULL),
-(739, 'Rouge', 10000, 10, 'misc', NULL),
-(740, 'Stuffed_Doll', 1000, 100, 'misc', NULL),
-(741, 'Poring_Doll', 1800, 100, 'misc', NULL),
-(742, 'Chonchon_Doll', 3000, 100, 'misc', NULL),
-(743, 'Spore_Doll', 5500, 100, 'misc', NULL),
-(744, 'Bunch_Of_Flowers', 2000, 50, 'misc', NULL),
-(745, 'Wedding_Bouquet', 12000, 50, 'misc', NULL),
-(746, 'Glass_Bead', 1400, 50, 'misc', NULL),
-(747, 'Crystal_Mirror', 15000, 50, 'misc', NULL),
-(748, 'Witherless_Rose', 55000, 10, 'misc', NULL),
-(749, 'Frozen_Rose', 35000, 10, 'misc', NULL),
-(750, 'Baphomet_Doll', 18000, 100, 'misc', NULL),
-(751, 'Osiris_Doll', 14000, 100, 'misc', NULL),
-(752, 'Grasshopper_Doll', 4000, 100, 'misc', NULL),
-(753, 'Monkey_Doll', 6000, 100, 'misc', NULL),
-(754, 'Raccoondog_Doll', 5000, 100, 'misc', NULL),
-(756, 'Oridecon_Stone', 550, 200, 'misc', NULL),
-(757, 'Elunium_Stone', 650, 200, 'misc', NULL),
-(901, 'Danggie', 260, 10, 'misc', NULL),
-(902, 'Tree_Root', 12, 10, 'misc', NULL),
-(903, 'Reptile_Tongue', 140, 10, 'misc', NULL),
-(904, 'Scorpion''s_Tail', 124, 10, 'misc', NULL),
-(905, 'Stem', 46, 10, 'misc', NULL),
-(906, 'Pointed_Scale', 68, 10, 'misc', NULL),
-(907, 'Resin', 120, 10, 'misc', NULL),
-(908, 'Spawn', 140, 10, 'misc', NULL),
-(909, 'Jellopy', 6, 10, 'misc', NULL),
-(910, 'Garlet', 40, 10, 'misc', NULL),
-(911, 'Scell', 160, 10, 'misc', NULL),
-(912, 'Zargon', 480, 10, 'misc', NULL),
-(913, 'Tooth_Of_Bat', 34, 10, 'misc', NULL),
-(914, 'Fluff', 8, 10, 'misc', NULL),
-(915, 'Chrysalis', 8, 10, 'misc', NULL),
-(916, 'Feather_Of_Birds', 10, 10, 'misc', NULL),
-(917, 'Talon', 20, 10, 'misc', NULL),
-(918, 'Sticky_Webfoot', 20, 10, 'misc', NULL),
-(919, 'Animal''s_Skin', 36, 10, 'misc', NULL),
-(920, 'Claw_Of_Wolves', 58, 10, 'misc', NULL),
-(921, 'Mushroom_Spore', 36, 10, 'misc', NULL),
-(922, 'Orcish_Cuspid', 220, 10, 'misc', NULL),
-(923, 'Evil_Horn', 1200, 10, 'misc', NULL),
-(924, 'Powder_Of_Butterfly', 90, 10, 'misc', NULL),
-(925, 'Bill_Of_Birds', 64, 10, 'misc', NULL),
-(926, 'Scale_Of_Snakes', 82, 10, 'misc', NULL),
-(928, 'Insect_Feeler', 114, 10, 'misc', NULL),
-(929, 'Immortal_Heart', 374, 10, 'misc', NULL),
-(930, 'Rotten_Bandage', 350, 10, 'misc', NULL),
-(931, 'Orcish_Voucher', 142, 10, 'misc', NULL),
-(932, 'Skel_Bone', 232, 10, 'misc', NULL),
-(934, 'Mementos', 600, 10, 'misc', NULL),
-(935, 'Shell', 14, 10, 'misc', NULL),
-(936, 'Scales_Shell', 466, 10, 'misc', NULL),
-(937, 'Posionous_Canine', 148, 10, 'misc', NULL),
-(938, 'Sticky_Mucus', 70, 10, 'misc', NULL),
-(939, 'Bee_Sting', 32, 10, 'misc', NULL),
-(940, 'Grasshopper''s_Leg', 36, 10, 'misc', NULL),
-(941, 'Nose_Ring', 568, 10, 'misc', NULL),
-(942, 'Yoyo_Tail', 114, 10, 'misc', NULL),
-(943, 'Solid_Shell', 448, 10, 'misc', NULL),
-(944, 'Horseshoe', 588, 10, 'misc', NULL),
-(945, 'Raccoon_Leaf', 106, 10, 'misc', NULL),
-(946, 'Snail''s_Shell', 64, 10, 'misc', NULL),
-(947, 'Horn', 116, 10, 'misc', NULL),
-(948, 'Bear''s_Foot', 174, 10, 'misc', NULL),
-(949, 'Feather', 20, 10, 'misc', NULL),
-(950, 'Heart_Of_Mermaid', 264, 10, 'misc', NULL),
-(951, 'Fin', 412, 10, 'misc', NULL),
-(952, 'Cactus_Needle', 82, 10, 'misc', NULL),
-(953, 'Stone_Heart', 184, 10, 'misc', NULL),
-(954, 'Shining_Scales', 466, 10, 'misc', NULL),
-(955, 'Worm_Peelings', 52, 10, 'misc', NULL),
-(956, 'Gill', 342, 10, 'misc', NULL),
-(957, 'Decayed_Nail', 82, 10, 'misc', NULL),
-(958, 'Horrendous_Mouth', 390, 10, 'misc', NULL),
-(959, 'Rotten_Scale', 168, 10, 'misc', NULL),
-(960, 'Nipper', 114, 10, 'misc', NULL),
-(961, 'Conch', 158, 10, 'misc', NULL),
-(962, 'Tentacle', 70, 10, 'misc', NULL),
-(963, 'Sharp_Scale', 250, 10, 'misc', NULL),
-(964, 'Crap_Shell', 90, 10, 'misc', NULL),
-(965, 'Clam_Shell', 56, 10, 'misc', NULL),
-(966, 'Flesh_Of_Clam', 158, 10, 'misc', NULL),
-(967, 'Turtle_Shell', 680, 10, 'misc', NULL),
-(968, 'Voucher_Of_Orcish_Hero', 3000, 10, 'misc', NULL),
-(969, 'Gold', 200000, 200, 'misc', NULL),
-(970, 'Alchol', 400, 30, 'misc', NULL),
-(971, 'Detrimindexta', 400, 30, 'misc', NULL),
-(972, 'Karvodailnirol', 400, 30, 'misc', NULL),
-(973, 'Counteragent', 800, 70, 'misc', NULL),
-(974, 'Mixture', 800, 70, 'misc', NULL),
-(975, 'Scarlet_Dyestuffs', 8000, 150, 'misc', NULL),
-(976, 'Lemon_Dyestuffs', 8000, 150, 'misc', NULL),
-(978, 'Cobaltblue_Dyestuffs', 8000, 150, 'misc', NULL),
-(979, 'Darkgreen_Dyestuffs', 8000, 150, 'misc', NULL),
-(980, 'Orange_Dyestuffs', 8000, 150, 'misc', NULL),
-(981, 'Violet_Dyestuffs', 8000, 150, 'misc', NULL),
-(982, 'White_Dyestuffs', 8000, 150, 'misc', NULL),
-(983, 'Black_Dyestuffs', 8000, 150, 'misc', NULL),
-(984, 'Oridecon', 1100, 200, 'misc', NULL),
-(985, 'Elunium', 1100, 200, 'misc', NULL),
-(986, 'Anvil', 30000, 500, 'misc', NULL);
-INSERT INTO `itemdefinitions` (`id`, `name`, `price_buy`, `weight`, `item_type`, `sprite_id`) VALUES
-(987, 'Oridecon_Anvil', 120000, 700, 'misc', NULL),
-(988, 'Golden_Anvil', 300000, 900, 'misc', NULL),
-(989, 'Emperium_Anvil', 600000, 1000, 'misc', NULL),
-(990, 'Boody_Red', 1000, 50, 'misc', NULL),
-(991, 'Crystal_Blue', 1000, 50, 'misc', NULL),
-(992, 'Wind_Of_Verdure', 1000, 50, 'misc', NULL),
-(993, 'Yellow_Live', 1000, 50, 'misc', NULL),
-(994, 'Flame_Heart', 3000, 300, 'misc', NULL),
-(995, 'Mistic_Frozen', 3000, 300, 'misc', NULL),
-(996, 'Rough_Wind', 3000, 300, 'misc', NULL),
-(997, 'Great_Nature', 3000, 300, 'misc', NULL),
-(998, 'Iron', 100, 50, 'misc', NULL),
-(999, 'Steel', 1000, 100, 'misc', NULL),
-(1000, 'Star_Crumb', 4500, 100, 'misc', NULL),
-(1001, 'Sparkling_Dust', 1500, 10, 'misc', NULL),
-(1002, 'Iron_Ore', 50, 150, 'misc', NULL),
-(1003, 'Coal', 500, 50, 'misc', NULL),
-(1004, 'Patriotism_Marks', 2, 100, 'misc', NULL),
-(1005, 'Hammer_Of_Blacksmith', 2, 800, 'misc', NULL),
-(1006, 'Old_Magic_Book', 2, 30, 'misc', NULL),
-(1007, 'Penetration', 2, 40, 'misc', NULL),
-(1008, 'Frozen_Heart', 2, 100, 'misc', NULL),
-(1009, 'Sacred_Marks', 2, 20, 'misc', NULL),
-(1010, 'Phracon', 200, 200, 'misc', NULL),
-(1011, 'Emveretarcon', 1000, 200, 'misc', NULL),
-(1012, 'Lizard_Scruff', 250, 10, 'misc', NULL),
-(1013, 'Colorful_Shell', 90, 10, 'misc', NULL),
-(1014, 'Jaws_Of_Ant', 232, 10, 'misc', NULL),
-(1015, 'Thin_N''_Long_Tongue', 528, 10, 'misc', NULL),
-(1016, 'Rat_Tail', 52, 10, 'misc', NULL),
-(1017, 'Moustache_Of_Mole', 106, 10, 'misc', NULL),
-(1018, 'Nail_Of_Mole', 210, 10, 'misc', NULL),
-(1019, 'Wooden_Block', 60, 10, 'misc', NULL),
-(1020, 'Long_Hair', 292, 10, 'misc', NULL),
-(1021, 'Dokkaebi_Horn', 292, 10, 'misc', NULL),
-(1022, 'Fox_Tail', 650, 10, 'misc', NULL),
-(1023, 'Fish_Tail', 196, 10, 'misc', NULL),
-(1024, 'Chinese_Ink', 264, 10, 'misc', NULL),
-(1025, 'Spiderweb', 184, 10, 'misc', NULL),
-(1026, 'Acorn', 98, 10, 'misc', NULL),
-(1027, 'Porcupine_Spike', 158, 10, 'misc', NULL),
-(1028, 'Wild_Boar''s_Mane', 196, 10, 'misc', NULL),
-(1029, 'Tiger''s_Skin', 548, 10, 'misc', NULL),
-(1030, 'Tiger_Footskin', 1500, 10, 'misc', NULL),
-(1031, 'Limb_Of_Mantis', 196, 10, 'misc', NULL),
-(1032, 'Blossom_Of_Maneater', 196, 10, 'misc', NULL),
-(1033, 'Root_Of_Maneater', 208, 10, 'misc', NULL),
-(1034, 'Cobold_Hair', 342, 10, 'misc', NULL),
-(1035, 'Dragon_Canine', 484, 10, 'misc', NULL),
-(1036, 'Dragon_Scale', 500, 10, 'misc', NULL),
-(1037, 'Dragon_Train', 1200, 10, 'misc', NULL),
-(1038, 'Petite_DiablOfs_Horn', 528, 10, 'misc', NULL),
-(1039, 'Petite_DiablOfs_Wing', 2000, 10, 'misc', NULL),
-(1040, 'Elder_Pixie''s_Beard', 232, 10, 'misc', NULL),
-(1041, 'Lantern', 250, 10, 'misc', NULL),
-(1042, 'Short_Leg', 430, 10, 'misc', NULL),
-(1043, 'Nail_Of_Orc', 168, 10, 'misc', NULL),
-(1044, 'Tooth_Of_', 264, 10, 'misc', NULL),
-(1045, 'Sacred_Masque', 412, 10, 'misc', NULL),
-(1046, 'Tweezer', 614, 10, 'misc', NULL),
-(1047, 'Head_Of_Medusa', 548, 10, 'misc', NULL),
-(1048, 'Slender_Snake', 800, 10, 'misc', NULL),
-(1049, 'Skirt_Of_Virgin', 1700, 10, 'misc', NULL),
-(1050, 'Tendon', 220, 10, 'misc', NULL),
-(1051, 'Detonator', 450, 10, 'misc', NULL),
-(1052, 'Single_Cell', 46, 10, 'misc', NULL),
-(1053, 'Tooth_Of_Ancient_Fish', 548, 10, 'misc', NULL),
-(1054, 'Lip_Of_Ancient_Fish', 1000, 10, 'misc', NULL),
-(1055, 'Earthworm_Peeling', 196, 10, 'misc', NULL),
-(1056, 'Grit', 306, 10, 'misc', NULL),
-(1057, 'Moth_Dust', 138, 10, 'misc', NULL),
-(1058, 'Wing_Of_Moth', 200, 10, 'misc', NULL);
-INSERT INTO `itemdefinitions` (`id`, `name`, `price_buy`, `weight`, `item_type`, `sprite_id`) VALUES
-(1059, 'Transparent_Cloth', 306, 10, 'misc', NULL),
-(1060, 'Golden_Hair', 430, 10, 'misc', NULL),
-(1061, 'Starsand_Of_Witch', 484, 10, 'misc', NULL),
-(1062, 'Pumpkin_Head', 374, 10, 'misc', NULL),
-(1063, 'Sharpened_Cuspid', 680, 10, 'misc', NULL),
-(1064, 'Reins', 802, 10, 'misc', NULL),
-(1065, 'Booby_Trap', 100, 10, 'misc', NULL),
-(1066, 'Tree_Of_Archer_1', 2, 10, 'misc', NULL),
-(1067, 'Tree_Of_Archer_2', 2, 10, 'misc', NULL),
-(1068, 'Tree_Of_Archer_3', 2, 10, 'misc', NULL),
-(1069, 'Mushroom_Of_Thief_1', 2, 10, 'misc', NULL),
-(1070, 'Mushroom_Of_Thief_2', 2, 10, 'misc', NULL),
-(1071, 'Mage_Test_1', 0, 10, 'misc', NULL),
-(1072, 'Delivery_Message', 0, 10, 'misc', NULL),
-(1073, 'Merchant_Voucher_1', 0, 10, 'misc', NULL),
-(1074, 'Merchant_Voucher_2', 0, 10, 'misc', NULL),
-(1075, 'Merchant_Voucher_3', 0, 10, 'misc', NULL),
-(1076, 'Merchant_Voucher_4', 0, 10, 'misc', NULL),
-(1077, 'Merchant_Voucher_5', 0, 10, 'misc', NULL),
-(1078, 'Merchant_Voucher_6', 0, 10, 'misc', NULL),
-(1079, 'Merchant_Voucher_7', 0, 10, 'misc', NULL),
-(1080, 'Merchant_Voucher_8', 0, 10, 'misc', NULL),
-(1081, 'Merchant_Box_1', 0, 10, 'misc', NULL),
-(1082, 'Merchant_Box_2', 0, 10, 'misc', NULL),
-(1083, 'Merchant_Box_3', 0, 10, 'misc', NULL),
-(1084, 'Kapra''s_Pass', 0, 10, 'misc', NULL),
-(1085, 'Mage_Test_2', 0, 10, 'misc', NULL),
-(1086, 'Mage_Test_3', 0, 10, 'misc', NULL),
-(1087, 'Mage_Test_4', 0, 10, 'misc', NULL),
-(1088, 'Morocc_Potion', 0, 10, 'misc', NULL),
-(1089, 'Payon_Potion', 0, 10, 'misc', NULL),
-(1090, 'Mage_Test_Etc', 0, 10, 'misc', NULL),
-(1091, 'Merchant_Box_Etc', 0, 10, 'misc', NULL),
-(1092, 'Empty_Cylinder', 3, 10, 'misc', NULL),
-(1093, 'Empty_Potion', 10, 10, 'misc', NULL),
-(1094, 'Short_Daenggie', 278, 10, 'misc', NULL),
-(1095, 'Needle_Of_Alarm', 546, 10, 'misc', NULL),
-(1096, 'Round_Shell', 780, 10, 'misc', NULL),
-(1097, 'Worn_Out_Page', 948, 10, 'misc', NULL),
-(1098, 'Manacles', 658, 10, 'misc', NULL),
-(1099, 'Worn_Out_Prison_Uniform', 680, 10, 'misc', NULL),
-(7001, 'Mould_Powder', 466, 10, 'misc', NULL),
-(7002, 'Ogre_Tooth', 658, 10, 'misc', NULL),
-(7003, 'Anolian_Skin', 968, 10, 'misc', NULL),
-(7004, 'Mud_Lump', 876, 10, 'misc', NULL),
-(7005, 'Skull', 1044, 10, 'misc', NULL),
-(7006, 'Wing_Of_Red_Bat', 168, 10, 'misc', NULL),
-(7007, 'Claw_Of_Rat', 748, 10, 'misc', NULL),
-(7008, 'Stiff_Horn', 636, 10, 'misc', NULL),
-(7009, 'Glitter_Shell', 528, 10, 'misc', NULL),
-(7010, 'Tail_Of_Steel_Scorpion', 548, 10, 'misc', NULL),
-(7011, 'Claw_Of_Monkey', 466, 10, 'misc', NULL),
-(7012, 'Tough_Scalelike_Stem', 412, 10, 'misc', NULL),
-(7013, 'Coral_Reef', 772, 10, 'misc', NULL),
-(7014, 'Old_Portrait', 1500, 100, 'misc', NULL),
-(7015, 'Bookclip_In_Memory', 3000, 20, 'misc', NULL),
-(7016, 'Spoon_Stub', 2500, 20, 'misc', NULL),
-(7017, 'Executioner''s_Mitten', 4500, 30, 'misc', NULL),
-(7018, 'Young_Twig', 50, 10, 'misc', NULL),
-(7019, 'Loki''s_Whispers', 20, 10, 'misc', NULL),
-(7020, 'Mother''s_Nightmare', 20, 10, 'misc', NULL),
-(7021, 'Foolishness_Of_Blind', 20, 10, 'misc', NULL),
-(7022, 'Old_Hilt', 150, 30, 'misc', NULL),
-(7023, 'Blade_Lost_In_Darkness', 12000, 40, 'misc', NULL),
-(7024, 'Bloody_Edge', 10000, 40, 'misc', NULL),
-(7025, 'Lucifer''s_Lament', 30000, 50, 'misc', NULL),
-(7026, 'Key_Of_Clock_Tower', 100, 30, 'misc', NULL),
-(7027, 'Underground_Key', 100, 30, 'misc', NULL),
-(7028, 'Invite_For_Duel', 0, 0, 'misc', NULL),
-(7029, 'Admission_For_Duel', 0, 0, 'misc', NULL),
-(7030, 'Claw_Of_Desert_Wolf', 208, 10, 'misc', NULL),
-(7031, 'Old_Frying_Pan', 196, 10, 'misc', NULL),
-(7032, 'Piece_Of_Egg_Shell', 168, 10, 'misc', NULL),
-(7033, 'Poison_Spore', 114, 10, 'misc', NULL),
-(7034, 'Red_Socks_With_Holes', 100, 10, 'misc', NULL),
-(7035, 'Matchstick', 100, 10, 'misc', NULL),
-(7036, 'Fang_Of_Garm', 100, 10, 'misc', NULL),
-(7037, 'Trade_Coupon', 100, 10, 'misc', NULL),
-(7038, 'Yarn', 100, 10, 'misc', NULL),
-(7039, 'Novice_Nametag', 0, 10, 'misc', NULL),
-(7040, 'Megaphone', 1, 10, 'misc', NULL),
-(7041, 'Fine_Grit', 120, 10, 'misc', NULL),
-(7042, 'Leather_Bag_Of_Infinity', 1, 10, 'misc', NULL),
-(7043, 'Fine_Sand', 100, 10, 'misc', NULL),
-(7044, 'Vigorgra', 1, 10, 'misc', NULL),
-(7045, 'Magic_Paint', 1, 10, 'misc', NULL),
-(7046, 'Cart_Parts', 1, 10, 'misc', NULL),
-(7047, 'Alice''s_Apron', 2424, 10, 'misc', NULL),
-(7048, 'Talon_Of_Griffin', 5418, 10, 'misc', NULL),
-(7049, 'Stone', 0, 30, 'misc', NULL),
-(7050, 'Cotton_Mat', 100, 10, 'misc', NULL),
-(7051, 'Silk_Mat', 100, 10, 'misc', NULL),
-(7052, 'Old_Magazine', 100, 10, 'misc', NULL),
-(7053, 'Cyfar', 772, 10, 'misc', NULL),
-(7054, 'Brigan', 746, 10, 'misc', NULL),
-(7055, 'Animal_Pooopoo', 100, 50, 'misc', NULL),
-(7056, 'Payroll_Of_Kafra', 1, 50, 'misc', NULL),
-(7057, 'Gallar_Horn', 1, 500, 'misc', NULL),
-(7058, 'Gullraifnir', 1, 500, 'misc', NULL),
-(7059, 'Cargo_Free_Ticket', 1, 10, 'misc', NULL),
-(7060, 'Warp_Free_Ticket', 1, 10, 'misc', NULL),
-(7061, 'Cart_Free_Ticket', 1, 10, 'misc', NULL),
-(7063, 'Soft_Feather', 280, 10, 'misc', NULL),
-(7064, 'Dragon_Fly_Wing', 520, 10, 'misc', NULL),
-(7065, 'Sea_Otter_Leather', 820, 10, 'misc', NULL),
-(7066, 'Ice_Piece', 660, 10, 'misc', NULL),
-(7067, 'Stone_Piece', 640, 10, 'misc', NULL),
-(7068, 'Burn_Tree', 722, 10, 'misc', NULL),
-(7069, 'Broken_Armor_Piece', 1042, 10, 'misc', NULL),
-(7070, 'Broken_Shell', 900, 10, 'misc', NULL),
-(7071, 'Tatters_Clothes', 1280, 10, 'misc', NULL),
-(7072, 'Rust_Suriken', 1780, 10, 'misc', NULL),
-(7073, 'Jewel_Of_Prayer', 1, 500, 'misc', NULL),
-(7074, 'Iron_Glove', 1, 500, 'misc', NULL),
-(7075, 'Iron_Maiden', 1, 500, 'misc', NULL),
-(7076, 'Mystery_Wheel', 1, 500, 'misc', NULL),
-(7077, 'Silver_Fancy', 1, 500, 'misc', NULL),
-(7078, 'Anger_Of_Valkurye', 1, 500, 'misc', NULL),
-(7079, 'Feather_Of_Angel', 1, 500, 'misc', NULL),
-(7080, 'Foot_Step_Of_Cat', 1, 500, 'misc', NULL),
-(7081, 'Beard_Of_Women', 1, 500, 'misc', NULL),
-(7082, 'Root_Of_Stone', 1, 500, 'misc', NULL),
-(7083, 'Soul_Of_Fish', 1, 500, 'misc', NULL),
-(7084, 'Saliva_Of_Bird', 1, 500, 'misc', NULL),
-(7085, 'Tendon_Of_Bear', 1, 500, 'misc', NULL),
-(7086, 'Symbol_Of_Sun', 1, 500, 'misc', NULL),
-(7087, 'Breath_Of_Soul', 1, 500, 'misc', NULL),
-(7088, 'Crystal_Of_Snow', 1, 500, 'misc', NULL),
-(7089, 'Indication_Of_Tempest', 1, 500, 'misc', NULL),
-(7090, 'Slilince_Wave', 1, 500, 'misc', NULL),
-(7091, 'Rough_Billows', 1, 500, 'misc', NULL),
-(7092, 'Air_Stream', 1, 500, 'misc', NULL),
-(7093, 'Wheel', 1512, 10, 'misc', NULL),
-(7094, 'Mystery_Piece', 1344, 10, 'misc', NULL),
-(7095, 'Broken_Steel_Piece', 1075, 10, 'misc', NULL),
-(7096, 'Cold_Magma', 1109, 10, 'misc', NULL),
-(7097, 'Burning_Heart', 924, 10, 'misc', NULL),
-(7098, 'Live_Coal', 638, 10, 'misc', NULL),
-(7099, 'Old_Magic_Circle', 773, 10, 'misc', NULL),
-(7100, 'Sharp_Leaf', 806, 10, 'misc', NULL),
-(7101, 'Peco_Wing_Feather', 454, 10, 'misc', NULL),
-(7102, 'Hideous_Dream', 1075, 10, 'misc', NULL),
-(7103, 'Unknown_Liquid_Bottle', 10, 10, 'misc', NULL),
-(7104, 'Fake_Angel_Wing', 756, 10, 'misc', NULL),
-(7105, 'Fake_Angel_Loop', 924, 10, 'misc', NULL),
-(7106, 'Goat''s_Horn', 672, 10, 'misc', NULL),
-(7107, 'Gaoat''s_Skin', 756, 10, 'misc', NULL),
-(7108, 'Boroken_Shiled_Piece', 1680, 10, 'misc', NULL),
-(7109, 'Shine_Spear_Blade', 840, 10, 'misc', NULL),
-(7110, 'Vroken_Sword', 588, 10, 'misc', NULL),
-(7111, 'Smooth_Paper', 706, 10, 'misc', NULL),
-(7112, 'Fright_Paper_Blade', 907, 10, 'misc', NULL),
-(7113, 'Broken_Pharaoh_Symbol', 2016, 10, 'misc', NULL),
-(7114, 'Tutankhamen''s_Mask', 10, 10, 'misc', NULL),
-(7115, 'Harpy''s_Feather', 1142, 10, 'misc', NULL),
-(7116, 'Harpy''s_Claw', 1210, 10, 'misc', NULL),
-(7117, 'Rent_Spell_Book', 1142, 10, 'misc', NULL),
-(7118, 'Rent_Scroll', 1361, 10, 'misc', NULL),
-(7119, 'Spawns', 1025, 10, 'misc', NULL),
-(7120, 'Burning_Horse_Shoe', 823, 10, 'misc', NULL),
-(7121, 'Honey_Jar', 622, 10, 'misc', NULL),
-(7122, 'Hot_Hair', 974, 10, 'misc', NULL),
-(7123, 'Dragon''s_Skin', 1025, 10, 'misc', NULL),
-(7124, 'Sand_Lump', 706, 10, 'misc', NULL),
-(7125, 'Scropion''s_Nipper', 706, 10, 'misc', NULL),
-(7126, 'Large_Jellopy', 840, 10, 'misc', NULL),
-(7127, 'Alcol_Create_Book', 100000, 10, 'misc', NULL),
-(7128, 'FireBottle_Create_Book', 100000, 10, 'misc', NULL),
-(7129, 'Acid_Create_Book', 100000, 10, 'misc', NULL),
-(7130, 'Plant_Create_Book', 100000, 10, 'misc', NULL),
-(7131, 'Mine_Create_Book', 100000, 10, 'misc', NULL),
-(7132, 'Coating_Create_Book', 100000, 10, 'misc', NULL),
-(7133, 'Slim_Potion_Create_Book', 240000, 10, 'misc', NULL),
-(7134, 'Medicine_Bowl', 8, 10, 'misc', NULL),
-(7135, 'Fire_Bottle', 200, 10, 'misc', NULL),
-(7136, 'Acid_Bottle', 200, 10, 'misc', NULL),
-(7137, 'MenEater_Plant_Bottle', 200, 10, 'misc', NULL),
-(7138, 'Mini_Bottle', 200, 10, 'misc', NULL),
-(7139, 'Coating_Bottle', 200, 10, 'misc', NULL),
-(7140, 'Seed_Of_Life', 60000, 10, 'misc', NULL),
-(7141, 'Yggdrasilberry_Dew', 20000, 10, 'misc', NULL),
-(7142, 'Germination_Breed', 10, 10, 'misc', NULL),
-(7143, 'Life_Force_Pot', 5000, 10, 'misc', NULL),
-(7144, 'Normal_Potion_Book', 100000, 10, 'misc', NULL),
-(7145, 'Rag_T_Shirts', 1, 10, 'misc', NULL),
-(7146, 'Vacance_Ticket', 1, 10, 'misc', NULL),
-(7147, 'Jasmin', 1, 10, 'misc', NULL),
-(7148, 'Mother_Letter', 1, 10, 'misc', NULL),
-(7149, 'Yellow_Plate', 220, 10, 'misc', NULL),
-(7150, 'Bamboo_Cut', 310, 10, 'misc', NULL),
-(7151, 'Oil_Paper', 210, 10, 'misc', NULL),
-(7152, 'Glossy_Hair', 340, 10, 'misc', NULL),
-(7153, 'Old_Japaness_Clothes', 590, 10, 'misc', NULL),
-(7154, 'Poison_Powder', 160, 10, 'misc', NULL),
-(7155, 'Poison_Toad''s_Skin', 280, 10, 'misc', NULL),
-(7156, 'Broken_Shuriken', 470, 10, 'misc', NULL),
-(7157, 'Black_Mask', 315, 10, 'misc', NULL),
-(7158, 'Broken_Wine_Vessel', 160, 10, 'misc', NULL),
-(7159, 'Tengu''s_Nose', 400, 10, 'misc', NULL),
-(7160, 'Lord''s_Passable_Ticket', 1, 10, 'misc', NULL),
-(7161, 'Black_Bear''s_Skin', 384, 10, 'misc', NULL),
-(7162, 'Cloud_Piece', 390, 10, 'misc', NULL),
-(7163, 'Sharp_Feeler', 570, 10, 'misc', NULL),
-(7164, 'Hard_Peach', 400, 10, 'misc', NULL),
-(7165, 'Limpid_Celestial_Robe', 650, 10, 'misc', NULL),
-(7166, 'Soft_Silk_Cloth', 1200, 10, 'misc', NULL),
-(7167, 'Mystery_Iron_Bit', 430, 10, 'misc', NULL),
-(7168, 'Great_Wing', 614, 10, 'misc', NULL),
-(7169, 'Taegeuk_Plate', 2800, 10, 'misc', NULL),
-(7170, 'Tuxedo', 43000, 10, 'misc', NULL),
-(7171, 'Leopard_Skin', 282, 10, 'misc', NULL),
-(7172, 'Leopard_Talon', 290, 10, 'misc', NULL),
-(7173, 'BurnBuster_Bag', 0, 10, 'misc', NULL),
-(7174, 'Packing_Ribbon', 0, 10, 'misc', NULL),
-(7175, 'Packing_Paper', 0, 10, 'misc', NULL),
-(7176, 'XMAS_Coupon', 0, 10, 'misc', NULL),
-(7177, 'Part_Of_Star''s_Sob', 0, 0, 'misc', NULL),
-(7178, 'Star''s_Sob', 0, 0, 'misc', NULL),
-(7179, 'Donation_Card', 0, 10, 'misc', NULL),
-(7180, 'Introduction_Of_Mr.Han', 0, 10, 'misc', NULL),
-(7181, 'Receipt_01', 0, 10, 'misc', NULL),
-(7182, 'Cacao', 200, 20, 'misc', NULL),
-(7183, 'Sister_Letter', 0, 10, 'misc', NULL),
-(7184, 'Piano_Keyboard', 0, 10, 'misc', NULL),
-(7185, 'Quiz_Ticket', 0, 10, 'misc', NULL),
-(7186, 'Thin_Stem', 380, 10, 'misc', NULL),
-(7187, 'Festival_Mask', 100, 10, 'misc', NULL),
-(7188, 'Browny_Root', 560, 10, 'misc', NULL),
-(7189, 'Heart_Of_Tree', 680, 10, 'misc', NULL),
-(7190, 'Solid_Peeling', 140, 10, 'misc', NULL),
-(7191, 'Lamplight', 0, 10, 'misc', NULL),
-(7192, 'Blade_Of_Pinwheel', 160, 10, 'misc', NULL),
-(7193, 'Germinating_Sprout', 230, 10, 'misc', NULL),
-(7194, 'Soft_Leaf', 400, 10, 'misc', NULL),
-(7195, 'Air_Rifle', 210, 10, 'misc', NULL),
-(7196, 'Shoulder_Protection', 230, 10, 'misc', NULL),
-(7197, 'Tough_Vines', 500, 10, 'misc', NULL),
-(7198, 'Great_Leaf', 610, 10, 'misc', NULL),
-(7199, 'Coupon', 0, 10, 'misc', NULL),
-(7200, 'Flexible_String', 380, 10, 'misc', NULL),
-(7201, 'Log', 250, 10, 'misc', NULL),
-(7202, 'Beetle_Nipper', 290, 10, 'misc', NULL),
-(7203, 'Solid_Twig', 190, 10, 'misc', NULL),
-(7204, 'Gunpowder', 320, 10, 'misc', NULL),
-(7205, 'Piece_Of_Black_Cloth', 526, 10, 'misc', NULL),
-(7206, 'Black_Kitty_Doll', 1440, 10, 'misc', NULL),
-(7207, 'Old_Manteau', 1050, 10, 'misc', NULL),
-(7208, 'Rusty_Cleaver', 1780, 10, 'misc', NULL),
-(7209, 'Dullahan''s_Helm', 1350, 10, 'misc', NULL),
-(7210, 'Dullahan_Armor', 790, 10, 'misc', NULL),
-(7211, 'Rojerta_Piece', 2600, 10, 'misc', NULL),
-(7212, 'Hanging_Doll', 1020, 10, 'misc', NULL),
-(7213, 'Needle_Pouch', 832, 10, 'misc', NULL),
-(7214, 'Bat_Cage', 880, 10, 'misc', NULL),
-(7215, 'Broken_Needle', 690, 10, 'misc', NULL),
-(7216, 'Red_Scarf', 660, 10, 'misc', NULL),
-(7217, 'Spool', 424, 10, 'misc', NULL),
-(7218, 'Rotten_Rope', 390, 10, 'misc', NULL),
-(7219, 'Striped_Socks', 920, 10, 'misc', NULL),
-(7220, 'Ectoplasm', 322, 10, 'misc', NULL),
-(7221, 'Tangled_Chain', 740, 10, 'misc', NULL),
-(7222, 'Tree_Knot', 468, 10, 'misc', NULL),
-(7223, 'Distorted_Portrait', 2032, 10, 'misc', NULL),
-(7224, 'Stone_Of_Intelligence', 0, 10, 'misc', NULL),
-(7225, 'Pumpkin_Bucket', 486, 10, 'misc', NULL),
-(7226, 'Pill', 2, 10, 'misc', NULL),
-(7227, 'TCG_Card', 0, 10, 'misc', NULL),
-(7228, 'Gold_Bullion', 100000, 300, 'misc', NULL),
-(7229, 'Silver_Bullion', 50000, 300, 'misc', NULL),
-(7230, 'White_Gold_Bullion', 200000, 300, 'misc', NULL),
-(7231, 'Gold_Ore', 20, 150, 'misc', NULL),
-(7232, 'Silver_Ore', 20, 150, 'misc', NULL),
-(7233, 'Mithril_Ore', 20, 150, 'misc', NULL),
-(7234, 'Soul_Of_Guild', 0, 10, 'misc', NULL),
-(7235, 'Soul_Of_Courage', 0, 10, 'misc', NULL),
-(7236, 'Soul_Of_Guard', 0, 10, 'misc', NULL),
-(7237, 'Soul_Of_Partnership', 0, 10, 'misc', NULL),
-(7238, 'Soul_Of_Correspondence', 0, 10, 'misc', NULL),
-(7239, 'Soul_Of_Proceeding', 0, 10, 'misc', NULL),
-(7240, 'Soul_Of_Confidence', 0, 10, 'misc', NULL),
-(7241, 'Soul_Of_Agreement', 0, 10, 'misc', NULL),
-(7242, 'Soul_Of_Harmony', 0, 10, 'misc', NULL),
-(7243, 'Soul_Of_Cooperate', 0, 10, 'misc', NULL),
-(7244, 'Soul_Of_Unity', 0, 10, 'misc', NULL),
-(7245, 'Soul_Of_Friendship', 0, 10, 'misc', NULL),
-(7246, 'Soul_Of_Peace', 0, 10, 'misc', NULL),
-(7247, 'Soul_Of_Spirit', 0, 10, 'misc', NULL),
-(7248, 'Soul_Of_Honor', 0, 10, 'misc', NULL),
-(7249, 'Soul_Of_Service', 0, 10, 'misc', NULL),
-(7250, 'Soul_Of_Glory', 0, 10, 'misc', NULL),
-(7251, 'Soul_Of_Victory', 0, 10, 'misc', NULL),
-(7252, 'Herb_Medicine', 0, 10, 'misc', NULL),
-(7253, 'Taeguk_Flag', 0, 10, 'misc', NULL),
-(7254, 'Digital_Print_Ticket', 0, 10, 'misc', NULL),
-(7255, 'China_Marble01', 0, 100, 'misc', NULL),
-(7256, 'China_Marble02', 0, 100, 'misc', NULL),
-(7257, 'China_Marble03', 0, 100, 'misc', NULL),
-(7258, 'China_Marble04', 0, 100, 'misc', NULL),
-(7259, 'China_Marble05', 0, 100, 'misc', NULL),
-(7260, 'China_Marble06', 0, 100, 'misc', NULL),
-(7261, 'China_Marble07', 0, 100, 'misc', NULL),
-(7262, 'Fan', 466, 10, 'misc', NULL),
-(7263, 'Cat_Eyed_Stone', 954, 10, 'misc', NULL),
-(7264, 'Dried_Sand', 322, 10, 'misc', NULL),
-(7265, 'Dragon_Horn', 544, 10, 'misc', NULL),
-(7266, 'Dragon_Fang', 436, 10, 'misc', NULL),
-(7267, 'Tiger_Skin_Panties', 298, 10, 'misc', NULL),
-(7268, 'Little_Blacky_Ghost', 1210, 10, 'misc', NULL),
-(7269, 'Bib', 960, 10, 'misc', NULL),
-(7270, 'Milk_Bottle', 1100, 10, 'misc', NULL),
-(7271, 'Figure', 10000, 10, 'misc', NULL),
-(7272, 'Meat_Dumpling_Doll', 500, 10, 'misc', NULL),
-(7273, 'Golden_Necklace', 2, 10, 'misc', NULL),
-(7274, 'Ancient_Translator', 0, 10, 'misc', NULL),
-(7275, 'Ancient_Document', 0, 10, 'misc', NULL),
-(7276, 'Picture_Letter', 0, 10, 'misc', NULL),
-(7277, 'Munak_Doll', 8900, 10, 'misc', NULL),
-(7278, 'Wellbeing_Letter', 0, 10, 'misc', NULL),
-(7279, 'Vita500_Lid', 10, 10, 'misc', NULL),
-(7280, 'Quiz_Ticket01', 0, 10, 'misc', NULL),
-(7281, 'Quiz_Ticket02', 0, 10, 'misc', NULL),
-(7282, 'Quiz_Ticket03', 0, 10, 'misc', NULL),
-(7283, 'Quiz_Ticket04', 0, 10, 'misc', NULL),
-(7284, 'Quiz_Ticket05', 0, 10, 'misc', NULL),
-(7285, 'Thread_Skein', 2, 10, 'misc', NULL),
-(7286, 'Chilli', 20, 10, 'misc', NULL),
-(7287, 'Thread_Skein_', 2, 10, 'misc', NULL),
-(7288, 'Thai_Ring', 2, 10, 'misc', NULL),
-(7289, 'Olivine', 3000, 100, 'misc', NULL),
-(7290, 'Phlogopite', 3000, 100, 'misc', NULL),
-(7291, 'Agate', 3000, 100, 'misc', NULL),
-(7292, 'Muscovite', 3000, 100, 'misc', NULL),
-(7293, 'Rose_Quartz', 3000, 100, 'misc', NULL),
-(7294, 'Turquoise', 3000, 100, 'misc', NULL),
-(7295, 'Citrine', 3000, 100, 'misc', NULL),
-(7296, 'Pyroxene', 3000, 100, 'misc', NULL),
-(7297, 'Biotite', 3000, 100, 'misc', NULL),
-(7298, 'Leaf_Clothes', 538, 10, 'misc', NULL),
-(7299, 'Bamboo_Basket', 632, 10, 'misc', NULL),
-(7300, 'Gemstone', 1420, 10, 'misc', NULL),
-(7301, 'Sword_Accessory', 798, 10, 'misc', NULL),
-(7302, 'KRATHONG', 2, 10, 'misc', NULL),
-(7303, 'Bag_Of_Rice', 0, 800, 'misc', NULL),
-(7304, 'Witch''s_Spell_Book', 0, 0, 'misc', NULL),
-(7305, 'Authority_Of_Nine_World', 0, 0, 'misc', NULL),
-(7306, 'Fragment_Of_Soul', 0, 0, 'misc', NULL),
-(7307, 'Whisper_Of_Soul', 0, 0, 'misc', NULL),
-(7308, 'Witch''s_Potion', 0, 0, 'misc', NULL),
-(7309, 'Wing_Of_Crow', 0, 0, 'misc', NULL),
-(7310, 'Free_Peco_Ticket', 20, 10, 'misc', NULL),
-(7311, 'Free_Flying_Ship_Ticket', 20, 10, 'misc', NULL),
-(7312, 'Jubilee', 32, 10, 'misc', NULL),
-(7313, 'Seal_Of_Witch', 2, 0, 'misc', NULL),
-(7314, 'The_Sign', 2, 0, 'misc', NULL),
-(7315, 'Dark_Crystal_Fragment', 422, 10, 'misc', NULL),
-(7316, 'Long_Limb', 658, 10, 'misc', NULL),
-(7317, 'Screw', 534, 10, 'misc', NULL),
-(7318, 'Old_Pick', 512, 10, 'misc', NULL),
-(7319, 'Old_Steel_Plate', 1024, 10, 'misc', NULL),
-(7320, 'Air_Pollutant', 256, 10, 'misc', NULL),
-(7321, 'Fragment_Of_Crystal', 552, 10, 'misc', NULL),
-(7322, 'Poisonous_Gas', 666, 10, 'misc', NULL),
-(7323, 'Battered_Kettle', 256, 10, 'misc', NULL),
-(7325, 'Tube', 102, 10, 'misc', NULL),
-(7326, 'Fluorescent_Liquid', 712, 10, 'misc', NULL),
-(7327, 'Headlamp', 1024, 10, 'misc', NULL),
-(7328, 'Legendary_Scroll', 0, 10, 'misc', NULL),
-(7329, 'Old_Copper_Key', 0, 10, 'misc', NULL),
-(7330, 'Holy_Marble', 0, 100, 'misc', NULL),
-(7331, 'Flower_Of_Heaven', 500, 10, 'misc', NULL),
-(7332, 'Slate', 0, 0, 'misc', NULL),
-(7333, 'Piece_Of_Slate_1', 0, 0, 'misc', NULL),
-(7334, 'Piece_Of_Slate_2', 0, 0, 'misc', NULL),
-(7335, 'Piece_Of_Slate_3', 0, 0, 'misc', NULL),
-(7336, 'Piece_Of_Slate_4', 0, 0, 'misc', NULL),
-(7337, 'Eye_Of_Hellion', 0, 0, 'misc', NULL),
-(7338, 'RO_Transportation_Card', 0, 0, 'misc', NULL),
-(7339, 'RO_Transportation_Card_', 0, 0, 'misc', NULL),
-(7340, 'Will_Of_Darkness', 734, 50, 'misc', NULL),
-(7341, 'Worn_Out_Pendant', 20, 0, 'misc', NULL),
-(7342, 'File01', 20, 0, 'misc', NULL),
-(7343, 'File02', 20, 0, 'misc', NULL),
-(7344, 'File03', 20, 0, 'misc', NULL),
-(7345, 'Armlet_Of_Prisoner', 724, 10, 'misc', NULL),
-(7346, 'Pile_Of_Ymir_Heart', 20, 0, 'misc', NULL),
-(7347, 'Lab_Staff_Record', 840, 10, 'misc', NULL),
-(7348, 'Indication_Of_Member01', 20, 10, 'misc', NULL),
-(7349, 'Indication_Of_Member02', 20, 0, 'misc', NULL),
-(7350, 'Pass', 20, 10, 'misc', NULL),
-(7351, 'Friend''s_Diary', 20, 0, 'misc', NULL),
-(7352, 'Transparent_Plate01', 20, 10, 'misc', NULL),
-(7353, 'Transparent_Plate02', 20, 10, 'misc', NULL),
-(7354, 'Transparent_Plate03', 20, 10, 'misc', NULL),
-(7355, 'Transparent_Plate04', 20, 10, 'misc', NULL),
-(7356, 'Piece_Of_Crest1', 5000, 10, 'misc', NULL),
-(7357, 'Piece_Of_Crest2', 5000, 10, 'misc', NULL),
-(7358, 'Piece_Of_Crest3', 5000, 10, 'misc', NULL),
-(7359, 'Piece_Of_Crest4', 5000, 10, 'misc', NULL),
-(7360, 'RO_Festival_Ticket', 0, 10, 'misc', NULL),
-(7361, 'Lotto01', 0, 10, 'misc', NULL),
-(7362, 'Lotto02', 0, 10, 'misc', NULL),
-(7363, 'Lotto03', 0, 10, 'misc', NULL),
-(7364, 'Lotto04', 0, 10, 'misc', NULL),
-(7365, 'Lotto05', 0, 10, 'misc', NULL),
-(7366, 'Lotto06', 0, 10, 'misc', NULL),
-(7367, 'Lotto07', 0, 10, 'misc', NULL),
-(7368, 'Lotto08', 0, 10, 'misc', NULL),
-(7369, 'Lotto09', 0, 10, 'misc', NULL),
-(7370, 'Lotto10', 0, 10, 'misc', NULL),
-(7371, 'Lotto11', 0, 10, 'misc', NULL),
-(7372, 'Lotto12', 0, 10, 'misc', NULL),
-(7373, 'Lotto13', 0, 10, 'misc', NULL),
-(7374, 'Lotto14', 0, 10, 'misc', NULL),
-(7375, 'Lotto15', 0, 10, 'misc', NULL),
-(7376, 'Lotto16', 0, 10, 'misc', NULL),
-(7377, 'Lotto17', 0, 10, 'misc', NULL),
-(7378, 'Lotto18', 0, 10, 'misc', NULL),
-(7379, 'Lotto19', 0, 10, 'misc', NULL),
-(7380, 'Lotto20', 0, 10, 'misc', NULL),
-(7381, 'Lotto21', 0, 10, 'misc', NULL),
-(7382, 'Lotto22', 0, 10, 'misc', NULL),
-(7383, 'Lotto23', 0, 10, 'misc', NULL),
-(7384, 'Lotto24', 0, 10, 'misc', NULL),
-(7385, 'Lotto25', 0, 10, 'misc', NULL),
-(7386, 'Lotto26', 0, 10, 'misc', NULL),
-(7387, 'Lotto27', 0, 10, 'misc', NULL),
-(7388, 'Lotto28', 0, 10, 'misc', NULL),
-(7389, 'Lotto29', 0, 10, 'misc', NULL),
-(7390, 'Lotto30', 0, 10, 'misc', NULL),
-(7391, 'Lotto31', 0, 10, 'misc', NULL),
-(7392, 'Lotto32', 0, 10, 'misc', NULL),
-(7393, 'Lotto33', 0, 10, 'misc', NULL),
-(7394, 'Lotto34', 0, 10, 'misc', NULL),
-(7395, 'Lotto35', 0, 10, 'misc', NULL),
-(7396, 'Lotto36', 0, 10, 'misc', NULL),
-(7397, 'Lotto37', 0, 10, 'misc', NULL),
-(7398, 'Lotto38', 0, 10, 'misc', NULL),
-(7399, 'Piece_Of_Clue01', 2, 10, 'misc', NULL),
-(7400, 'Piece_Of_Clue02', 2, 10, 'misc', NULL),
-(7401, 'Piece_Of_Clue03', 2, 10, 'misc', NULL),
-(7402, 'Piece_Of_Clue04', 2, 10, 'misc', NULL),
-(7403, 'Piece_Of_Clue05', 2, 10, 'misc', NULL),
-(7404, 'Piece_Of_Clue06', 2, 10, 'misc', NULL),
-(7405, 'Crushed_Can', 2, 10, 'misc', NULL),
-(7406, 'Moon_Cake1', 2, 10, 'misc', NULL),
-(7407, 'Moon_Cake2', 2, 10, 'misc', NULL),
-(7408, 'Moon_Cake3', 2, 10, 'misc', NULL),
-(7409, 'Moon_Cake4', 2, 10, 'misc', NULL),
-(7410, 'Moon_Cake5', 2, 10, 'misc', NULL),
-(7411, 'Moon_Cake6', 2, 10, 'misc', NULL),
-(7412, 'Moon_Cake7', 2, 10, 'misc', NULL),
-(7413, 'Moon_Cake8', 2, 10, 'misc', NULL),
-(7414, 'Moon_Cake9', 2, 10, 'misc', NULL),
-(7415, 'Stone_Of_Summons', 2, 10, 'misc', NULL),
-(7416, 'Letter_Of_Recommend', 0, 0, 'misc', NULL),
-(7417, 'Mission_ScrollA', 0, 0, 'misc', NULL),
-(7418, 'Mission_ScrollB', 0, 0, 'misc', NULL),
-(7419, 'Embryo_HandBook', 48000, 10, 'misc', NULL),
-(7420, 'Skull_', 0, 0, 'misc', NULL),
-(7421, 'Key_Red', 0, 0, 'misc', NULL),
-(7422, 'Key_Yellow', 0, 0, 'misc', NULL),
-(7423, 'Key_Blue', 0, 0, 'misc', NULL),
-(7424, 'Key_Green', 0, 0, 'misc', NULL),
-(7425, 'Key_Black', 0, 0, 'misc', NULL),
-(7426, 'Magic_Gem_Red', 0, 0, 'misc', NULL),
-(7427, 'Magic_Gem_Yellow', 0, 0, 'misc', NULL),
-(7428, 'Magic_Gem_Blue', 0, 0, 'misc', NULL),
-(7429, 'Magic_Gem_Green', 0, 0, 'misc', NULL),
-(7430, 'Magic_Gem_Black', 0, 0, 'misc', NULL),
-(7431, 'Several_Books', 0, 0, 'misc', NULL),
-(7432, 'Leather_Pouch', 0, 0, 'misc', NULL),
-(7433, 'Scroll', 4000, 10, 'misc', NULL),
-(7434, 'Elemental_Potion_Book', 100000, 10, 'misc', NULL),
-(7435, 'Golden_Bracelet', 1907, 10, 'misc', NULL),
-(7436, 'Piece_Of_Memory_Green', 1506, 10, 'misc', NULL),
-(7437, 'Piece_Of_Memory_Purple', 1506, 10, 'misc', NULL),
-(7438, 'Piece_Of_Memory_Blue', 1506, 10, 'misc', NULL),
-(7439, 'Piece_Of_Memory_Red', 1506, 10, 'misc', NULL),
-(7440, 'Red_Feather', 1335, 10, 'misc', NULL),
-(7441, 'Blue_Feather', 1408, 10, 'misc', NULL),
-(7442, 'Cursed_Seal', 1332, 10, 'misc', NULL),
-(7443, 'Tri_Headed_Dragon_Head', 956, 10, 'misc', NULL),
-(7444, 'Treasure_Box', 300000, 10, 'misc', NULL),
-(7445, 'Dragonball_Green', 887, 10, 'misc', NULL),
-(7446, 'Dragonball_Blue', 887, 10, 'misc', NULL),
-(7447, 'Dragonball_Red', 887, 10, 'misc', NULL),
-(7448, 'Dragonball_Yellow', 887, 10, 'misc', NULL),
-(7449, 'Bloody_Page', 681, 10, 'misc', NULL),
-(7450, 'Piece_Of_Bone_Armor', 2050, 10, 'misc', NULL),
-(7451, 'Scale_Of_Red_Dragon', 1852, 10, 'misc', NULL),
-(7452, 'Yellow_Spice', 1000, 10, 'misc', NULL),
-(7453, 'Sweet_Sauce', 700, 10, 'misc', NULL),
-(7454, 'Plain_Sauce', 700, 10, 'misc', NULL),
-(7455, 'Hot_Sauce', 700, 10, 'misc', NULL),
-(7456, 'Red_Spice', 1000, 10, 'misc', NULL),
-(7457, 'Cooking_Oil', 500, 10, 'misc', NULL),
-(7458, 'Baphomet''s_Horn', 2, 10, 'misc', NULL),
-(7459, 'RAMADAN_', 2, 10, 'misc', NULL),
-(7460, 'Niflheim_Ticket', 2, 10, 'misc', NULL),
-(7461, 'BlueCard_A', 0, 10, 'misc', NULL),
-(7462, 'BlueCard_E', 0, 10, 'misc', NULL),
-(7463, 'BlueCard_F', 0, 10, 'misc', NULL),
-(7464, 'BlueCard_H', 0, 10, 'misc', NULL),
-(7465, 'BlueCard_L', 0, 10, 'misc', NULL),
-(7466, 'BlueCard_N', 0, 10, 'misc', NULL),
-(7467, 'BlueCard_O', 0, 10, 'misc', NULL),
-(7468, 'BlueCard_P', 0, 10, 'misc', NULL),
-(7469, 'BlueCard_U', 0, 10, 'misc', NULL),
-(7470, 'BlueCard_W', 0, 10, 'misc', NULL),
-(7471, 'BlueCard_Y', 0, 10, 'misc', NULL),
-(7472, 'Cookbook01', 1000, 10, 'misc', NULL),
-(7473, 'Cookbook02', 1000, 10, 'misc', NULL),
-(7474, 'Cookbook03', 1000, 10, 'misc', NULL),
-(7475, 'Cookbook04', 1000, 10, 'misc', NULL),
-(7476, 'Cookbook05', 1000, 10, 'misc', NULL),
-(7477, 'Cookbook06', 1000, 10, 'misc', NULL),
-(7478, 'Cookbook07', 1000, 10, 'misc', NULL),
-(7479, 'Cookbook08', 1000, 10, 'misc', NULL),
-(7480, 'Cookbook09', 1000, 10, 'misc', NULL),
-(7481, 'Cookbook10', 1000, 10, 'misc', NULL),
-(7482, 'Pot', 200, 10, 'misc', NULL),
-(7483, 'Key_Of_Seal', 0, 0, 'misc', NULL),
-(7484, 'Warrior_Symbol', 0, 10, 'misc', NULL),
-(7485, '2nd_Floor_Pass', 0, 10, 'misc', NULL),
-(7486, '3rd_Floor_Pass', 0, 10, 'misc', NULL),
-(7487, 'Tavern_Wine', 0, 0, 'misc', NULL),
-(7488, 'Delivery_Box', 0, 0, 'misc', NULL),
-(7489, 'Villa_Spare_Key', 0, 0, 'misc', NULL),
-(7490, 'Kyll_Hire_Letter', 0, 0, 'misc', NULL),
-(7491, 'Iron_Box', 0, 0, 'misc', NULL),
-(7492, 'Yellow_Key_Card', 0, 0, 'misc', NULL),
-(7493, 'Golden_Key', 0, 0, 'misc', NULL),
-(7494, 'Kiel_Button', 0, 0, 'misc', NULL),
-(7495, 'Blue_Key_Card', 0, 0, 'misc', NULL),
-(7496, 'Red_Key_Card', 0, 0, 'misc', NULL),
-(7497, 'Steel_Piece', 0, 0, 'misc', NULL),
-(7498, 'Rosimier_Key', 0, 0, 'misc', NULL),
-(7499, 'Family_Portrait', 0, 0, 'misc', NULL),
-(7500, 'Elysia_Portrait', 0, 0, 'misc', NULL),
-(7501, 'Kyll_Hire_Letter2', 0, 0, 'misc', NULL),
-(7502, 'Piece_Memo_Of_James', 0, 0, 'misc', NULL),
-(7503, 'Man_Portrait', 0, 0, 'misc', NULL),
-(7504, 'Toy_Motor', 0, 0, 'misc', NULL),
-(7505, 'Toy_Key', 0, 0, 'misc', NULL),
-(7506, 'Black_Key_Card', 0, 0, 'misc', NULL),
-(7507, 'Sturdy_Iron_Piece', 842, 10, 'misc', NULL),
-(7508, 'Elysia_Ring', 0, 0, 'misc', NULL),
-(7509, 'Fancy_Key_Card', 0, 0, 'misc', NULL),
-(7510, 'Valhalla_Flower', 200000, 10, 'misc', NULL),
-(7511, 'Rune_Of_Darkness', 2526, 10, 'misc', NULL),
-(7512, 'Burnt_Parts', 1600, 10, 'misc', NULL),
-(7513, 'Pocket_Watch', 3420, 10, 'misc', NULL),
-(7514, 'Monster_Ticket', 2, 0, 'misc', NULL),
-(7515, 'Marvelous_Medal', 2, 0, 'misc', NULL),
-(7516, 'Green_Key_Card', 0, 0, 'misc', NULL),
-(7517, 'Gold_Coin_', 1000, 100, 'misc', NULL),
-(7518, 'Women''s_Meda', 0, 10, 'misc', NULL),
-(7519, 'Money_Envelope', 0, 10, 'misc', NULL),
-(7520, 'Chinese_Scroll', 0, 10, 'misc', NULL),
-(7521, 'Flame_Stone', 150, 10, 'misc', NULL),
-(7522, 'Ice_Stone', 150, 10, 'misc', NULL),
-(7523, 'Wind_Stone', 150, 10, 'misc', NULL),
-(7524, 'Shadow_Orb', 300, 20, 'misc', NULL),
-(7525, 'Summer_Feast_Ticket', 10, 10, 'misc', NULL),
-(7526, 'Manuscript_Paper', 2, 0, 'misc', NULL),
-(7527, 'Life_Book', 0, 100, 'misc', NULL),
-(7528, 'Id_Lottery_Ticket', 0, 0, 'misc', NULL),
-(7529, 'Stolen_Sandals', 0, 0, 'misc', NULL),
-(7530, 'Travel_Brochure_01', 0, 0, 'misc', NULL),
-(7531, 'Travel_Brochure_02', 0, 0, 'misc', NULL),
-(7532, 'Travel_Brochure_03', 0, 0, 'misc', NULL),
-(7533, 'Travel_Brochure_04', 0, 0, 'misc', NULL),
-(7534, 'Photo_Album_01', 0, 0, 'misc', NULL),
-(7535, 'Photo_Album_02', 0, 0, 'misc', NULL),
-(7536, 'Photo_Album_03', 0, 0, 'misc', NULL),
-(7537, 'Photo_Album_04', 0, 0, 'misc', NULL),
-(7538, 'Sifted_Sand', 0, 0, 'misc', NULL),
-(7539, 'Poring_Coin', 0, 0, 'misc', NULL),
-(7540, 'Lotto39', 0, 10, 'misc', NULL),
-(7541, 'Lotto40', 0, 10, 'misc', NULL),
-(7542, 'Lotto41', 0, 10, 'misc', NULL),
-(7543, 'Lotto42', 0, 10, 'misc', NULL),
-(7544, 'Lotto43', 0, 10, 'misc', NULL),
-(7545, 'Lotto44', 0, 10, 'misc', NULL),
-(7546, 'Lotto45', 0, 10, 'misc', NULL),
-(7547, 'Soccer_Ball', 20, 10, 'misc', NULL),
-(7548, 'Soccer_Shoes', 20, 10, 'misc', NULL),
-(7549, 'Brazilian_Flag', 20, 10, 'misc', NULL),
-(7550, 'Ticket01', 20, 10, 'misc', NULL),
-(7551, 'Ticket02', 20, 10, 'misc', NULL),
-(7552, 'Ticket03', 20, 10, 'misc', NULL),
-(7553, 'Lotus_Flower', 0, 0, 'misc', NULL),
-(7554, 'Striped_Candle', 0, 0, 'misc', NULL),
-(7555, 'Green_Incense', 0, 0, 'misc', NULL),
-(7556, 'Longing_Heart', 0, 0, 'misc', NULL),
-(7557, 'Invitation_Letter', 0, 0, 'misc', NULL),
-(7558, 'Invitation_Ticket', 0, 0, 'misc', NULL),
-(7559, 'Key_Of_Flower_Garden', 0, 0, 'misc', NULL),
-(7560, 'Longing_Heart2', 0, 0, 'misc', NULL),
-(7561, 'Ice_Heart', 606, 10, 'misc', NULL),
-(7562, 'Ice_Scale', 3020, 10, 'misc', NULL),
-(7563, 'Bloody_Rune', 2016, 10, 'misc', NULL),
-(7564, 'Rotten_Meat', 102, 10, 'misc', NULL),
-(7565, 'Sticky_Poison', 350, 10, 'misc', NULL),
-(7566, 'Will_Of_Darkness_', 1530, 10, 'misc', NULL),
-(7567, 'Suspicious_Hat', 1290, 10, 'misc', NULL),
-(7568, 'White_Mask', 1060, 10, 'misc', NULL),
-(7569, 'Hammer_Of_Wind', 0, 0, 'misc', NULL),
-(7570, 'Temple_Lottery_Ticket', 0, 10, 'misc', NULL),
-(7571, 'Diary_Of_Blue', 0, 0, 'misc', NULL),
-(7572, 'Magic_Necklace', 0, 0, 'misc', NULL),
-(7573, 'Magic_Necklace_', 0, 0, 'misc', NULL),
-(7574, 'Ice_Particle', 0, 0, 'misc', NULL),
-(7575, 'Red_Jewel_', 20, 50, 'misc', NULL),
-(7576, 'Blue_Jewel_', 20, 50, 'misc', NULL),
-(7577, 'Golden_Jewel_', 20, 50, 'misc', NULL),
-(7578, 'Anti_Spell_Bead', 20, 10, 'misc', NULL),
-(7579, 'Silk_Handkerchief', 20, 10, 'misc', NULL),
-(7580, 'Black_Bead', 20, 10, 'misc', NULL),
-(7581, 'Anniversary_Ticket', 20, 10, 'misc', NULL),
-(7582, 'Gem_Of_Ruin', 10, 10, 'misc', NULL),
-(7583, 'Evil_Mind', 10, 10, 'misc', NULL),
-(7584, 'Proof_Of_Guard1', 10, 10, 'misc', NULL),
-(7585, 'Proof_Of_Guard2', 10, 10, 'misc', NULL),
-(7586, 'Proof_Of_Guard3', 10, 10, 'misc', NULL),
-(7587, 'Proof_Of_Guard4', 10, 10, 'misc', NULL),
-(7588, 'IPOD_Ticker', 10, 10, 'misc', NULL),
-(7589, 'Moon_Cake10', 20, 10, 'misc', NULL),
-(7590, 'Moon_Cake11', 20, 10, 'misc', NULL),
-(7591, 'Moon_Cake12', 20, 10, 'misc', NULL),
-(7592, 'Moon_Cake13', 20, 10, 'misc', NULL),
-(7593, 'Moon_Cake14', 20, 10, 'misc', NULL),
-(7594, 'Sonia''s_Letter', 20, 10, 'misc', NULL),
-(7595, 'Unique_Sword', 20, 10, 'misc', NULL),
-(7596, 'Unique_Shield', 20, 10, 'misc', NULL),
-(7597, 'Magic_Stone', 20, 10, 'misc', NULL),
-(7598, 'BlueCard_I', 0, 10, 'misc', NULL),
-(7599, 'BlueCard_D', 0, 10, 'misc', NULL),
-(7600, 'BlueCard_K', 0, 10, 'misc', NULL),
-(7601, 'BlueCard_S', 0, 10, 'misc', NULL),
-(7602, 'BlueCard_R', 0, 10, 'misc', NULL),
-(7603, 'RO_Party_Ticket', 0, 10, 'misc', NULL),
-(7604, 'Flour', 0, 10, 'misc', NULL),
-(7605, 'Chicken_Egg', 0, 10, 'misc', NULL),
-(7606, 'Coin', 0, 10, 'misc', NULL),
-(7607, 'Evil_Dragon_Head', 10, 10, 'misc', NULL),
-(7608, 'Premium_Ticket', 20, 10, 'misc', NULL),
-(7609, 'Pumpkin_Mojo', 0, 10, 'misc', NULL),
-(7610, 'Food_Ticket', 1000, 10, 'misc', NULL),
-(7611, 'Fox_Symbol', 20, 10, 'misc', NULL),
-(7612, 'Heart_Of_Fox_Queen', 2, 10, 'misc', NULL),
-(7613, 'Small_Rice_Dough', 0, 0, 'misc', NULL),
-(7614, 'Special_Packing_Paper', 10, 10, 'misc', NULL),
-(7615, 'MVP_Ticket', 10, 10, 'misc', NULL),
-(7616, 'Mini_Boss_Ticket', 10, 10, 'misc', NULL),
-(7617, 'Monster_Ticket_', 10, 10, 'misc', NULL),
-(7618, 'Monster_Crystal', 2, 100, 'misc', NULL),
-(7619, 'Enriched_Elunium', 2, 10, 'misc', NULL),
-(7620, 'Enriched_Oridecon', 2, 10, 'misc', NULL),
-(7621, 'Token_Of_Siegfried', 2, 10, 'misc', NULL),
-(7701, 'Dragon_Spirit', 2, 10, 'misc', NULL),
-(7702, 'Special_Cogwheel', 2, 10, 'misc', NULL),
-(7703, 'Piece_Of_Cogwheel', 2, 10, 'misc', NULL),
-(7704, 'Broken_Thermometer', 2, 0, 'misc', NULL),
-(7705, 'Note_Of_Geologist', 2, 0, 'misc', NULL),
-(7706, 'Spoiled_Carrot_Juice', 20, 40, 'misc', NULL),
-(7707, 'Spoiled_Banana_Juice', 20, 40, 'misc', NULL),
-(7708, 'Spoiled_Apple_Juice', 20, 40, 'misc', NULL),
-(7709, 'Spoiled_Grape_Juice', 20, 40, 'misc', NULL),
-(7710, 'Black_Gemstone', 600, 30, 'misc', NULL),
-(7711, 'Update_Ticket', 0, 10, 'misc', NULL),
-(7712, 'Nokia5500', 0, 10, 'misc', NULL),
-(7713, 'BlueCard_A_', 0, 10, 'misc', NULL),
-(7714, 'BlueCard_R_', 0, 10, 'misc', NULL),
-(7715, 'Handmade_Choco_Recipe', 0, 0, 'misc', NULL),
-(7716, 'Strawberry_Choco_Recipe', 0, 0, 'misc', NULL),
-(7717, 'Choco_Tart_Recipe', 0, 0, 'misc', NULL),
-(7718, 'Cacao_Bean', 0, 10, 'misc', NULL),
-(7719, 'BlueCard_G', 0, 10, 'misc', NULL),
-(7720, 'Gold_Coin_US', 100, 10, 'misc', NULL),
-(7721, 'Treasure_Box_', 100, 500, 'misc', NULL),
-(7722, 'Debt_Note', 20, 0, 'misc', NULL),
-(7723, 'Diamond_Of_Ruin', 20, 0, 'misc', NULL),
-(7724, 'Forbidden_Secret_Art', 20, 0, 'misc', NULL),
-(7725, 'Unlucky_Emerald', 20, 0, 'misc', NULL),
-(7726, 'Token_Of_King', 20, 0, 'misc', NULL),
-(7727, 'HP_Doctor_Ticket', 0, 0, 'misc', NULL),
-(7728, 'SP_Doctor_Ticket', 0, 0, 'misc', NULL),
-(7729, 'Rok_Star_Badge', 20, 100, 'misc', NULL),
-(7730, 'Mission_Certificate1', 0, 10, 'misc', NULL),
-(7731, 'Mission_Certificate2', 0, 10, 'misc', NULL),
-(7732, 'Mission_Certificate3', 0, 10, 'misc', NULL),
-(7733, 'Mission_Certificate4', 0, 10, 'misc', NULL),
-(7734, 'Mission_Certificate5', 0, 10, 'misc', NULL),
-(7735, 'Mission_Certificate6', 0, 10, 'misc', NULL),
-(7736, 'Mission_Certificate7', 0, 10, 'misc', NULL),
-(7737, 'Mission_Certificate8', 0, 10, 'misc', NULL),
-(7738, 'Mission_Certificate9', 0, 10, 'misc', NULL),
-(7739, 'Mission_Certificate10', 0, 10, 'misc', NULL),
-(7740, 'Mission_Certificate11', 0, 10, 'misc', NULL),
-(7741, 'Mission_Certificate12', 0, 10, 'misc', NULL),
-(7742, 'Kaong', 2, 10, 'misc', NULL),
-(7743, 'Gulaman', 2, 10, 'misc', NULL),
-(7744, 'Leche_Flan', 2, 10, 'misc', NULL),
-(7745, 'Ube_Jam', 2, 10, 'misc', NULL),
-(7746, 'Sago', 2, 10, 'misc', NULL),
-(7747, 'Langka', 2, 10, 'misc', NULL),
-(7748, 'Sweet_Bean', 2, 10, 'misc', NULL),
-(7749, 'Sweet_Banana', 2, 10, 'misc', NULL),
-(7750, 'Macapuno', 2, 10, 'misc', NULL),
-(7751, 'Old_White_Cloth', 550, 10, 'misc', NULL),
-(7752, 'Clattering_Skull', 840, 10, 'misc', NULL),
-(7753, 'Broken_Farming_Utensil', 330, 10, 'misc', NULL),
-(7754, 'Broken_Crown', 3000, 10, 'misc', NULL),
-(7755, 'Research_Note', 20, 0, 'misc', NULL),
-(7756, 'Sealed_Book', 2000, 10, 'misc', NULL),
-(7850, 'Wooden_Block_', 20, 100, 'misc', NULL),
-(7851, 'Pass_F1', 20, 10, 'misc', NULL),
-(7852, 'Pass_F2', 20, 10, 'misc', NULL),
-(7853, 'Pass_F3', 20, 10, 'misc', NULL),
-(7854, 'Pass_CF', 20, 10, 'misc', NULL),
-(7855, 'Heart', 20, 10, 'misc', NULL),
-(7857, 'Handmade_Kitty_Doll', 20, 30, 'misc', NULL),
-(7858, 'Dragonball_Yellow_', 20, 10, 'misc', NULL),
-(7860, 'Peeps', 0, 50, 'misc', NULL),
-(7861, 'Jelly_Bean', 0, 50, 'misc', NULL),
-(7862, 'Marshmallow', 0, 50, 'misc', NULL),
-(11000, 'Prontera_Book_01', 8000, 0, 'misc', NULL),
-(11001, 'Poetry01', 8000, 0, 'misc', NULL),
-(11002, 'Novel01', 8000, 0, 'misc', NULL),
-(11003, 'Novel02', 8000, 0, 'misc', NULL),
-(11004, 'Mercenary_Rebellion', 10000, 0, 'misc', NULL),
-(11005, 'Tyrant_Schmidt', 10000, 0, 'misc', NULL),
-(11006, 'Blood_Flower01', 8000, 0, 'misc', NULL),
-(11007, 'Blood_Flower02', 8000, 0, 'misc', NULL),
-(11008, 'Barmund', 10000, 0, 'misc', NULL),
-(11009, 'Adventure_Story02', 8000, 0, 'misc', NULL);
+INSERT INTO `itemdefinitions` VALUES ('2101', 'Guard', '500', '300', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('2102', 'Guard_', '500', '300', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('2103', 'Buckler', '14000', '600', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('2104', 'Buckler_', '14000', '600', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('2105', 'Shield', '56000', '1300', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('2106', 'Shield_', '56000', '1300', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('2107', 'Mirror_Shield', '60000', '1000', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('2108', 'Mirror_Shield_', '60000', '1000', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('2109', 'Memorize_Book', '20', '1000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('2110', 'Holy_Guard', '85000', '1400', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('2111', 'Herald_Of_GOD', '128000', '1600', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('2112', 'Novice_Guard', '1', '1', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('2113', 'Novice_Shield', '5000', '1000', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('2114', 'Stone_Buckler', '30000', '1500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('2115', 'Valkyrja\'s_Shield', '30000', '500', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('2116', 'Angel\'s_Safeguard', '10000', '400', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('2117', 'Arm_Guard', '10000', '150', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('2118', 'Arm_Guard_', '10000', '150', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('2119', 'Improved_Arm_Guard', '40000', '150', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('2120', 'Improved_Arm_Guard_', '40000', '150', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('2121', 'Memorize_Book_', '20', '1000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('2122', 'Platinum_Shield', '10000', '1200', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('2123', 'Orleans_Server', '10000', '1000', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('2124', 'Thorny_Buckler', '10000', '1000', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('2125', 'Strong_Shield', '10000', '2500', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('2199', 'Ahura_Mazda', '1', '10', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('2201', 'Sunglasses', '5000', '100', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('2202', 'Sunglasses_', '5000', '100', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('2203', 'Glasses', '4000', '100', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('2204', 'Glasses_', '4000', '100', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('2205', 'Diver\'s_Goggles', '3500', '100', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('2206', 'Wedding_Veil', '23000', '100', '4', '44');
+INSERT INTO `itemdefinitions` VALUES ('2207', 'Fancy_Flower', '20', '100', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('2208', 'Ribbon', '800', '100', '4', '17');
+INSERT INTO `itemdefinitions` VALUES ('2209', 'Ribbon_', '800', '100', '4', '17');
+INSERT INTO `itemdefinitions` VALUES ('2210', 'Hair_Band', '500', '100', '4', '9');
+INSERT INTO `itemdefinitions` VALUES ('2211', 'Bandana', '400', '100', '4', '6');
+INSERT INTO `itemdefinitions` VALUES ('2212', 'Eye_Bandage', '1000', '100', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('2213', 'Cat_Hairband', '20', '100', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('2214', 'Bunny_Band', '20', '100', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('2215', 'Flower_Hairband', '20', '100', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('2216', 'Biretta', '9000', '100', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('2217', 'Biretta_', '9000', '100', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('2218', 'Flu_Mask', '300', '100', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('2219', 'Flu_Mask_', '300', '100', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('2220', 'Hat', '1000', '200', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('2221', 'Hat_', '1000', '200', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('2222', 'Turban', '4500', '300', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('2223', 'Turban_', '4500', '300', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('2226', 'Cap', '12000', '400', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('2227', 'Cap_', '12000', '400', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('2228', 'Helm', '44000', '600', '4', '40');
+INSERT INTO `itemdefinitions` VALUES ('2229', 'Helm_', '44000', '600', '4', '40');
+INSERT INTO `itemdefinitions` VALUES ('2230', 'Gemmed_Sallet', '50000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2231', 'Gemmed_Sallet_', '50000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2232', 'Circlet', '7500', '300', '4', '18');
+INSERT INTO `itemdefinitions` VALUES ('2233', 'Circlet_', '7500', '300', '4', '18');
+INSERT INTO `itemdefinitions` VALUES ('2234', 'Tiara', '20', '400', '4', '19');
+INSERT INTO `itemdefinitions` VALUES ('2235', 'Crown', '20', '400', '4', '45');
+INSERT INTO `itemdefinitions` VALUES ('2236', 'Santa\'s_Hat', '20', '100', '4', '20');
+INSERT INTO `itemdefinitions` VALUES ('2237', 'Weird_Goatee', '2', '100', '4', '21');
+INSERT INTO `itemdefinitions` VALUES ('2238', 'Weird_Moustache', '2', '100', '4', '22');
+INSERT INTO `itemdefinitions` VALUES ('2239', 'One_Eyed_Glass', '10000', '100', '4', '23');
+INSERT INTO `itemdefinitions` VALUES ('2240', 'Beard', '2', '100', '4', '24');
+INSERT INTO `itemdefinitions` VALUES ('2241', 'Granpa_Beard', '5000', '100', '4', '25');
+INSERT INTO `itemdefinitions` VALUES ('2242', 'Luxury_Sunglasses', '24000', '100', '4', '26');
+INSERT INTO `itemdefinitions` VALUES ('2243', 'Spinning_Eyes', '20000', '100', '4', '27');
+INSERT INTO `itemdefinitions` VALUES ('2244', 'Big_Sis\'_Ribbon', '15000', '200', '4', '28');
+INSERT INTO `itemdefinitions` VALUES ('2245', 'Sweet_Gents', '15000', '400', '4', '29');
+INSERT INTO `itemdefinitions` VALUES ('2246', 'Golden_Gear', '20', '900', '4', '30');
+INSERT INTO `itemdefinitions` VALUES ('2247', 'Oldman\'s_Romance', '15000', '400', '4', '31');
+INSERT INTO `itemdefinitions` VALUES ('2248', 'Western_Grace', '15000', '400', '4', '32');
+INSERT INTO `itemdefinitions` VALUES ('2249', 'Coronet', '20', '300', '4', '33');
+INSERT INTO `itemdefinitions` VALUES ('2250', 'Fillet', '500', '100', '4', '34');
+INSERT INTO `itemdefinitions` VALUES ('2251', 'Holy_Bonnet', '30000', '100', '4', '35');
+INSERT INTO `itemdefinitions` VALUES ('2252', 'Star_Sparkling', '20', '300', '4', '36');
+INSERT INTO `itemdefinitions` VALUES ('2253', 'Sunflower', '20', '100', '4', '37');
+INSERT INTO `itemdefinitions` VALUES ('2254', 'Angelic_Chain', '20', '100', '4', '38');
+INSERT INTO `itemdefinitions` VALUES ('2255', 'Satanic_Chain', '20', '100', '4', '39');
+INSERT INTO `itemdefinitions` VALUES ('2256', 'Magestic_Goat', '20', '800', '4', '41');
+INSERT INTO `itemdefinitions` VALUES ('2257', 'Snowy_Horn', '20', '100', '4', '42');
+INSERT INTO `itemdefinitions` VALUES ('2258', 'Sharp_Gear', '20', '1000', '4', '43');
+INSERT INTO `itemdefinitions` VALUES ('2259', 'Mini_Propeller', '20', '100', '4', '46');
+INSERT INTO `itemdefinitions` VALUES ('2260', 'Mini_Glasses', '28000', '100', '4', '47');
+INSERT INTO `itemdefinitions` VALUES ('2261', 'Prontera_Army_Cap', '20', '400', '4', '48');
+INSERT INTO `itemdefinitions` VALUES ('2262', 'Pierrot_Nose', '20', '100', '4', '49');
+INSERT INTO `itemdefinitions` VALUES ('2263', 'Gangster_Patch', '20', '100', '4', '50');
+INSERT INTO `itemdefinitions` VALUES ('2265', 'Ganster_Mask', '20', '100', '4', '52');
+INSERT INTO `itemdefinitions` VALUES ('2266', 'Iron_Cane', '20', '300', '4', '53');
+INSERT INTO `itemdefinitions` VALUES ('2267', 'Cigar', '20', '100', '4', '54');
+INSERT INTO `itemdefinitions` VALUES ('2268', 'Smoking_Pipe', '20', '100', '4', '55');
+INSERT INTO `itemdefinitions` VALUES ('2269', 'Centimental_Flower', '20', '100', '4', '56');
+INSERT INTO `itemdefinitions` VALUES ('2270', 'Centimental_Leaf', '20', '100', '4', '57');
+INSERT INTO `itemdefinitions` VALUES ('2271', 'Jack_A_Dandy', '45000', '100', '4', '58');
+INSERT INTO `itemdefinitions` VALUES ('2272', 'Stop_Post', '20', '400', '4', '59');
+INSERT INTO `itemdefinitions` VALUES ('2273', 'Doctor_Cap', '20', '100', '4', '60');
+INSERT INTO `itemdefinitions` VALUES ('2274', 'Ghost_Bandana', '20', '100', '4', '61');
+INSERT INTO `itemdefinitions` VALUES ('2275', 'Red_Bandana', '20', '100', '4', '62');
+INSERT INTO `itemdefinitions` VALUES ('2276', 'Eagle_Eyes', '20', '100', '4', '63');
+INSERT INTO `itemdefinitions` VALUES ('2277', 'Nurse_Cap', '20', '100', '4', '64');
+INSERT INTO `itemdefinitions` VALUES ('2279', 'Bomb_Wick', '20', '100', '4', '66');
+INSERT INTO `itemdefinitions` VALUES ('2280', 'Sahkkat', '20', '300', '4', '67');
+INSERT INTO `itemdefinitions` VALUES ('2282', 'Spirit_Chain', '20', '100', '4', '69');
+INSERT INTO `itemdefinitions` VALUES ('2283', 'Ear_Mufs', '20', '200', '4', '70');
+INSERT INTO `itemdefinitions` VALUES ('2284', 'Antler', '20', '500', '4', '71');
+INSERT INTO `itemdefinitions` VALUES ('2285', 'Apple_Of_Archer', '20', '200', '4', '72');
+INSERT INTO `itemdefinitions` VALUES ('2286', 'Elven_Ears', '20', '100', '4', '73');
+INSERT INTO `itemdefinitions` VALUES ('2287', 'Pirate_Bandana', '20', '100', '4', '74');
+INSERT INTO `itemdefinitions` VALUES ('2289', 'Poo_Poo_Hat', '20', '700', '4', '76');
+INSERT INTO `itemdefinitions` VALUES ('2290', 'Funeral_Costume', '3000', '100', '4', '77');
+INSERT INTO `itemdefinitions` VALUES ('2291', 'Masquerade', '20', '100', '4', '78');
+INSERT INTO `itemdefinitions` VALUES ('2293', 'Pretend_Murdered', '20', '100', '4', '80');
+INSERT INTO `itemdefinitions` VALUES ('2294', 'Star_Dust', '20', '100', '4', '81');
+INSERT INTO `itemdefinitions` VALUES ('2295', 'Blinker', '1500', '100', '4', '82');
+INSERT INTO `itemdefinitions` VALUES ('2296', 'Binoculars', '20', '100', '4', '83');
+INSERT INTO `itemdefinitions` VALUES ('2298', 'Green_Feeler', '20', '100', '4', '85');
+INSERT INTO `itemdefinitions` VALUES ('2299', 'Viking_Helm', '20', '500', '4', '86');
+INSERT INTO `itemdefinitions` VALUES ('2301', 'Cotton_Shirt', '10', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2302', 'Cotton_Shirt_', '10', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2303', 'Leather_Jacket', '200', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2304', 'Leather_Jacket_', '200', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2305', 'Adventure_Suit', '1000', '300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2306', 'Adventurere\'s_Suit_', '1000', '300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2307', 'Mantle', '10000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2308', 'Mantle_', '10000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2309', 'Coat', '22000', '1200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2310', 'Coat_', '22000', '1200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2311', 'Mink_Coat', '20', '2300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2312', 'Padded_Armor', '48000', '2800', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2313', 'Padded_Armor_', '48000', '2800', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2314', 'Chain_Mail', '65000', '3300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2315', 'Chain_Mail_', '65000', '3300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2316', 'Plate_Armor', '80000', '4500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2317', 'Plate_Armor_', '80000', '4500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2318', 'Clothes_Of_The_Lord', '20', '2500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2319', 'Glittering_Clothes', '20', '2500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2320', 'Formal_Suit', '20', '300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2321', 'Silk_Robe', '8000', '400', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2322', 'Silk_Robe_', '8000', '400', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2323', 'Scapulare', '6500', '400', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2324', 'Scapulare_', '6500', '400', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2325', 'Saint_Robe', '54000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2326', 'Saint_Robe_', '54000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2327', 'Holy_Robe', '20', '1700', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2328', 'Wooden_Mail', '5500', '1000', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2329', 'Wooden_Mail_', '5500', '1000', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2330', 'Tights', '71000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2331', 'Tights_', '71000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2332', 'Silver_Robe', '7000', '700', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2333', 'Silver_Robe_', '7000', '700', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2334', 'Mage_Coat', '20', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2335', 'Thief_Clothes', '74000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2336', 'Thief_Clothes_', '74000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2337', 'Ninja_Suit', '20', '1500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2338', 'Wedding_Dress', '43000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2339', 'G_Strings', '1000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2340', 'Novice_Breast', '89000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2341', 'Full_Plate_Armor', '94000', '5500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2342', 'Full_Plate_Armor_', '102500', '5500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2343', 'Robe_Of_Casting', '124800', '1100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2344', 'Flame_Sprits_Armor', '136000', '2200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2345', 'Flame_Sprits_Armor_', '136000', '2200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2346', 'Water_Sprits_Armor', '136000', '2200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2347', 'Water_Sprits_Armor_', '136000', '2200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2348', 'Wind_Sprits_Armor', '136000', '2200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2349', 'Wind_Sprits_Armor_', '136000', '2200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2350', 'Earth_Sprits_Armor', '136000', '2200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2351', 'Earth_Sprits_Armor_', '136000', '2200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2352', 'Novice_Plate', '1', '1', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2353', 'Odin\'s_Blessing', '30000', '2500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2354', 'Goibne\'s_Armor', '50000', '3500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2355', 'Angel\'s_Protection', '10000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2356', 'Vestment_Of_Grace', '20', '2500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2357', 'Valkyrie_Armor', '0', '2800', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2358', 'Dress_Of_Angel', '20', '1000', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2359', 'Ninja_Suit_', '20', '1500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2360', 'Robe_Of_Casting_', '124800', '1100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2361', 'Blue_Aodai', '20', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2362', 'Red_Aodai', '20', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2363', 'White_Aodai', '20', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2364', 'Meteo_Plate_Armor', '10000', '3000', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2365', 'Orleans_Gown', '10000', '300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2366', 'Divine_Cloth', '10000', '1500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2367', 'Sniping_Suit', '10000', '750', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2401', 'Sandals', '400', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2402', 'Sandals_', '400', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2403', 'Shoes', '3500', '400', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2404', 'Shoes_', '3500', '400', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2405', 'Boots', '18000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2406', 'Boots_', '18000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2407', 'Chrystal_Pumps', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2408', 'Cuffs', '5000', '3000', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2409', 'Spiky_Heel', '8500', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2410', 'Sleipnir', '20', '3500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2411', 'Grave', '48000', '750', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2412', 'Grave_', '54000', '750', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2413', 'Safty_Boots', '34000', '350', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2414', 'Novice_Boots', '1', '1', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2415', 'Slipper', '34000', '300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2416', 'Novice_Shoes', '35000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2417', 'Fricco_Shoes', '30000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2418', 'Vidar\'s_Boots', '30000', '650', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2419', 'Goibne\'s_Combat_Boots', '30000', '700', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2420', 'Angel\'s_Arrival', '10000', '300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2421', 'Valkyrie_Shoes', '0', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2422', 'High_Fashion_Sandals', '24000', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2423', 'Variant_Shoes', '10000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2424', 'Tidal_Shoes', '10000', '300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2425', 'Black_Leather_Boots', '10000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2426', 'Shadow_Walk', '10000', '2000', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2501', 'Hood', '1000', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2502', 'Hood_', '1000', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2503', 'Muffler', '5000', '400', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2504', 'Muffler_', '5000', '400', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2505', 'Manteau', '32000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2506', 'Manteau_', '32000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2507', 'Cape_Of_Ancient_Lord', '82000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2508', 'Ragamuffin_Cape', '56000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2509', 'Clack_Of_Servival', '20000', '550', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2510', 'Novice_Hood', '1', '1', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2511', '', '5000', '700', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2512', 'Novice_Manteau', '50000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2513', 'Celestial_Robe', '20', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2514', 'Pauldron', '20', '800', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2515', 'Wing_Of_Eagle', '20000', '300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2516', 'Falcon_Robe', '30000', '400', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2517', 'Vali\'s_Manteau', '30000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2518', 'Morpheus\'s_Shawl', '30000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2519', 'Morrigane\'s_Manteau', '30000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2520', 'Goibne\'s_Shoulder_Arms', '30000', '700', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2521', 'Angel\'s_Warmth', '10000', '400', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2522', 'Undershirt', '20000', '150', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2523', 'Undershirt_', '20000', '150', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2524', 'Valkyrie_Manteau', '0', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2525', 'Cape_Of_Ancient_Lord_', '82000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2526', 'Dragon_Scale_Coat', '20', '10', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2527', 'Dragon_Breath', '10000', '600', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2528', 'Wool_Scarf', '10000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2529', 'Rider_Insignia', '10000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2530', 'Rider_Insignia_', '10000', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2531', 'Ulfhedinn', '10000', '700', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2532', 'Mithril_Magic_Cape', '10000', '400', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2601', 'Ring', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2602', 'Earring', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2603', 'Necklace', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2604', 'Glove', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2605', 'Brooch', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2607', 'Clip', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2608', 'Rosary', '15000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2609', 'Skul_Ring', '10000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2610', 'Gold_Ring', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2611', 'Silver_Ring', '20000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2612', 'Flower_Ring', '1500', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2613', 'Diamond_Ring', '45000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2614', 'An_Eye_Of_Dullahan', '90000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2615', 'Safety_Ring', '75000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2616', 'Critical_Ring', '75000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2617', 'Mitten_Of_Presbyter', '2', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2618', 'Matyr\'s_Flea_Guard', '2', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2619', 'Thimble_Of_Archer', '10000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2620', 'Ring_Of_Rogue', '10000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2621', 'Ring_', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2622', 'Earring_', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2623', 'Necklace_', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2624', 'Glove_', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2625', 'Brooch_', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2626', 'Rosary_', '15000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2627', 'Belt', '20000', '1200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2628', 'Novice_Armlet', '400', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2629', 'Magingiorde', '20', '8000', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2630', 'Brysinggamen', '20', '1500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2631', 'First_Age_Ring', '1', '10', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2632', 'Korean_Trinket', '125000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2633', 'Jade_Ring', '204000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2634', 'Bridegroom_Ring', '0', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2635', 'Bride_Ring', '0', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2636', 'Gold_Ring_', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2637', 'Silver_Ring_', '20000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2638', 'Exorcize_Sachet', '20000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2639', 'Purification_Sachet', '20000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2640', 'Kafra_Ring', '40000', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2641', 'Fashionable_Sack', '20', '700', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2642', 'Serin\'s_Gold_Ring', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2643', 'Serin\'s_Gold_Ring_', '45000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2644', 'The_Sign_', '2', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2645', 'Moonlight_Ring', '40000', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2646', 'Bunch_Of_Carnation', '2', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2647', 'Nile_Rose', '2', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2648', 'Morpheus\'s_Ring', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2649', 'Morpheus\'s_Armlet', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2650', 'Morrigane\'s_Belt', '30000', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2651', 'Morrigane\'s_Pendant', '30000', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2652', 'Cursed_Lucky_Brooch', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2653', 'Sacrifice_Ring', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2654', 'Shinobi\'s_Sash', '20000', '300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2655', 'Bloody_Iron_Ball', '50000', '4000', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2656', 'Hyper_Changer', '20000', '1000', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2657', 'Lab_Passport', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2658', 'Nile_Rose_', '2', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2659', 'Vesper_Core01', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2660', 'Vesper_Core02', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2661', 'Vesper_Core03', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2662', 'Vesper_Core04', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2663', 'Gauntlet_Of_Accuracy', '20', '900', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2664', 'Scarf_Belt', '20', '200', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2665', 'Ring_Of_Exorcism', '20', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2666', 'Lamp_Of_Hope', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2667', 'Glove_Of_Archer', '20', '300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2668', '', '0', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2669', 'Golden_Necklace_', '30000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2670', 'Ring_Of_Longing', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2671', 'Thimble_Of_Archer_', '10000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2672', 'Anniversary_Ring', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2673', 'Shining_Ring', '0', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2674', 'Honor_Ring', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2675', 'Lord_Ring', '0', '10', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2676', 'Hunter_Earring', '20', '300', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2677', 'Spiritual_Ring', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2678', 'Ring_Of_Flame_Lord', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2679', 'Ring_Of_Resonance', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2680', 'Lesser_Elemental_Ring', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2681', 'Republic_Ring', '20', '1000', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2682', 'Ring_Of_Water', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2683', 'Ring_Of_Fire', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2684', 'Ring_Of_Wind', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2685', 'Ring_Of_Earth', '20', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2686', 'Elven_Ears_C', '1', '100', '4', '73');
+INSERT INTO `itemdefinitions` VALUES ('2687', 'Steel_Flower_C', '1', '100', '4', '56');
+INSERT INTO `itemdefinitions` VALUES ('2688', 'Critical_Ring_C', '1', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2689', 'Earring_C', '1', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2690', 'Ring_C', '1', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2691', 'Necklace_C', '1', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2692', 'Glove_C', '1', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2693', 'Brooch_C', '1', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2694', 'Rosary_C', '1', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2695', 'Safety_Ring_C', '1', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2696', 'Vesper_Core01_C', '1', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2697', 'Vesper_Core02_C', '1', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2698', 'Vesper_Core03_C', '1', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2699', 'Vesper_Core04_C', '1', '500', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2700', 'Red_Silk_Seal', '10000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2701', 'Orleans_Glove', '10000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2702', 'Bison_Horn', '10000', '100', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2703', 'Expert_Ring', '10000', '150', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('5001', 'Headset', '20', '200', '4', '87');
+INSERT INTO `itemdefinitions` VALUES ('5002', 'Gemmed_Crown', '20', '600', '4', '88');
+INSERT INTO `itemdefinitions` VALUES ('5003', 'Joker_Jester', '20', '100', '4', '89');
+INSERT INTO `itemdefinitions` VALUES ('5004', 'Oxygen_Mask', '20', '200', '4', '90');
+INSERT INTO `itemdefinitions` VALUES ('5006', 'Machoman_Glasses', '36000', '100', '4', '92');
+INSERT INTO `itemdefinitions` VALUES ('5007', 'Loard_Circlet', '20', '200', '4', '93');
+INSERT INTO `itemdefinitions` VALUES ('5008', 'Puppy_Love', '20', '100', '4', '94');
+INSERT INTO `itemdefinitions` VALUES ('5009', 'Safety_Helmet', '20', '500', '4', '95');
+INSERT INTO `itemdefinitions` VALUES ('5010', 'Indian_Hair_Piece', '20', '100', '4', '96');
+INSERT INTO `itemdefinitions` VALUES ('5011', 'Antenna', '20', '100', '4', '97');
+INSERT INTO `itemdefinitions` VALUES ('5012', 'Ph.D_Hat', '20', '200', '4', '98');
+INSERT INTO `itemdefinitions` VALUES ('5013', 'Horn_Of_Lord_Kaho', '20', '100', '4', '99');
+INSERT INTO `itemdefinitions` VALUES ('5014', 'Fin_Helm', '20', '300', '4', '100');
+INSERT INTO `itemdefinitions` VALUES ('5015', 'Egg_Shell', '20', '200', '4', '101');
+INSERT INTO `itemdefinitions` VALUES ('5016', 'Boy\'s_Cap', '20', '100', '4', '102');
+INSERT INTO `itemdefinitions` VALUES ('5017', 'Bone_Helm', '20', '800', '4', '103');
+INSERT INTO `itemdefinitions` VALUES ('5018', 'Feather_Bonnet', '20', '300', '4', '104');
+INSERT INTO `itemdefinitions` VALUES ('5019', 'Corsair', '20', '500', '4', '105');
+INSERT INTO `itemdefinitions` VALUES ('5020', 'Kafra_Band', '20', '500', '4', '106');
+INSERT INTO `itemdefinitions` VALUES ('5021', 'Bankruptcy_Of_Heart', '20', '1200', '4', '107');
+INSERT INTO `itemdefinitions` VALUES ('5023', 'Hat_Of_Bundle', '20', '1000', '4', '108');
+INSERT INTO `itemdefinitions` VALUES ('5024', 'Hat_Of_Cake', '20', '1000', '4', '109');
+INSERT INTO `itemdefinitions` VALUES ('5025', 'Helm_Of_Angel', '20', '1600', '4', '110');
+INSERT INTO `itemdefinitions` VALUES ('5026', 'Hat_Of_Cook', '20', '300', '4', '111');
+INSERT INTO `itemdefinitions` VALUES ('5027', 'Wizardry_Hat', '20', '300', '4', '112');
+INSERT INTO `itemdefinitions` VALUES ('5028', 'Candle', '20', '150', '4', '113');
+INSERT INTO `itemdefinitions` VALUES ('5029', 'Spore_Hat', '20', '900', '4', '114');
+INSERT INTO `itemdefinitions` VALUES ('5030', 'Panda_Cap', '20', '800', '4', '115');
+INSERT INTO `itemdefinitions` VALUES ('5031', 'Mine_Helm', '20', '1500', '4', '116');
+INSERT INTO `itemdefinitions` VALUES ('5032', 'Picnic_Hat', '20', '800', '4', '117');
+INSERT INTO `itemdefinitions` VALUES ('5033', 'Smokie_Hat', '20', '900', '4', '118');
+INSERT INTO `itemdefinitions` VALUES ('5034', 'Light_Bulb_Band', '20', '500', '4', '119');
+INSERT INTO `itemdefinitions` VALUES ('5035', 'Poring_Hat', '20', '700', '4', '120');
+INSERT INTO `itemdefinitions` VALUES ('5036', 'Cross_Band', '20', '250', '4', '121');
+INSERT INTO `itemdefinitions` VALUES ('5037', 'Fruit_Shell', '20', '150', '4', '122');
+INSERT INTO `itemdefinitions` VALUES ('5038', 'Deviruchi_Cap', '20', '800', '4', '123');
+INSERT INTO `itemdefinitions` VALUES ('5039', 'Mottled_Egg_Shell', '20', '400', '4', '124');
+INSERT INTO `itemdefinitions` VALUES ('5040', 'Blush', '20', '100', '4', '125');
+INSERT INTO `itemdefinitions` VALUES ('5041', 'Heart_Hair_Pin', '20', '100', '4', '126');
+INSERT INTO `itemdefinitions` VALUES ('5042', 'Hair_Protector', '20', '150', '4', '127');
+INSERT INTO `itemdefinitions` VALUES ('5043', 'Opera_Ghost_Mask', '20', '200', '4', '128');
+INSERT INTO `itemdefinitions` VALUES ('5044', 'Devil\'s_Wing', '20', '350', '4', '129');
+INSERT INTO `itemdefinitions` VALUES ('5045', 'Magician_Hat', '20', '500', '4', '130');
+INSERT INTO `itemdefinitions` VALUES ('5047', 'Fashion_Sunglass', '20', '100', '4', '131');
+INSERT INTO `itemdefinitions` VALUES ('5048', 'First_Moon_Hair_Pin', '20', '100', '4', '132');
+INSERT INTO `itemdefinitions` VALUES ('5049', 'Stripe_Band', '20', '150', '4', '133');
+INSERT INTO `itemdefinitions` VALUES ('5050', 'Mystery_Fruit_Shell', '20', '300', '4', '134');
+INSERT INTO `itemdefinitions` VALUES ('5051', 'Kitty_Bell', '20', '100', '4', '135');
+INSERT INTO `itemdefinitions` VALUES ('5052', 'Blue_Hair_Band', '20', '150', '4', '136');
+INSERT INTO `itemdefinitions` VALUES ('5055', 'Novice_Egg_Cap', '1', '1', '4', '101');
+INSERT INTO `itemdefinitions` VALUES ('5056', 'Love_Berry', '1', '100', '4', '140');
+INSERT INTO `itemdefinitions` VALUES ('5057', 'Ear_Of_Black_Cat', '16000', '200', '4', '141');
+INSERT INTO `itemdefinitions` VALUES ('5058', 'Drooping_Kitty', '250000', '500', '4', '142');
+INSERT INTO `itemdefinitions` VALUES ('5059', 'Brown_Bear_Cap', '20', '800', '4', '143');
+INSERT INTO `itemdefinitions` VALUES ('5060', 'Party_Hat', '20', '300', '4', '144');
+INSERT INTO `itemdefinitions` VALUES ('5061', 'Flower_Hairpin', '20', '100', '4', '145');
+INSERT INTO `itemdefinitions` VALUES ('5062', 'Straw_Hat', '20', '200', '4', '146');
+INSERT INTO `itemdefinitions` VALUES ('5063', 'Plaster', '20', '100', '4', '147');
+INSERT INTO `itemdefinitions` VALUES ('5064', 'Leaf_Headgear', '20', '100', '4', '148');
+INSERT INTO `itemdefinitions` VALUES ('5065', 'Fish_On_Head', '20', '500', '4', '149');
+INSERT INTO `itemdefinitions` VALUES ('5066', 'Horn_Of_Succubus', '20', '800', '4', '150');
+INSERT INTO `itemdefinitions` VALUES ('5067', 'Sombrero', '20', '350', '4', '151');
+INSERT INTO `itemdefinitions` VALUES ('5068', 'Ear_Of_Devil\'s_Wing', '20', '100', '4', '152');
+INSERT INTO `itemdefinitions` VALUES ('5069', 'Mask_Of_Fox', '20', '300', '4', '153');
+INSERT INTO `itemdefinitions` VALUES ('5070', 'Headband_Of_Power', '20', '100', '4', '154');
+INSERT INTO `itemdefinitions` VALUES ('5071', 'Indian_Headband', '20', '200', '4', '155');
+INSERT INTO `itemdefinitions` VALUES ('5072', 'Inccubus_Horn', '20', '800', '4', '156');
+INSERT INTO `itemdefinitions` VALUES ('5073', 'Cap_Of_Concentration', '20', '700', '4', '157');
+INSERT INTO `itemdefinitions` VALUES ('5074', 'Ear_Of_Angel\'s_Wing', '20', '100', '4', '158');
+INSERT INTO `itemdefinitions` VALUES ('5075', 'Cowboy_Hat', '20', '500', '4', '159');
+INSERT INTO `itemdefinitions` VALUES ('5076', 'Fur_Hat', '20', '350', '4', '160');
+INSERT INTO `itemdefinitions` VALUES ('5077', 'Tulip_Hairpin', '20', '100', '4', '161');
+INSERT INTO `itemdefinitions` VALUES ('5078', 'Sea_Otter_Cap', '20', '800', '4', '162');
+INSERT INTO `itemdefinitions` VALUES ('5079', 'Crossed_Hair_Band', '20', '100', '4', '163');
+INSERT INTO `itemdefinitions` VALUES ('5080', 'Headgear_Of_Queen', '20', '400', '4', '164');
+INSERT INTO `itemdefinitions` VALUES ('5081', 'Mistress_Crown', '20', '100', '4', '165');
+INSERT INTO `itemdefinitions` VALUES ('5082', 'Mushroom_Band', '20', '100', '4', '166');
+INSERT INTO `itemdefinitions` VALUES ('5083', 'Red_Tailed_Ribbon', '20', '200', '4', '167');
+INSERT INTO `itemdefinitions` VALUES ('5084', 'Lazy_Raccoon', '20', '500', '4', '168');
+INSERT INTO `itemdefinitions` VALUES ('5085', 'Pair_Of_Red_Ribbon', '20', '100', '4', '169');
+INSERT INTO `itemdefinitions` VALUES ('5096', 'Assassin_Mask_', '20', '100', '4', '180');
+INSERT INTO `itemdefinitions` VALUES ('5097', 'Cone_Hat_', '0', '400', '4', '144');
+INSERT INTO `itemdefinitions` VALUES ('5099', 'Cat_Hat', '20', '300', '4', '182');
+INSERT INTO `itemdefinitions` VALUES ('5100', 'Sales_Signboard', '20', '800', '4', '183');
+INSERT INTO `itemdefinitions` VALUES ('5101', 'Takius_Blindfold', '20', '100', '4', '184');
+INSERT INTO `itemdefinitions` VALUES ('5102', 'Round_Eyes', '20', '100', '4', '185');
+INSERT INTO `itemdefinitions` VALUES ('5103', 'Sunflower_Hairpin', '20', '600', '4', '186');
+INSERT INTO `itemdefinitions` VALUES ('5104', 'Dark_Blindfold', '20', '100', '4', '187');
+INSERT INTO `itemdefinitions` VALUES ('5105', 'Hat_Of_Cake_', '20', '1000', '4', '109');
+INSERT INTO `itemdefinitions` VALUES ('5106', 'Cone_Hat_INA', '20', '300', '4', '144');
+INSERT INTO `itemdefinitions` VALUES ('5107', 'Well_Baked_Toast', '20', '50', '4', '188');
+INSERT INTO `itemdefinitions` VALUES ('5108', 'Detective_Hat', '20', '350', '4', '189');
+INSERT INTO `itemdefinitions` VALUES ('5109', 'Red_Bonnet', '20', '400', '4', '190');
+INSERT INTO `itemdefinitions` VALUES ('5110', 'Baby_Pacifier', '20', '50', '4', '191');
+INSERT INTO `itemdefinitions` VALUES ('5111', 'Galapago_Cap', '20', '500', '4', '192');
+INSERT INTO `itemdefinitions` VALUES ('5112', 'Super_Novice_Hat', '8500', '400', '4', '193');
+INSERT INTO `itemdefinitions` VALUES ('5113', 'Angry_Mouth', '20', '50', '4', '194');
+INSERT INTO `itemdefinitions` VALUES ('5114', 'Fedora', '6000', '300', '4', '195');
+INSERT INTO `itemdefinitions` VALUES ('5115', 'Winter_Hat', '20', '500', '4', '196');
+INSERT INTO `itemdefinitions` VALUES ('5116', 'Banana_Hat', '20', '200', '4', '197');
+INSERT INTO `itemdefinitions` VALUES ('5117', 'Mistic_Rose', '20', '100', '4', '198');
+INSERT INTO `itemdefinitions` VALUES ('5118', 'Ear_Of_Puppy', '20', '100', '4', '199');
+INSERT INTO `itemdefinitions` VALUES ('5119', 'Super_Novice_Hat_', '8500', '400', '4', '193');
+INSERT INTO `itemdefinitions` VALUES ('5120', 'Fedora_', '6000', '300', '4', '195');
+INSERT INTO `itemdefinitions` VALUES ('5122', 'Magni_Cap', '30000', '1000', '4', '250');
+INSERT INTO `itemdefinitions` VALUES ('5123', 'Ulle_Cap', '30000', '500', '4', '254');
+INSERT INTO `itemdefinitions` VALUES ('5124', 'Fricca_Circlet', '30000', '300', '4', '251');
+INSERT INTO `itemdefinitions` VALUES ('5125', 'Kiss_Of_Angel', '10000', '300', '4', '255');
+INSERT INTO `itemdefinitions` VALUES ('5126', 'Morpheus\'s_Hood', '30000', '200', '4', '256');
+INSERT INTO `itemdefinitions` VALUES ('5127', 'Morrigane\'s_Helm', '30000', '500', '4', '257');
+INSERT INTO `itemdefinitions` VALUES ('5128', 'Goibne\'s_Helmet', '30000', '500', '4', '258');
+INSERT INTO `itemdefinitions` VALUES ('5129', 'Bird_Nest', '20', '400', '4', '201');
+INSERT INTO `itemdefinitions` VALUES ('5132', 'Angeling_Hat', '20', '700', '4', '204');
+INSERT INTO `itemdefinitions` VALUES ('5133', 'Sheep_Hat', '20', '150', '4', '205');
+INSERT INTO `itemdefinitions` VALUES ('5134', 'Pumpkin_Hat', '20', '200', '4', '206');
+INSERT INTO `itemdefinitions` VALUES ('5135', 'Cyclops_Visor', '0', '200', '4', '207');
+INSERT INTO `itemdefinitions` VALUES ('5136', 'Santa\'s_Hat_', '20', '100', '4', '20');
+INSERT INTO `itemdefinitions` VALUES ('5137', 'Alice_Doll', '20', '500', '4', '208');
+INSERT INTO `itemdefinitions` VALUES ('5138', 'Magic_Eyes', '20', '300', '4', '209');
+INSERT INTO `itemdefinitions` VALUES ('5139', 'Hibiscus', '20', '200', '4', '210');
+INSERT INTO `itemdefinitions` VALUES ('5140', 'Charming_Ribbon', '20', '400', '4', '211');
+INSERT INTO `itemdefinitions` VALUES ('5141', 'Marionette_Doll', '20', '400', '4', '212');
+INSERT INTO `itemdefinitions` VALUES ('5144', 'Gambler_Hat', '20', '200', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('5145', 'Carnival_Joker_Jester', '10', '100', '4', '89');
+INSERT INTO `itemdefinitions` VALUES ('5146', 'Elephant_Hat', '0', '500', '4', '215');
+INSERT INTO `itemdefinitions` VALUES ('5147', 'Baseball_Cap', '0', '0', '4', '216');
+INSERT INTO `itemdefinitions` VALUES ('5148', 'Phrygian_Cap', '0', '500', '4', '217');
+INSERT INTO `itemdefinitions` VALUES ('5149', 'Silver_Tiara', '0', '100', '4', '218');
+INSERT INTO `itemdefinitions` VALUES ('5150', 'Joker_Jester_', '20', '100', '4', '219');
+INSERT INTO `itemdefinitions` VALUES ('5153', 'Angeling_Hairpin', '20', '700', '4', '222');
+INSERT INTO `itemdefinitions` VALUES ('5154', 'Sunglasses_F', '20', '100', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('5155', 'Granpa_Beard_F', '20', '100', '4', '25');
+INSERT INTO `itemdefinitions` VALUES ('5156', 'Flu_Mask_F', '20', '100', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('5157', 'Viking_Helm_', '20', '500', '4', '86');
+INSERT INTO `itemdefinitions` VALUES ('5158', 'Holy_Bonnet_', '30000', '100', '4', '35');
+INSERT INTO `itemdefinitions` VALUES ('5159', 'Golden_Gear_', '20', '900', '4', '30');
+INSERT INTO `itemdefinitions` VALUES ('5160', 'Magestic_Goat_', '20', '800', '4', '41');
+INSERT INTO `itemdefinitions` VALUES ('5161', 'Sharp_Gear_', '20', '1000', '4', '43');
+INSERT INTO `itemdefinitions` VALUES ('5162', 'Bone_Helm_', '20', '800', '4', '103');
+INSERT INTO `itemdefinitions` VALUES ('5163', 'Corsair_', '20', '500', '4', '105');
+INSERT INTO `itemdefinitions` VALUES ('5164', 'Tiara_', '20', '400', '4', '19');
+INSERT INTO `itemdefinitions` VALUES ('5165', 'Crown_', '20', '400', '4', '45');
+INSERT INTO `itemdefinitions` VALUES ('5170', 'Feather_Beret', '30000', '600', '4', '224');
+INSERT INTO `itemdefinitions` VALUES ('5171', 'Valkyrie_Helm', '100000', '1000', '4', '225');
+INSERT INTO `itemdefinitions` VALUES ('5172', 'Beret', '30000', '700', '4', '226');
+INSERT INTO `itemdefinitions` VALUES ('5173', 'Satto_Hat', '30000', '400', '4', '227');
+INSERT INTO `itemdefinitions` VALUES ('5174', 'Ayam', '30000', '400', '4', '228');
+INSERT INTO `itemdefinitions` VALUES ('5175', 'Censor_Bar', '30000', '100', '4', '229');
+INSERT INTO `itemdefinitions` VALUES ('5178', 'Candle_', '20', '150', '4', '113');
+INSERT INTO `itemdefinitions` VALUES ('5179', 'Gold_Tiara', '0', '100', '4', '232');
+INSERT INTO `itemdefinitions` VALUES ('5180', 'Phrygian_Cap_', '20', '100', '4', '217');
+INSERT INTO `itemdefinitions` VALUES ('5182', 'Puppy_Hat', '20', '500', '4', '234');
+INSERT INTO `itemdefinitions` VALUES ('5183', 'Bird_Nest_Hat', '20', '500', '4', '235');
+INSERT INTO `itemdefinitions` VALUES ('5184', 'Captain_Hat', '20', '500', '4', '236');
+INSERT INTO `itemdefinitions` VALUES ('5185', 'Laurel_Wreath', '20', '100', '4', '237');
+INSERT INTO `itemdefinitions` VALUES ('5186', 'Geographer_Band', '20', '500', '4', '238');
+INSERT INTO `itemdefinitions` VALUES ('5187', 'Twin_Ribbon', '20', '200', '4', '239');
+INSERT INTO `itemdefinitions` VALUES ('5188', 'Minstrel_Hat', '20', '500', '4', '240');
+INSERT INTO `itemdefinitions` VALUES ('5189', 'Fallen_Leaves', '20', '100', '4', '241');
+INSERT INTO `itemdefinitions` VALUES ('5190', 'Baseball_Cap_', '20', '20', '4', '216');
+INSERT INTO `itemdefinitions` VALUES ('5191', 'Ribbon_Black', '800', '100', '4', '242');
+INSERT INTO `itemdefinitions` VALUES ('5192', 'Ribbon_Yellow', '800', '100', '4', '243');
+INSERT INTO `itemdefinitions` VALUES ('5193', 'Ribbon_Green', '800', '100', '4', '244');
+INSERT INTO `itemdefinitions` VALUES ('5194', 'Ribbon_Pink', '800', '100', '4', '245');
+INSERT INTO `itemdefinitions` VALUES ('5195', 'Ribbon_Red', '800', '100', '4', '246');
+INSERT INTO `itemdefinitions` VALUES ('5196', 'Ribbon_Orange', '800', '100', '4', '247');
+INSERT INTO `itemdefinitions` VALUES ('5197', 'Ribbon_White', '800', '100', '4', '248');
+INSERT INTO `itemdefinitions` VALUES ('5198', 'Drooping_Bunny', '10', '100', '4', '249');
+INSERT INTO `itemdefinitions` VALUES ('5199', 'Baseball_Cap_I', '0', '200', '4', '216');
+INSERT INTO `itemdefinitions` VALUES ('5200', 'Coppola', '10', '300', '4', '252');
+INSERT INTO `itemdefinitions` VALUES ('5201', 'Party_Hat_B', '20', '300', '4', '144');
+INSERT INTO `itemdefinitions` VALUES ('5202', 'Pumpkin_Hat_', '20', '200', '4', '206');
+INSERT INTO `itemdefinitions` VALUES ('5204', 'Event_Pierrot_Nose', '20', '100', '4', '49');
+INSERT INTO `itemdefinitions` VALUES ('5206', 'Romantic_White_Flower', '20', '100', '4', '259');
+INSERT INTO `itemdefinitions` VALUES ('5207', 'Gold_Spirit_Chain', '20', '100', '4', '260');
+INSERT INTO `itemdefinitions` VALUES ('5208', 'Rideword_Hat', '20', '300', '4', '262');
+INSERT INTO `itemdefinitions` VALUES ('5209', 'Yellow_Baseball_Cap', '20', '300', '4', '263');
+INSERT INTO `itemdefinitions` VALUES ('5210', 'Flying_Angel', '20', '300', '4', '264');
+INSERT INTO `itemdefinitions` VALUES ('5211', 'Dress_Hat', '0', '200', '4', '265');
+INSERT INTO `itemdefinitions` VALUES ('5212', 'Satellite_Hairband', '0', '1000', '4', '266');
+INSERT INTO `itemdefinitions` VALUES ('5213', 'Black_Bunny_Band', '0', '200', '4', '267');
+INSERT INTO `itemdefinitions` VALUES ('5215', 'Angelic_Chain_', '20', '100', '4', '38');
+INSERT INTO `itemdefinitions` VALUES ('5216', 'Satanic_Chain_', '20', '100', '4', '39');
+INSERT INTO `itemdefinitions` VALUES ('5217', 'Magestic_Goat_TW', '20', '800', '4', '41');
+INSERT INTO `itemdefinitions` VALUES ('5218', 'Bunny_Band_', '20', '100', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('5219', 'Drooping_Kitty_', '250000', '500', '4', '142');
+INSERT INTO `itemdefinitions` VALUES ('5220', 'Smoking_Pipe_', '20', '100', '4', '55');
+INSERT INTO `itemdefinitions` VALUES ('5221', 'Pair_Of_Red_Ribbon_', '20', '100', '4', '169');
+INSERT INTO `itemdefinitions` VALUES ('5222', 'Fish_On_Head_', '20', '500', '4', '149');
+INSERT INTO `itemdefinitions` VALUES ('5225', 'Marcher_Hat', '20', '200', '4', '269');
+INSERT INTO `itemdefinitions` VALUES ('5226', 'Mini_Propeller_', '20', '200', '4', '270');
+INSERT INTO `itemdefinitions` VALUES ('5227', 'Red_Deviruchi_Cap', '20', '800', '4', '271');
+INSERT INTO `itemdefinitions` VALUES ('5228', 'White_Deviruchi_Cap', '20', '800', '4', '272');
+INSERT INTO `itemdefinitions` VALUES ('5229', 'Gray_Deviruchi_Cap', '20', '800', '4', '273');
+INSERT INTO `itemdefinitions` VALUES ('5230', 'White_Drooping_Kitty', '250000', '500', '4', '274');
+INSERT INTO `itemdefinitions` VALUES ('5231', 'Gray_Drooping_Kitty', '250000', '500', '4', '275');
+INSERT INTO `itemdefinitions` VALUES ('5232', 'Pink_Drooping_Kitty', '250000', '500', '4', '276');
+INSERT INTO `itemdefinitions` VALUES ('5233', 'Blue_Drooping_Kitty', '250000', '500', '4', '277');
+INSERT INTO `itemdefinitions` VALUES ('5234', 'Yellow_Drooping_Kitty', '250000', '500', '4', '278');
+INSERT INTO `itemdefinitions` VALUES ('5235', 'Gray_Fur_Hat', '20', '350', '4', '279');
+INSERT INTO `itemdefinitions` VALUES ('5236', 'Blue_Fur_Hat', '20', '350', '4', '280');
+INSERT INTO `itemdefinitions` VALUES ('5237', 'Pink_Fur_Hat', '20', '350', '4', '281');
+INSERT INTO `itemdefinitions` VALUES ('5238', 'Red_Wizardry_Hat', '20', '300', '4', '282');
+INSERT INTO `itemdefinitions` VALUES ('5239', 'White_Wizardry_Hat', '20', '300', '4', '283');
+INSERT INTO `itemdefinitions` VALUES ('5240', 'Gray_Wizardry_Hat', '20', '300', '4', '284');
+INSERT INTO `itemdefinitions` VALUES ('5241', 'Blue_Wizardry_Hat', '20', '300', '4', '285');
+INSERT INTO `itemdefinitions` VALUES ('5242', 'Yellow_Wizardry_Hat', '20', '300', '4', '286');
+INSERT INTO `itemdefinitions` VALUES ('5244', 'Elven_Blindfold', '20', '200', '4', '288');
+INSERT INTO `itemdefinitions` VALUES ('5245', 'Elven_Sunglasses', '20', '200', '4', '289');
+INSERT INTO `itemdefinitions` VALUES ('5246', 'Angelic_Helm', '20', '700', '4', '290');
+INSERT INTO `itemdefinitions` VALUES ('5247', 'Satanic_Helm', '20', '700', '4', '291');
+INSERT INTO `itemdefinitions` VALUES ('5248', 'Robotic_Blindfold', '20', '200', '4', '292');
+INSERT INTO `itemdefinitions` VALUES ('5249', 'Human_Blindfold', '20', '200', '4', '293');
+INSERT INTO `itemdefinitions` VALUES ('5250', 'Robotic_Ears', '20', '100', '4', '294');
+INSERT INTO `itemdefinitions` VALUES ('5251', 'Round_Ears', '20', '100', '4', '295');
+INSERT INTO `itemdefinitions` VALUES ('5252', 'Drooping_Nine_Tail', '20', '300', '4', '296');
+INSERT INTO `itemdefinitions` VALUES ('5253', 'Lif_Doll_Hat', '20', '200', '4', '297');
+INSERT INTO `itemdefinitions` VALUES ('5254', 'Deviling_Hat', '20', '350', '4', '298');
+INSERT INTO `itemdefinitions` VALUES ('5255', 'Triple_Poring_Hat', '20', '600', '4', '299');
+INSERT INTO `itemdefinitions` VALUES ('5256', 'Valkyrie_Feather_Band', '20', '100', '4', '300');
+INSERT INTO `itemdefinitions` VALUES ('5257', 'Soulless_Wing', '20', '300', '4', '301');
+INSERT INTO `itemdefinitions` VALUES ('5259', 'Elephant_Hat_', '20', '500', '4', '215');
+INSERT INTO `itemdefinitions` VALUES ('5260', 'Cookie_Hat', '20', '500', '4', '217');
+INSERT INTO `itemdefinitions` VALUES ('5261', 'Silver_Tiara_', '20', '500', '4', '218');
+INSERT INTO `itemdefinitions` VALUES ('5262', 'Gold_Tiara_', '20', '500', '4', '232');
+INSERT INTO `itemdefinitions` VALUES ('5264', 'Aussie_Flag_Hat', '20', '500', '4', '304');
+INSERT INTO `itemdefinitions` VALUES ('5265', 'Apple_Of_Archer_C', '1', '200', '4', '72');
+INSERT INTO `itemdefinitions` VALUES ('5266', 'Bunny_Band_C', '1', '100', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('5267', 'Sahkkat_C', '1', '300', '4', '67');
+INSERT INTO `itemdefinitions` VALUES ('5268', 'Lord_Circlet_C', '1', '200', '4', '93');
+INSERT INTO `itemdefinitions` VALUES ('5269', 'Flying_Angel_', '20', '300', '4', '264');
+INSERT INTO `itemdefinitions` VALUES ('5270', 'Fallen_Leaves_', '20', '100', '4', '241');
+INSERT INTO `itemdefinitions` VALUES ('5277', 'Yellow_Bandana', '20', '100', '4', '309');
+INSERT INTO `itemdefinitions` VALUES ('5278', 'Yellow_Ribbon', '20', '100', '4', '310');
+INSERT INTO `itemdefinitions` VALUES ('5279', 'Drooping_Kitty_C', '2', '500', '4', '142');
+INSERT INTO `itemdefinitions` VALUES ('5280', 'Magestic_Goat_C', '2', '800', '4', '41');
+INSERT INTO `itemdefinitions` VALUES ('5281', 'Deviruchi_Cap_C', '2', '800', '4', '123');
+INSERT INTO `itemdefinitions` VALUES ('5800', 'Blush_Of_Groom', '20', '50', '4', '125');
+INSERT INTO `itemdefinitions` VALUES ('5801', 'Ribbon_Of_Bride', '20', '100', '4', '167');
+INSERT INTO `itemdefinitions` VALUES ('5802', 'Upgrade_Elephant_Hat', '0', '500', '4', '215');
+INSERT INTO `itemdefinitions` VALUES ('10001', 'Skull_Helm', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10002', 'Monster_Oxygen_Mask', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10003', 'Transparent_Headgear', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10004', 'Pacifier', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10005', 'Wig', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10006', 'Queen\'s_Hair_Ornament', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10007', 'Silk_Ribbon', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10008', 'Punisher', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10009', 'Wild_Flower', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10010', 'Battered_Pot', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10011', 'Stellar_Hairpin', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10012', 'Tiny_Egg_Shell', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10013', 'Backpack', '1500', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10014', 'Rocker_Glasses', '2000', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10015', 'Green_Lace', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10016', 'Golden_Bell', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10017', 'Bark_Shorts', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10018', 'Monkey_Circlet', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10019', 'Red_Muffler', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('10020', 'Sword_Of_Grave_Keeper', '20', '0', '4', '0');
+INSERT INTO `itemdefinitions` VALUES ('2278', 'Mr_Smile', '60', '100', '4', '65');
+INSERT INTO `itemdefinitions` VALUES ('2281', 'Phantom_Of_Opera', '20', '200', '4', '68');
+INSERT INTO `itemdefinitions` VALUES ('2288', 'Mr_Scream', '20', '100', '4', '75');
+INSERT INTO `itemdefinitions` VALUES ('2292', 'Welding_Mask', '20', '300', '4', '79');
+INSERT INTO `itemdefinitions` VALUES ('2297', 'Goblini_Mask', '20', '100', '4', '84');
+INSERT INTO `itemdefinitions` VALUES ('5005', 'Gas_Mask', '20', '100', '4', '91');
+INSERT INTO `itemdefinitions` VALUES ('5086', 'Alarm_Mask', '20', '100', '4', '170');
+INSERT INTO `itemdefinitions` VALUES ('5087', 'Goblin_Mask_01', '20', '100', '4', '171');
+INSERT INTO `itemdefinitions` VALUES ('5088', 'Goblin_Mask_02', '20', '100', '4', '172');
+INSERT INTO `itemdefinitions` VALUES ('5089', 'Goblin_Mask_03', '20', '100', '4', '173');
+INSERT INTO `itemdefinitions` VALUES ('5090', 'Goblin_Mask_04', '20', '100', '4', '174');
+INSERT INTO `itemdefinitions` VALUES ('5176', 'Hahoe_Mask', '30000', '100', '4', '230');
+INSERT INTO `itemdefinitions` VALUES ('5203', 'Tongue_Mask', '20', '200', '4', '253');
+INSERT INTO `itemdefinitions` VALUES ('5272', 'Tongue_Mask_', '20', '100', '4', '253');
+INSERT INTO `itemdefinitions` VALUES ('5053', 'Sphinx_Helm', '20', '3000', '4', '137');
+INSERT INTO `itemdefinitions` VALUES ('5166', 'Sphinx_Helm_', '20', '3000', '4', '137');
+INSERT INTO `itemdefinitions` VALUES ('2224', 'Goggle', '10000', '300', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('2225', 'Goggle_', '10000', '300', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('5022', 'Helm_Of_Sun', '20', '2400', '4', '138');
+INSERT INTO `itemdefinitions` VALUES ('5091', 'Big_Golden_Bell', '20', '200', '4', '175');
+INSERT INTO `itemdefinitions` VALUES ('5092', 'Blue_Coif', '150000', '300', '4', '176');
+INSERT INTO `itemdefinitions` VALUES ('5093', 'Blue_Coif_', '150000', '300', '4', '177');
+INSERT INTO `itemdefinitions` VALUES ('5094', 'Orc_Hero_Helm', '500000', '900', '4', '178');
+INSERT INTO `itemdefinitions` VALUES ('5095', 'Orc_Hero_Helm_', '800000', '1000', '4', '179');
+INSERT INTO `itemdefinitions` VALUES ('5098', 'Tiger_Mask', '20', '400', '4', '181');
+INSERT INTO `itemdefinitions` VALUES ('5121', 'Zherlthsh_Mask', '20', '400', '4', '200');
+INSERT INTO `itemdefinitions` VALUES ('5130', 'Lion_Mask', '20', '700', '4', '202');
+INSERT INTO `itemdefinitions` VALUES ('5142', 'Crescent_Helm', '20', '3000', '4', '213');
+INSERT INTO `itemdefinitions` VALUES ('5151', 'Headset_OST', '20', '200', '4', '220');
+INSERT INTO `itemdefinitions` VALUES ('5152', 'Chinese_Crown', '20', '2000', '4', '221');
+INSERT INTO `itemdefinitions` VALUES ('5169', 'Bride_Mask', '30000', '500', '4', '223');
+INSERT INTO `itemdefinitions` VALUES ('5177', 'Guardian_Lion_Mask', '30000', '500', '4', '231');
+INSERT INTO `itemdefinitions` VALUES ('5181', 'Helm_Of_Darkness', '20', '2000', '4', '233');
+INSERT INTO `itemdefinitions` VALUES ('5205', 'Wreath', '20', '1000', '4', '261');
+INSERT INTO `itemdefinitions` VALUES ('5214', 'Moonlight_Flower_Hat', '0', '200', '4', '268');
+INSERT INTO `itemdefinitions` VALUES ('5223', 'Big_Golden_Bell_', '20', '200', '4', '175');
+INSERT INTO `itemdefinitions` VALUES ('5224', 'Orc_Hero_Helm_TW', '500000', '900', '4', '178');
+INSERT INTO `itemdefinitions` VALUES ('5243', 'Chullos', '20', '800', '4', '287');
+INSERT INTO `itemdefinitions` VALUES ('5258', 'Afro_Wig', '20', '100', '4', '302');
+INSERT INTO `itemdefinitions` VALUES ('5271', 'Chinese_Crown_', '20', '500', '4', '221');
+INSERT INTO `itemdefinitions` VALUES ('5273', 'Happy_Wig', '20', '100', '4', '305');
+INSERT INTO `itemdefinitions` VALUES ('5274', 'Shiny_Wig', '20', '100', '4', '306');
+INSERT INTO `itemdefinitions` VALUES ('5275', 'Marvelous_Wig', '20', '100', '4', '307');
+INSERT INTO `itemdefinitions` VALUES ('5276', 'Fantastic_Wig', '20', '100', '4', '308');
+INSERT INTO `itemdefinitions` VALUES ('2264', 'Munak_Turban', '20', '300', '4', '51');
+INSERT INTO `itemdefinitions` VALUES ('5046', 'Bongun_Hat', '20', '300', '4', '139');
+INSERT INTO `itemdefinitions` VALUES ('5131', 'Close_Helmet', '20', '1200', '4', '203');
+INSERT INTO `itemdefinitions` VALUES ('5143', 'Kabuki_Mask', '20', '1000', '4', '214');
+INSERT INTO `itemdefinitions` VALUES ('5167', 'Munak_Turban_', '20', '300', '4', '51');
+INSERT INTO `itemdefinitions` VALUES ('5168', 'Bongun_Hat_', '20', '300', '4', '139');
+INSERT INTO `itemdefinitions` VALUES ('5263', 'Ati_Atihan_Hat', '20', '100', '4', '303');
+INSERT INTO `itemdefinitions` VALUES ('1116', 'Katana', '2000', '1000', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1117', 'Katana_', '2000', '1000', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1118', 'Katana__', '2000', '1000', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1151', 'Slayer', '15000', '1300', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1152', 'Slayer_', '15000', '1300', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1153', 'Slayer__', '15000', '1300', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1154', 'Bastard_Sword', '22500', '1600', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1155', 'Bastard_Sword_', '22500', '1600', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1156', 'Bastard_Sword__', '22500', '1600', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1157', 'Two_Hand_Sword', '60000', '2200', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1158', 'Two_Hand_Sword_', '60000', '2200', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1159', 'Two_Hand_Sword__', '60000', '2200', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1160', 'Broad_Sword', '65000', '2000', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1161', 'Balmung', '20', '1000', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1162', 'Broad_Sword_', '65000', '2000', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1163', 'Claymore', '74000', '2500', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1164', 'Muramasa', '20', '1000', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1165', 'Masamune', '20', '1000', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1166', 'Dragon_Slayer', '20', '1300', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1167', 'Schweizersabel', '20', '1600', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1168', 'Zweihander', '20', '2200', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1169', 'Executioner_', '20', '2200', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1170', 'Katzbalger', '20', '2000', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1171', 'Zweihander_', '20', '2200', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1172', 'Claymore_', '74000', '2500', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1173', 'Muramasa_C', '1', '1000', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1174', 'Executioner_C', '2', '2200', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1175', 'Altas_Weapon', '10000', '3500', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1176', 'Muscle_Cutter', '10000', '2200', '4', '3');
+INSERT INTO `itemdefinitions` VALUES ('1250', 'Jur', '19500', '800', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1251', 'Jur_', '19500', '800', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1252', 'Katar', '41000', '1200', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1253', 'Katar_', '41000', '1200', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1254', 'Jamadhar', '37200', '1500', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1255', 'Jamadhar_', '37200', '1500', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1256', 'Katar_Of_Cold_Icicle', '45000', '1200', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1257', 'Katar_Of_Thornbush', '45000', '1200', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1258', 'Katar_Of_Raging_Blaze', '45000', '1200', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1259', 'Katar_Of_Piercing_Wind', '45000', '1200', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1260', 'Ghoul_Leg', '52500', '1700', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1261', 'Infiltrator', '57000', '1500', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1262', 'Nail_Of_Loki', '20', '1200', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1263', 'Unholy_Touch', '20', '1250', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1264', 'Various_Jur', '20', '800', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1265', 'Bloody_Roar', '20', '1000', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1266', 'Infiltrator_', '57000', '1500', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1267', 'Infiltrator_C', '1', '1500', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1268', 'Wild_Beast_Claw', '10000', '1450', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1269', 'Inverse_Scale', '10000', '1500', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1270', 'Drill_Katar', '10000', '1400', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1271', 'Blood_Tears', '10000', '1700', '4', '16');
+INSERT INTO `itemdefinitions` VALUES ('1351', 'Battle_Axe', '5400', '1500', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1352', 'Battle_Axe_', '5400', '1500', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1353', 'Battle_Axe__', '5400', '1500', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1354', 'Hammer', '15500', '2000', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1355', 'Hammer_', '15500', '2000', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1356', 'Hammer__', '15500', '2000', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1357', 'Buster', '34000', '2200', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1358', 'Buster_', '34000', '2200', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1359', 'Buster__', '34000', '2200', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1360', 'Two_Handed_Axe', '55000', '2500', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1361', 'Two_Handed_Axe_', '55000', '2500', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1362', 'Two_Handed_Axe__', '55000', '2500', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1363', 'Brood_Axe', '20', '4000', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1364', 'Great_Axe', '20', '1800', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1365', 'Sabbath', '20', '2300', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1366', 'Right_Epsilon', '20', '2300', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1367', 'Slaughter', '20', '2500', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1368', 'Tomahawk', '20', '2500', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1369', 'Guillotine', '20', '3000', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1370', 'Doom_Slayer', '20', '6000', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1371', 'Doom_Slayer_', '20', '6000', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1372', 'Right_Epsilon_C', '1', '2300', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1373', 'Brood_Axe_C', '2', '4000', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1374', 'Tomahawk_C', '2', '2500', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1375', 'Berdysz', '10000', '2500', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1376', 'Heart_Breaker', '10000', '2000', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1377', 'Hurricane_Fury', '10000', '3500', '4', '7');
+INSERT INTO `itemdefinitions` VALUES ('1410', 'Lance', '60000', '2500', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1411', 'Lance_', '60000', '2500', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1412', 'Lance__', '60000', '2500', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1451', 'Guisarme', '13000', '1000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1452', 'Guisarme_', '13000', '1000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1453', 'Guisarme__', '13000', '1000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1454', 'Glaive', '20000', '1200', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1455', 'Glaive_', '20000', '1200', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1456', 'Glaive__', '20000', '1200', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1457', 'Partizan', '27000', '2000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1458', 'Partizan_', '27000', '2000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1459', 'Partizan__', '27000', '2000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1460', 'Trident', '51000', '1200', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1461', 'Trident_', '51000', '1200', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1462', 'Trident__', '51000', '1200', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1463', 'Halberd', '54000', '2500', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1464', 'Halberd_', '54000', '2500', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1465', 'Halberd__', '54000', '2500', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1466', 'Crescent_Scythe', '20', '2500', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1467', 'Bill_Guisarme', '20', '1000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1468', 'Zephyrus', '20', '2000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1469', 'Longinus\'s_Spear', '20', '2500', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1470', 'Brionac', '20', '3000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1471', 'Hell_Fire', '20', '3500', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1472', 'Staff_Of_Soul', '20', '1400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1473', 'Wizardy_Staff', '20', '2400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1474', 'Gae_Bolg', '20', '2000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1475', 'Horseback_Lance', '20', '3700', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1476', 'Crescent_Scythe_', '20', '2500', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1477', 'Spectral_Spear', '10000', '2000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('1478', 'Ahlspiess', '10000', '1000', '4', '5');
+INSERT INTO `itemdefinitions` VALUES ('2000', 'Destruction_Rod', '10000', '2500', '4', '23');
+INSERT INTO `itemdefinitions` VALUES ('2001', 'Divine_Cross', '10000', '1500', '4', '23');
+INSERT INTO `itemdefinitions` VALUES ('13300', 'Huuma_Bird_Wing', '90000', '3000', '4', '22');
+INSERT INTO `itemdefinitions` VALUES ('13301', 'Huuma_Giant_Wheel', '40000', '2500', '4', '22');
+INSERT INTO `itemdefinitions` VALUES ('13302', 'Huuma_Giant_Wheel_', '40000', '2500', '4', '22');
+INSERT INTO `itemdefinitions` VALUES ('13303', 'Huuma_Blaze', '78000', '1500', '4', '22');
+INSERT INTO `itemdefinitions` VALUES ('13304', 'Huuma_Calm_Mind', '10000', '1550', '4', '22');
+INSERT INTO `itemdefinitions` VALUES ('1701', 'Bow', '1000', '500', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1702', 'Bow_', '1000', '500', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1703', 'Bow__', '1000', '500', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1704', 'Composite_Bow', '2500', '600', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1705', 'Composite_Bow_', '2500', '600', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1706', 'Composite_Bow__', '2500', '600', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1707', 'Great_Bow', '10000', '1000', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1708', 'Great_Bow_', '10000', '1000', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1709', 'Great_Bow__', '10000', '1000', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1710', 'CrossBow', '17000', '900', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1711', 'CrossBow_', '17000', '900', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1712', 'CrossBow__', '17000', '900', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1713', 'Arbalest', '48000', '1000', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1714', 'Kakkung', '42000', '1100', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1715', 'Arbalest_', '48000', '1000', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1716', 'Kakkung_', '42000', '1100', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1718', 'Hunter_Bow', '64000', '1500', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1719', 'Bow_Of_Roguemaster', '20', '500', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1720', 'Bow_Of_Rudra', '20', '1200', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1721', 'Repeting_CrossBow', '89000', '2000', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1722', 'Balistar', '124000', '3500', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1723', 'Luna_Bow', '20', '2000', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1724', 'Dragon_Wing', '20', '1200', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1725', 'Bow_Of_Minstrel', '20', '1700', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1726', 'Hunter_Bow_', '64000', '1500', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1727', 'Balistar_', '124000', '3500', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1728', 'Balistar_C', '1', '100', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1729', 'Bow_Of_Rudra_C', '2', '1200', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1730', 'Burning_Bow', '10000', '1400', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1731', 'Frozen_Bow', '10000', '1400', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1732', 'Earth_Bow', '10000', '1400', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1733', 'Gust_Bow', '10000', '1400', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('1734', 'Orc_Archer_Bow', '10000', '1600', '4', '11');
+INSERT INTO `itemdefinitions` VALUES ('13100', 'Six_Shooter', '4500', '400', '4', '17');
+INSERT INTO `itemdefinitions` VALUES ('13101', 'Six_Shooter_', '4500', '400', '4', '17');
+INSERT INTO `itemdefinitions` VALUES ('13102', 'Crimson_Bolt', '20000', '450', '4', '17');
+INSERT INTO `itemdefinitions` VALUES ('13103', 'Crimson_Bolt_', '20000', '450', '4', '17');
+INSERT INTO `itemdefinitions` VALUES ('13104', 'The_Garrison', '48000', '500', '4', '17');
+INSERT INTO `itemdefinitions` VALUES ('13105', 'The_Garrison_', '48000', '500', '4', '17');
+INSERT INTO `itemdefinitions` VALUES ('13106', 'Gold_Lux', '100000', '500', '4', '17');
+INSERT INTO `itemdefinitions` VALUES ('13107', 'Wasteland_Outlaw', '10000', '580', '4', '17');
+INSERT INTO `itemdefinitions` VALUES ('13150', 'Branch', '3000', '500', '4', '18');
+INSERT INTO `itemdefinitions` VALUES ('13151', 'The_Cyclone', '17500', '700', '4', '18');
+INSERT INTO `itemdefinitions` VALUES ('13152', 'The_Cyclone_', '17500', '700', '4', '18');
+INSERT INTO `itemdefinitions` VALUES ('13153', 'Dusk', '23500', '750', '4', '18');
+INSERT INTO `itemdefinitions` VALUES ('13154', 'Rolling_Stone', '12000', '900', '4', '20');
+INSERT INTO `itemdefinitions` VALUES ('13155', 'Black_Rose', '32000', '900', '4', '20');
+INSERT INTO `itemdefinitions` VALUES ('13156', 'Gate_Keeper', '56000', '1000', '4', '20');
+INSERT INTO `itemdefinitions` VALUES ('13157', 'Drifter', '80000', '2300', '4', '19');
+INSERT INTO `itemdefinitions` VALUES ('13158', 'Butcher', '130000', '2500', '4', '19');
+INSERT INTO `itemdefinitions` VALUES ('13159', 'Butcher_', '130000', '2500', '4', '19');
+INSERT INTO `itemdefinitions` VALUES ('13160', 'Destroyer', '110000', '1200', '4', '21');
+INSERT INTO `itemdefinitions` VALUES ('13161', 'Destroyer_', '110000', '1200', '4', '21');
+INSERT INTO `itemdefinitions` VALUES ('13162', 'Inferno', '230000', '1250', '4', '21');
+INSERT INTO `itemdefinitions` VALUES ('13163', 'Long_Barrel', '40000', '1000', '4', '18');
+INSERT INTO `itemdefinitions` VALUES ('13164', 'Long_Barrel_', '40000', '1000', '4', '18');
+INSERT INTO `itemdefinitions` VALUES ('13165', 'Jungle_Carbine', '56000', '700', '4', '18');
+INSERT INTO `itemdefinitions` VALUES ('13166', 'Jungle_Carbine_', '56000', '700', '4', '18');
+INSERT INTO `itemdefinitions` VALUES ('13167', 'Gate_KeeperDD', '72000', '1300', '4', '20');
+INSERT INTO `itemdefinitions` VALUES ('13168', 'Thunder_P', '76000', '700', '4', '20');
+INSERT INTO `itemdefinitions` VALUES ('13169', 'Thunder_P_', '76000', '700', '4', '20');
+INSERT INTO `itemdefinitions` VALUES ('13170', 'Lever_Action_Rifle', '10000', '770', '4', '18');
+INSERT INTO `itemdefinitions` VALUES ('1101', 'Sword', '100', '500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1102', 'Sword_', '100', '500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1103', 'Sword__', '100', '500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1104', 'Falchion', '1500', '600', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1105', 'Falchion_', '1500', '600', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1106', 'Falchion__', '1500', '600', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1107', 'Blade', '2900', '700', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1108', 'Blade_', '2900', '700', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1109', 'Blade__', '2900', '700', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1110', 'Lapier', '10000', '500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1111', 'Lapier_', '10000', '500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1112', 'Lapier__', '10000', '500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1113', 'Scimiter', '17000', '700', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1114', 'Scimiter_', '17000', '700', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1115', 'Scimiter__', '17000', '700', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1119', 'Tsurugi', '51000', '1200', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1120', 'Tsurugi_', '51000', '1200', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1121', 'Tsurugi__', '51000', '1200', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1122', 'Ring_Pommel_Saber', '24000', '900', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1123', 'Haedonggum', '50000', '900', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1124', 'Orcish_Sword', '20', '800', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1125', 'Ring_Pommel_Saber_', '24000', '900', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1126', 'Saber', '49000', '1000', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1127', 'Saber_', '49000', '1000', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1128', 'Hae_Dong_Gum_', '50000', '900', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1129', 'Flamberge', '60000', '1500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1130', 'Nagan', '20', '500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1131', 'Ice_Falchon', '20', '600', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1132', 'Edge', '20', '700', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1133', 'Fire_Brand', '20', '500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1134', 'Scissores_Sword', '20', '700', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1135', 'Cutlas', '20', '900', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1136', 'Solar_Sword', '20', '1200', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1137', 'Excalibur', '20', '1200', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1138', 'Mysteltainn_', '20', '1000', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1139', 'Tale_Fing_', '20', '1000', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1140', 'Byeorrun_Gum', '20', '900', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1141', 'Immaterial_Sword', '20', '900', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1142', 'Jewel_Sword', '20', '2200', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1143', 'Gaia_Sword', '20', '2500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1144', 'Sasimi', '20', '1400', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1145', 'Holy_Avenger', '450000', '1350', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1146', 'Town_Sword', '42000', '800', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1147', 'Town_Sword_', '42000', '800', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1148', 'Star_Dust_Blade', '20', '1000', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1149', 'Flamberge_', '60000', '1500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('1201', 'Knife', '50', '400', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1202', 'Knife_', '50', '400', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1203', 'Knife__', '50', '400', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1204', 'Cutter', '1250', '500', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1205', 'Cutter_', '1250', '500', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1206', 'Cutter__', '1250', '500', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1207', 'Main_Gauche', '2400', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1208', 'Main_Gauche_', '2400', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1209', 'Main_Gauche__', '2400', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1210', 'Dirk', '8500', '500', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1211', 'Dirk_', '8500', '500', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1212', 'Dirk__', '8500', '500', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1213', 'Dagger', '14000', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1214', 'Dagger_', '14000', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1215', 'Dagger__', '14000', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1216', 'Stiletto', '19500', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1217', 'Stiletto_', '19500', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1218', 'Stiletto__', '19500', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1219', 'Gladius', '43000', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1220', 'Gladius_', '43000', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1221', 'Gladius__', '43000', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1222', 'Damascus', '49000', '800', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1223', 'Forturn_Sword', '20', '500', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1224', 'Sword_Breaker', '20', '1000', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1225', 'Mail_Breaker', '20', '1000', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1226', 'Damascus_', '49000', '800', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1227', 'Weeder_Knife', '20', '400', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1228', 'Combat_Knife', '20', '400', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1229', 'Mama\'s_Knife', '20', '500', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1230', 'House_Auger', '20', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1231', 'Bazerald', '20', '500', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1232', 'Assasin_Dagger', '20', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1233', 'Exercise', '20', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1234', 'Moonlight_Sword', '20', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1235', 'Azoth', '20', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1236', 'Sucsamad', '20', '800', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1237', 'Grimtooth_', '20', '800', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1238', 'Zeny_Knife', '20', '1200', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1239', 'Poison_Knife', '20', '800', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1240', 'Princess_Knife', '20', '400', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1241', 'Cursed_Dagger', '80000', '400', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1242', 'Counter_Dagger', '120000', '550', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1243', 'Novice_Knife', '1', '1', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1244', 'Holy_Dagger', '20', '800', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1245', 'Cinquedea', '40000', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1246', 'Cinquedea_', '40000', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1247', 'Kindling_Dagger', '10000', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1248', 'Obsidian_Dagger', '10000', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1249', 'Fisherman\'s_Dagger', '10000', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('1301', 'Axe', '500', '800', '4', '6');
+INSERT INTO `itemdefinitions` VALUES ('1302', 'Axe_', '500', '800', '4', '6');
+INSERT INTO `itemdefinitions` VALUES ('1303', 'Axe__', '500', '800', '4', '6');
+INSERT INTO `itemdefinitions` VALUES ('1304', 'Orcish_Axe', '20', '1500', '4', '6');
+INSERT INTO `itemdefinitions` VALUES ('1305', 'Cleaver', '20', '120', '4', '6');
+INSERT INTO `itemdefinitions` VALUES ('1306', 'War_Axe', '20', '4200', '4', '6');
+INSERT INTO `itemdefinitions` VALUES ('1307', 'Windhawk', '18000', '1500', '4', '6');
+INSERT INTO `itemdefinitions` VALUES ('1308', 'Golden_Axe', '20', '3000', '4', '6');
+INSERT INTO `itemdefinitions` VALUES ('1401', 'Javelin', '150', '700', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1402', 'Javelin_', '150', '700', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1403', 'Javelin__', '150', '700', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1404', 'Spear', '1700', '850', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1405', 'Spear_', '1700', '850', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1406', 'Spear__', '1700', '850', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1407', 'Pike', '3450', '1000', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1408', 'Pike_', '3450', '1000', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1409', 'Pike__', '3450', '1000', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1413', 'Gungnir', '20', '500', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1414', 'Gelerdria', '20', '700', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1415', 'Skewer', '20', '850', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1416', 'Tjungkuletti', '20', '1000', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1417', 'Pole_Axe', '20', '3800', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1418', 'Gungnir_', '20', '500', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1419', 'Pole_Axe_C', '1', '4800', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1420', 'Long_Horn', '10000', '1000', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1421', 'Battle_Hook', '10000', '900', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1422', 'Hunting_Spear', '10000', '4200', '4', '4');
+INSERT INTO `itemdefinitions` VALUES ('1501', 'Club', '120', '700', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1502', 'Club_', '120', '700', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1503', 'Club__', '120', '700', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1504', 'Mace', '1600', '800', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1505', 'Mace_', '1600', '800', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1506', 'Mace__', '1600', '800', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1507', 'Smasher', '9000', '1000', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1508', 'Smasher_', '9000', '1000', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1509', 'Smasher__', '9000', '1000', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1510', 'Flail', '16000', '900', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1511', 'Flail_', '16000', '900', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1512', 'Flail__', '16000', '900', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1513', 'Morning_Star', '41000', '1500', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1514', 'Morning_Star_', '41000', '1500', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1515', 'Morning_Star__', '41000', '1500', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1516', 'Sword_Mace', '50000', '1200', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1517', 'Sword_Mace_', '50000', '1200', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1518', 'Sword_Mace__', '50000', '1200', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1519', 'Chain', '23000', '800', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1520', 'Chain_', '23000', '800', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1521', 'Chain__', '23000', '800', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1522', 'Stunner', '60000', '2000', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1523', 'Spike', '20', '700', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1524', 'Golden_Mace', '20', '800', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1525', 'Long_Mace', '20', '800', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1526', 'Slash', '20', '1000', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1527', 'Quadrille', '20', '900', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1528', 'Grand_Cross', '20', '1500', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1529', 'Iron_Driver', '20', '3000', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1530', 'Mjolnir', '20', '6000', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1531', 'Spanner', '20', '2500', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1532', 'Stunner_', '60000', '2000', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1533', 'Warrior_Balmung', '20', '1000', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1534', 'Spanner_C', '2', '2500', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1535', 'Hollgrehenn_Hammer', '4444', '44', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1550', 'Book', '30000', '600', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1551', 'Bible', '60000', '1000', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1552', 'Tablet', '51000', '800', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1553', 'Book_Of_Billows', '35000', '750', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1554', 'Book_Of_Mother_Earth', '35000', '750', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1555', 'Book_Of_Blazing_Sun', '35000', '750', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1556', 'Book_Of_Gust_Of_Wind', '35000', '750', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1557', 'Book_Of_The_Apocalypse', '60000', '800', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1558', 'Girl\'s_Diary', '1500', '300', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1559', 'Legacy_Of_Dragon', '20', '700', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1560', 'Diary_Of_Great_Sage', '20', '1100', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1561', 'Hardback', '20', '1500', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1562', 'Bible_Of_Battlefield', '20', '700', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1563', 'Diary_Of_Great_Sage_C', '1', '1100', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1564', 'Encyclopedia', '10000', '2000', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1565', 'Death_Note', '10000', '1000', '4', '15');
+INSERT INTO `itemdefinitions` VALUES ('1599', 'Angra_Manyu', '1', '10', '4', '8');
+INSERT INTO `itemdefinitions` VALUES ('1601', 'Rod', '50', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1602', 'Rod_', '50', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1603', 'Rod__', '50', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1604', 'Wand', '2500', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1605', 'Wand_', '2500', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1606', 'Wand__', '2500', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1607', 'Staff', '9500', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1608', 'Staff_', '9500', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1609', 'Staff__', '9500', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1610', 'Arc_Wand', '45000', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1611', 'Arc_Wand_', '45000', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1612', 'Arc_Wand__', '45000', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1613', 'Mighty_Staff', '20', '700', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1614', 'Blessed_Wand', '20', '700', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1615', 'Bone_Wand', '20', '700', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1616', 'Staff_Of_Wing', '20', '500', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1617', 'Survival_Rod', '85000', '1000', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1618', 'Survival_Rod_', '85000', '1000', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1619', 'Survival_Rod2', '85000', '1000', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1620', 'Survival_Rod2_', '85000', '1000', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1621', 'Hypnotist\'s_Staff', '43000', '500', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1622', 'Hypnotist\'s_Staff_', '20', '500', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1623', 'Mighty_Staff_C', '1', '700', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1624', 'Lich_Bone_Wand', '10000', '800', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1625', 'Healing_Staff', '10000', '400', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1626', 'Piercing_Staff', '10000', '500', '4', '10');
+INSERT INTO `itemdefinitions` VALUES ('1801', 'Waghnakh', '8000', '400', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1802', 'Waghnakh_', '8000', '400', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1803', 'Knuckle_Duster', '25000', '450', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1804', 'Knuckle_Duster_', '25000', '450', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1805', 'Hora', '32000', '450', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1806', 'Hora_', '32000', '450', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1807', 'Fist', '53000', '650', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1808', 'Fist_', '53000', '650', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1809', 'Claw', '67000', '500', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1810', 'Claw_', '67000', '500', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1811', 'Finger', '58000', '500', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1812', 'Finger_', '58000', '500', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1813', 'Kaiser_Knuckle', '20', '450', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1814', 'Berserk', '20', '500', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1815', 'Claw_Of_Garm', '20', '550', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1816', 'Berserk_', '20', '500', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1817', 'Kaiser_Knuckle_C', '1', '450', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1818', 'Magma_Fist', '10000', '650', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1819', 'Icicle_Fist', '10000', '650', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1820', 'Electric_Fist', '10000', '650', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1821', 'Seismic_Fist', '10000', '650', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1822', 'Combo_Battle_Glove', '10000', '500', '4', '12');
+INSERT INTO `itemdefinitions` VALUES ('1901', 'Violin', '4000', '700', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1902', 'Violin_', '4000', '700', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1903', 'Mandolin', '18000', '400', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1904', 'Mandolin_', '18000', '400', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1905', 'Lute', '24500', '500', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1906', 'Lute_', '24500', '500', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1907', 'Guitar', '47000', '900', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1908', 'Guitar_', '47000', '900', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1909', 'Harp', '62000', '900', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1910', 'Harp_', '62000', '900', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1911', 'Guh_Moon_Goh', '54000', '1300', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1912', 'Guh_Moon_Goh_', '54000', '1300', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1913', 'Electronic_Guitar', '20', '1800', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1914', 'Guitar_Of_Passion', '20', '900', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1915', 'Guitar_Of_Blue_Solo', '20', '900', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1916', 'Guitar_Of_Vast_Land', '20', '900', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1917', 'Guitar_Of_Gentle_Breeze', '20', '900', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1918', 'Oriental_Lute', '20', '1200', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1919', 'Base_Guitar', '10000', '1500', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1920', 'Berserk_Guitar', '10000', '1800', '4', '13');
+INSERT INTO `itemdefinitions` VALUES ('1950', 'Rope', '2500', '400', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1951', 'Rope_', '2500', '400', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1952', 'Line', '12000', '300', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1953', 'Line_', '12000', '300', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1954', 'Wire', '17500', '1000', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1955', 'Wire_', '17500', '1000', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1956', 'Rante', '32000', '900', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1957', 'Rante_', '32000', '900', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1958', 'Tail', '41000', '700', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1959', 'Tail_', '41000', '700', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1960', 'Whip', '38000', '700', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1961', 'Whip_', '38000', '700', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1962', 'Lariat', '20', '400', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1963', 'Rapture_Rose', '20', '300', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1964', 'Chemeti', '20', '700', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1965', 'Whip_Of_Red_Flame', '20', '700', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1966', 'Whip_Of_Ice_Piece', '20', '700', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1967', 'Whip_Of_Earth', '20', '700', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1968', 'Jump_Rope', '20', '400', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1969', 'Bladed_Whip', '20', '1200', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1970', 'Queen\'s_Whip', '20', '1100', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1971', 'Electric_Wire', '20', '700', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1972', 'Electric_Eel', '10000', '2000', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1973', 'Sea_Witch_Foot', '10000', '1500', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('1974', 'Carrot_Whip', '10000', '1300', '4', '14');
+INSERT INTO `itemdefinitions` VALUES ('13000', 'Jujube_Dagger', '10000', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13001', 'Dragon_Killer', '20', '900', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13002', 'Ginnungagap', '20', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13003', 'Coward', '52000', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13004', 'Coward_', '52000', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13005', 'Angelwing_Short_Sword', '20', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13006', 'Khukri', '240000', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13007', 'Jitte', '20000', '400', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13008', 'Jitte_', '20000', '400', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13009', 'Kamaitachi', '48000', '900', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13010', 'Asura', '3000', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13011', 'Asura_', '3000', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13012', 'Murasame', '20', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13013', 'Murasame_', '20', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13014', 'Hakujin', '20', '800', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13015', 'Hakujin_', '20', '800', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13016', 'Poison_Knife_', '20', '800', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13017', 'House_Auger_', '20', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13018', 'Sucsamad_', '20', '800', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13019', 'Ginnungagap_', '20', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13020', 'Warrior_Balmung_', '20', '1000', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13021', 'Combat_Knife_C', '1', '400', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13022', 'Counter_Dagger_C', '1', '550', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13023', 'Asura_C', '1', '600', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13024', 'Sword_Breaker_C', '2', '1000', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13025', 'Mail_Breaker_C', '2', '1000', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13026', 'Moonlight_Sword_C', '2', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13027', 'Scalpel', '10000', '500', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13028', 'Tooth_Blade', '10000', '700', '4', '1');
+INSERT INTO `itemdefinitions` VALUES ('13400', 'Cutlas_', '20', '900', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('13401', 'Excalibur_C', '1', '1200', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('13402', 'Cutlas_C', '2', '900', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('13403', 'Solar_Sword_C', '2', '1200', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('13404', 'Platinum_Shotel', '10000', '1500', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('13405', 'Curved_Sword', '10000', '800', '4', '2');
+INSERT INTO `itemdefinitions` VALUES ('12900', 'Battle_Manual_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12901', 'Insurance_Package', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12902', 'Bubble_Gum_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12903', 'Str_Dish_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12904', 'Agi_Dish_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12905', 'Int_Dish_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12906', 'Dex_Dish_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12907', 'Luk_Dish_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12908', 'Vit_Dish_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12909', 'Kafra_Card_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12910', 'Giant_Fly_Wing_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12911', 'Neuralizer_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12912', 'Convex_Mirror_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12913', 'Blessing_10_Scroll_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12914', 'Inc_Agi_10_Scroll_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12915', 'Aspersio_5_Scroll_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12916', 'Assumptio_5_Scroll_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12917', 'Wind_Walk_10_Scroll_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12918', 'Adrenaline_Scroll_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12919', 'Megaphone_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12920', 'Enriched_Elunium_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12921', 'Enriched_Oridecon_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12922', 'Token_Of_Siegfried_Box', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('501', 'Red_Potion', '50', '70', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('502', 'Orange_Potion', '200', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('503', 'Yellow_Potion', '550', '130', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('504', 'White_Potion', '1200', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('505', 'Blue_Potion', '5000', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('506', 'Green_Potion', '40', '70', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('507', 'Red_Herb', '18', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('508', 'Yellow_Herb', '40', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('509', 'White_Herb', '120', '70', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('510', 'Blue_Herb', '60', '70', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('511', 'Green_Herb', '10', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('512', 'Apple', '15', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('513', 'Banana', '15', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('514', 'Grape', '200', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('515', 'Carrot', '15', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('516', 'Sweet_Potato', '15', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('517', 'Meat', '50', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('518', 'Honey', '500', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('519', 'Milk', '25', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('520', 'Leaflet_Of_Hinal', '150', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('521', 'Leaflet_Of_Aloe', '360', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('522', 'Fruit_Of_Mastela', '8500', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('523', 'Holy_Water', '20', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('525', 'Panacea', '500', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('526', 'Royal_Jelly', '7000', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('528', 'Monster\'s_Feed', '60', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('529', 'Candy', '10', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('530', 'Candy_Striper', '20', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('531', 'Apple_Juice', '20', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('532', 'Banana_Juice', '20', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('533', 'Grape_Juice', '250', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('534', 'Carrot_Juice', '20', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('535', 'Pumpkin', '15', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('536', 'Ice_Cream', '150', '80', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('537', 'Pet_Food', '1000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('538', 'Well_Baked_Cookie', '1000', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('539', 'Piece_Of_Cake', '3000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('540', 'Falcon\'s_Feed', '2000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('541', 'Pecopeco\'s_Feed', '3000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('542', 'Festive_Cookie', '10', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('543', 'Festive_Rainbow_Cake', '10', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('544', 'Fish_Slice', '20', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('545', 'Red_Slim_Potion', '150', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('546', 'Yellow_Slim_Potion', '600', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('547', 'White_Slim_Potion', '1650', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('548', 'Cheese', '2800', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('549', 'Nice_Sweet_Potato', '180', '80', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('550', 'Popped_Rice', '10', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('551', 'Shusi', '1', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('552', 'KETUPAT', '1', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('553', 'Bun', '1', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('554', 'Mojji', '100', '80', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('555', 'Rice_Cake', '100', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('556', 'Long_Rice_Cake', '10', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('557', 'Hash_Rice_Cake', '10', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('558', 'Chocolate', '1', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('559', 'HandMade_Chocolate', '1', '80', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('560', 'HandMade_Chocolate_', '5000', '80', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('561', 'White_Chocolate', '5000', '80', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('562', 'Pizza', '100', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('563', 'Pizza_01', '1200', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('564', 'Rice_Ball', '1', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('565', 'Vita500_Bottle', '580', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('566', 'Tomyumkung', '10000', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('567', 'Prawn', '500', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('568', 'Lemon', '60', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('569', 'Novice_Potion', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('570', 'Lucky_Candy', '10', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('571', 'Lucky_Candy_Cane', '20', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('572', 'Lucky_Cookie', '1000', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('573', 'Chocolate_Drink', '7000', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('574', 'Egg', '20', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('575', 'Piece_Of_Cake_', '10', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('576', 'Prickly_Fruit', '540', '60', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('577', 'Grain', '200', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('578', 'Strawberry', '200', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('579', 'Delicious_Fish', '250', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('580', 'Bread', '150', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('581', 'Mushroom', '40', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('582', 'Orange', '300', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('583', 'KETUPAT_', '7000', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('584', 'Fish_Ball_Soup', '100', '60', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('585', 'Wurst', '2', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('586', 'Mother\'s_Cake', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('587', 'Prickly_Fruit_', '880', '60', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('588', 'Spaghetti', '100', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('589', 'Pizza_02', '1200', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('590', 'Brezel_', '2', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('591', 'Caviar_Pancake', '0', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('592', 'Jam_Pancake', '0', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('593', 'Honey_Pancake', '0', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('594', 'Sour_Cream_Pancake', '0', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('595', 'Mushroom_Pancake', '0', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('596', 'Cute_Strawberry_Choco', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('597', 'Lovely_Choco_Tart', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('598', 'Light_Red_Pot', '50', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('599', 'Light_Orange_Pot', '200', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('11500', 'Light_Yellow_Pot', '550', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('11501', 'Light_White_Pot', '1200', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('11701', 'Girl_Bunch_Of_Flower', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('601', 'Wing_Of_Fly', '60', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('602', 'Wing_Of_Butterfly', '300', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('603', 'Old_Blue_Box', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('604', 'Branch_Of_Dead_Tree', '50', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('605', 'Anodyne', '2000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('606', 'Aloebera', '1500', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('607', 'Yggdrasilberry', '5000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('608', 'Seed_Of_Yggdrasil', '5000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('609', 'Amulet', '100', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('610', 'Leaf_Of_Yggdrasil', '4000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('611', 'Spectacles', '40', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('612', 'Portable_Furnace', '150', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('613', 'Iron_Hammer', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('614', 'Golden_Hammer', '3000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('615', 'Oridecon_Hammer', '5000', '400', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('616', 'Old_Card_Album', '10000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('617', 'Old_Violet_Box', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('618', 'Worn_Out_Scroll', '50', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('619', 'Unripe_Apple', '1000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('620', 'Orange_Juice', '1500', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('621', 'Bitter_Herb', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('622', 'Rainbow_Carrot', '2500', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('623', 'Earthworm_The_Dude', '4000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('624', 'Rotten_Fish', '2500', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('625', 'Lusty_Iron', '100', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('626', 'Monster_Juice', '1500', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('627', 'Sweet_Milk', '7000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('628', 'Well_Dried_Bone', '10000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('629', 'Singing_Flower', '300', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('630', 'Dew_Laden_Moss', '10', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('631', 'Deadly_Noxious_Herb', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('632', 'Fatty_Chubby_Earthworm', '5000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('633', 'Baked_Yam', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('634', 'Tropical_Banana', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('635', 'Horror_Of_Tribe', '300', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('636', 'No_Recipient', '100', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('637', 'Old_Broom', '350', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('638', 'Silver_Knife_Of_Chaste', '12000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('639', 'Armlet_Of_Obedience', '18000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('640', 'Shining_Stone', '3000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('641', 'Contracts_In_Shadow', '100', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('642', 'Book_Of_Devil', '1800', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('643', 'Pet_Incubator', '3000', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('644', 'Gift_Box', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('645', 'Center_Potion', '800', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('656', 'Awakening_Potion', '1500', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('657', 'Berserk_Potion', '3000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('658', 'Union_Of_Tribe', '2', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('659', 'Heart_Of_Her', '500', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('660', 'Prohibition_Red_Candle', '20000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('661', 'Sway_Apron', '20000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('662', 'Inspector_Certificate', '1450', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('663', 'Korea_Rice_Cake', '1', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('664', 'Gift_Box_1', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('665', 'Gift_Box_2', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('666', 'Gift_Box_3', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('667', 'Gift_Box_4', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('668', 'Handsei', '0', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('669', 'Rice_Cake_Soup', '500', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('670', 'Gold_Coin_Moneybag', '100000', '400', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('671', 'Gold_Coin', '10000', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('672', 'Copper_Coin_Moneybag', '1000', '400', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('673', 'Copper_Coin', '100', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('674', 'Mithril_Coin', '5000', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('675', 'Silver_Coin', '5000', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('676', 'Silver_Coin_Moneybag', '50000', '400', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('677', 'White_Gold_Coin', '2000', '40', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('678', 'Poison_Bottle', '5000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('679', 'Gold_Pill', '5000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('680', 'Magical_Carnation', '0', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('681', 'Memory_Of_Wedding', '50000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('682', 'Realgar_Wine', '0', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('683', 'Exorcize_Herb', '0', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('684', 'Durian', '15000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('685', 'RAMADAN', '5000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('686', 'Earth_Scroll_1_3', '1000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('687', 'Earth_Scroll_1_5', '2000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('688', 'Cold_Scroll_1_3', '1000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('689', 'Cold_Scroll_1_5', '2000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('690', 'Fire_Scroll_1_3', '1000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('691', 'Fire_Scroll_1_5', '2000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('692', 'Wind_Scroll_1_3', '1000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('693', 'Wind_Scroll_1_5', '2000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('694', 'Ghost_Scroll_1_3', '1000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('695', 'Ghost_Scroll_1_5', '2000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('696', 'Fire_Scroll_2_1', '1000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('697', 'Fire_Scroll_2_5', '2000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('698', 'Fire_Scroll_3_1', '1000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('699', 'Fire_Scroll_3_5', '2000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('700', 'Cold_Scroll_2_1', '1000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12000', 'Cold_Scroll_2_5', '2000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12001', 'Holy_Scroll_1_3', '1000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12002', 'Holy_Scroll_1_5', '2000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12003', 'Holy_Scroll_2_1', '1000', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12004', 'Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12005', 'Iron_Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12006', 'Steel_Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12007', 'Ori_Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12008', 'Fire_Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12009', 'Silver_Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12010', 'Wind_Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12011', 'Stone_Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12012', 'Crystal_Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12013', 'Shadow_Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12014', 'Imma_Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12015', 'Rusty_Arrow_Container', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12016', 'Speed_Up_Potion', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12017', 'Slow_Down_Potion', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12018', 'Fire_Cracker', '2', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12019', 'Holy_Egg', '2', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12020', 'Water_Of_Darkness', '2', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12021', 'Pork_Belly', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12022', 'Spareribs', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12023', 'Giftbox_China', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12024', 'Red_Pouch_Of_Surprise', '50', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12025', 'Egg_Boy', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12026', 'Egg_Girl', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12027', 'Giggling_Box', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12028', 'Box_Of_Thunder', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12029', 'Gloomy_Box', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12030', 'Box_Of_Grudge', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12031', 'Sleepy_Box', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12032', 'Box_Of_Storm', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12033', 'Box_Of_Sunlight', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12034', 'Painting_Box', '1000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12035', 'Lotto_Box01', '0', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12036', 'Lotto_Box02', '0', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12037', 'Lotto_Box03', '0', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12038', 'Lotto_Box04', '0', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12039', 'Lotto_Box05', '0', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12040', 'Stone_Of_Intelligence_', '100000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12041', 'Str_Dish01', '2000', '60', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12042', 'Str_Dish02', '4000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12043', 'Str_Dish03', '6000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12044', 'Str_Dish04', '8000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12045', 'Str_Dish05', '10000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12046', 'Int_Dish01', '2000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12047', 'Int_Dish02', '4000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12048', 'Int_Dish03', '6000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12049', 'Int_Dish04', '8000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12050', 'Int_Dish05', '10000', '400', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12051', 'Vit_Dish01', '2000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12052', 'Vit_Dish02', '4000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12053', 'Vit_Dish03', '6000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12054', 'Vit_Dish04', '8000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12055', 'Vit_Dish05', '10000', '800', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12056', 'Agi_Dish01', '2000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12057', 'Agi_Dish02', '4000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12058', 'Agi_Dish03', '6000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12059', 'Agi_Dish04', '8000', '400', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12060', 'Agi_Dish05', '10000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12061', 'Dex_Dish01', '2000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12062', 'Dex_Dish02', '4000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12063', 'Dex_Dish03', '6000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12064', 'Dex_Dish04', '8000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12065', 'Dex_Dish05', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12066', 'Luk_Dish01', '2000', '60', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12067', 'Luk_Dish02', '4000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12068', 'Luk_Dish03', '6000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12069', 'Luk_Dish04', '8000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12070', 'Luk_Dish05', '10000', '400', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12071', 'Str_Dish06', '20000', '800', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12072', 'Str_Dish07', '40000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12073', 'Str_Dish08', '60000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12074', 'Str_Dish09', '80000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12075', 'Str_Dish10', '100000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12076', 'Int_Dish06', '20000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12077', 'Int_Dish07', '40000', '800', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12078', 'Int_Dish08', '60000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12079', 'Int_Dish09', '80000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12080', 'Int_Dish10', '100000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12081', 'Vit_Dish06', '20000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12082', 'Vit_Dish07', '40000', '400', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12083', 'Vit_Dish08', '60000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12084', 'Vit_Dish09', '80000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12085', 'Vit_Dish10', '100000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12086', 'Agi_Dish06', '20000', '800', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12087', 'Agi_Dish07', '40000', '800', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12088', 'Agi_Dish08', '60000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12089', 'Agi_Dish09', '80000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12090', 'Agi_Dish10', '100000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12091', 'Dex_Dish06', '20000', '800', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12092', 'Dex_Dish07', '40000', '800', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12093', 'Dex_Dish08', '60000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12094', 'Dex_Dish09', '80000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12095', 'Dex_Dish10', '100000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12096', 'Luk_Dish06', '20000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12097', 'Luk_Dish07', '40000', '800', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12098', 'Luk_Dish08', '60000', '400', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12099', 'Luk_Dish09', '80000', '1000', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12100', 'Luk_Dish10', '100000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12101', 'Citron', '20', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12102', 'Meat_Skewer', '20', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12103', 'Bloody_Dead_Branch', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12104', 'Random_Quiver', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12105', 'Set_Of_Taiming_Item', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12106', 'Accessory_Box', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12107', 'Wrapped_Mask', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12108', 'Bundle_Of_Magic_Scroll', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12109', 'Poring_Box', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12110', 'First_Aid_Kit', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12111', 'Food_Package', '10000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12112', 'Tropical_Sograt', '1000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12113', 'Vermilion_The_Beach', '1000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12114', 'Elemental_Fire', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12115', 'Elemental_Water', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12116', 'Elemental_Earth', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12117', 'Elemental_Wind', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12118', 'Resist_Fire', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12119', 'Resist_Water', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12120', 'Resist_Earth', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12121', 'Resist_Wind', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12122', 'Sesame_Pastry', '2', '70', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12123', 'Honey_Pastry', '2', '70', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12124', 'Rainbow_Cake', '2', '70', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12125', 'Outdoor_Cooking_Kits', '500', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12126', 'Indoor_Cooking_Kits', '1000', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12127', 'High_end_Cooking_Kits', '2000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12128', 'Imperial_Cooking_Kits', '5000', '70', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12129', 'Fantastic_Cooking_Kits', '10000', '70', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12130', 'Cookie_Bag', '2', '70', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12131', 'Lucky_Potion', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12132', 'Red_Bag', '0', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12133', 'Ice_Cream_', '0', '80', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12134', 'Red_Envelope', '1', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12135', 'Green_Ale', '20', '30', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12136', 'Women\'s_Bundl', '0', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12137', '1st_Stage_Prize', '0', '0', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12138', '2nd_Stage_Prize', '0', '0', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12139', '3rd_Stage_Prize', '0', '0', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12140', '4th_Stage_Prize', '0', '0', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12141', '5th_Stage_Prize', '0', '0', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12142', 'Magic_Book', '0', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12143', 'Red_Can', '50000', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12144', 'Sphere_Case_Wind', '2', '350', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12145', 'Sphere_Case_Darkness', '2', '350', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12146', 'Sphere_Case_Poison', '2', '350', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12147', 'Sphere_Case_Water', '2', '350', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12148', 'Sphere_Case_Fire', '2', '350', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12149', 'Bullet_Case', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12150', 'Bullet_Case_Blood', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12151', 'Bullet_Case_Silver', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12152', 'Special_Box', '0', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12153', 'Bow_Mercenary_Scroll1', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12154', 'Bow_Mercenary_Scroll2', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12155', 'Bow_Mercenary_Scroll3', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12156', 'Bow_Mercenary_Scroll4', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12157', 'Bow_Mercenary_Scroll5', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12158', 'Bow_Mercenary_Scroll6', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12159', 'Bow_Mercenary_Scroll7', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12160', 'Bow_Mercenary_Scroll8', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12161', 'Bow_Mercenary_Scroll9', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12162', 'Bow_Mercenary_Scroll10', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12163', 'SwordMercenary_Scroll1', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12164', 'SwordMercenary_Scroll2', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12165', 'SwordMercenary_Scroll3', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12166', 'SwordMercenary_Scroll4', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12167', 'SwordMercenary_Scroll5', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12168', 'SwordMercenary_Scroll6', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12169', 'SwordMercenary_Scroll7', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12170', 'SwordMercenary_Scroll8', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12171', 'SwordMercenary_Scroll9', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12172', 'SwordMercenary_Scroll10', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12173', 'SpearMercenary_Scroll1', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12174', 'SpearMercenary_Scroll2', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12175', 'SpearMercenary_Scroll3', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12176', 'SpearMercenary_Scroll4', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12177', 'SpearMercenary_Scroll5', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12178', 'SpearMercenary_Scroll6', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12179', 'SpearMercenary_Scroll7', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12180', 'SpearMercenary_Scroll8', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12181', 'SpearMercenary_Scroll9', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12182', 'SpearMercenary_Scroll10', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12183', 'Holy_Arrow_Quiver', '2', '250', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12184', 'Mercenary_Red_Potion', '500', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12185', 'Mercenary_Blue_Potion', '1000', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12186', 'Red_Box', '50000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12187', 'Green_Box', '50000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12188', 'Magical_Moon_Cake', '20', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12189', 'Red_Box_', '50000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12190', 'Moon_Cake', '2', '300', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12191', 'Special_Moon_Cake', '2', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12192', 'Pumpkin_Pie', '20', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12193', 'Brezel', '20', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12194', 'Hometown_Gift', '20', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12195', 'Plain_Rice_Cake', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12196', 'Hearty_Rice_Cake', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12197', 'Salty_Rice_Cake', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12198', 'Lucky_Rice_Cake', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12199', 'Rice_Scroll', '0', '0', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12200', 'Event_Cake', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12201', 'Red_Box_C', '20', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12202', 'Str_Dish10_', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12203', 'Agi_Dish10_', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12204', 'Int_Dish10_', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12205', 'Dex_Dish10_', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12206', 'Luk_Dish10_', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12207', 'Vit_Dish10_', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12208', 'Battle_Manual', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12209', 'Insurance', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12210', 'Bubble_Gum', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12211', 'Kafra_Card', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12212', 'Giant_Fly_Wing', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12213', 'Neuralizer', '2', '0', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12214', 'Convex_Mirror', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12215', 'Blessing_10_Scroll', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12216', 'Inc_Agi_10_Scroll', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12217', 'Aspersio_5_Scroll', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12218', 'Assumptio_5_Scroll', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12219', 'Wind_Walk_10_Scroll', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12220', 'Adrenaline_Scroll', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12221', 'Megaphone_', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12225', 'Sweet_Candy_Striper', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12226', 'Examination1', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12227', 'Examination2', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12228', 'Examination3', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12229', 'Examination4', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12230', 'Examination5', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12231', 'Examination6', '20', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12232', 'Gingerbread', '20', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12233', 'Kvass', '20', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12234', 'Cacao99', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12235', 'Strawberry_Choco', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12236', 'Choco_Tart', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12237', 'Choco_Lump', '0', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12238', 'New_Year_Rice_Cake_1', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12239', 'New_Year_Rice_Cake_2', '20', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12240', 'Old_Yellow_Box', '20', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12241', 'M_Center_Potion', '800', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12242', 'M_Awakening_Potion', '1500', '150', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12243', 'M_Berserk_Potion', '3000', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12244', 'Old_Gift_Box', '20', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12245', 'Green_Ale_US', '5000', '500', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12246', 'Magic_Card_Album', '10000', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12247', 'Halohalo', '2', '100', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12701', 'Old_Blue_Box_F', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12702', 'Old_Bleu_Box', '0', '200', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12703', 'Holy_Egg_2', '0', '50', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12928', 'J_Aspersio_5_Scroll', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12968', 'Emergency_Scroll1', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12969', 'Emergency_Scroll2', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12970', 'Emergency_Scroll3', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12977', 'Teleport_Scroll1', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12978', 'Teleport_Scroll2', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12979', 'Teleport_Scroll3', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12980', 'Teleport_Scroll4', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12981', 'Teleport_Scroll5', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('12982', 'Teleport_Scroll6', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14500', 'Insurance60', '2', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14508', 'Zeny_Scroll', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14509', 'Light_Center_Pot', '800', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14510', 'Light_Awakening_Pot', '1500', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14511', 'Light_Berserk_Pot', '3000', '20', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14512', 'Meteor_10_Scroll', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14513', 'Storm_10_Scroll', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14514', 'Vermilion_10_Scroll', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14515', 'Lex_Aeterna_Scroll', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14516', 'Magnificat_5_Scroll', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14517', 'CP_Helm_Scroll', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14518', 'CP_Shield_Scroll', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14519', 'CP_Armor_Scroll', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14520', 'CP_Weapon_Scroll', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14521', 'Repair_Scroll', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14522', 'Big_Bun', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14523', 'Pill_', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14524', 'Superb_Fish_Slice', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14525', 'Chewy_Ricecake', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14526', 'Oriental_Pastry', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('14527', 'Dun_Tele_Scroll1', '0', '10', '2', null);
+INSERT INTO `itemdefinitions` VALUES ('4001', 'Poring_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4002', 'Fabre_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4003', 'Pupa_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4004', 'Drops_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4005', 'Poring__Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4006', 'Lunatic_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4007', 'Pecopeco_Egg_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4008', 'Picky_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4009', 'Chonchon_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4010', 'Wilow_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4011', 'Picky__Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4012', 'Thief_Bug_Egg_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4013', 'Andre_Egg_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4014', 'Roda_Frog_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4015', 'Condor_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4016', 'Thief_Bug_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4017', 'Savage_Babe_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4018', 'Andre_Larva_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4019', 'Hornet_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4020', 'Farmiliar_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4021', 'Rocker_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4022', 'Spore_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4023', 'Desert_Wolf_Babe_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4024', 'Plankton_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4025', 'Skeleton_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4026', 'Thief_Bug_Female_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4027', 'Kukre_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4028', 'Tarou_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4029', 'Wolf_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4030', 'Mandragora_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4031', 'Pecopeco_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4032', 'Ambernite_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4033', 'Poporing_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4034', 'Worm_Tail_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4035', 'Hydra_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4036', 'Muka_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4037', 'Snake_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4038', 'Zombie_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4039', 'Stainer_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4040', 'Creamy_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4041', 'Coco_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4042', 'Steel_Chonchon_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4043', 'Andre_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4044', 'Smokie_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4045', 'Horn_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4046', 'Martin_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4047', 'Ghostring_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4048', 'Poison_Spore_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4049', 'Vadon_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4050', 'Thief_Bug_Male_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4051', 'Yoyo_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4052', 'Elder_Wilow_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4053', 'Vitata_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4054', 'Angeling_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4055', 'Marina_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4056', 'Dustiness_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4057', 'Metaller_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4058', 'Thara_Frog_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4059', 'Soldier_Andre_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4060', 'Goblin_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4061', 'Cornutus_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4062', 'Anacondaq_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4063', 'Caramel_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4064', 'Zerom_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4065', 'Kaho_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4066', 'Orc_Warrior_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4067', 'Megalodon_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4068', 'Scorpion_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4069', 'Drainliar_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4070', 'Eggyra_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4071', 'Orc_Zombie_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4072', 'Golem_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4073', 'Pirate_Skel_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4074', 'BigFoot_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4075', 'Argos_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4076', 'Magnolia_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4077', 'Phen_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4078', 'Savage_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4079', 'Mantis_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4080', 'Flora_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4081', 'Hode_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4082', 'Desert_Wolf_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4083', 'Rafflesia_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4084', 'Marine_Sphere_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4085', 'Orc_Skeleton_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4086', 'Soldier_Skeleton_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4087', 'Giearth_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4088', 'Frilldora_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4089', 'Sword_Fish_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4090', 'Munak_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4091', 'Kobold_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4092', 'Skel_Worker_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4093', 'Obeaune_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4094', 'Archer_Skeleton_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4095', 'Marse_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4096', 'Zenorc_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4097', 'Matyr_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4098', 'Dokebi_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4099', 'Pasana_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4100', 'Sohee_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4101', 'Sand_Man_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4102', 'Whisper_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4103', 'Horong_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4104', 'Requiem_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4105', 'Marc_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4106', 'Mummy_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4107', 'Verit_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4108', 'Myst_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4109', 'Jakk_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4110', 'Ghoul_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4111', 'Strouf_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4112', 'Marduk_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4113', 'Marionette_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4114', 'Argiope_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4115', 'Hunter_Fly_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4116', 'Isis_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4117', 'Side_Winder_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4118', 'Petit_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4119', 'Bathory_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4120', 'Petit__Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4121', 'Phreeoni_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4122', 'Deviruchi_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4123', 'Eddga_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4124', 'Medusa_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4125', 'Deviace_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4126', 'Minorous_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4127', 'Nightmare_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4128', 'Golden_Bug_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4129', 'Baphomet__Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4130', 'Scorpion_King_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4131', 'Moonlight_Flower_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4132', 'Mistress_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4133', 'Daydric_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4134', 'Dracula_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4135', 'Orc_Load_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4136', 'Khalitzburg_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4137', 'Drake_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4138', 'Anubis_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4139', 'Joker_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4140', 'Knight_Of_Abyss_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4141', 'Evil_Druid_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4142', 'Doppelganger_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4143', 'Orc_Hero_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4144', 'Osiris_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4145', 'Berzebub_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4146', 'Maya_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4147', 'Baphomet_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4148', 'Pharaoh_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4149', 'Gargoyle_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4150', 'Goat_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4151', 'Gajomart_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4152', 'Galapago_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4153', 'Crab_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4154', 'Rice_Cake_Boy_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4155', 'Goblin_Leader_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4156', 'Steam_Goblin_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4157', 'Goblin_Archer_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4158', 'Flying_Deleter_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4159', 'Nine_Tail_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4160', 'Antique_Firelock_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4161', 'Grand_Peco_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4162', 'Grizzly_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4163', 'Gryphon_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4164', 'Gullinbursti_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4165', 'Gig_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4166', 'Nightmare_Terror_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4167', 'Neraid_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4168', 'Dark_Lord_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4169', 'Dark_Illusion_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4170', 'Dark_Frame_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4171', 'Dark_Priest_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4172', 'The_Paper_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4173', 'Demon_Pungus_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4174', 'Deviling_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4175', 'Poison_Toad_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4176', 'Dullahan_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4177', 'Dryad_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4178', 'Dragon_Tail_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4179', 'Dragon_Fly_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4180', 'Driller_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4181', 'Disguise_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4182', 'Diabolic_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4183', 'Vagabond_Wolf_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4184', 'Lava_Golem_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4185', 'Rideword_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4186', 'Raggler_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4187', 'Raydric_Archer_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4188', 'Leib_Olmai_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4189', 'Wraith_Dead_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4190', 'Wraith_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4191', 'Loli_Ruri_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4192', 'Rotar_Zairo_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4193', 'Lude_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4194', 'Rybio_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4195', 'Leaf_Cat_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4196', 'Marin_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4197', 'Mastering_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4198', 'Maya_Puple_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4199', 'Merman_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4200', 'Megalith_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4201', 'Majoruros_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4202', 'Civil_Servant_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4203', 'Mutant_Dragon_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4204', 'Mini_Demon_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4205', 'Mimic_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4206', 'Mystcase_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4207', 'Mysteltainn_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4208', 'Miyabi_Ningyo_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4209', 'Violy_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4210', 'Wander_Man_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4211', 'Vocal_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4212', 'Bon_Gun_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4213', 'Brilight_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4214', 'Bloody_Murderer_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4215', 'Blazzer_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4216', 'Sasquatch_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4217', 'Live_Peach_Tree_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4218', 'Succubus_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4219', 'Sageworm_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4220', 'Solider_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4221', 'Skeleton_General_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4222', 'Skel_Prisoner_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4223', 'Stalactic_Golem_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4224', 'Stem_Worm_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4225', 'Stone_Shooter_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4226', 'Sting_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4227', 'Spring_Rabbit_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4228', 'Sleeper_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4229', 'C_Tower_Manager_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4230', 'Shinobi_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4231', 'Increase_Soil_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4232', 'Wild_Ginseng_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4233', 'Baby_Leopard_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4234', 'Anolian_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4235', 'Cookie_XMAS_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4236', 'Amon_Ra_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4237', 'Owl_Duke_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4238', 'Owl_Baron_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4239', 'Iron_Fist_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4240', 'Arclouse_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4241', 'Archangeling_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4242', 'Apocalips_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4243', 'Antonio_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4244', 'Alarm_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4245', 'Am_Mut_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4246', 'Assulter_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4247', 'Aster_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4248', 'Ancient_Mummy_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4249', 'Ancient_Worm_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4250', 'Executioner_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4251', 'Elder_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4252', 'Alligator_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4253', 'Alice_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4254', 'Tirfing_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4255', 'Orc_Lady_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4256', 'Orc_Archer_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4257', 'Wild_Rose_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4258', 'Wicked_Nymph_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4259', 'Wooden_Golem_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4260', 'Wootan_Shooter_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4261', 'Wootan_Fighter_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4262', 'Evil_Cloud_Hermit_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4263', 'Incant_Samurai_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4264', 'Wind_Ghost_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4265', 'Li_Me_Mang_Ryang_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4266', 'Eclipse_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4267', 'Explosion_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4268', 'Injustice_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4269', 'Incubus_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4270', 'Giant_Spider_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4271', 'Giant_Honet_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4272', 'Dancing_Dragon_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4273', 'Shellfish_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4274', 'Zombie_Master_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4275', 'Zombie_Prisoner_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4276', 'Lord_Of_Death_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4277', 'Zherlthsh_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4278', 'Gibbet_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4279', 'Deleter_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4280', 'Geographer_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4281', 'Zipper_Bear_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4282', 'Tengu_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4283', 'Greatest_General_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4284', 'Chepet_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4285', 'Choco_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4286', 'Karakasa_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4287', 'Kapha_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4288', 'Carat_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4289', 'Caterpillar_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4290', 'Cat_O_Nine_Tail_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4291', 'Kobold_Leader_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4292', 'Kobold_Archer_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4293', 'Cookie_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4294', 'Quve_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4295', 'Kraben_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4296', 'Cramp_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4297', 'Cruiser_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4298', 'Cremy_Fear_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4299', 'Clock_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4300', 'Chimera_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4301', 'Killer_Mantis_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4302', 'Tao_Gunka_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4303', 'Whisper_Boss_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4304', 'Tamruan_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4305', 'Turtle_General_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4306', 'Toad_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4307', 'Kind_Of_Beetle_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4308', 'Tri_Joint_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4309', 'Parasite_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4310', 'Panzer_Goblin_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4311', 'Permeter_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4312', 'Fur_Seal_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4313', 'Punk_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4314', 'Penomena_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4315', 'Pest_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4316', 'Fake_Angel_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4317', 'Mobster_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4318', 'Knight_Windstorm_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4319', 'Freezer_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4320', 'Bloody_Knight_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4321', 'Hylozoist_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4322', 'High_Orc_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4323', 'Garm_Baby_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4324', 'Garm_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4325', 'Harpy_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4326', 'See_Otter_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4327', 'Blood_Butterfly_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4328', 'Hyegun_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4329', 'Phendark_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4330', 'Dark_Snake_Lord_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4331', 'Heater_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4332', 'Waste_Stove_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4333', 'Venomous_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4334', 'Noxious_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4335', 'Pitman_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4336', 'Ungoliant_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4337', 'Porcellio_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4338', 'Obsidian_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4339', 'Mineral_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4340', 'Teddy_Bear_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4341', 'Metaling_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4342', 'Rsx_0806_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4343', 'Mole_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4344', 'Anopheles_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4345', 'Hill_Wind_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4346', 'Ygnizem_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4347', 'Armaia_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4348', 'Whikebain_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4349', 'Erend_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4350', 'Rawrel_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4351', 'Kavac_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4352', 'B_Ygnizem_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4353', 'Removal_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4354', 'Gemini_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4355', 'Gremlin_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4356', 'Beholder_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4357', 'B_Seyren_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4358', 'Seyren_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4359', 'B_Eremes_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4360', 'Eremes_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4361', 'B_Harword_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4362', 'Harword_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4363', 'B_Magaleta_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4364', 'Magaleta_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4365', 'B_Katrinn_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4366', 'Katrinn_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4367', 'B_Shecil_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4368', 'Shecil_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4369', 'Venatu_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4370', 'Dimik_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4371', 'Archdam_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4372', 'Bacsojin_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4373', 'Chung_E_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4374', 'Apocalips_H_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4375', 'Orc_Baby_Card_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4376', 'Lady_Tanee_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4377', 'Green_Iguana_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4378', 'Acidus_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4379', 'Acidus__Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4380', 'Ferus_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4381', 'Ferus__Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4382', 'Novus__Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4383', 'Novus_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4384', 'Hydro_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4385', 'Dragon_Egg_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4386', 'Detale_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4387', 'Ancient_Mimic_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4388', 'Deathword_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4389', 'Plasma_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4390', 'Breeze_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4391', 'Retribution_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4392', 'Observation_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4393', 'Shelter_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4394', 'Solace_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4395', 'Tha_Maero_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4396', 'Tha_Odium_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4397', 'Tha_Despero_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4398', 'Tha_Dolor_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4399', 'Thanatos_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4400', 'Aliza_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4401', 'Alicel_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4402', 'Aliot_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4403', 'Kiel_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4404', 'Skogul_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4405', 'Frus_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4406', 'Skeggiold_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('4407', 'Randgris_Card', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('701', 'Ora_Ora', '55000', '200', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('702', 'Animal_Blood', '450', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('703', 'Hinalle', '500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('704', 'Aloe', '500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('705', 'Clover', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('706', 'Four_Leaf_Clover', '80000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('707', 'Singing_Plant', '500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('708', 'Ment', '500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('709', 'Izidor', '500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('710', 'Illusion_Flower', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('711', 'Shoot', '16', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('712', 'Flower', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('713', 'Empty_Bottle', '6', '20', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('714', 'Emperium', '2', '1000', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('715', 'Yellow_Gemstone', '600', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('716', 'Red_Gemstone', '600', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('717', 'Blue_Gemstone', '600', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('718', 'Dark_Red_Jewel', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('719', 'Violet_Jewel', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('720', 'Skyblue_Jewel', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('721', 'Azure_Jewel', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('722', 'Scarlet_Jewel', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('723', 'Cardinal_Jewel', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('724', 'Cardinal_Jewel_', '600', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('725', 'Red_Jewel', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('726', 'Blue_Jewel', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('727', 'White_Jewel', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('728', 'Golden_Jewel', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('729', 'Bluish_Green_Jewel', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('730', 'Crystal_Jewel', '10000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('731', 'Crystal_Jewel_', '25000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('732', 'Crystal_Jewel__', '55000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('733', 'Crystal_Jewel___', '10', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('734', 'Red_Frame', '3000', '200', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('735', 'Blue_Porcelain', '5000', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('736', 'White_Platter', '1000', '300', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('737', 'Black_Ladle', '400', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('738', 'Pencil_Case', '400', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('739', 'Rouge', '10000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('740', 'Stuffed_Doll', '1000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('741', 'Poring_Doll', '1800', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('742', 'Chonchon_Doll', '3000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('743', 'Spore_Doll', '5500', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('744', 'Bunch_Of_Flowers', '2000', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('745', 'Wedding_Bouquet', '12000', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('746', 'Glass_Bead', '1400', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('747', 'Crystal_Mirror', '15000', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('748', 'Witherless_Rose', '55000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('749', 'Frozen_Rose', '35000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('750', 'Baphomet_Doll', '18000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('751', 'Osiris_Doll', '14000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('752', 'Grasshopper_Doll', '4000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('753', 'Monkey_Doll', '6000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('754', 'Raccoondog_Doll', '5000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('756', 'Oridecon_Stone', '550', '200', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('757', 'Elunium_Stone', '650', '200', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('901', 'Danggie', '260', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('902', 'Tree_Root', '12', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('903', 'Reptile_Tongue', '140', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('904', 'Scorpion\'s_Tail', '124', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('905', 'Stem', '46', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('906', 'Pointed_Scale', '68', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('907', 'Resin', '120', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('908', 'Spawn', '140', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('909', 'Jellopy', '6', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('910', 'Garlet', '40', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('911', 'Scell', '160', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('912', 'Zargon', '480', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('913', 'Tooth_Of_Bat', '34', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('914', 'Fluff', '8', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('915', 'Chrysalis', '8', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('916', 'Feather_Of_Birds', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('917', 'Talon', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('918', 'Sticky_Webfoot', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('919', 'Animal\'s_Skin', '36', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('920', 'Claw_Of_Wolves', '58', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('921', 'Mushroom_Spore', '36', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('922', 'Orcish_Cuspid', '220', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('923', 'Evil_Horn', '1200', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('924', 'Powder_Of_Butterfly', '90', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('925', 'Bill_Of_Birds', '64', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('926', 'Scale_Of_Snakes', '82', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('928', 'Insect_Feeler', '114', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('929', 'Immortal_Heart', '374', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('930', 'Rotten_Bandage', '350', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('931', 'Orcish_Voucher', '142', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('932', 'Skel_Bone', '232', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('934', 'Mementos', '600', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('935', 'Shell', '14', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('936', 'Scales_Shell', '466', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('937', 'Posionous_Canine', '148', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('938', 'Sticky_Mucus', '70', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('939', 'Bee_Sting', '32', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('940', 'Grasshopper\'s_Leg', '36', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('941', 'Nose_Ring', '568', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('942', 'Yoyo_Tail', '114', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('943', 'Solid_Shell', '448', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('944', 'Horseshoe', '588', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('945', 'Raccoon_Leaf', '106', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('946', 'Snail\'s_Shell', '64', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('947', 'Horn', '116', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('948', 'Bear\'s_Foot', '174', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('949', 'Feather', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('950', 'Heart_Of_Mermaid', '264', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('951', 'Fin', '412', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('952', 'Cactus_Needle', '82', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('953', 'Stone_Heart', '184', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('954', 'Shining_Scales', '466', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('955', 'Worm_Peelings', '52', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('956', 'Gill', '342', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('957', 'Decayed_Nail', '82', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('958', 'Horrendous_Mouth', '390', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('959', 'Rotten_Scale', '168', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('960', 'Nipper', '114', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('961', 'Conch', '158', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('962', 'Tentacle', '70', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('963', 'Sharp_Scale', '250', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('964', 'Crap_Shell', '90', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('965', 'Clam_Shell', '56', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('966', 'Flesh_Of_Clam', '158', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('967', 'Turtle_Shell', '680', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('968', 'Voucher_Of_Orcish_Hero', '3000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('969', 'Gold', '200000', '200', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('970', 'Alchol', '400', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('971', 'Detrimindexta', '400', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('972', 'Karvodailnirol', '400', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('973', 'Counteragent', '800', '70', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('974', 'Mixture', '800', '70', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('975', 'Scarlet_Dyestuffs', '8000', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('976', 'Lemon_Dyestuffs', '8000', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('978', 'Cobaltblue_Dyestuffs', '8000', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('979', 'Darkgreen_Dyestuffs', '8000', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('980', 'Orange_Dyestuffs', '8000', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('981', 'Violet_Dyestuffs', '8000', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('982', 'White_Dyestuffs', '8000', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('983', 'Black_Dyestuffs', '8000', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('984', 'Oridecon', '1100', '200', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('985', 'Elunium', '1100', '200', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('986', 'Anvil', '30000', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('987', 'Oridecon_Anvil', '120000', '700', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('988', 'Golden_Anvil', '300000', '900', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('989', 'Emperium_Anvil', '600000', '1000', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('990', 'Boody_Red', '1000', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('991', 'Crystal_Blue', '1000', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('992', 'Wind_Of_Verdure', '1000', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('993', 'Yellow_Live', '1000', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('994', 'Flame_Heart', '3000', '300', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('995', 'Mistic_Frozen', '3000', '300', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('996', 'Rough_Wind', '3000', '300', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('997', 'Great_Nature', '3000', '300', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('998', 'Iron', '100', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('999', 'Steel', '1000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1000', 'Star_Crumb', '4500', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1001', 'Sparkling_Dust', '1500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1002', 'Iron_Ore', '50', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1003', 'Coal', '500', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1004', 'Patriotism_Marks', '2', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1005', 'Hammer_Of_Blacksmith', '2', '800', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1006', 'Old_Magic_Book', '2', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1007', 'Penetration', '2', '40', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1008', 'Frozen_Heart', '2', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1009', 'Sacred_Marks', '2', '20', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1010', 'Phracon', '200', '200', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1011', 'Emveretarcon', '1000', '200', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1012', 'Lizard_Scruff', '250', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1013', 'Colorful_Shell', '90', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1014', 'Jaws_Of_Ant', '232', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1015', 'Thin_N\'_Long_Tongue', '528', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1016', 'Rat_Tail', '52', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1017', 'Moustache_Of_Mole', '106', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1018', 'Nail_Of_Mole', '210', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1019', 'Wooden_Block', '60', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1020', 'Long_Hair', '292', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1021', 'Dokkaebi_Horn', '292', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1022', 'Fox_Tail', '650', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1023', 'Fish_Tail', '196', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1024', 'Chinese_Ink', '264', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1025', 'Spiderweb', '184', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1026', 'Acorn', '98', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1027', 'Porcupine_Spike', '158', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1028', 'Wild_Boar\'s_Mane', '196', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1029', 'Tiger\'s_Skin', '548', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1030', 'Tiger_Footskin', '1500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1031', 'Limb_Of_Mantis', '196', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1032', 'Blossom_Of_Maneater', '196', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1033', 'Root_Of_Maneater', '208', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1034', 'Cobold_Hair', '342', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1035', 'Dragon_Canine', '484', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1036', 'Dragon_Scale', '500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1037', 'Dragon_Train', '1200', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1038', 'Petite_DiablOfs_Horn', '528', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1039', 'Petite_DiablOfs_Wing', '2000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1040', 'Elder_Pixie\'s_Beard', '232', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1041', 'Lantern', '250', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1042', 'Short_Leg', '430', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1043', 'Nail_Of_Orc', '168', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1044', 'Tooth_Of_', '264', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1045', 'Sacred_Masque', '412', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1046', 'Tweezer', '614', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1047', 'Head_Of_Medusa', '548', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1048', 'Slender_Snake', '800', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1049', 'Skirt_Of_Virgin', '1700', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1050', 'Tendon', '220', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1051', 'Detonator', '450', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1052', 'Single_Cell', '46', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1053', 'Tooth_Of_Ancient_Fish', '548', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1054', 'Lip_Of_Ancient_Fish', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1055', 'Earthworm_Peeling', '196', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1056', 'Grit', '306', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1057', 'Moth_Dust', '138', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1058', 'Wing_Of_Moth', '200', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1059', 'Transparent_Cloth', '306', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1060', 'Golden_Hair', '430', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1061', 'Starsand_Of_Witch', '484', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1062', 'Pumpkin_Head', '374', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1063', 'Sharpened_Cuspid', '680', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1064', 'Reins', '802', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1065', 'Booby_Trap', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1066', 'Tree_Of_Archer_1', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1067', 'Tree_Of_Archer_2', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1068', 'Tree_Of_Archer_3', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1069', 'Mushroom_Of_Thief_1', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1070', 'Mushroom_Of_Thief_2', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1071', 'Mage_Test_1', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1072', 'Delivery_Message', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1073', 'Merchant_Voucher_1', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1074', 'Merchant_Voucher_2', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1075', 'Merchant_Voucher_3', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1076', 'Merchant_Voucher_4', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1077', 'Merchant_Voucher_5', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1078', 'Merchant_Voucher_6', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1079', 'Merchant_Voucher_7', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1080', 'Merchant_Voucher_8', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1081', 'Merchant_Box_1', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1082', 'Merchant_Box_2', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1083', 'Merchant_Box_3', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1084', 'Kapra\'s_Pass', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1085', 'Mage_Test_2', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1086', 'Mage_Test_3', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1087', 'Mage_Test_4', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1088', 'Morocc_Potion', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1089', 'Payon_Potion', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1090', 'Mage_Test_Etc', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1091', 'Merchant_Box_Etc', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1092', 'Empty_Cylinder', '3', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1093', 'Empty_Potion', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1094', 'Short_Daenggie', '278', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1095', 'Needle_Of_Alarm', '546', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1096', 'Round_Shell', '780', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1097', 'Worn_Out_Page', '948', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1098', 'Manacles', '658', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('1099', 'Worn_Out_Prison_Uniform', '680', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7001', 'Mould_Powder', '466', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7002', 'Ogre_Tooth', '658', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7003', 'Anolian_Skin', '968', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7004', 'Mud_Lump', '876', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7005', 'Skull', '1044', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7006', 'Wing_Of_Red_Bat', '168', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7007', 'Claw_Of_Rat', '748', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7008', 'Stiff_Horn', '636', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7009', 'Glitter_Shell', '528', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7010', 'Tail_Of_Steel_Scorpion', '548', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7011', 'Claw_Of_Monkey', '466', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7012', 'Tough_Scalelike_Stem', '412', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7013', 'Coral_Reef', '772', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7014', 'Old_Portrait', '1500', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7015', 'Bookclip_In_Memory', '3000', '20', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7016', 'Spoon_Stub', '2500', '20', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7017', 'Executioner\'s_Mitten', '4500', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7018', 'Young_Twig', '50', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7019', 'Loki\'s_Whispers', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7020', 'Mother\'s_Nightmare', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7021', 'Foolishness_Of_Blind', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7022', 'Old_Hilt', '150', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7023', 'Blade_Lost_In_Darkness', '12000', '40', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7024', 'Bloody_Edge', '10000', '40', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7025', 'Lucifer\'s_Lament', '30000', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7026', 'Key_Of_Clock_Tower', '100', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7027', 'Underground_Key', '100', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7028', 'Invite_For_Duel', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7029', 'Admission_For_Duel', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7030', 'Claw_Of_Desert_Wolf', '208', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7031', 'Old_Frying_Pan', '196', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7032', 'Piece_Of_Egg_Shell', '168', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7033', 'Poison_Spore', '114', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7034', 'Red_Socks_With_Holes', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7035', 'Matchstick', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7036', 'Fang_Of_Garm', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7037', 'Trade_Coupon', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7038', 'Yarn', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7039', 'Novice_Nametag', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7040', 'Megaphone', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7041', 'Fine_Grit', '120', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7042', 'Leather_Bag_Of_Infinity', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7043', 'Fine_Sand', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7044', 'Vigorgra', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7045', 'Magic_Paint', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7046', 'Cart_Parts', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7047', 'Alice\'s_Apron', '2424', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7048', 'Talon_Of_Griffin', '5418', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7049', 'Stone', '0', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7050', 'Cotton_Mat', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7051', 'Silk_Mat', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7052', 'Old_Magazine', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7053', 'Cyfar', '772', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7054', 'Brigan', '746', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7055', 'Animal_Pooopoo', '100', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7056', 'Payroll_Of_Kafra', '1', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7057', 'Gallar_Horn', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7058', 'Gullraifnir', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7059', 'Cargo_Free_Ticket', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7060', 'Warp_Free_Ticket', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7061', 'Cart_Free_Ticket', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7063', 'Soft_Feather', '280', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7064', 'Dragon_Fly_Wing', '520', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7065', 'Sea_Otter_Leather', '820', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7066', 'Ice_Piece', '660', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7067', 'Stone_Piece', '640', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7068', 'Burn_Tree', '722', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7069', 'Broken_Armor_Piece', '1042', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7070', 'Broken_Shell', '900', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7071', 'Tatters_Clothes', '1280', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7072', 'Rust_Suriken', '1780', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7073', 'Jewel_Of_Prayer', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7074', 'Iron_Glove', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7075', 'Iron_Maiden', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7076', 'Mystery_Wheel', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7077', 'Silver_Fancy', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7078', 'Anger_Of_Valkurye', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7079', 'Feather_Of_Angel', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7080', 'Foot_Step_Of_Cat', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7081', 'Beard_Of_Women', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7082', 'Root_Of_Stone', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7083', 'Soul_Of_Fish', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7084', 'Saliva_Of_Bird', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7085', 'Tendon_Of_Bear', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7086', 'Symbol_Of_Sun', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7087', 'Breath_Of_Soul', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7088', 'Crystal_Of_Snow', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7089', 'Indication_Of_Tempest', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7090', 'Slilince_Wave', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7091', 'Rough_Billows', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7092', 'Air_Stream', '1', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7093', 'Wheel', '1512', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7094', 'Mystery_Piece', '1344', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7095', 'Broken_Steel_Piece', '1075', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7096', 'Cold_Magma', '1109', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7097', 'Burning_Heart', '924', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7098', 'Live_Coal', '638', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7099', 'Old_Magic_Circle', '773', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7100', 'Sharp_Leaf', '806', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7101', 'Peco_Wing_Feather', '454', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7102', 'Hideous_Dream', '1075', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7103', 'Unknown_Liquid_Bottle', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7104', 'Fake_Angel_Wing', '756', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7105', 'Fake_Angel_Loop', '924', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7106', 'Goat\'s_Horn', '672', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7107', 'Gaoat\'s_Skin', '756', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7108', 'Boroken_Shiled_Piece', '1680', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7109', 'Shine_Spear_Blade', '840', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7110', 'Vroken_Sword', '588', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7111', 'Smooth_Paper', '706', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7112', 'Fright_Paper_Blade', '907', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7113', 'Broken_Pharaoh_Symbol', '2016', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7114', 'Tutankhamen\'s_Mask', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7115', 'Harpy\'s_Feather', '1142', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7116', 'Harpy\'s_Claw', '1210', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7117', 'Rent_Spell_Book', '1142', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7118', 'Rent_Scroll', '1361', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7119', 'Spawns', '1025', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7120', 'Burning_Horse_Shoe', '823', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7121', 'Honey_Jar', '622', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7122', 'Hot_Hair', '974', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7123', 'Dragon\'s_Skin', '1025', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7124', 'Sand_Lump', '706', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7125', 'Scropion\'s_Nipper', '706', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7126', 'Large_Jellopy', '840', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7127', 'Alcol_Create_Book', '100000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7128', 'FireBottle_Create_Book', '100000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7129', 'Acid_Create_Book', '100000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7130', 'Plant_Create_Book', '100000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7131', 'Mine_Create_Book', '100000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7132', 'Coating_Create_Book', '100000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7133', 'Slim_Potion_Create_Book', '240000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7134', 'Medicine_Bowl', '8', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7135', 'Fire_Bottle', '200', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7136', 'Acid_Bottle', '200', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7137', 'MenEater_Plant_Bottle', '200', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7138', 'Mini_Bottle', '200', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7139', 'Coating_Bottle', '200', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7140', 'Seed_Of_Life', '60000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7141', 'Yggdrasilberry_Dew', '20000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7142', 'Germination_Breed', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7143', 'Life_Force_Pot', '5000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7144', 'Normal_Potion_Book', '100000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7145', 'Rag_T_Shirts', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7146', 'Vacance_Ticket', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7147', 'Jasmin', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7148', 'Mother_Letter', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7149', 'Yellow_Plate', '220', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7150', 'Bamboo_Cut', '310', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7151', 'Oil_Paper', '210', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7152', 'Glossy_Hair', '340', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7153', 'Old_Japaness_Clothes', '590', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7154', 'Poison_Powder', '160', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7155', 'Poison_Toad\'s_Skin', '280', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7156', 'Broken_Shuriken', '470', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7157', 'Black_Mask', '315', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7158', 'Broken_Wine_Vessel', '160', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7159', 'Tengu\'s_Nose', '400', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7160', 'Lord\'s_Passable_Ticket', '1', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7161', 'Black_Bear\'s_Skin', '384', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7162', 'Cloud_Piece', '390', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7163', 'Sharp_Feeler', '570', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7164', 'Hard_Peach', '400', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7165', 'Limpid_Celestial_Robe', '650', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7166', 'Soft_Silk_Cloth', '1200', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7167', 'Mystery_Iron_Bit', '430', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7168', 'Great_Wing', '614', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7169', 'Taegeuk_Plate', '2800', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7170', 'Tuxedo', '43000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7171', 'Leopard_Skin', '282', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7172', 'Leopard_Talon', '290', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7173', 'BurnBuster_Bag', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7174', 'Packing_Ribbon', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7175', 'Packing_Paper', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7176', 'XMAS_Coupon', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7177', 'Part_Of_Star\'s_Sob', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7178', 'Star\'s_Sob', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7179', 'Donation_Card', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7180', 'Introduction_Of_Mr.Han', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7181', 'Receipt_01', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7182', 'Cacao', '200', '20', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7183', 'Sister_Letter', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7184', 'Piano_Keyboard', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7185', 'Quiz_Ticket', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7186', 'Thin_Stem', '380', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7187', 'Festival_Mask', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7188', 'Browny_Root', '560', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7189', 'Heart_Of_Tree', '680', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7190', 'Solid_Peeling', '140', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7191', 'Lamplight', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7192', 'Blade_Of_Pinwheel', '160', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7193', 'Germinating_Sprout', '230', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7194', 'Soft_Leaf', '400', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7195', 'Air_Rifle', '210', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7196', 'Shoulder_Protection', '230', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7197', 'Tough_Vines', '500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7198', 'Great_Leaf', '610', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7199', 'Coupon', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7200', 'Flexible_String', '380', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7201', 'Log', '250', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7202', 'Beetle_Nipper', '290', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7203', 'Solid_Twig', '190', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7204', 'Gunpowder', '320', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7205', 'Piece_Of_Black_Cloth', '526', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7206', 'Black_Kitty_Doll', '1440', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7207', 'Old_Manteau', '1050', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7208', 'Rusty_Cleaver', '1780', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7209', 'Dullahan\'s_Helm', '1350', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7210', 'Dullahan_Armor', '790', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7211', 'Rojerta_Piece', '2600', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7212', 'Hanging_Doll', '1020', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7213', 'Needle_Pouch', '832', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7214', 'Bat_Cage', '880', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7215', 'Broken_Needle', '690', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7216', 'Red_Scarf', '660', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7217', 'Spool', '424', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7218', 'Rotten_Rope', '390', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7219', 'Striped_Socks', '920', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7220', 'Ectoplasm', '322', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7221', 'Tangled_Chain', '740', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7222', 'Tree_Knot', '468', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7223', 'Distorted_Portrait', '2032', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7224', 'Stone_Of_Intelligence', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7225', 'Pumpkin_Bucket', '486', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7226', 'Pill', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7227', 'TCG_Card', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7228', 'Gold_Bullion', '100000', '300', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7229', 'Silver_Bullion', '50000', '300', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7230', 'White_Gold_Bullion', '200000', '300', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7231', 'Gold_Ore', '20', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7232', 'Silver_Ore', '20', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7233', 'Mithril_Ore', '20', '150', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7234', 'Soul_Of_Guild', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7235', 'Soul_Of_Courage', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7236', 'Soul_Of_Guard', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7237', 'Soul_Of_Partnership', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7238', 'Soul_Of_Correspondence', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7239', 'Soul_Of_Proceeding', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7240', 'Soul_Of_Confidence', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7241', 'Soul_Of_Agreement', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7242', 'Soul_Of_Harmony', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7243', 'Soul_Of_Cooperate', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7244', 'Soul_Of_Unity', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7245', 'Soul_Of_Friendship', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7246', 'Soul_Of_Peace', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7247', 'Soul_Of_Spirit', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7248', 'Soul_Of_Honor', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7249', 'Soul_Of_Service', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7250', 'Soul_Of_Glory', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7251', 'Soul_Of_Victory', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7252', 'Herb_Medicine', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7253', 'Taeguk_Flag', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7254', 'Digital_Print_Ticket', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7255', 'China_Marble01', '0', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7256', 'China_Marble02', '0', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7257', 'China_Marble03', '0', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7258', 'China_Marble04', '0', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7259', 'China_Marble05', '0', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7260', 'China_Marble06', '0', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7261', 'China_Marble07', '0', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7262', 'Fan', '466', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7263', 'Cat_Eyed_Stone', '954', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7264', 'Dried_Sand', '322', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7265', 'Dragon_Horn', '544', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7266', 'Dragon_Fang', '436', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7267', 'Tiger_Skin_Panties', '298', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7268', 'Little_Blacky_Ghost', '1210', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7269', 'Bib', '960', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7270', 'Milk_Bottle', '1100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7271', 'Figure', '10000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7272', 'Meat_Dumpling_Doll', '500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7273', 'Golden_Necklace', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7274', 'Ancient_Translator', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7275', 'Ancient_Document', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7276', 'Picture_Letter', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7277', 'Munak_Doll', '8900', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7278', 'Wellbeing_Letter', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7279', 'Vita500_Lid', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7280', 'Quiz_Ticket01', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7281', 'Quiz_Ticket02', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7282', 'Quiz_Ticket03', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7283', 'Quiz_Ticket04', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7284', 'Quiz_Ticket05', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7285', 'Thread_Skein', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7286', 'Chilli', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7287', 'Thread_Skein_', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7288', 'Thai_Ring', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7289', 'Olivine', '3000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7290', 'Phlogopite', '3000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7291', 'Agate', '3000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7292', 'Muscovite', '3000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7293', 'Rose_Quartz', '3000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7294', 'Turquoise', '3000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7295', 'Citrine', '3000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7296', 'Pyroxene', '3000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7297', 'Biotite', '3000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7298', 'Leaf_Clothes', '538', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7299', 'Bamboo_Basket', '632', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7300', 'Gemstone', '1420', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7301', 'Sword_Accessory', '798', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7302', 'KRATHONG', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7303', 'Bag_Of_Rice', '0', '800', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7304', 'Witch\'s_Spell_Book', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7305', 'Authority_Of_Nine_World', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7306', 'Fragment_Of_Soul', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7307', 'Whisper_Of_Soul', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7308', 'Witch\'s_Potion', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7309', 'Wing_Of_Crow', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7310', 'Free_Peco_Ticket', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7311', 'Free_Flying_Ship_Ticket', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7312', 'Jubilee', '32', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7313', 'Seal_Of_Witch', '2', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7314', 'The_Sign', '2', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7315', 'Dark_Crystal_Fragment', '422', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7316', 'Long_Limb', '658', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7317', 'Screw', '534', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7318', 'Old_Pick', '512', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7319', 'Old_Steel_Plate', '1024', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7320', 'Air_Pollutant', '256', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7321', 'Fragment_Of_Crystal', '552', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7322', 'Poisonous_Gas', '666', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7323', 'Battered_Kettle', '256', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7325', 'Tube', '102', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7326', 'Fluorescent_Liquid', '712', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7327', 'Headlamp', '1024', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7328', 'Legendary_Scroll', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7329', 'Old_Copper_Key', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7330', 'Holy_Marble', '0', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7331', 'Flower_Of_Heaven', '500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7332', 'Slate', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7333', 'Piece_Of_Slate_1', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7334', 'Piece_Of_Slate_2', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7335', 'Piece_Of_Slate_3', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7336', 'Piece_Of_Slate_4', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7337', 'Eye_Of_Hellion', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7338', 'RO_Transportation_Card', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7339', 'RO_Transportation_Card_', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7340', 'Will_Of_Darkness', '734', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7341', 'Worn_Out_Pendant', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7342', 'File01', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7343', 'File02', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7344', 'File03', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7345', 'Armlet_Of_Prisoner', '724', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7346', 'Pile_Of_Ymir_Heart', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7347', 'Lab_Staff_Record', '840', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7348', 'Indication_Of_Member01', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7349', 'Indication_Of_Member02', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7350', 'Pass', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7351', 'Friend\'s_Diary', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7352', 'Transparent_Plate01', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7353', 'Transparent_Plate02', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7354', 'Transparent_Plate03', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7355', 'Transparent_Plate04', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7356', 'Piece_Of_Crest1', '5000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7357', 'Piece_Of_Crest2', '5000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7358', 'Piece_Of_Crest3', '5000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7359', 'Piece_Of_Crest4', '5000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7360', 'RO_Festival_Ticket', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7361', 'Lotto01', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7362', 'Lotto02', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7363', 'Lotto03', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7364', 'Lotto04', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7365', 'Lotto05', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7366', 'Lotto06', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7367', 'Lotto07', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7368', 'Lotto08', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7369', 'Lotto09', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7370', 'Lotto10', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7371', 'Lotto11', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7372', 'Lotto12', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7373', 'Lotto13', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7374', 'Lotto14', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7375', 'Lotto15', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7376', 'Lotto16', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7377', 'Lotto17', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7378', 'Lotto18', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7379', 'Lotto19', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7380', 'Lotto20', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7381', 'Lotto21', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7382', 'Lotto22', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7383', 'Lotto23', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7384', 'Lotto24', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7385', 'Lotto25', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7386', 'Lotto26', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7387', 'Lotto27', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7388', 'Lotto28', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7389', 'Lotto29', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7390', 'Lotto30', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7391', 'Lotto31', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7392', 'Lotto32', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7393', 'Lotto33', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7394', 'Lotto34', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7395', 'Lotto35', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7396', 'Lotto36', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7397', 'Lotto37', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7398', 'Lotto38', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7399', 'Piece_Of_Clue01', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7400', 'Piece_Of_Clue02', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7401', 'Piece_Of_Clue03', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7402', 'Piece_Of_Clue04', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7403', 'Piece_Of_Clue05', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7404', 'Piece_Of_Clue06', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7405', 'Crushed_Can', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7406', 'Moon_Cake1', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7407', 'Moon_Cake2', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7408', 'Moon_Cake3', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7409', 'Moon_Cake4', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7410', 'Moon_Cake5', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7411', 'Moon_Cake6', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7412', 'Moon_Cake7', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7413', 'Moon_Cake8', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7414', 'Moon_Cake9', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7415', 'Stone_Of_Summons', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7416', 'Letter_Of_Recommend', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7417', 'Mission_ScrollA', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7418', 'Mission_ScrollB', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7419', 'Embryo_HandBook', '48000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7420', 'Skull_', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7421', 'Key_Red', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7422', 'Key_Yellow', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7423', 'Key_Blue', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7424', 'Key_Green', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7425', 'Key_Black', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7426', 'Magic_Gem_Red', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7427', 'Magic_Gem_Yellow', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7428', 'Magic_Gem_Blue', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7429', 'Magic_Gem_Green', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7430', 'Magic_Gem_Black', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7431', 'Several_Books', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7432', 'Leather_Pouch', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7433', 'Scroll', '4000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7434', 'Elemental_Potion_Book', '100000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7435', 'Golden_Bracelet', '1907', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7436', 'Piece_Of_Memory_Green', '1506', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7437', 'Piece_Of_Memory_Purple', '1506', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7438', 'Piece_Of_Memory_Blue', '1506', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7439', 'Piece_Of_Memory_Red', '1506', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7440', 'Red_Feather', '1335', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7441', 'Blue_Feather', '1408', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7442', 'Cursed_Seal', '1332', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7443', 'Tri_Headed_Dragon_Head', '956', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7444', 'Treasure_Box', '300000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7445', 'Dragonball_Green', '887', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7446', 'Dragonball_Blue', '887', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7447', 'Dragonball_Red', '887', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7448', 'Dragonball_Yellow', '887', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7449', 'Bloody_Page', '681', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7450', 'Piece_Of_Bone_Armor', '2050', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7451', 'Scale_Of_Red_Dragon', '1852', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7452', 'Yellow_Spice', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7453', 'Sweet_Sauce', '700', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7454', 'Plain_Sauce', '700', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7455', 'Hot_Sauce', '700', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7456', 'Red_Spice', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7457', 'Cooking_Oil', '500', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7458', 'Baphomet\'s_Horn', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7459', 'RAMADAN_', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7460', 'Niflheim_Ticket', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7461', 'BlueCard_A', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7462', 'BlueCard_E', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7463', 'BlueCard_F', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7464', 'BlueCard_H', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7465', 'BlueCard_L', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7466', 'BlueCard_N', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7467', 'BlueCard_O', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7468', 'BlueCard_P', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7469', 'BlueCard_U', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7470', 'BlueCard_W', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7471', 'BlueCard_Y', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7472', 'Cookbook01', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7473', 'Cookbook02', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7474', 'Cookbook03', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7475', 'Cookbook04', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7476', 'Cookbook05', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7477', 'Cookbook06', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7478', 'Cookbook07', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7479', 'Cookbook08', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7480', 'Cookbook09', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7481', 'Cookbook10', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7482', 'Pot', '200', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7483', 'Key_Of_Seal', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7484', 'Warrior_Symbol', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7485', '2nd_Floor_Pass', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7486', '3rd_Floor_Pass', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7487', 'Tavern_Wine', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7488', 'Delivery_Box', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7489', 'Villa_Spare_Key', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7490', 'Kyll_Hire_Letter', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7491', 'Iron_Box', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7492', 'Yellow_Key_Card', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7493', 'Golden_Key', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7494', 'Kiel_Button', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7495', 'Blue_Key_Card', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7496', 'Red_Key_Card', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7497', 'Steel_Piece', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7498', 'Rosimier_Key', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7499', 'Family_Portrait', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7500', 'Elysia_Portrait', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7501', 'Kyll_Hire_Letter2', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7502', 'Piece_Memo_Of_James', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7503', 'Man_Portrait', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7504', 'Toy_Motor', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7505', 'Toy_Key', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7506', 'Black_Key_Card', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7507', 'Sturdy_Iron_Piece', '842', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7508', 'Elysia_Ring', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7509', 'Fancy_Key_Card', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7510', 'Valhalla_Flower', '200000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7511', 'Rune_Of_Darkness', '2526', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7512', 'Burnt_Parts', '1600', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7513', 'Pocket_Watch', '3420', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7514', 'Monster_Ticket', '2', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7515', 'Marvelous_Medal', '2', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7516', 'Green_Key_Card', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7517', 'Gold_Coin_', '1000', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7518', 'Women\'s_Meda', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7519', 'Money_Envelope', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7520', 'Chinese_Scroll', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7521', 'Flame_Stone', '150', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7522', 'Ice_Stone', '150', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7523', 'Wind_Stone', '150', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7524', 'Shadow_Orb', '300', '20', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7525', 'Summer_Feast_Ticket', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7526', 'Manuscript_Paper', '2', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7527', 'Life_Book', '0', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7528', 'Id_Lottery_Ticket', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7529', 'Stolen_Sandals', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7530', 'Travel_Brochure_01', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7531', 'Travel_Brochure_02', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7532', 'Travel_Brochure_03', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7533', 'Travel_Brochure_04', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7534', 'Photo_Album_01', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7535', 'Photo_Album_02', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7536', 'Photo_Album_03', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7537', 'Photo_Album_04', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7538', 'Sifted_Sand', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7539', 'Poring_Coin', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7540', 'Lotto39', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7541', 'Lotto40', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7542', 'Lotto41', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7543', 'Lotto42', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7544', 'Lotto43', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7545', 'Lotto44', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7546', 'Lotto45', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7547', 'Soccer_Ball', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7548', 'Soccer_Shoes', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7549', 'Brazilian_Flag', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7550', 'Ticket01', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7551', 'Ticket02', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7552', 'Ticket03', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7553', 'Lotus_Flower', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7554', 'Striped_Candle', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7555', 'Green_Incense', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7556', 'Longing_Heart', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7557', 'Invitation_Letter', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7558', 'Invitation_Ticket', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7559', 'Key_Of_Flower_Garden', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7560', 'Longing_Heart2', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7561', 'Ice_Heart', '606', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7562', 'Ice_Scale', '3020', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7563', 'Bloody_Rune', '2016', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7564', 'Rotten_Meat', '102', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7565', 'Sticky_Poison', '350', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7566', 'Will_Of_Darkness_', '1530', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7567', 'Suspicious_Hat', '1290', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7568', 'White_Mask', '1060', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7569', 'Hammer_Of_Wind', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7570', 'Temple_Lottery_Ticket', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7571', 'Diary_Of_Blue', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7572', 'Magic_Necklace', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7573', 'Magic_Necklace_', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7574', 'Ice_Particle', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7575', 'Red_Jewel_', '20', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7576', 'Blue_Jewel_', '20', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7577', 'Golden_Jewel_', '20', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7578', 'Anti_Spell_Bead', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7579', 'Silk_Handkerchief', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7580', 'Black_Bead', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7581', 'Anniversary_Ticket', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7582', 'Gem_Of_Ruin', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7583', 'Evil_Mind', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7584', 'Proof_Of_Guard1', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7585', 'Proof_Of_Guard2', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7586', 'Proof_Of_Guard3', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7587', 'Proof_Of_Guard4', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7588', 'IPOD_Ticker', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7589', 'Moon_Cake10', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7590', 'Moon_Cake11', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7591', 'Moon_Cake12', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7592', 'Moon_Cake13', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7593', 'Moon_Cake14', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7594', 'Sonia\'s_Letter', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7595', 'Unique_Sword', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7596', 'Unique_Shield', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7597', 'Magic_Stone', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7598', 'BlueCard_I', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7599', 'BlueCard_D', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7600', 'BlueCard_K', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7601', 'BlueCard_S', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7602', 'BlueCard_R', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7603', 'RO_Party_Ticket', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7604', 'Flour', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7605', 'Chicken_Egg', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7606', 'Coin', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7607', 'Evil_Dragon_Head', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7608', 'Premium_Ticket', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7609', 'Pumpkin_Mojo', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7610', 'Food_Ticket', '1000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7611', 'Fox_Symbol', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7612', 'Heart_Of_Fox_Queen', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7613', 'Small_Rice_Dough', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7614', 'Special_Packing_Paper', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7615', 'MVP_Ticket', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7616', 'Mini_Boss_Ticket', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7617', 'Monster_Ticket_', '10', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7618', 'Monster_Crystal', '2', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7619', 'Enriched_Elunium', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7620', 'Enriched_Oridecon', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7621', 'Token_Of_Siegfried', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7701', 'Dragon_Spirit', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7702', 'Special_Cogwheel', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7703', 'Piece_Of_Cogwheel', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7704', 'Broken_Thermometer', '2', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7705', 'Note_Of_Geologist', '2', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7706', 'Spoiled_Carrot_Juice', '20', '40', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7707', 'Spoiled_Banana_Juice', '20', '40', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7708', 'Spoiled_Apple_Juice', '20', '40', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7709', 'Spoiled_Grape_Juice', '20', '40', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7710', 'Black_Gemstone', '600', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7711', 'Update_Ticket', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7712', 'Nokia5500', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7713', 'BlueCard_A_', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7714', 'BlueCard_R_', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7715', 'Handmade_Choco_Recipe', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7716', 'Strawberry_Choco_Recipe', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7717', 'Choco_Tart_Recipe', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7718', 'Cacao_Bean', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7719', 'BlueCard_G', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7720', 'Gold_Coin_US', '100', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7721', 'Treasure_Box_', '100', '500', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7722', 'Debt_Note', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7723', 'Diamond_Of_Ruin', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7724', 'Forbidden_Secret_Art', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7725', 'Unlucky_Emerald', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7726', 'Token_Of_King', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7727', 'HP_Doctor_Ticket', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7728', 'SP_Doctor_Ticket', '0', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7729', 'Rok_Star_Badge', '20', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7730', 'Mission_Certificate1', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7731', 'Mission_Certificate2', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7732', 'Mission_Certificate3', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7733', 'Mission_Certificate4', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7734', 'Mission_Certificate5', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7735', 'Mission_Certificate6', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7736', 'Mission_Certificate7', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7737', 'Mission_Certificate8', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7738', 'Mission_Certificate9', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7739', 'Mission_Certificate10', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7740', 'Mission_Certificate11', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7741', 'Mission_Certificate12', '0', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7742', 'Kaong', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7743', 'Gulaman', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7744', 'Leche_Flan', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7745', 'Ube_Jam', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7746', 'Sago', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7747', 'Langka', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7748', 'Sweet_Bean', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7749', 'Sweet_Banana', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7750', 'Macapuno', '2', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7751', 'Old_White_Cloth', '550', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7752', 'Clattering_Skull', '840', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7753', 'Broken_Farming_Utensil', '330', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7754', 'Broken_Crown', '3000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7755', 'Research_Note', '20', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7756', 'Sealed_Book', '2000', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7850', 'Wooden_Block_', '20', '100', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7851', 'Pass_F1', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7852', 'Pass_F2', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7853', 'Pass_F3', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7854', 'Pass_CF', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7855', 'Heart', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7857', 'Handmade_Kitty_Doll', '20', '30', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7858', 'Dragonball_Yellow_', '20', '10', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7860', 'Peeps', '0', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7861', 'Jelly_Bean', '0', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('7862', 'Marshmallow', '0', '50', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('11000', 'Prontera_Book_01', '8000', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('11001', 'Poetry01', '8000', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('11002', 'Novel01', '8000', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('11003', 'Novel02', '8000', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('11004', 'Mercenary_Rebellion', '10000', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('11005', 'Tyrant_Schmidt', '10000', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('11006', 'Blood_Flower01', '8000', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('11007', 'Blood_Flower02', '8000', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('11008', 'Barmund', '10000', '0', '3', null);
+INSERT INTO `itemdefinitions` VALUES ('11009', 'Adventure_Story02', '8000', '0', '3', null);
 
 -- --------------------------------------------------------
 
