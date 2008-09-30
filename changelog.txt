@@ -15,6 +15,11 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 45 -
+[2008/09/29] Spre - Slight mobs.sql fixes,  DONOT use yet, mobs arent supported, 
+		needs ID's etc that I dont have info on, which is why it is here now, for collaberative creation.
+-
+
 - Rev 44 -
 [2008/09/28] Spre - Fixed game.sql and items.sql ALL item sql PLEASE in items.sql...
 -
