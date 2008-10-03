@@ -15,6 +15,11 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 46 -
+[2008/10/03] Tsusai - Accounts.sql - Added passkey to accounts table for
+ MD5 work (Core 565)
+-
+
 - Rev 45 -
 [2008/09/29] Spre - Slight mobs.sql fixes,  DONOT use yet, mobs arent supported, 
 		needs ID's etc that I dont have info on, which is why it is here now, for collaberative creation.

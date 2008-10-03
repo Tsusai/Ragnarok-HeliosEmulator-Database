@@ -43,7 +43,8 @@ CREATE TABLE `accountmemos` (
 CREATE TABLE `accounts` (
   `id` int(11) NOT NULL auto_increment,
   `name` char(24) NOT NULL,
-  `password` char(24) NOT NULL,
+  `password` char(32) NOT NULL,
+  `passkey` char(6) NOT NULL<
   `last_login` datetime default NULL,
   `login_count` int(11) default NULL,
   `gender` char(1) NOT NULL default 'M',
@@ -64,5 +65,5 @@ CREATE TABLE `accounts` (
 -- Dumping data for table `accounts`
 -- 
 
-INSERT INTO `accounts` (`id`, `name`, `password`, `last_login`, `login_count`, `gender`, `email_address`, `login_key_1`, `login_key_2`, `level`, `connect_until`, `banned_until`, `last_ip`, `state`, `created_at`, `updated_at`) VALUES 
-(100100, 'test', 'test', '2008-02-17 00:00:00', 0, 'F', '-@-', 0, 0, 255, '9999-12-31 23:59:59', '1900-01-01 00:00:00', '127.0.0.1', 0, NULL, NULL);
+INSERT INTO `accounts` (`id`, `name`, `password`, `passkey`, `last_login`, `login_count`, `gender`, `email_address`, `login_key_1`, `login_key_2`, `level`, `connect_until`, `banned_until`, `last_ip`, `state`, `created_at`, `updated_at`) VALUES 
+(100100, 'test', 'test', 'abcdef', '2008-02-17 00:00:00', 0, 'F', '-@-', 0, 0, 255, '9999-12-31 23:59:59', '1900-01-01 00:00:00', '127.0.0.1', 0, NULL, NULL);
