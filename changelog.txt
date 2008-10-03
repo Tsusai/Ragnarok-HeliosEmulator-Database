@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 47 -
+[2008/10/03] Tsusai - Account.sql - Typo correction in 46. Held shift down too long.
+-
+
 - Rev 46 -
 [2008/10/03] Tsusai - Accounts.sql - Added passkey to accounts table for
  MD5 work (Core 565)

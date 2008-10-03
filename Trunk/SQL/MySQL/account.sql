@@ -44,7 +44,7 @@ CREATE TABLE `accounts` (
   `id` int(11) NOT NULL auto_increment,
   `name` char(24) NOT NULL,
   `password` char(32) NOT NULL,
-  `passkey` char(6) NOT NULL<
+  `passkey` char(6) NOT NULL,
   `last_login` datetime default NULL,
   `login_count` int(11) default NULL,
   `gender` char(1) NOT NULL default 'M',
