@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 48 -
+[2008/10/04] Aeomin - Added storage_id to accounts table.
+-
+
 - Rev 47 -
 [2008/10/03] Tsusai - Account.sql - Typo correction in 46. Held shift down too long.
 -

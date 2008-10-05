@@ -52,6 +52,7 @@ CREATE TABLE `accounts` (
   `login_key_1` int(11) default NULL,
   `login_key_2` int(11) default NULL,
   `level` int(11) default NULL,
+  `storage_id` int(10) unsigned NOT NULL,
   `connect_until` datetime default '9999-12-31 23:59:59',
   `banned_until` datetime default NULL,
   `last_ip` char(12) default NULL,
