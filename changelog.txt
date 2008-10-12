@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 52 -
+[2008/10/12] RabidCh - Fixed charactervariable 'value' syntax.
+-
+
 - Rev 51 -
 [2008/10/11] RabidCh - Changed charactervariable 'value' to integer..
 -
