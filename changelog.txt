@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 51 -
+[2008/10/11] RabidCh - Changed charactervariable 'value' to integer..
+-
+
 - Rev 50 -
 [2008/10/12] Spre/LimitLine - Commited Game.sql/Updated Maps table in game.sql(Spre Commited for me).
 -

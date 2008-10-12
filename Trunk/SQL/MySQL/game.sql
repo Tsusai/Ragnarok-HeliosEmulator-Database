@@ -386,7 +386,7 @@ CREATE TABLE `characterskills` (
 CREATE TABLE `charactervariables` (
   `character_id` int(11) default NULL,
   `key` varchar(255) default NULL,
-  `value` varchar(255) default NULL,
+  `value` int(11)  NOT NULL, default '0',
   `id` int(11) NOT NULL auto_increment,
   PRIMARY KEY  (`id`),
   KEY `CharacterVariables_FI_1` (`character_id`)
