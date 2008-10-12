@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 50 -
+[2008/10/12] Spre/LimitLine - Commited Game.sql/Updated Maps table in game.sql(Spre Commited for me).
+-
+
 - Rev 49 -
 [2008/10/09] Spre - Removed Passkey from accounts.sql(Rev 46 Change).
 -
