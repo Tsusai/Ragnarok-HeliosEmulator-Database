@@ -348,8 +348,9 @@ CREATE TABLE `characterskills` (
 CREATE TABLE `charactervariables` (
   `character_id` int(11) default NULL,
   `key` varchar(255) default NULL,
-  `value` int(11) NOT NULL default '0',
+  `value` varchar(255) NOT NULL default '0',
   `id` int(11) NOT NULL autoincrement,
+  `type` int(1) NOT NULL default 0,
   PRIMARY KEY  (`id`),
   KEY `CharacterVariables_FI_1` (`character_id`)
 ) ENGINE=MyISAM autoincrement=4 DEFAULT CHARSET=latin1 autoincrement=4 ;
