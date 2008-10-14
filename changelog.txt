@@ -15,6 +15,11 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 53 -
+[2008/10/13] RaX - changed character variables to have value as string and added new
+ type field.
+-
+
 - Rev 52 -
 [2008/10/12] RabidCh - Fixed charactervariable 'value' syntax.
 -
