@@ -15,6 +15,10 @@ Developers & Contributers
 
 --------------------------------------------------------------------------------
 
+- Rev 54 -
+[2008/10/13] RaX - changed type field to tinyint
+-
+
 - Rev 53 -
 [2008/10/13] RaX - changed character variables to have value as string and added new
  type field.

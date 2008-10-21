@@ -388,7 +388,7 @@ CREATE TABLE `charactervariables` (
   `key` varchar(255) default NULL,
   `value` varchar(255)  NOT NULL default '0',
   `id` int(11) NOT NULL auto_increment,
-  `type` int(1) NOT NULL default 0,
+  `type` tinyint(4) NOT NULL default '0',
   PRIMARY KEY  (`id`),
   KEY `CharacterVariables_FI_1` (`character_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
